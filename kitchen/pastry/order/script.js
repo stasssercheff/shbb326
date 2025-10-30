@@ -5,7 +5,7 @@ function goBack() {
 
 function goHome() {
   // 🏠 Переход на главную
-  window.location.href = "https://stasssercheff.github.io/shbb/";
+  window.location.href = "https://stasssercheff.github.io/shbb25/";
 }
 
 
