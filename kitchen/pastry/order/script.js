@@ -1,6 +1,6 @@
 function goBack() {
   // 🔙 Переход на уровень выше (Pastry)
-  window.location.href = "https://stasssercheff.github.io/shbb/kitchen/pastry/index.html";
+  window.location.href = "https://stasssercheff.github.io/shbb25/kitchen/pastry/index.html";
 }
 
 function goHome() {
