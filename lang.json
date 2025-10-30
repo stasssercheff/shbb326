@@ -1499,10 +1499,10 @@
     "en": "Bisque",
     "vi": "Bisque"
   },
-  "stuffed_vegetables": {
+  "vegetables_staff": {
     "ru": "Овощи стафф",
-    "en": "Stuffed vegetables",
-    "vi": "Rau nhồi"
+    "en": "Vegetables staff",
+    "vi": "Rau nhân viên"
   },
   "beans": {
     "ru": "Фасоль",
@@ -1514,16 +1514,16 @@
     "en": "Poached eggs",
     "vi": "Trứng chần"
   },
-  "pancake_batter": {
-    "ru": "Тесто блины",
-    "en": "Pancake batter",
-    "vi": "Bột bánh kếп"
-  },
-  "stuffed_pork": {
-    "ru": "Свинина стафф",
-    "en": "Stuffed pork",
-    "vi": "Thịt heo nhồi"
-  },
+  "pork_staff_soucevide": {
+    "ru": "Свинина стафф сувид",
+    "en": "Pork Stuff Sous-vide",
+    "vi": "Thịt heo nhồi nấu sous-vide"
+},
+"pancake_dough": {
+    "ru": "Тесто панкейки",
+    "en": "Pancake Dough",
+    "vi": "Bột bánh pancake"
+},
   "pasta": {
     "ru": "Паста",
     "en": "Pasta",
