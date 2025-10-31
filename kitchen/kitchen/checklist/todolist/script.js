@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const headerDict = {
     title: { 
-      ru: "Чеклист на сегодня", 
-      en: "Checklist for today", 
-      vi: "Danh sách kiểm tra hôm nay" 
+      ru: "Чеклист", 
+      en: "Checklist", 
+      vi: "Danh sách kiểm" 
     },
     date: { 
       ru: "Дата", 
@@ -50,6 +50,18 @@ document.addEventListener('DOMContentLoaded', () => {
       const selectedOption = chefSelect.options[chefSelect.selectedIndex];
       message += `👤 ${selectedOption.textContent.trim()}\n\n`;
     }
+
+// === 🆕 Добавляем поле "На когда" ===
+const actionSelect = document.querySelector('select[name="actionType"]');
+if (actionSelect) {
+  const selectedAction = actionSelect.options[actionSelect.selectedIndex];
+  const key = selectedAction.dataset.i18n;
+  const translatedAction =
+    key && translations && translations[key] && translations[key][lang]
+      ? translations[key][lang]
+      : selectedAction.textContent.trim();
+  message += `📌 ${translatedAction}\n\n`;
+}
 
    const checklist = document.querySelectorAll('#checklist input[type="checkbox"]');
 let selectedItems = [];
