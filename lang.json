@@ -1584,6 +1584,16 @@
     "en": "Cheese pancakes",
     "vi": "Bánh phô mai"
   },
+  "cheese_pancakes_make": {
+  "ru": "Сырники налепить",
+  "en": "Form cheese pancakes",
+  "vi": "Nặn bánh phô mai"
+},
+"cheese_pancakes_fry": {
+  "ru": "Сырники обжарить",
+  "en": "Fry cheese pancakes",
+  "vi": "Chiên bánh phô mai"
+},
   "cheese_for_croque": {
     "ru": "Сыр на крок",
     "en": "Cheese for croque",
