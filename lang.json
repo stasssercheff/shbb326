@@ -14,6 +14,35 @@
     "en": "Night shift",
     "vi": "Ca đêm"
 },
+"colorant": {
+  "ru": "Краситель",
+  "en": "Colorant",
+  "vi": "Chất tạo màu"
+},
+
+"cupcake_paper": {
+  "ru": "Бумажка капкейк",
+  "en": "Cupcake paper",
+  "vi": "Giấy lót cupcake"
+},
+
+"cupcake_tulip": {
+  "ru": "Тюльпан капкейк",
+  "en": "Cupcake tulip",
+  "vi": "Giấy cupcake hình tulip"
+},
+
+"oatmeal": {
+  "ru": "Овсянка",
+  "en": "Oatmeal",
+  "vi": "Yến mạch"
+},
+
+"strawberry_frozen": {
+  "ru": "Клубника с/м",
+  "en": "Frozen strawberry",
+  "vi": "Dâu tây đông lạnh"
+},
 "for_when": {
   "ru": "На когда",
   "en": "For when",
