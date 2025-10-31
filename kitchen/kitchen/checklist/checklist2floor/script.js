@@ -167,7 +167,7 @@ const commentField = section.querySelector('textarea.comment');
       while (start < text.length) {
         const chunk = text.slice(start, start + 4000);
         await sendMessage(chunk);
-        await sendEmail(chunk);
+       // await sendEmail(chunk); //
         start += 4000;
       }
     };
