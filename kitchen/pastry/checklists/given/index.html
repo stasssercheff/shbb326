@@ -19,7 +19,7 @@
 
   
 </head>
-<body data-profile="given">
+<body data-profile="checklists">
 
   <!-- Хедер с языками и кнопками -->
   <header class="page-header">
@@ -43,7 +43,7 @@
   </div>
     
     <!-- Заголовок -->
-    <h1 data-i18n="given"></h1>
+    <h1 data-i18n="checklists"></h1>
 
 <div class="dish">
   <label for="employeeSelect" data-i18n="name"></label>
@@ -53,7 +53,16 @@
     <option value="stas" data-i18n="stas"></option>
   </select>
 </div>
-    
+
+    <div class="dish">
+  <label for="checklistType" data-i18n="checklist_type"></label>
+  <select id="checklistType" name="checklist_type" class="qty">
+    <option value="" selected>-</option>
+    <option value="leftovers" data-i18n="leftovers"></option>
+    <option value="wasted" data-i18n="wasted"></option>
+    <option value="given" data-i18n="given"></option>
+  </select>
+</div>
 
 
   <div class="dish">
