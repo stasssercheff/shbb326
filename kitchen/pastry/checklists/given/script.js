@@ -1,15 +1,13 @@
-// script.js — полный рабочий файл (обновлён: ждёт translations и корректно инициализируется)
+// script.js — полный рабочий файл (поддержка translations и window.translations)
 
 // ==== Вспомогательные навигационные функции ====
 function goHome() {
-  // Переход в корень проекта (где index.html) — первый сегмент пути после домена
   const pathParts = window.location.pathname.split("/").filter(Boolean);
   const basePath = pathParts.length > 0 ? `/${pathParts[0]}/` : "/";
   window.location.href = `${window.location.origin}${basePath}index.html`;
 }
 
 function goBack() {
-  // Поднимаемся на уровень выше и открываем index.html
   const currentPath = window.location.pathname;
   const parentPath = currentPath.substring(0, currentPath.lastIndexOf("/"));
   const upperPath = parentPath.substring(0, parentPath.lastIndexOf("/"));
@@ -17,12 +15,23 @@ function goBack() {
 }
 
 // ==== Утилиты переводов и получения текста по ключам ====
-// Использует window.translations (загружает lang.js)
+// now supports both window.translations and plain translations variable
+function getTranslationsObject() {
+  if (window && window.translations && Object.keys(window.translations).length > 0) {
+    return window.translations;
+  }
+  if (typeof translations !== "undefined" && translations && Object.keys(translations).length > 0) {
+    return translations;
+  }
+  return null;
+}
+
 function t(key, lang, fallback = "—") {
   try {
     if (!key) return fallback;
-    if (window.translations && window.translations[key] && window.translations[key][lang]) {
-      return window.translations[key][lang];
+    const dict = getTranslationsObject();
+    if (dict && dict[key] && dict[key][lang]) {
+      return dict[key][lang];
     }
     return fallback;
   } catch (e) {
@@ -309,16 +318,18 @@ function initPage() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Ждём пока lang.js положит translations в window
+  // Ждём, пока translations появятся либо в window.translations, либо в глобальной переменной translations
   const waitForTranslations = setInterval(() => {
-    if (window.translations && Object.keys(window.translations).length > 0) {
+    const dict = getTranslationsObject();
+    if (dict && Object.keys(dict).length > 0) {
       clearInterval(waitForTranslations);
       initPage();
     }
   }, 100);
 
-  // На всякий случай — если translations уже есть
-  if (window.translations && Object.keys(window.translations).length > 0) {
+  // На всякий случай — если уже есть
+  const dictNow = getTranslationsObject();
+  if (dictNow && Object.keys(dictNow).length > 0) {
     clearInterval(waitForTranslations);
     initPage();
   }
