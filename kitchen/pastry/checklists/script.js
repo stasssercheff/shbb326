@@ -1,39 +1,28 @@
-// script.js — рабочая версия для sendLangs и корректной сборки сообщений
+// script.js — рабочая версия (без дублей, общий комментарий)
 
 // ==== Вспомогательные функции ====
 function goHome() {
-  const pathParts = window.location.pathname.split("/").filter(Boolean);
-  const basePath = pathParts.length > 0 ? `/${pathParts[0]}/` : "/";
-  window.location.href = `${window.location.origin}${basePath}index.html`;
+  const base = window.location.origin;
+  window.location.href = `${base}/`;
 }
 
 function goBack() {
-  const currentPath = window.location.pathname;
-  const parentPath = currentPath.substring(0, currentPath.lastIndexOf("/"));
-  const upperPath = parentPath.substring(0, parentPath.lastIndexOf("/"));
-  window.location.href = upperPath + "/index.html";
+  window.history.back();
 }
 
 // ==== Переводы ====
 function getTranslationsObject() {
-  if (window && window.translations && Object.keys(window.translations).length > 0) {
-    return window.translations;
-  }
-  if (typeof translations !== "undefined" && translations && Object.keys(translations).length > 0) {
-    return translations;
-  }
+  if (window?.translations && Object.keys(window.translations).length > 0) return window.translations;
+  if (typeof translations !== "undefined" && translations && Object.keys(translations).length > 0) return translations;
   return null;
 }
 
 function t(key, lang, fallback = "—") {
   try {
-    if (!key) return fallback;
     const dict = getTranslationsObject();
-    if (dict && dict[key] && dict[key][lang]) {
-      return dict[key][lang];
-    }
-    return fallback;
-  } catch (e) {
+    if (!dict) return fallback;
+    return (dict[key] && dict[key][lang]) ? dict[key][lang] : fallback;
+  } catch {
     return fallback;
   }
 }
@@ -41,149 +30,117 @@ function t(key, lang, fallback = "—") {
 // ==== Сохранение / восстановление формы ====
 function saveFormData() {
   const data = {};
-  document.querySelectorAll("select").forEach(select => {
-    data[select.name || select.id] = select.value;
-  });
-  document.querySelectorAll("textarea.comment").forEach(textarea => {
-    data[textarea.name || textarea.id] = textarea.value;
+  document.querySelectorAll("select, textarea.comment").forEach(el => {
+    data[el.name || el.id] = el.value;
   });
   localStorage.setItem("formData", JSON.stringify(data));
 }
 
 function restoreFormData() {
-  const saved = localStorage.getItem("formData");
-  if (!saved) return;
+  const raw = localStorage.getItem("formData");
+  if (!raw) return;
   try {
-    const data = JSON.parse(saved);
-    document.querySelectorAll("select").forEach(select => {
-      const key = select.name || select.id;
-      if (data[key] !== undefined) select.value = data[key];
-    });
-    document.querySelectorAll("textarea.comment").forEach(textarea => {
-      const key = textarea.name || textarea.id;
-      if (data[key] !== undefined) textarea.value = data[key];
+    const data = JSON.parse(raw);
+    document.querySelectorAll("select, textarea.comment").forEach(el => {
+      const key = el.name || el.id;
+      if (data[key] !== undefined) el.value = data[key];
     });
   } catch (e) {
-    console.warn("restoreFormData: parse error", e);
+    console.warn("restoreFormData parse error", e);
   }
 }
 
-// ==== Переключение языка UI ====
+// ==== UI язык ====
 function switchLanguage(lang) {
   document.documentElement.lang = lang;
   localStorage.setItem("lang", lang);
-
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const key = el.dataset.i18n;
     if (!key) return;
     const translated = t(key, lang, null);
-    if (translated !== null && translated !== "—") {
+    if (translated && translated !== "—") {
       if ((el.tagName === "INPUT" || el.tagName === "TEXTAREA") && el.hasAttribute("placeholder")) {
         el.setAttribute("placeholder", translated);
-      } else {
-        el.textContent = translated;
-      }
-    } else {
-      if (key === "empty") el.textContent = "—";
-    }
+      } else el.textContent = translated;
+    } else if (key === "empty") el.textContent = "—";
   });
 
-  document.querySelectorAll("select").forEach(select => {
-    Array.from(select.options).forEach(option => {
-      const optKey = option.dataset.i18n || option.dataset.i18nKey || option.dataset.i18nkey;
-      if (optKey) {
-        const translated = t(optKey, lang);
-        if (translated && translated !== "—") option.textContent = translated;
-      } else if (option.value === "") {
-        option.textContent = "—";
-      }
-    });
+  document.querySelectorAll("select option").forEach(opt => {
+    const key = opt.dataset.i18n || opt.dataset.i18nKey || opt.dataset.i18nkey;
+    if (key) {
+      const tr = t(key, lang);
+      if (tr && tr !== "—") opt.textContent = tr;
+    } else if (opt.value === "") opt.textContent = "—";
   });
 }
 
-// ==== Пустая опция для select.qty ====
+// ==== Пустая опция ====
 function ensureEmptyOptionForQty() {
-  document.querySelectorAll("select.qty").forEach(select => {
-    const hasEmpty = Array.from(select.options).some(opt => opt.value === "");
+  document.querySelectorAll("select.qty").forEach(sel => {
+    const hasEmpty = Array.from(sel.options).some(o => o.value === "");
     if (!hasEmpty) {
-      const emptyOption = document.createElement("option");
-      emptyOption.value = "";
-      emptyOption.dataset.i18n = "empty";
-      emptyOption.textContent = "—";
-      emptyOption.selected = true;
-      select.insertBefore(emptyOption, select.firstChild);
+      const opt = document.createElement("option");
+      opt.value = "";
+      opt.dataset.i18n = "empty";
+      opt.textContent = "—";
+      opt.selected = true;
+      sel.insertBefore(opt, sel.firstChild);
     }
   });
 }
 
 // ==== Дата ====
 function getFormattedDateDM() {
-  const today = new Date();
-  const day = String(today.getDate()).padStart(2, "0");
-  const month = String(today.getMonth() + 1).padStart(2, "0");
-  return `${day}/${month}`;
+  const d = new Date();
+  return `${String(d.getDate()).padStart(2,"0")}/${String(d.getMonth()+1).padStart(2,"0")}`;
 }
-
 function setCurrentDateFull() {
-  const dateEl = document.getElementById("current-date");
-  if (dateEl) {
-    const today = new Date();
-    const day = String(today.getDate()).padStart(2, "0");
-    const month = String(today.getMonth() + 1).padStart(2, "0");
-    const year = today.getFullYear();
-    dateEl.textContent = `${day}.${month}.${year}`;
+  const el = document.getElementById("current-date");
+  if (el) {
+    const d = new Date();
+    el.textContent = `${String(d.getDate()).padStart(2,"0")}.${String(d.getMonth()+1).padStart(2,"0")}.${d.getFullYear()}`;
   }
 }
 
-// ==== Сбор сообщения ====
+// ==== Сообщение ====
 function buildMessageForLang(lang) {
   const formattedDate = getFormattedDateDM();
 
   // Шапка
-  const nameSelect = document.querySelector('select[name="chef"], select#employeeSelect');
-  const selectedChef = nameSelect?.options[nameSelect.selectedIndex];
-  const chefName = selectedChef
-    ? (selectedChef.dataset.i18n ? t(selectedChef.dataset.i18n, lang, selectedChef.textContent) : selectedChef.textContent)
+  const nameSel = document.querySelector('select[name="chef"], select#employeeSelect');
+  const chefOpt = nameSel?.options[nameSel.selectedIndex];
+  const chefName = chefOpt
+    ? (chefOpt.dataset.i18n ? t(chefOpt.dataset.i18n, lang, chefOpt.textContent) : chefOpt.textContent)
     : "—";
 
-  const checklistSelect = document.querySelector('select[name="checklist_type"], select#checklistType');
-  const checklistKey = checklistSelect?.value || null;
+  const checklistSel = document.querySelector('select[name="checklist_type"], select#checklistType');
+  const checklistKey = checklistSel?.value || null;
   const checklistWord = checklistKey ? t(checklistKey, lang, checklistKey) : "";
 
-  let message = "";
-  message += `📅 ${t("date_label", lang, lang === "en" ? "Date" : "Дата")}: ${formattedDate}\n`;
-  message += `${t("chef_label", lang, lang === "en" ? "Name" : "Имя")}: ${chefName}\n`;
-  if (checklistWord) message += `${checklistWord}\n`;
-  message += `\n`;
+  let msg = `📅 ${t("date_label", lang, lang === "en" ? "Date" : "Дата")}: ${formattedDate}\n`;
+  msg += `${t("chef_label", lang, lang === "en" ? "Name" : "Имя")}: ${chefName}\n`;
+  if (checklistWord) msg += `${checklistWord}\n\n`;
 
-  // Позиции — фильтруем шапочные поля
-  const dishes = Array.from(document.querySelectorAll(".dish")).filter(dish => {
-    const select = dish.querySelector("select.qty");
-    if (!select || !select.value) return false;
-    const name = select.name || select.id || "";
-    return name !== "chef" && name !== "checklist_type";
-  });
-
+  // Позиции (только блюда с label.check-label)
+  const dishes = Array.from(document.querySelectorAll(".dish")).filter(d => d.querySelector("label.check-label"));
   dishes.forEach(dish => {
-    const label = dish.querySelector("label.check-label, label");
+    const sel = dish.querySelector("select.qty");
+    if (!sel || !sel.value) return;
+    const label = dish.querySelector("label.check-label");
     const labelText = label?.dataset?.i18n ? t(label.dataset.i18n, lang, label.textContent) : label?.textContent || "—";
-    const select = dish.querySelector("select.qty");
-    const value = select?.value || "—";
-    message += `• ${labelText}: ${value}\n`;
-
-    const commentField = dish.querySelector("textarea.comment");
-    if (commentField && commentField.value.trim()) {
-      message += `💬 ${t("comment_label", lang, lang === "en" ? "Comment" : "Комментарий")}: ${commentField.value.trim()}\n`;
-    }
+    msg += `• ${labelText}: ${sel.value}\n`;
   });
 
-  return message.trim();
+  // Общий комментарий (один)
+  const comment = document.getElementById("comment_supliers")?.value.trim();
+  if (comment) msg += `\n💬 ${t("comment_label", lang, lang === "en" ? "Comment" : "Комментарий")}: ${comment}`;
+
+  return msg.trim();
 }
 
 // ==== Отправка ====
 const CHAT_ID = "-1003076643701";
 const WORKER_URL = "https://shbb1.stassser.workers.dev/";
-const ACCESS_KEY = "14d92358-9b7a-4e16-b2a7-35e9ed71de43";
 
 async function sendMessageToWorker(text) {
   await fetch(WORKER_URL, {
@@ -194,61 +151,54 @@ async function sendMessageToWorker(text) {
 }
 
 async function sendAllParts(text) {
-  let start = 0;
-  while (start < text.length) {
-    const chunk = text.slice(start, start + 4000);
-    await sendMessageToWorker(chunk);
-    start += 4000;
+  for (let i = 0; i < text.length; i += 4000) {
+    await sendMessageToWorker(text.slice(i, i + 4000));
   }
 }
 
-// ==== Инициализация страницы ====
+// ==== Init ====
 function initPage() {
   ensureEmptyOptionForQty();
   restoreFormData();
   setCurrentDateFull();
 
   const button = document.getElementById("sendToTelegram");
-  if (!button) {
-    console.warn("Кнопка отправки не найдена: #sendToTelegram");
-    return;
-  }
+  if (!button) return;
 
   button.addEventListener("click", async () => {
     try {
-      // Языки для отправки берутся из sendConfig.js
-      const langsToSend = Array.isArray(window.sendLangs) && window.sendLangs.length ? window.sendLangs : ["ru"];
-      for (const lang of langsToSend) {
+      const langs = Array.isArray(window.sendLangs) && window.sendLangs.length ? window.sendLangs : ["ru"];
+      for (const lang of langs) {
         const msg = buildMessageForLang(lang);
         await sendAllParts(msg);
       }
       alert("✅ ОТПРАВЛЕНО");
       localStorage.clear();
-      document.querySelectorAll("select").forEach(s => s.value = "");
-      document.querySelectorAll("textarea.comment").forEach(t => t.value = "");
+      document.querySelectorAll("select").forEach(s => (s.value = ""));
+      document.querySelectorAll("textarea.comment").forEach(t => (t.value = ""));
     } catch (err) {
       console.error("Ошибка отправки:", err);
-      alert("❌ Ошибка при отправке: " + (err.message || err));
+      alert("❌ Ошибка: " + (err.message || err));
     }
   });
 
-  document.querySelectorAll("select, textarea.comment").forEach(el => {
-    el.addEventListener("input", saveFormData);
-  });
+  document.querySelectorAll("select, textarea.comment").forEach(el =>
+    el.addEventListener("input", saveFormData)
+  );
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const waitForTranslations = setInterval(() => {
+  const wait = setInterval(() => {
     const dict = getTranslationsObject();
     if (dict && Object.keys(dict).length > 0) {
-      clearInterval(waitForTranslations);
+      clearInterval(wait);
       initPage();
     }
   }, 100);
 
   const dictNow = getTranslationsObject();
   if (dictNow && Object.keys(dictNow).length > 0) {
-    clearInterval(waitForTranslations);
+    clearInterval(wait);
     initPage();
   }
 });
