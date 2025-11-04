@@ -11,6 +11,7 @@ async function loadTranslations() {
     "../../../lang.json",
     "../../../../lang.json",
     "../../../../../lang.json"
+    "../../../../../../lang.json"
   ];
 
   for (let path of paths) {
