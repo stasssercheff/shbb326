@@ -3,7 +3,7 @@ window.currentLang = window.currentLang || 'ru';
 
 // ==== Навигация ====
 function goHome() {
-  location.href = "https://stasssercheff.github.io/shbb/";
+  location.href = "https://stasssercheff.github.io/shbb125/";
 }
 
 function goBack() {
