@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const headerDict = {
     title: { 
-      ru: "Бариста закрытие. Выполнено из 11:", 
-      en: "Barista close. Done from 11:", 
-      vi: "Barista đóng làm được trong 11:" 
+      ru: "Бариста открытие. Выполнено из 11:", 
+      en: "Barista open. Done from 11:", 
+      vi: "Barista mở. Xong từ 11 giờ:" 
     },
     date: { 
       ru: "Дата", 
