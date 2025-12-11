@@ -1,33 +1,5 @@
-// === script.js ===
-document.addEventListener('DOMContentLoaded', () => {
-  const chat_id = '-1002393080811';
-  const worker_url = 'https://shbb1.stassser.workers.dev/';
-  const button = document.getElementById('sendBtn');
-
-  if (!button) return;
-
-  const headerDict = {
-    title: { 
-      ru: "Чеклист сухой склад", 
-      en: "Dry storage checklist", 
-      vi: "Danh sách kho khô" 
-    },
-    date: { 
-      ru: "Дата", 
-      en: "Date", 
-      vi: "Ngày" 
-    },
-    comment: { 
-      ru: "Комментарий", 
-      en: "Comment", 
-      vi: "Ghi chú" 
-    }
-  };
-
-
-
-  // На главную
-  function goHome() {
+// === Навигация ===
+ function goHome() {
       location.href = "http://stasssercheff.github.io/shbb125/";
   }
 
@@ -38,100 +10,181 @@ document.addEventListener('DOMContentLoaded', () => {
       const upperPath = parentPath.substring(0, parentPath.lastIndexOf("/"));
       window.location.href = upperPath + "/index.html";
   }
-    
-  // Формируем сообщение на конкретном языке
-  const buildMessage = (lang) => {
-    const today = new Date();
-    const date = `${String(today.getDate()).padStart(2,'0')}/${String(today.getMonth()+1).padStart(2,'0')}`;
 
-    let message = `🧾 <b>${headerDict.title[lang] || headerDict.title.ru}</b>\n\n`;
-    message += `📅 ${headerDict.date[lang] || headerDict.date.ru}: ${date}\n`;
+// === Переключение языка с использованием window.translations ===
+function _getTranslations() { return window.translations || {}; }
 
-    const chefSelect = document.querySelector('select[name="chef"]');
-    if (chefSelect) {
-      const selectedOption = chefSelect.options[chefSelect.selectedIndex];
-      message += `👤 ${selectedOption.textContent.trim()}\n\n`;
-    }
-
-// === 🆕 Добавляем поле "На когда" ===
-const actionSelect = document.querySelector('select[name="actionType"]');
-if (actionSelect) {
-  const selectedAction = actionSelect.options[actionSelect.selectedIndex];
-  const key = selectedAction.dataset.i18n;
-  const translatedAction =
-    key && translations && translations[key] && translations[key][lang]
-      ? translations[key][lang]
-      : selectedAction.textContent.trim();
-  message += `📌 ${translatedAction}\n\n`;
+async function _ensureTranslationsLoaded() {
+  if (window.translations && Object.keys(window.translations).length) return;
+  const paths = [
+    '/shbb/lang.json',
+    'lang.json',
+    './lang.json',
+    '../lang.json',
+    '../../lang.json',
+    '../../../lang.json',
+    '../../../../lang.json'
+  ];
+  for (const path of paths) {
+    try {
+      const res = await fetch(path);
+      if (!res.ok) continue;
+      const json = await res.json();
+      if (json && Object.keys(json).length) { window.translations = json; return; }
+    } catch(e) {}
+  }
+  window.translations = window.translations || {};
 }
 
-   const checklist = document.querySelectorAll('#checklist input[type="checkbox"]');
-let selectedItems = [];
-let counter = 1; // 🆕 счётчик для нумерации
-checklist.forEach((item) => {
-  if (item.checked) {
-    const label = item.closest('.checklist-item')?.querySelector('label');
-    if (label) {
-      const key = label.dataset.i18n;
-      const translated = key && translations && translations[key] && translations[key][lang]
-        ? translations[key][lang]
-        : label.textContent.trim();
-      selectedItems.push(`${counter}. ${translated}`);
-      counter++; // увеличиваем только когда реально добавили
-    }
-  }
-});
+function switchLanguage(lang) {
+  document.documentElement.lang = lang;
+  localStorage.setItem('lang', lang);
+  const translations = _getTranslations();
 
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.dataset.i18n;
+    if (!key) return;
+    const txt = translations[key]?.[lang];
+    if (!txt) return;
+    if ((el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') && el.hasAttribute('placeholder')) {
+      el.setAttribute('placeholder', txt);
+    } else { el.textContent = txt; }
+  });
 
-    if (selectedItems.length > 0) {
-      message += selectedItems.join('\n');
-    }
+  document.querySelectorAll('select option').forEach(option => {
+    const key = option.dataset.i18n;
+    if (key && translations[key]?.[lang]) option.textContent = translations[key][lang];
+    if (option.value === '') option.textContent = '—';
+  });
+}
 
-    // === 🆕 Добавляем комментарий, если есть ===
-    const commentField = document.querySelector('textarea.comment');
-    if (commentField && commentField.value.trim() !== "") {
-      message += `\n\n💬 ${headerDict.comment[lang] || headerDict.comment.ru}:\n${commentField.value.trim()}`;
-    }
+// === Сохранение/восстановление формы ===
+function saveFormData() {
+  const data = {};
+  document.querySelectorAll('select').forEach(s => { data[s.name || s.id] = s.value; });
+  document.querySelectorAll('textarea.comment').forEach(t => { data[t.name || t.id] = t.value; });
+  localStorage.setItem('formData', JSON.stringify(data));
+}
 
-    return message;
-  };
-
-  const sendMessage = async (msg) => {
-    const res = await fetch(worker_url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ chat_id, text: msg, parse_mode: "HTML" })
+function restoreFormData() {
+  const saved = localStorage.getItem('formData');
+  if (!saved) return;
+  try {
+    const data = JSON.parse(saved);
+    document.querySelectorAll('select').forEach(s => {
+      const key = s.name || s.id;
+      if (data[key] !== undefined) s.value = data[key];
     });
-    return res.json();
-  };
+    document.querySelectorAll('textarea.comment').forEach(t => {
+      const key = t.name || t.id;
+      if (data[key] !== undefined) t.value = data[key];
+    });
+  } catch(e) { console.warn('restoreFormData: JSON parse error', e); }
+}
 
-  button.addEventListener('click', async () => {
-    try {
-      const currentProfile = getCurrentProfile();
-      const sendLangs = getSendLanguages(currentProfile);
-      console.log("🌍 Актуальные языки отправки:", sendLangs);
+function selectHasValue(select) {
+  return select && select.value !== '' && select.value !== '-' && select.value != null;
+}
 
-      if (!sendLangs.length) return alert('⚠ Для текущего профиля нет выбранных языков');
+// === DOMContentLoaded ===
+document.addEventListener('DOMContentLoaded', async () => {
+  await _ensureTranslationsLoaded();
+  const lang = localStorage.getItem('lang') || 'ru';
 
-      let sentCount = 0;
-      for (const lang of sendLangs) {
-        const msg = buildMessage(lang);
-        if (!msg) continue;
-        await sendMessage(msg);
-        sentCount++;
-      }
-
-      if (sentCount > 0) {
-        alert(`✅ Отправлено сообщений: ${sentCount} (${sendLangs.join(", ").toUpperCase()})`);
-        document.querySelectorAll('#checklist input[type="checkbox"]').forEach(cb => cb.checked = false);
-        const commentField = document.querySelector('textarea.comment');
-        if (commentField) commentField.value = ""; // 🧹 чистим комментарий
-      } else {
-        alert('⚠ Нет элементов для отправки');
-      }
-    } catch (err) {
-      console.error(err);
-      alert(`❌ Ошибка: ${err.message}`);
+  // Пустая опция select.qty
+  document.querySelectorAll('select.qty').forEach(select => {
+    if (!Array.from(select.options).some(o => o.value === '')) {
+      const empty = document.createElement('option');
+      empty.value = '';
+      empty.dataset.i18n = 'empty';
+      empty.textContent = '—';
+      empty.selected = true;
+      select.insertBefore(empty, select.firstChild);
     }
   });
+
+  restoreFormData();
+  switchLanguage(lang);
+
+  // Дата
+  const today = new Date();
+  const day = String(today.getDate()).padStart(2, '0');
+  const month = String(today.getMonth() + 1).padStart(2, '0');
+  const formattedDate = `${day}/${month}`;
+  const dateDiv = document.getElementById('current-date');
+  if (dateDiv) dateDiv.textContent = formattedDate;
+
+  document.querySelectorAll('select, textarea.comment').forEach(el => el.addEventListener('input', saveFormData));
+
+  // === Формирование сообщения ===
+  const buildMessage = lang => {
+    const translations = _getTranslations();
+    let msg = `🧾 <b>${lang === 'en' ? 'KITCHEN CLOSE' : 'КУХНЯ-ЗАКРЫТИЕ'}</b>\n\n`;
+    msg += `📅 ${lang === 'en' ? 'Date' : 'Дата'}: ${formattedDate}\n`;
+
+    const chefSelect = document.querySelector('select[name="chef"]');
+    let name = '—';
+    if (chefSelect) {
+      const selected = chefSelect.options[chefSelect.selectedIndex];
+      const key = selected.dataset.i18n;
+      name = (key && translations[key]?.[lang]) || selected.textContent.trim() || selected.value || '—';
+    }
+    msg += `${lang === 'en' ? '👨‍🍳 Name' : '👨‍🍳 Имя'}: ${name}\n\n`;
+
+    document.querySelectorAll('.dish').forEach((dish, idx) => {
+      const select = dish.querySelector('select.qty');
+      if (!selectHasValue(select)) return;
+      const label = dish.querySelector('label');
+      const key = label?.dataset.i18n;
+      const labelText = (key && translations[key]?.[lang]) || label?.textContent || '—';
+      const val = select.value;
+      msg += `• ${labelText}: ${val}\n`;
+    });
+
+    const comment = document.querySelector('textarea.comment');
+    if (comment && comment.value.trim()) {
+      msg += `💬 ${lang === 'en' ? 'Comment' : 'Комментарий'}: ${comment.value.trim()}\n`;
+    }
+
+    return msg;
+  };
+
+  // === Кнопка отправки ===
+  const btn = document.getElementById('sendToTelegram');
+  if (!btn) return;
+
+  btn.addEventListener('click', async () => {
+    const chat_id = '-1002393080811';
+    const worker_url = 'https://shbb1.stassser.workers.dev/';
+
+    const sendMessage = msg => fetch(worker_url, {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({chat_id, text: msg})
+    }).then(r => r.json());
+
+    const sendAllParts = async text => {
+      let start = 0;
+      while (start < text.length) {
+        const chunk = text.slice(start, start + 4000);
+        await sendMessage(chunk);
+        start += 4000;
+      }
+    };
+
+    try {
+      for (const l of ['ru', 'en']) {
+        const msg = buildMessage(l);
+        await sendAllParts(msg);
+      }
+      alert('✅ ОТПРАВЛЕНО');
+      localStorage.clear();
+      document.querySelectorAll('select').forEach(s => s.value = '');
+      document.querySelectorAll('textarea.comment').forEach(t => t.value = '');
+    } catch(err) {
+      alert('❌ Ошибка при отправке: ' + (err.message || err));
+      console.error(err);
+    }
+  });
+
 });
