@@ -1,194 +1,181 @@
+// === Навигация ===
+function goHome() { location.href = '/index.html'; }
+function goBack() { history.back(); }
 
-// Функция возврата на главную страницу
-function goHome() {
-    location.href = '/index.html';
+// === Переключение языка с использованием window.translations ===
+function _getTranslations() { return window.translations || {}; }
+
+async function _ensureTranslationsLoaded() {
+  if (window.translations && Object.keys(window.translations).length) return;
+  const paths = [
+    '/shbb/lang.json',
+    'lang.json',
+    './lang.json',
+    '../lang.json',
+    '../../lang.json',
+    '../../../lang.json',
+    '../../../../lang.json'
+  ];
+  for (const path of paths) {
+    try {
+      const res = await fetch(path);
+      if (!res.ok) continue;
+      const json = await res.json();
+      if (json && Object.keys(json).length) { window.translations = json; return; }
+    } catch(e) {}
+  }
+  window.translations = window.translations || {};
 }
 
-// Функция возврата на предыдущую страницу
-function goBack() {
-    history.back();
-}
-
-// === Переключение языка ===
 function switchLanguage(lang) {
   document.documentElement.lang = lang;
+  localStorage.setItem('lang', lang);
+  const translations = _getTranslations();
 
-  document.querySelectorAll('.section-title').forEach(title => {
-    if (title.dataset[lang]) title.textContent = title.dataset[lang];
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.dataset.i18n;
+    if (!key) return;
+    const txt = translations[key]?.[lang];
+    if (!txt) return;
+    if ((el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') && el.hasAttribute('placeholder')) {
+      el.setAttribute('placeholder', txt);
+    } else { el.textContent = txt; }
   });
 
-  document.querySelectorAll('.check-label').forEach(label => {
-    if (label.dataset[lang]) label.textContent = label.dataset[lang];
-  });
-
-  document.querySelectorAll('select').forEach(select => {
-    Array.from(select.options).forEach(option => {
-      if (option.value === '') option.textContent = '—';
-      else if (option.dataset[lang]) option.textContent = option.dataset[lang];
-    });
+  document.querySelectorAll('select option').forEach(option => {
+    const key = option.dataset.i18n;
+    if (key && translations[key]?.[lang]) option.textContent = translations[key][lang];
+    if (option.value === '') option.textContent = '—';
   });
 }
 
-// === Сохранение и восстановление данных формы ===
+// === Сохранение/восстановление формы ===
 function saveFormData() {
   const data = {};
-  document.querySelectorAll('select').forEach(select => {
-    data[select.name || select.id] = select.value;
-  });
-  document.querySelectorAll('textarea.comment').forEach(textarea => {
-    data[textarea.name || textarea.id] = textarea.value;
-  });
+  document.querySelectorAll('select').forEach(s => { data[s.name || s.id] = s.value; });
+  document.querySelectorAll('textarea.comment').forEach(t => { data[t.name || t.id] = t.value; });
   localStorage.setItem('formData', JSON.stringify(data));
 }
 
 function restoreFormData() {
   const saved = localStorage.getItem('formData');
   if (!saved) return;
-  const data = JSON.parse(saved);
-  document.querySelectorAll('select').forEach(select => {
-    if (data[select.name || select.id] !== undefined) select.value = data[select.name || select.id];
-  });
-  document.querySelectorAll('textarea.comment').forEach(textarea => {
-    if (data[textarea.name || textarea.id] !== undefined) textarea.value = data[textarea.name || textarea.id];
-  });
+  try {
+    const data = JSON.parse(saved);
+    document.querySelectorAll('select').forEach(s => {
+      const key = s.name || s.id;
+      if (data[key] !== undefined) s.value = data[key];
+    });
+    document.querySelectorAll('textarea.comment').forEach(t => {
+      const key = t.name || t.id;
+      if (data[key] !== undefined) t.value = data[key];
+    });
+  } catch(e) { console.warn('restoreFormData: JSON parse error', e); }
+}
+
+function selectHasValue(select) {
+  return select && select.value !== '' && select.value !== '-' && select.value != null;
 }
 
 // === DOMContentLoaded ===
-document.addEventListener('DOMContentLoaded', () => {
-  const lang = document.documentElement.lang || 'ru';
+document.addEventListener('DOMContentLoaded', async () => {
+  await _ensureTranslationsLoaded();
+  const lang = localStorage.getItem('lang') || 'ru';
 
-  // Вставка пустой опции в каждый select.qty
+  // Пустая опция select.qty
   document.querySelectorAll('select.qty').forEach(select => {
-    const hasEmpty = Array.from(select.options).some(opt => opt.value === '');
-    if (!hasEmpty) {
-      const emptyOption = document.createElement('option');
-      emptyOption.value = '';
-      emptyOption.dataset.ru = '—';
-      emptyOption.dataset.en = '—';
-      emptyOption.textContent = '—';
-      emptyOption.selected = true;
-      select.insertBefore(emptyOption, select.firstChild);
+    if (!Array.from(select.options).some(o => o.value === '')) {
+      const empty = document.createElement('option');
+      empty.value = '';
+      empty.dataset.i18n = 'empty';
+      empty.textContent = '—';
+      empty.selected = true;
+      select.insertBefore(empty, select.firstChild);
     }
   });
 
   restoreFormData();
   switchLanguage(lang);
 
+  // Дата
   const today = new Date();
   const day = String(today.getDate()).padStart(2, '0');
   const month = String(today.getMonth() + 1).padStart(2, '0');
   const formattedDate = `${day}/${month}`;
-  const dateDiv = document.getElementById('autodate');
+  const dateDiv = document.getElementById('current-date');
   if (dateDiv) dateDiv.textContent = formattedDate;
 
-  document.querySelectorAll('select, textarea.comment').forEach(el => {
-    el.addEventListener('input', saveFormData);
-  });
+  document.querySelectorAll('select, textarea.comment').forEach(el => el.addEventListener('input', saveFormData));
 
-  // === Функция сборки сообщения ===
-  const buildMessage = (lang) => {
-    let message = `🧾 <b>${lang === 'en' ? 'STORAGE' : 'СКЛАД'}</b>\n\n`;
-    message += `📅 ${lang === 'en' ? 'Date' : 'Дата'}: ${formattedDate}\n`;
+  // === Формирование сообщения ===
+  const buildMessage = lang => {
+    const translations = _getTranslations();
+    let msg = `🧾 <b>${lang === 'en' ? 'KITCHEN CLOSE' : 'КУХНЯ-ЗАКРЫТИЕ'}</b>\n\n`;
+    msg += `📅 ${lang === 'en' ? 'Date' : 'Дата'}: ${formattedDate}\n`;
 
-    const nameSelect = document.querySelector('select[name="chef"]');
-    const selectedChef = nameSelect?.options[nameSelect.selectedIndex];
-    const name = selectedChef?.dataset[lang] || '—';
-    message += `${lang === 'en' ? '👨‍🍳 Name' : '👨‍🍳 Имя'}: ${name}\n\n`;
+    const chefSelect = document.querySelector('select[name="chef"]');
+    let name = '—';
+    if (chefSelect) {
+      const selected = chefSelect.options[chefSelect.selectedIndex];
+      const key = selected.dataset.i18n;
+      name = (key && translations[key]?.[lang]) || selected.textContent.trim() || selected.value || '—';
+    }
+    msg += `${lang === 'en' ? '👨‍🍳 Name' : '👨‍🍳 Имя'}: ${name}\n\n`;
 
-    document.querySelectorAll('.menu-section').forEach(section => {
-      const sectionTitle = section.querySelector('.section-title');
-      const title = sectionTitle?.dataset[lang] || '';
-      let sectionContent = '';
-
-      section.querySelectorAll('.dish').forEach(dish => {
-        const select = dish.querySelector('select.qty');
-        if (!select || !select.value) return;
-
-        const label = dish.querySelector('label.check-label');
-        const labelText = select?.dataset[`label${lang.toUpperCase()}`] || label?.dataset[lang] || '—';
-        const selectedOption = select.options[select.selectedIndex];
-        const value = selectedOption?.dataset[lang] || '—';
-        sectionContent += `• ${labelText}: ${value}\n`;
-      });
-
-const commentField = section.querySelector('textarea.comment');
-      if (commentField && commentField.value.trim()) {
-        sectionContent += `💬 ${lang === 'en' ? 'Comment' : 'Комментарий'}: ${commentField.value.trim()}\n`;
-      }
-
-      if (sectionContent.trim()) {
-        message += `🔸 <b>${title}</b>\n` + sectionContent + '\n';
-      }
+    document.querySelectorAll('.dish').forEach((dish, idx) => {
+      const select = dish.querySelector('select.qty');
+      if (!selectHasValue(select)) return;
+      const label = dish.querySelector('label');
+      const key = label?.dataset.i18n;
+      const labelText = (key && translations[key]?.[lang]) || label?.textContent || '—';
+      const val = select.value;
+      msg += `• ${labelText}: ${val}\n`;
     });
 
-    return message;
+    const comment = document.querySelector('textarea.comment');
+    if (comment && comment.value.trim()) {
+      msg += `💬 ${lang === 'en' ? 'Comment' : 'Комментарий'}: ${comment.value.trim()}\n`;
+    }
+
+    return msg;
   };
 
   // === Кнопка отправки ===
-  const button = document.getElementById('sendToTelegram');
-  button.addEventListener('click', () => {
-    const chat_id = '-1002393080811'; // твой Telegram чат ID
-    const worker_url = 'https://shbb1.stassser.workers.dev/'; // твой Worker
-    const emailTo = 'stassserchef@gmail.com'; // заменишь на нужный адрес
-    const accessKey = "14d92358-9b7a-4e16-b2a7-35e9ed71de43";
+  const btn = document.getElementById('sendToTelegram');
+  if (!btn) return;
 
-    // Отправка в Telegram через воркер
-    const sendMessage = (msg) => {
-      return fetch(worker_url, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ chat_id, text: msg })
-      }).then(res => res.json());
-    };
+  btn.addEventListener('click', async () => {
+    const chat_id = '-1002393080811';
+    const worker_url = 'https://shbb1.stassser.workers.dev/';
 
-    // Отправка email через Web3Forms
-    const sendEmail = async (msg) => {
-      try {
-        const res = await fetch("https://api.web3forms.com/submit", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            access_key: accessKey,
-            subject: "СКЛАД",
-            from_name: "SHBB KITCHEN",
-            reply_to: "no-reply@shbb.com",
-            message: msg
-          })
-        }).then(r => r.json());
+    const sendMessage = msg => fetch(worker_url, {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({chat_id, text: msg})
+    }).then(r => r.json());
 
-        if (!res.success) alert("Ошибка отправки email. Проверьте форму.");
-      } catch (err) {
-        alert("Ошибка отправки email: " + err.message);
-      }
-    };
-
-    const sendAllParts = async (text) => {
+    const sendAllParts = async text => {
       let start = 0;
       while (start < text.length) {
         const chunk = text.slice(start, start + 4000);
         await sendMessage(chunk);
-       // await sendEmail(chunk); //
         start += 4000;
       }
     };
 
-    const clearForm = () => {
-      document.querySelectorAll('select').forEach(select => select.value = '');
-      document.querySelectorAll('textarea.comment').forEach(textarea => textarea.value = '');
-    };
-
-    (async () => {
-      try {
-        await sendAllParts(buildMessage('ru'));
-        await sendAllParts(buildMessage('en'));
-
-        alert('✅ ОТПРАВЛЕНО');
-        localStorage.clear();
-        clearForm();
-      } catch (err) {
-        alert('❌ Ошибка при отправке: ' + err.message);
-        console.error(err);
+    try {
+      for (const l of ['ru', 'en']) {
+        const msg = buildMessage(l);
+        await sendAllParts(msg);
       }
-    })();
+      alert('✅ ОТПРАВЛЕНО');
+      localStorage.clear();
+      document.querySelectorAll('select').forEach(s => s.value = '');
+      document.querySelectorAll('textarea.comment').forEach(t => t.value = '');
+    } catch(err) {
+      alert('❌ Ошибка при отправке: ' + (err.message || err));
+      console.error(err);
+    }
   });
+
 });
