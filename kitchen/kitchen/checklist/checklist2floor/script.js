@@ -1,6 +1,15 @@
 // === Навигация ===
-function goHome() { location.href = '/index.html'; }
-function goBack() { history.back(); }
+ function goHome() {
+      location.href = "http://stasssercheff.github.io/shbb125/";
+  }
+
+  // На уровень выше (одну папку вверх)
+  function goBack() {
+      const currentPath = window.location.pathname;
+      const parentPath = currentPath.substring(0, currentPath.lastIndexOf("/"));
+      const upperPath = parentPath.substring(0, parentPath.lastIndexOf("/"));
+      window.location.href = upperPath + "/index.html";
+  }
 
 // === Переключение языка с использованием window.translations ===
 function _getTranslations() { return window.translations || {}; }
