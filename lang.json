@@ -2530,6 +2530,11 @@
     "en": "Few", 
     "vi": "Ít" 
   },
+"finished": {
+    "ru": "Закончилось", 
+    "en": "Finished", 
+    "vi": "Hoàn thành" 
+},
     "order_products": {
       "ru": "Заказ продуктов",
       "en": "Order products",
