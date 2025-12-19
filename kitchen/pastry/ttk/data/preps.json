@@ -464,10 +464,10 @@
 },
 {
   "name": { 
-    "ru": "ПФ ПЕЧЕНЬЕ МАДЛЕН", 
-    "en": "PF MADELEINE COOKIES" 
+    "ru": "ПФ ПЕЧЕНЬЕ МАДЛЕН ТЕСТО", 
+    "en": "PF MADELEINE COOKIES DAUGH" 
   },
-  "key": "Печенье шт.",
+  "key": "Итого",
   "ingredients": [
     { "№": 1, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "140" },
     { "№": 2, "Продукт": "Разрыхлитель", "Ingredient": "Baking powder", "Шт/гр": "5" },
@@ -476,13 +476,28 @@
     { "№": 5, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "110" },
     { "№": 6, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "90" },
     { "№": 7, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Шт/гр": "2" },
-    { "№": 8, "Продукт": "ПФ вишневый конфитюр", "Ingredient": "Cherry confit PF", "Шт/гр": "150" },
-    { "№": 9, "Продукт": "Шоколад темный", "Ingredient": "Dark chocolate", "Шт/гр": "240" },
-    { "№": 10, "Продукт": "Итого", "Ingredient": "Total", "Шт/гр": "618" }
+    { "№": 8, "Продукт": "Итого", "Ingredient": "Total", "Шт/гр": "610" }
   ],
   "process": {
-    "ru": "В глубокой чаше соедините сахар и яйца, перемешайте венчиком, не взбивая. Добавьте растопленное сливочное масло. Введите сухие ингредиенты (муку, разрыхлитель, соль) и перемешайте до однородности. Переложите тесто в кондитерский мешок и уберите в холодильник на 1–1,5 часа. Отсадите по 15 г теста в каждую форму. Выпекайте при 220°C (конвекция 25) около 10 минут. Остудите на решетке. Насадкой сделайте отверстие и залейте 2–3 г вишнёвого конфитюра.\n\nТемперирование: растопите 200 г тёмного шоколада до 45°C. Добавьте 20% от массы (40 г) и перемешайте до однородности. При желании добавьте краситель. Остудите до рабочей температуры 28–30°C. В форму налейте 10 г шоколада и положите охлаждённое печенье, слегка вдавив. Уберите в холодильник или морозильную камеру до застывания шоколада.\n\nХранение: готовые и задекорированные печенья хранить в морозильной камере (в герметичном контейнере) до 3 недель или в холодильнике до 5 суток.",
-    "en": "In a large bowl, combine sugar and eggs, stirring with a whisk without whipping. Add melted butter. Add dry ingredients (flour, baking powder, salt) and mix until smooth. Transfer the dough into a piping bag and chill for 1–1.5 hours. Pipe 15 g of batter into each mold. Bake at 220°C (convection 25) for about 10 minutes. Cool on a rack. Use a nozzle to make a hole and fill with 2–3 g of cherry confit.\n\nTempering: Melt 200 g of dark chocolate to 45°C. Add 20% (40 g) and stir until smooth. Optionally, add coloring. Cool to 28–30°C working temperature. Pour 10 g of chocolate into each mold and place a chilled cookie on top, pressing gently. Chill or freeze until chocolate is set.\n\nStorage: Store decorated cookies in an airtight container in the freezer for up to 3 weeks, or in the refrigerator for up to 5 days."
+    "ru": "В глубокой чаше соедините сахар и яйца, перемешайте венчиком, не взбивая. Добавьте растопленное сливочное масло. Введите сухие ингредиенты (муку, разрыхлитель, соль) и перемешайте до однородности. Переложите тесто в кондитерский мешок и уберите в холодильник на 1–1,5 часа. Отсадите по 15 г теста в каждую форму. Выпекайте при 220°C (конвекция 25) около 10 минут. Остудите на решетке.",
+    "en": "In a large bowl, combine sugar and eggs, stirring with a whisk without whipping. Add melted butter. Add dry ingredients (flour, baking powder, salt) and mix until smooth. Transfer the dough into a piping bag and chill for 1–1.5 hours. Pipe 15 g of batter into each mold. Bake at 220°C (convection 25) for about 10 minutes. Cool on a rack."
+  }
+},
+    {
+  "name": { 
+    "ru": "ПЕЧЕНЬЕ МАДЛЕН", 
+    "en": "MADELEINE COOKIES" 
+  },
+  "key": "Печенье шт.",
+  "ingredients": [
+    { "№": 1, "Продукт": "ПФ мадлен тесто конфитюр", "Ingredient": "Prep madlen daugh", "Шт/гр": "40" },
+    { "№": 2, "Продукт": "ПФ вишневый конфитюр", "Ingredient": "Cherry confit PF", "Шт/гр": "10" },
+    { "№": 3, "Продукт": "Шоколад белый", "Ingredient": "Wight chocolate", "Шт/гр": "20" },
+    { "№": 4, "Продукт": "Печенье шт.", "Ingredient": "Coockie pcs.", "Шт/гр": "1" },
+  ],
+  "process": {
+    "ru": "Насадкой сделайте отверстие и залейте 2–3 г вишнёвого конфитюра.\n\nТемперирование: растопите 200 г тёмного шоколада до 45°C. Добавьте 20% от массы (40 г) и перемешайте до однородности. При желании добавьте краситель. Остудите до рабочей температуры 28–30°C. В форму налейте 10 г шоколада и положите охлаждённое печенье, слегка вдавив. Уберите в холодильник или морозильную камеру до застывания шоколада.\n\nХранение: готовые и задекорированные печенья хранить в морозильной камере (в герметичном контейнере) до 3 недель или в холодильнике до 5 суток.",
+    "en": "Use a nozzle to make a hole and fill with 2–3 g of cherry confit.\n\nTempering: Melt 200 g of dark chocolate to 45°C. Add 20% (40 g) and stir until smooth. Optionally, add coloring. Cool to 28–30°C working temperature. Pour 10 g of chocolate into each mold and place a chilled cookie on top, pressing gently. Chill or freeze until chocolate is set.\n\nStorage: Store decorated cookies in an airtight container in the freezer for up to 3 weeks, or in the refrigerator for up to 5 days."
   }
 },
     {
@@ -565,7 +580,7 @@
     }
   },
   {
-    "name": { "ru": "ПФ ЖЕЛЕ ЧЕРРИТАРТ", "en": "PF CHERRY TART JELLY" },
+    "name": { "ru": "ПФ ЖЕЛЕ ЧЕРРИТАРТ", "en": "PREP CHERRY TART JELLY" },
     "key": "Количество",
     "ingredients": [
       { "№": 1, "Продукт": "Сок вишневый", "Ingredient": "Cherry juice", "Шт/гр": "860" },
