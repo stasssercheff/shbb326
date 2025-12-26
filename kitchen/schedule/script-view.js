@@ -51,14 +51,8 @@ async function loadSchedule() {
         if (r > 0 && c > 0) {
           const shiftValue = parseShiftValue(val);
 
-          if (shiftValue > 0 && shiftValue < 1) {
-            td.classList.add("shift-partial");
-          }
-
-          if (shiftValue > 1 && shiftValue <= 2) {
-            td.classList.add("shift-double");
-          }
-
+          if (shiftValue > 0 && shiftValue < 1) {td.classList.add("shift-partial");}
+          if (shiftValue > 1 && shiftValue <= 2) {td.classList.add("shift-double"); }
           if (val === "1") td.classList.add("shift-1");
           if (val === "0") td.classList.add("shift-0");
           if (val === "VR") td.classList.add("shift-VR");
