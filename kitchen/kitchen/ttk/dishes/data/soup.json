@@ -1,29 +1,39 @@
 [
   {
-    "name": { "ru": "Тыквенный суп", "en": "Pumpkin Soup" },
+    "name": {
+      "ru": "Тыквенный суп",
+      "en": "Pumpkin Soup",
+      "vi": "Súp bí đỏ"
+    },
     "ingredients": [
-      { "ru": "ПФ Суп тыквенный", "en": "Prep Pumpkin", "amount": "300" },
-      { "ru": "Микрозелень", "en": "Microgreens", "amount": "5" },
-      { "ru": "ПФ Соус песто", "en": "Pesto sauce", "amount": "5" },
-      { "ru": "Сливки", "en": "Cream", "amount": "10" },
-      { "ru": "Семена тыквы", "en": "Pumpkin seeds", "amount": "5" }
+      { "ru": "ПФ Суп тыквенный", "en": "Prep Pumpkin", "vi": "Súp bí đỏ (sơ chế)", "amount": "300" },
+      { "ru": "Микрозелень", "en": "Microgreens", "vi": "Rau mầm", "amount": "5" },
+      { "ru": "ПФ Соус песто", "en": "Pesto sauce", "vi": "Sốt pesto (sơ chế)", "amount": "5" },
+      { "ru": "Сливки", "en": "Cream", "vi": "Kem tươi", "amount": "10" },
+      { "ru": "Семена тыквы", "en": "Pumpkin seeds", "vi": "Hạt bí", "amount": "5" }
     ],
     "process": {
       "ru": "Пакет с супом поместить в горячую воду до полного прогрева. Промять пакет для избегания комочков. Вылить суп в тарелку. Поверх супа в центр отсадить ПФ соус песто. Вокруг по спирали тонкой струйкой отсадить сливки. Поверх песто поместить микрозелень. Поверх сливок поместить семена тыквы.",
-      "en": "Place the soup bag in hot water until fully heated. Knead the bag to avoid lumps. Pour the soup into a bowl. Pour the PF pesto sauce over the soup in the center. Spread the cream around in a thin stream in a spiral. Place microgreens on top of the pesto. Place pumpkin seeds on top of the cream."
+      "en": "Place the soup bag in hot water until fully heated. Knead the bag to avoid lumps. Pour the soup into a bowl. Pour the PF pesto sauce over the soup in the center. Spread the cream around in a thin stream in a spiral. Place microgreens on top of the pesto. Place pumpkin seeds on top of the cream.",
+      "vi": "Đặt túi súp vào nước nóng cho đến khi nóng hoàn toàn. Bóp nhẹ túi để tránh vón cục. Đổ súp ra bát. Cho sốt pesto (sơ chế) vào giữa bát súp. Rưới kem tươi thành vòng xoắn mỏng xung quanh. Đặt rau mầm lên trên sốt pesto. Rắc hạt bí lên phần kem."
     },
     "photo": "photos/soup pumpkin.png"
   },
   {
-    "name": { "ru": "Суп брокколи", "en": "Broccoli Soup" },
+    "name": {
+      "ru": "Суп брокколи",
+      "en": "Broccoli Soup",
+      "vi": "Súp bông cải xanh"
+    },
     "ingredients": [
-      { "ru": "ПФ Суп брокколи", "en": "Prep broccoli Soup", "amount": "300" },
-      { "ru": "Сыр пармезан", "en": "Parmesan cheese", "amount": "20" },
-      { "ru": "Белая чиабатта", "en": "White ciabatta", "amount": "20" }
+      { "ru": "ПФ Суп брокколи", "en": "Prep broccoli Soup", "vi": "Súp bông cải xanh (sơ chế)", "amount": "300" },
+      { "ru": "Сыр пармезан", "en": "Parmesan cheese", "vi": "Phô mai Parmesan", "amount": "20" },
+      { "ru": "Белая чиабатта", "en": "White ciabatta", "vi": "Bánh mì ciabatta trắng", "amount": "20" }
     ],
     "process": {
       "ru": "Размороженный пакет с супом поместить в горячую воду до полного прогрева. Промять пакет для избегания комочков. Взять чиабатту посыпать пармезаном, запекать до расплавления сыра в пече(чтобы не гнулась). Вылить суп в тарелку, посыпать суп пармезаном, выложить гренку как на фото.",
-      "en": "Place the defrosted soup bag in hot water until thoroughly heated. Press the bag to remove lumps. Sprinkle the ciabatta with Parmesan cheese and bake in the oven until the cheese melts (to prevent warping). Pour the soup into a bowl, sprinkle with Parmesan cheese, and top with croutons, as shown in the photo."
+      "en": "Place the defrosted soup bag in hot water until thoroughly heated. Press the bag to remove lumps. Sprinkle the ciabatta with Parmesan cheese and bake in the oven until the cheese melts (to prevent warping). Pour the soup into a bowl, sprinkle with Parmesan cheese, and top with croutons, as shown in the photo.",
+      "vi": "Đặt túi súp đã rã đông vào nước nóng cho đến khi nóng hoàn toàn. Bóp nhẹ túi để tránh vón cục. Rắc phô mai Parmesan lên bánh ciabatta và nướng đến khi phô mai tan chảy (để bánh không bị cong). Đổ súp ra bát, rắc thêm Parmesan và đặt bánh mì nướng lên trên như hình."
     },
     "photo": "photos/soup brokkoli.png"
   }
