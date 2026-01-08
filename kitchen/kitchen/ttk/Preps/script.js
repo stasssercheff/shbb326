@@ -23,7 +23,6 @@ const dataFiles = {
 function loadData(sectionName, callback) {
   const relativePath = dataFiles[sectionName];
 
-  // Строим абсолютный путь к JSON
   const baseUrl = window.location.origin + window.location.pathname;
   const currentFolder = baseUrl.substring(0, baseUrl.lastIndexOf("/") + 1);
   const fullPath = new URL(relativePath, currentFolder).href;
@@ -73,11 +72,10 @@ function createTable(data) {
     const card = document.createElement('div');
     card.className = 'dish-card';
 
+    // Название блюда
     const title = document.createElement('div');
     title.className = 'dish-title';
-    title.textContent = currentLang === 'ru'
-      ? dish.name?.ru || dish.title
-      : dish.name?.en || dish.title;
+    title.textContent = dish.name?.[currentLang] || dish.name?.ru || dish.title;
     card.appendChild(title);
 
     const table = document.createElement('table');
@@ -88,7 +86,9 @@ function createTable(data) {
 
     const headers = currentLang === 'ru'
       ? ['#', 'Продукт', 'Гр/шт', 'Описание']
-      : ['#', 'Ingredient', 'Gr/Pcs', 'Process'];
+      : currentLang === 'vi'
+        ? ['#', 'Nguyên liệu', 'Gr/Pcs', 'Cách làm']
+        : ['#', 'Ingredient', 'Gr/Pcs', 'Process'];
 
     const trHead = document.createElement('tr');
     headers.forEach(h => {
@@ -105,7 +105,11 @@ function createTable(data) {
       tdNum.textContent = i + 1;
 
       const tdName = document.createElement('td');
-      tdName.textContent = currentLang === 'ru' ? ing['Продукт'] : ing['Ingredient'];
+      tdName.textContent = currentLang === 'ru'
+        ? ing['Продукт']
+        : currentLang === 'vi'
+          ? ing['Ingredient_vi'] || ing['Ingredient'] || ing['Продукт']
+          : ing['Ingredient'] || ing['Продукт'];
 
       const tdAmount = document.createElement('td');
       tdAmount.textContent = ing['Шт/гр'];
@@ -141,7 +145,7 @@ function createTable(data) {
 
       if (i === 0) {
         const tdDesc = document.createElement('td');
-        tdDesc.textContent = dish.process?.[currentLang] || '';
+        tdDesc.textContent = dish.process?.[currentLang] || dish.process?.ru || '';
         tdDesc.rowSpan = dish.ingredients.length;
         tr.appendChild(tdDesc);
       }
@@ -167,7 +171,7 @@ function renderSousVide(data) {
 
     const title = document.createElement('div');
     title.className = 'dish-title';
-    title.textContent = dish.title;
+    title.textContent = dish.name?.[currentLang] || dish.name?.ru || dish.title;
     card.appendChild(title);
 
     const table = document.createElement('table');
@@ -178,7 +182,9 @@ function renderSousVide(data) {
 
     const headers = currentLang === 'ru'
       ? ['#', 'Продукт', 'Гр/шт', 'Темп °C', 'Время', 'Описание']
-      : ['#', 'Ingredient', 'Gr/Pcs', 'Temp °C', 'Time', 'Process'];
+      : currentLang === 'vi'
+        ? ['#', 'Nguyên liệu', 'Gr/Pcs', 'Temp °C', 'Time', 'Cách làm']
+        : ['#', 'Ingredient', 'Gr/Pcs', 'Temp °C', 'Time', 'Process'];
 
     const trHead = document.createElement('tr');
     headers.forEach(h => {
@@ -189,14 +195,18 @@ function renderSousVide(data) {
     thead.appendChild(trHead);
 
     dish.ingredients.forEach((ing, i) => {
+      const tdDesc = (dish.process.find(p => i + 1 >= p.range[0] && i + 1 <= p.range[1])?.[currentLang])
+        || (dish.process.find(p => i + 1 >= p.range[0] && i + 1 <= p.range[1])?.ru)
+        || '';
+
       const tr = document.createElement('tr');
       tr.innerHTML = `
         <td>${ing['№']}</td>
-        <td>${currentLang === 'ru' ? ing['Продукт'] : ing['Ingredient']}</td>
+        <td>${currentLang === 'ru' ? ing['Продукт'] : currentLang === 'vi' ? ing['Ingredient_vi'] || ing['Ingredient'] || ing['Продукт'] : ing['Ingredient'] || ing['Продукт']}</td>
         <td>${ing['Шт/гр']}</td>
         <td>${ing['Температура С / Temperature C'] || ''}</td>
         <td>${ing['Время мин / Time'] || ''}</td>
-        <td>${(dish.process.find(p => i + 1 >= p.range[0] && i + 1 <= p.range[1])?.[currentLang]) || ''}</td>
+        <td>${tdDesc}</td>
       `;
       tbody.appendChild(tr);
     });
