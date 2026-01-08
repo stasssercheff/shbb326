@@ -30,9 +30,9 @@
     "en": "Salads",
     "vi": "Salad"
   },
-  "main_dishes": {
+  "main_course": {
     "ru": "Основные блюда",
-    "en": "Main Dishes",
+    "en": "Main Course",
     "vi": "Món chính"
   },
   "sandwiches": {
