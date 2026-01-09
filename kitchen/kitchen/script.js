@@ -4,7 +4,8 @@
 
 // На главную
 function goHome() {
-    window.location.href = window.location.origin + "/shbb125/";
+  // Переходим в корень сайта
+  location.href = location.origin + location.pathname.split('/')[1] + '/';
 }
 
 // На уровень выше (одну папку вверх)
