@@ -4,7 +4,7 @@ function goBack() {
 }
 
 function goHome() {
-  location.href = location.origin + '/' + location.pathname.split('/')[1] + '/';
+  location.href = location.origin + location.pathname.split('/')[1] + '/';
 }
 
 
