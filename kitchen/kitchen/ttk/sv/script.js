@@ -1,7 +1,7 @@
-// ==== ТЕКУЩИЙ ЯЗЫК ====
+// ===== CURRENT LANGUAGE =====
 window.currentLang = window.currentLang || 'ru';
 
-// ==== НАВИГАЦИЯ ====
+// ===== NAVIGATION =====
 function goHome() {
   location.href = location.origin + '/' + location.pathname.split('/')[1] + '/';
 }
@@ -13,98 +13,98 @@ function goBack() {
   location.href = upper + '/index.html';
 }
 
-// ==== DATA FILE ====
+// ===== DATA =====
 const DATA_FILE = 'data/sv.json';
 
-// ==== LOAD JSON ====
-function loadData(callback) {
-  const base = location.origin + location.pathname;
-  const folder = base.substring(0, base.lastIndexOf('/') + 1);
-  const fullPath = new URL(DATA_FILE, folder).href;
-
-  fetch(fullPath)
-    .then(r => r.ok ? r.json() : Promise.reject(r.status))
-    .then(j => callback(j))
-    .catch(e => console.error('Sous-Vide load error:', e));
+// ===== LOAD JSON =====
+function loadSousVide() {
+  fetch(DATA_FILE)
+    .then(r => r.json())
+    .then(data => renderSousVide(data))
+    .catch(err => console.error('SV load error:', err));
 }
 
-// ==== RENDER SOUS-VIDE ====
+// ===== INGREDIENT NAME (NO STRUCTURE CHANGE) =====
+function getIngredientName(ing) {
+  if (currentLang === 'ru') return ing['Продукт'] || '';
+  // en + vi → English name
+  return ing['Ingredient'] || '';
+}
+
+// ===== PROCESS TEXT (NO STRUCTURE CHANGE) =====
+function getProcessText(recipe, index) {
+  if (!Array.isArray(recipe.process)) return '';
+
+  const p = recipe.process.find(
+    pr => index >= pr.range[0] && index <= pr.range[1]
+  );
+
+  if (!p) return '';
+
+  if (currentLang === 'ru') return p.ru || '';
+  // en + vi → English text
+  return p.en || '';
+}
+
+// ===== TABLE HEADERS =====
+function getHeaders() {
+  if (currentLang === 'ru') {
+    return ['№', 'Продукт', 'Кол-во', 'Темп °C', 'Время, мин', 'Процесс'];
+  }
+  if (currentLang === 'vi') {
+    return ['№', 'Nguyên liệu', 'Số lượng', 'Nhiệt độ °C', 'Thời gian (phút)', 'Quy trình'];
+  }
+  return ['№', 'Ingredient', 'Amount', 'Temp °C', 'Time (min)', 'Process'];
+}
+
+// ===== RENDER =====
 function renderSousVide(data) {
-  const container = document.querySelector('.table-container');
+  const container = document.getElementById('content');
   container.innerHTML = '';
 
-  data.recipes.forEach(dish => {
-    const card = document.createElement('div');
-    card.className = 'dish-card';
+  data.recipes.forEach(recipe => {
 
-    const title = document.createElement('div');
-    title.className = 'dish-title';
-    title.textContent = dish.name?.[currentLang] || dish.name?.ru || dish.title;
-    card.appendChild(title);
+    // ---- TITLE ----
+    const h2 = document.createElement('h2');
+    h2.textContent = recipe.title;
+    container.appendChild(h2);
 
+    // ---- TABLE ----
     const table = document.createElement('table');
     table.className = 'sv-table';
 
-    const thead = document.createElement('thead');
-    const tbody = document.createElement('tbody');
+    const headers = getHeaders();
 
-    const headers =
-      currentLang === 'ru'
-        ? ['#', 'Продукт', 'Гр/шт', 'Темп °C', 'Время', 'Описание']
-        : currentLang === 'vi'
-          ? ['#', 'Nguyên liệu', 'Gr/Pcs', 'Temp °C', 'Time', 'Cách làm']
-          : ['#', 'Ingredient', 'Gr/Pcs', 'Temp °C', 'Time', 'Process'];
+    table.innerHTML = `
+      <thead>
+        <tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr>
+      </thead>
+      <tbody></tbody>
+    `;
 
-    const trHead = document.createElement('tr');
-    headers.forEach(h => {
-      const th = document.createElement('th');
-      th.textContent = h;
-      trHead.appendChild(th);
-    });
-    thead.appendChild(trHead);
+    const tbody = table.querySelector('tbody');
 
-    dish.ingredients.forEach((ing, i) => {
-      const desc =
-        dish.process.find(p => i + 1 >= p.range[0] && i + 1 <= p.range[1])?.[currentLang]
-        || dish.process.find(p => i + 1 >= p.range[0] && i + 1 <= p.range[1])?.ru
-        || '';
-
+    recipe.ingredients.forEach(ing => {
       const tr = document.createElement('tr');
+
       tr.innerHTML = `
         <td>${ing['№']}</td>
-        <td>${
-          currentLang === 'ru'
-            ? ing['Продукт']
-            : currentLang === 'vi'
-              ? ing['Ingredient_vi'] || ing['Ingredient'] || ing['Продукт']
-              : ing['Ingredient'] || ing['Продукт']
-        }</td>
-        <td>${ing['Шт/гр']}</td>
+        <td>${getIngredientName(ing)}</td>
+        <td>${ing['Шт/гр'] || ''}</td>
         <td>${ing['Температура С / Temperature C'] || ''}</td>
         <td>${ing['Время мин / Time'] || ''}</td>
-        <td>${desc}</td>
+        <td>${getProcessText(recipe, ing['№'])}</td>
       `;
+
       tbody.appendChild(tr);
     });
 
-    table.appendChild(thead);
-    table.appendChild(tbody);
-    card.appendChild(table);
-    container.appendChild(card);
+    container.appendChild(table);
   });
 }
 
-// ==== INIT ====
-function renderPage() {
-  loadData(renderSousVide);
-}
+// ===== INIT =====
+document.addEventListener('DOMContentLoaded', loadSousVide);
 
-document.addEventListener('DOMContentLoaded', () => {
-  renderPage();
-  if (typeof updateI18nText === 'function') updateI18nText();
-});
-
-// ==== RE-RENDER ON LANGUAGE CHANGE ====
-document.addEventListener('languageChanged', () => {
-  renderPage();
-});
+// ===== RE-RENDER ON LANGUAGE CHANGE =====
+document.addEventListener('languageChanged', loadSousVide);
