@@ -9,7 +9,6 @@ const dataFiles = {
 
 // На главную
 function goHome() {
-  // Переходим в корень сайта
   location.href = location.origin + location.pathname.split('/')[1] + '/';
 }
 
