@@ -18,12 +18,8 @@ const DATA_FILE = 'data/preps.json';
 
 // ==== LOAD JSON ====
 function loadData(callback) {
-  const base = location.origin + location.pathname;
-  const folder = base.substring(0, base.lastIndexOf('/') + 1);
-  const fullPath = new URL(DATA_FILE, folder).href;
-
-  fetch(fullPath)
-    .then(r => r.ok ? r.json() : Promise.reject(r.status))
+  fetch(DATA_FILE)
+    .then(r => r.json())
     .then(j => callback(j))
     .catch(e => console.error('Preps load error:', e));
 }
@@ -37,11 +33,16 @@ function renderPreps(data) {
     const card = document.createElement('div');
     card.className = 'dish-card';
 
+    // ---- TITLE ----
     const title = document.createElement('div');
     title.className = 'dish-title';
-    title.textContent = dish.name?.[currentLang] || dish.name?.ru || dish.title;
+    title.textContent =
+      dish.name?.[window.currentLang] ||
+      dish.name?.ru ||
+      dish.title;
     card.appendChild(title);
 
+    // ---- TABLE ----
     const table = document.createElement('table');
     table.className = 'pf-table';
 
@@ -49,9 +50,9 @@ function renderPreps(data) {
     const tbody = document.createElement('tbody');
 
     const headers =
-      currentLang === 'ru'
+      window.currentLang === 'ru'
         ? ['#', 'Продукт', 'Гр/шт', 'Описание']
-        : currentLang === 'vi'
+        : window.currentLang === 'vi'
           ? ['#', 'Nguyên liệu', 'Gr/Pcs', 'Cách làm']
           : ['#', 'Ingredient', 'Gr/Pcs', 'Process'];
 
@@ -63,6 +64,7 @@ function renderPreps(data) {
     });
     thead.appendChild(trHead);
 
+    // ---- ROWS ----
     dish.ingredients.forEach((ing, i) => {
       const tr = document.createElement('tr');
 
@@ -71,11 +73,9 @@ function renderPreps(data) {
 
       const tdName = document.createElement('td');
       tdName.textContent =
-        currentLang === 'ru'
+        window.currentLang === 'ru'
           ? ing['Продукт']
-          : currentLang === 'vi'
-            ? ing['Ingredient_vi'] || ing['Ingredient'] || ing['Продукт']
-            : ing['Ingredient'] || ing['Продукт'];
+          : ing['Ingredient'] || ing['Продукт'];
 
       const tdAmount = document.createElement('td');
       tdAmount.textContent = ing['Шт/гр'];
@@ -111,9 +111,13 @@ function renderPreps(data) {
       tr.appendChild(tdName);
       tr.appendChild(tdAmount);
 
+      // ---- DESCRIPTION ----
       if (i === 0) {
         const tdDesc = document.createElement('td');
-        tdDesc.textContent = dish.process?.[currentLang] || dish.process?.ru || '';
+        tdDesc.textContent =
+          dish.process?.[window.currentLang] ||
+          dish.process?.ru ||
+          '';
         tdDesc.rowSpan = dish.ingredients.length;
         tr.appendChild(tdDesc);
       }
@@ -133,12 +137,9 @@ function renderPage() {
   loadData(renderPreps);
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  renderPage();
-  if (typeof updateI18nText === 'function') updateI18nText();
-});
+document.addEventListener('DOMContentLoaded', renderPage);
 
-// ==== RE-RENDER ON LANGUAGE CHANGE ====
+// ==== LANGUAGE CHANGE ====
 document.addEventListener('languageChanged', () => {
   renderPage();
 });
