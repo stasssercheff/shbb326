@@ -6,6 +6,7 @@ function switchLanguage(lang) {
     // <-- изменено: единый ключ 'lang'
     localStorage.setItem('lang', lang);
 
+
     // Перевод заголовков разделов
     document.querySelectorAll('.section-title').forEach(title => {
         if (title.dataset[lang]) title.textContent = title.dataset[lang];
@@ -32,6 +33,23 @@ function switchLanguage(lang) {
     const sendBtn = document.getElementById('sendToTelegram');
     if (sendBtn && sendBtn.dataset[lang]) sendBtn.textContent = sendBtn.dataset[lang];
 }
+
+// На главную
+function goHome() {
+  // Переходим в корень сайта
+  location.href = location.origin + location.pathname.split('/')[1] + '/';
+}
+
+// На уровень выше (одну папку вверх)
+function goBack() {
+    const currentPath = window.location.pathname;
+    const parentPath = currentPath.substring(0, currentPath.lastIndexOf("/"));
+    const upperPath = parentPath.substring(0, parentPath.lastIndexOf("/"));
+    window.location.href = upperPath + "/index.html";
+}
+
+
+
 
 // ======================
 // Сохранение данных формы
