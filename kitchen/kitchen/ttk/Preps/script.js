@@ -1,7 +1,7 @@
-// ==== ТЕКУЩИЙ ЯЗЫК ====
+// ================== ТЕКУЩИЙ ЯЗЫК ==================
 window.currentLang = window.currentLang || 'ru';
 
-// ==== НАВИГАЦИЯ ====
+// ================== НАВИГАЦИЯ ==================
 function goHome() {
   location.href = location.origin + '/' + location.pathname.split('/')[1] + '/';
 }
@@ -13,10 +13,10 @@ function goBack() {
   location.href = upper + '/index.html';
 }
 
-// ==== DATA FILE ====
+// ================== DATA ==================
 const DATA_FILE = 'data/preps.json';
 
-// ==== LOAD JSON ====
+// ================== LOAD JSON ==================
 function loadData(callback) {
   fetch(DATA_FILE)
     .then(r => r.json())
@@ -24,9 +24,10 @@ function loadData(callback) {
     .catch(e => console.error('Preps load error:', e));
 }
 
-// ==== RENDER PREPS ====
+// ================== RENDER ==================
 function renderPreps(data) {
   const container = document.querySelector('.table-container');
+  if (!container) return;
   container.innerHTML = '';
 
   (data.recipes || data).forEach(dish => {
@@ -39,7 +40,8 @@ function renderPreps(data) {
     title.textContent =
       dish.name?.[window.currentLang] ||
       dish.name?.ru ||
-      dish.title;
+      dish.title ||
+      '';
     card.appendChild(title);
 
     // ---- TABLE ----
@@ -81,7 +83,7 @@ function renderPreps(data) {
       tdAmount.textContent = ing['Шт/гр'];
       tdAmount.dataset.base = ing['Шт/гр'];
 
-      // === ПЕРЕСЧЁТ ПО КЛЮЧЕВОМУ ===
+      // ---- КЛЮЧЕВОЙ ИНГРЕДИЕНТ ----
       if (ing['Продукт'] === dish.key) {
         tdAmount.contentEditable = true;
         tdAmount.classList.add('key-ingredient');
@@ -132,14 +134,21 @@ function renderPreps(data) {
   });
 }
 
-// ==== INIT ====
+// ================== INIT ==================
 function renderPage() {
   loadData(renderPreps);
 }
 
-document.addEventListener('DOMContentLoaded', renderPage);
-
-// ==== LANGUAGE CHANGE ====
-document.addEventListener('languageChanged', () => {
+document.addEventListener('DOMContentLoaded', () => {
   renderPage();
+
+  // 🔴 КЛЮЧЕВОЕ МЕСТО: ХУК В СМЕНУ ЯЗЫКА
+  if (typeof window.updateI18nText === 'function') {
+    const originalUpdate = window.updateI18nText;
+
+    window.updateI18nText = function () {
+      originalUpdate();
+      renderPage();
+    };
+  }
 });
