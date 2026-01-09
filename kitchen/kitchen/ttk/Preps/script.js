@@ -1,37 +1,33 @@
-// ================== ЯЗЫК ==================
+// ================== CURRENT LANGUAGE ==================
 window.currentLang = window.currentLang || 'ru';
 
-// ================== НАВИГАЦИЯ ==================
-function goHome() {
-  location.href = location.origin + '/' + location.pathname.split('/')[1] + '/';
-}
-
-function goBack() {
-  const path = location.pathname;
-  const parent = path.substring(0, path.lastIndexOf('/'));
-  const upper = parent.substring(0, parent.lastIndexOf('/'));
-  location.href = upper + '/index.html';
-}
-
-// ================== DATA ==================
+// ================== DATA FILE ==================
 const DATA_FILE = 'data/preps.json';
 
-// ================== LOAD JSON ==================
+// ================== LOAD DATA ==================
 async function loadData() {
-  const r = await fetch(DATA_FILE);
-  return r.json();
+  const res = await fetch(DATA_FILE);
+  return await res.json();
 }
 
 // ================== HELPERS ==================
-function ingredientName(ing) {
+function getIngredientName(ing) {
   if (window.currentLang === 'ru') return ing['Продукт'];
   if (window.currentLang === 'vi') return ing['Ingredient_vi'] || ing['Ingredient'] || ing['Продукт'];
   return ing['Ingredient'] || ing['Продукт'];
 }
 
-function headers() {
-  if (window.currentLang === 'ru') return ['#', 'Продукт', 'Гр/шт', 'Описание'];
-  if (window.currentLang === 'vi') return ['#', 'Nguyên liệu', 'Gr/Pcs', 'Cách làm'];
+function getProcessText(dish) {
+  return (
+    dish.process?.[window.currentLang] ||
+    dish.process?.ru ||
+    ''
+  );
+}
+
+function getHeaders() {
+  if (window.currentLang === 'ru') return ['#', 'Продукт', 'Гр/шт', 'Процесс'];
+  if (window.currentLang === 'vi') return ['#', 'Nguyên liệu', 'Gr/Pcs', 'Quy trình'];
   return ['#', 'Ingredient', 'Gr/Pcs', 'Process'];
 }
 
@@ -41,83 +37,116 @@ async function renderPage() {
   const container = document.querySelector('.table-container');
   container.innerHTML = '';
 
-  (data.recipes || data).forEach(dish => {
+  (data.recipes || []).forEach(dish => {
     const card = document.createElement('div');
     card.className = 'dish-card';
 
-    // TITLE
+    // ---------- TITLE ----------
     const title = document.createElement('div');
     title.className = 'dish-title';
     title.textContent =
       dish.name?.[window.currentLang] ||
       dish.name?.ru ||
-      dish.title ||
       '';
     card.appendChild(title);
 
-    // TABLE
+    // ---------- TABLE ----------
     const table = document.createElement('table');
     table.className = 'pf-table';
 
     const thead = document.createElement('thead');
-    const trh = document.createElement('tr');
-    headers().forEach(h => {
-      const th = document.createElement('th');
-      th.textContent = h;
-      trh.appendChild(th);
-    });
-    thead.appendChild(trh);
-
     const tbody = document.createElement('tbody');
 
-    dish.ingredients.forEach((ing, i) => {
+    // HEADERS
+    const trHead = document.createElement('tr');
+    getHeaders().forEach(h => {
+      const th = document.createElement('th');
+      th.textContent = h;
+      trHead.appendChild(th);
+    });
+    thead.appendChild(trHead);
+
+    // BASE VALUE OF KEY INGREDIENT
+    let keyBaseValue = null;
+
+    dish.ingredients.forEach(ing => {
+      if (ing['Продукт'] === dish.key) {
+        keyBaseValue = parseFloat(
+          String(ing['Шт/гр']).replace(',', '.')
+        );
+      }
+    });
+
+    // ROWS
+    dish.ingredients.forEach((ing, index) => {
       const tr = document.createElement('tr');
 
-      const tdN = document.createElement('td');
-      tdN.textContent = i + 1;
+      // №
+      const tdNum = document.createElement('td');
+      tdNum.textContent = index + 1;
 
+      // NAME
       const tdName = document.createElement('td');
-      tdName.textContent = ingredientName(ing);
+      tdName.textContent = getIngredientName(ing);
 
+      // AMOUNT
       const tdAmount = document.createElement('td');
-      tdAmount.textContent = ing['Шт/гр'];
-      tdAmount.dataset.base = ing['Шт/гр'];
+      const baseValue = parseFloat(
+        String(ing['Шт/гр']).replace(',', '.')
+      );
 
-      // === ПЕРЕСЧЁТ ===
+      tdAmount.textContent = ing['Шт/гр'];
+      tdAmount.dataset.base = baseValue;
+
+      // KEY INGREDIENT (EDITABLE)
       if (ing['Продукт'] === dish.key) {
         tdAmount.contentEditable = true;
         tdAmount.classList.add('key-ingredient');
 
         tdAmount.addEventListener('input', () => {
-          const newVal = parseFloat(tdAmount.textContent.replace(',', '.')) || 0;
-          const baseVal = parseFloat(tdAmount.dataset.base.replace(',', '.')) || 1;
-          const factor = newVal / baseVal;
+          const newVal = parseFloat(
+            tdAmount.textContent.replace(',', '.')
+          );
+          if (!newVal || !keyBaseValue) return;
 
-          tbody.querySelectorAll('tr').forEach(r => {
-            const cell = r.cells[2];
+          const factor = newVal / keyBaseValue;
+
+          tbody.querySelectorAll('tr').forEach(row => {
+            const cell = row.cells[2];
             if (!cell || cell === tdAmount) return;
-            const base = parseFloat(cell.dataset.base.replace(',', '.')) || 0;
-            cell.textContent = Math.round(base * factor);
+
+            const base = parseFloat(cell.dataset.base);
+            if (isNaN(base)) return;
+
+            const result = Math.round(base * factor * 100) / 100;
+            cell.textContent = result;
           });
+        });
+
+        tdAmount.addEventListener('keydown', e => {
+          if (!/[0-9.,]|Backspace|Delete|ArrowLeft|ArrowRight/.test(e.key)) {
+            e.preventDefault();
+          }
         });
       }
 
-      tr.append(tdN, tdName, tdAmount);
+      tr.appendChild(tdNum);
+      tr.appendChild(tdName);
+      tr.appendChild(tdAmount);
 
-      if (i === 0) {
-        const tdDesc = document.createElement('td');
-        tdDesc.rowSpan = dish.ingredients.length;
-        tdDesc.textContent =
-          dish.process?.[window.currentLang] ||
-          dish.process?.ru ||
-          '';
-        tr.appendChild(tdDesc);
+      // PROCESS (ONE CELL)
+      if (index === 0) {
+        const tdProcess = document.createElement('td');
+        tdProcess.textContent = getProcessText(dish);
+        tdProcess.rowSpan = dish.ingredients.length;
+        tr.appendChild(tdProcess);
       }
 
       tbody.appendChild(tr);
     });
 
-    table.append(thead, tbody);
+    table.appendChild(thead);
+    table.appendChild(tbody);
     card.appendChild(table);
     container.appendChild(card);
   });
@@ -126,7 +155,7 @@ async function renderPage() {
 // ================== INIT ==================
 document.addEventListener('DOMContentLoaded', renderPage);
 
-// ================== LANGUAGE CHANGE ==================
+// ================== LANGUAGE SWITCH (NO RELOAD) ==================
 document.addEventListener('languageChanged', () => {
   renderPage();
 });
