@@ -98,6 +98,54 @@
       ],
       "process": [
         {
+          "range": [1, 1],
+          "ru": "После завершения остудить в холодной воде.",
+          "en": "Cool in cold water after cooking.",
+          "vi": "Sau khi hoàn thành, làm nguội trong nước lạnh."
+        },
+        {
+          "range": [2, 2],
+          "ru": "После завершения остудить в холодной воде.",
+          "en": "Cool in cold water after cooking.",
+          "vi": "Sau khi hoàn thành, làm nguội trong nước lạnh."
+        },
+        {
+          
+          "range": [3, 3],
+          "ru": "После завершения остудить в холодной воде.",
+          "en": "Cool in cold water after cooking.",
+          "vi": "Sau khi hoàn thành, làm nguội trong nước lạnh."
+        },
+        {
+          
+          "range": [4, 4],
+          "ru": "После завершения остудить в холодной воде.",
+          "en": "Cool in cold water after cooking.",
+          "vi": "Sau khi hoàn thành, làm nguội trong nước lạnh."
+        },
+        {
+          
+          "range": [5, 5],
+          "ru": "После завершения остудить в холодной воде.",
+          "en": "Cool in cold water after cooking.",
+          "vi": "Sau khi hoàn thành, làm nguội trong nước lạnh."
+        },
+        {
+          
+          "range": [6, 6],
+          "ru": "После завершения остудить в холодной воде.",
+          "en": "Cool in cold water after cooking.",
+          "vi": "Sau khi hoàn thành, làm nguội trong nước lạnh."
+        },
+        {
+          
+          "range": [7, 7],
+          "ru": "После завершения остудить в холодной воде.",
+          "en": "Cool in cold water after cooking.",
+          "vi": "Sau khi hoàn thành, làm nguội trong nước lạnh."
+        },
+        {
+          
           "range": [1, 7],
           "ru": "После завершения остудить в холодной воде.",
           "en": "Cool in cold water after cooking.",
