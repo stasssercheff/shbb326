@@ -50,7 +50,7 @@ function renderPreps(data) {
     // ---- TITLE ----
     const title = document.createElement("div");
     title.className = "dish-title";
-    title.textContent = dish.name?.[lang] || dish.name?.ru || "";
+    title.textContent = dish.name?.[lang] || dish.name?.ru || dish.title || "";
     card.appendChild(title);
 
     // ---- TABLE ----
@@ -95,13 +95,13 @@ function renderPreps(data) {
       tdAmount.textContent = ing["Шт/гр"];
       tdAmount.dataset.base = ing["Шт/гр"];
 
-      // ==== KEY INGREDIENT ====
+      // ==== KEY INGREDIENT (ПЕРЕСЧЁТ) ====
       if (ing["Продукт"] === dish.key) {
         tdAmount.contentEditable = true;
         tdAmount.classList.add("key-ingredient");
 
         tdAmount.addEventListener("input", () => {
-          const newVal = parseFloat(tdAmount.textContent) || 0;
+          const newVal = parseFloat(tdAmount.textContent.replace(/[^0-9.]/g, "")) || 0;
           const baseVal = parseFloat(tdAmount.dataset.base) || 1;
           const factor = newVal / baseVal;
 
@@ -113,6 +113,12 @@ function renderPreps(data) {
             }
           });
         });
+
+        tdAmount.addEventListener("keydown", e => {
+          if (!/[0-9]|Backspace|Delete|ArrowLeft|ArrowRight/.test(e.key)) {
+            e.preventDefault();
+          }
+        });
       }
 
       tr.appendChild(tdNum);
@@ -122,7 +128,10 @@ function renderPreps(data) {
       // DESCRIPTION
       if (i === 0) {
         const tdDesc = document.createElement("td");
-        tdDesc.textContent = dish.process?.[lang] || dish.process?.ru || "";
+        tdDesc.textContent =
+          dish.process?.[lang] ||
+          dish.process?.ru ||
+          "";
         tdDesc.rowSpan = dish.ingredients.length;
         tr.appendChild(tdDesc);
       }
@@ -130,17 +139,22 @@ function renderPreps(data) {
       tbody.appendChild(tr);
     });
 
-    table.appendChild(thead);
-    table.appendChild(tbody);
+    table.append(thead, tbody);
     card.appendChild(table);
     container.appendChild(card);
   });
 }
 
 // ================== INIT ==================
-document.addEventListener("DOMContentLoaded", loadData);
+document.addEventListener("DOMContentLoaded", () => {
+  loadData();
 
-// ================== LANGUAGE CHANGE ==================
-document.addEventListener("languageChanged", () => {
-  if (cachedData) renderPreps(cachedData);
+  // 🔴 ВАЖНО: перерисовка при смене языка
+  document.querySelectorAll(".lang-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      setTimeout(() => {
+        if (cachedData) renderPreps(cachedData);
+      }, 0);
+    });
+  });
 });
