@@ -7,7 +7,7 @@ function goHome() {
 }
 
 window.goBack = function () {
-  // простая относительная ссылка назад
+  // простая относительная ссылка назад 
   window.location.href = "../index.html";
 };
 
