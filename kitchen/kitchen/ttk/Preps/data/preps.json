@@ -109,7 +109,7 @@
     "en": "TARTARE SAUCE",
     "vi": "SỐT TARTAR"
   },
-  "key": "Майонез",
+  "key": "Огурец маринованый",
   "ingredients": [
     { "№": 1, "Продукт": "Майонез", "Ingredient": "Mayonnaise", "Ingredient_vi": "Sốt mayonnaise", "Шт/гр": "180" },
     { "№": 2, "Продукт": "Огурец маринованый", "Ingredient": "Pickled cucumber", "Ingredient_vi": "Dưa leo muối chua", "Шт/гр": "30" },
@@ -189,7 +189,7 @@
     "en": "VINAIGRETTE SAUCE",
     "vi": "SỐT VINAIGRETTE"
   },
-  "key": "Масло растительное",
+  "key": "Соус бальзамик",
   "ingredients": [
     { "№": 1, "Продукт": "Масло растительное", "Ingredient": "Vegetable oil", "Ingredient_vi": "Dầu thực vật", "Шт/гр": "500" },
     { "№": 2, "Продукт": "Соус бальзамик", "Ingredient": "Balsamic sauce", "Ingredient_vi": "Sốt balsamic", "Шт/гр": "30" },
@@ -419,6 +419,8 @@
     "vi": "Băm nhỏ lá hương thảo, trộn với muối, tiêu, đường và dầu tỏi. Rửa sạch cà chua, cắt đôi. Trộn cà chua với hỗn hợp gia vị và dầu, để nghỉ 5–10 phút. Xếp cà chua úp mặt cắt lên trên khay có lót giấy nến, tách khỏi phần nước. Nướng 2–3 giờ ở 145°C. Để nguội, xay nhuyễn và chia vào các túi hút chân không nhỏ."
   }
 },
+
+    
 {
   "name": {
     "ru": "ПФ РАТАТУЙ",
@@ -466,6 +468,7 @@
     "vi": "Làm sạch và cắt nấm. Xào với muối và tiêu. Thêm bột nước dùng nấm khô và kem, đun sôi. Cho ức gà cắt nhỏ và sốt Béchamel vào, trộn đều đến mịn. Chia theo khẩu phần."
   }
 },
+    
 {
   "name": {
     "ru": "ПФ БЕШАМЕЛЬ",
