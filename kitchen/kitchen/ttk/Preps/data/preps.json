@@ -8,7 +8,8 @@
     "vi": "BỘT PANCAKE"
   },
   "key": "Яйцо",
-  "ingredients": [
+  "enabled": true,       
+     "ingredients": [ 
     { "№": 1, "Продукт": "Яйцо", "Ingredient": "Egg", "Ingredient_vi": "Trứng", "Шт/гр": "1" },
     { "№": 2, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "125" },
     { "№": 3, "Продукт": "Молоко", "Ingredient": "Milk", "Ingredient_vi": "Sữa", "Шт/гр": "165" },
@@ -31,7 +32,8 @@
     "vi": "BÁNH PHÔ MAI CHIÊN"
   },
   "key": "Творог",
-  "ingredients": [
+  "enabled": true,    
+  "ingredients": [ 
     { "№": 1, "Продукт": "Творог", "Ingredient": "Cottage cheese", "Ingredient_vi": "Phô mai tươi", "Шт/гр": "1000" },
     { "№": 2, "Продукт": "Манка", "Ingredient": "Semolina", "Ingredient_vi": "Bột semolina", "Шт/гр": "100" },
     { "№": 3, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "2", "Описание": "" },
@@ -53,7 +55,8 @@
     "vi": "SỐT PHÔ MAI KEM SƠ CHẾ"
   },
   "key": "Сыр Кремчиз",
-  "ingredients": [
+  "enabled": true,       
+  "ingredients": [ 
     { "№": 1, "Продукт": "Сыр Кремчиз", "Ingredient": "Cheese Cream cheese", "Ingredient_vi": "Phô mai kem", "Шт/гр": "200" },
     { "№": 2, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "300" },
     { "№": 3, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1" }
@@ -71,7 +74,8 @@
     "vi": "SỐT BÒ SƠ CHẾ"
   },
   "key": "ПФ Сыр Кремчиз",
-  "ingredients": [
+  "enabled": true,        
+  "ingredients": [ 
     { "№": 1, "Продукт": "ПФ Сыр Кремчиз", "Ingredient": "Cream cheese", "Ingredient_vi": "Phô mai kem sơ chế", "Шт/гр": "50" },
     { "№": 2, "Продукт": "ПФ вяленые томаты", "Ingredient": "Prep sun-dried tomatoes", "Ingredient_vi": "Cà chua sấy khô sơ chế", "Шт/гр": "5" },
     { "№": 3, "Продукт": "Порций", "Ingredient": "Portions", "Ingredient_vi": "Khẩu phần", "Шт/гр": "1" }
@@ -90,7 +94,8 @@
     "vi": "PA TÊ CÁ HỒI VÂN"
   },
   "key": "ПФ Форель",
-  "ingredients": [
+  "enabled": true,       
+      "ingredients": [ 
     { "№": 1, "Продукт": "ПФ Форель", "Ingredient": "Prep Trout", "Ingredient_vi": "Cá hồi vân sơ chế", "Шт/гр": "1000" },
     { "№": 2, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "600" },
     { "№": 3, "Продукт": "Силивки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "300" },
@@ -110,7 +115,8 @@
     "vi": "SỐT TARTAR"
   },
   "key": "Огурец маринованый",
-  "ingredients": [
+  "enabled": true,       
+  "ingredients": [ 
     { "№": 1, "Продукт": "Майонез", "Ingredient": "Mayonnaise", "Ingredient_vi": "Sốt mayonnaise", "Шт/гр": "180" },
     { "№": 2, "Продукт": "Огурец маринованый", "Ingredient": "Pickled cucumber", "Ingredient_vi": "Dưa leo muối chua", "Шт/гр": "30" },
     { "№": 3, "Продукт": "Каперсы", "Ingredient": "Capers", "Ingredient_vi": "Quả bạch hoa muối (capers)", "Шт/гр": "10" },
@@ -130,7 +136,8 @@
     "vi": "SỐT CHO CÁ HỒI VÂN (STEAK)"
   },
   "key": "ПФ Сок маракуйя",
-  "ingredients": [
+  "enabled": true,       
+  "ingredients": [ 
     { "№": 1, "Продукт": "ПФ Сок маракуйя", "Ingredient": "Passion fruit juice", "Ingredient_vi": "Nước chanh dây sơ chế", "Шт/гр": "50" },
     { "№": 2, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "200" },
     { "№": 3, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "15" },
@@ -152,7 +159,8 @@
     "vi": "CÁ HỒI VÂN MUỐI"
   },
   "key": "Форель",
-  "ingredients": [
+  "enabled": true,       
+  "ingredients": [ 
     { "№": 1, "Продукт": "Форель", "Ingredient": "Trout", "Ingredient_vi": "Cá hồi vân", "Шт/гр": "100" },
     { "№": 2, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "4" },
     { "№": 3, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "4" }
@@ -171,7 +179,8 @@
     "vi": "SỐT CAM QUÝT (SALAD GAN)"
   },
   "key": "Пф апельсин фреш",
-  "ingredients": [
+  "enabled": true,       
+      "ingredients": [ 
     { "№": 1, "Продукт": "Пф апельсин фреш", "Ingredient": "Pf orange fresh", "Ingredient_vi": "Nước cam tươi sơ chế", "Шт/гр": "110" },
     { "№": 2, "Продукт": "Масло растительное", "Ingredient": "Vegetable oil", "Ingredient_vi": "Dầu thực vật", "Шт/гр": "90" },
     { "№": 3, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1" },
@@ -190,7 +199,8 @@
     "vi": "SỐT VINAIGRETTE"
   },
   "key": "Соус бальзамик",
-  "ingredients": [
+  "enabled": true,       
+  "ingredients": [ 
     { "№": 1, "Продукт": "Масло растительное", "Ingredient": "Vegetable oil", "Ingredient_vi": "Dầu thực vật", "Шт/гр": "500" },
     { "№": 2, "Продукт": "Соус бальзамик", "Ingredient": "Balsamic sauce", "Ingredient_vi": "Sốt balsamic", "Шт/гр": "30" },
     { "№": 3, "Продукт": "Уксус", "Ingredient": "Vinegar", "Ingredient_vi": "Giấm", "Шт/гр": "10" }
@@ -208,7 +218,8 @@
     "vi": "SỐT ỚT CHUÔNG NƯỚNG"
   },
   "key": "ПФ Перец болгарский",
-  "ingredients": [
+  "enabled": true,      
+  "ingredients": [ 
     { "№": 1, "Продукт": "ПФ Перец болгарский", "Ingredient": "Prep Bell pepper", "Ingredient_vi": "Ớt chuông sơ chế", "Шт/гр": "1250" },
     { "№": 2, "Продукт": "Помидор", "Ingredient": "Tomato", "Ingredient_vi": "Cà chua", "Шт/гр": "415" },
     { "№": 3, "Продукт": "Лук красный", "Ingredient": "Red onion", "Ingredient_vi": "Hành tím", "Шт/гр": "480" },
@@ -231,7 +242,8 @@
     "vi": "SỐT HOLLANDAISE"
   },
   "key": "Яйцо(желток)",
-  "ingredients": [
+  "enabled": true,      
+  "ingredients": [ 
     { "№": 1, "Продукт": "Яйцо(желток)", "Ingredient": "Egg (yolk)", "Ingredient_vi": "Lòng đỏ trứng", "Шт/гр": "3" },
     { "№": 2, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "40" },
     { "№": 3, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1" },
@@ -251,7 +263,8 @@
     "vi": "HỖN HỢP CÁ NGỪ"
   },
   "key": "Тунец консерв.",
-  "ingredients": [
+  "enabled": true,      
+  "ingredients": [ 
     { "№": 1, "Продукт": "Тунец консерв.", "Ingredient": "Tuna in can", "Ingredient_vi": "Cá ngừ đóng hộp", "Шт/гр": "1" },
     { "№": 2, "Продукт": "Кукуруза консерв.", "Ingredient": "Corn in can", "Ingredient_vi": "Bắp ngọt đóng hộp", "Шт/гр": "1" },
     { "№": 3, "Продукт": "Майонез", "Ingredient": "Mayonnaise", "Ingredient_vi": "Sốt mayonnaise", "Шт/гр": "150" },
@@ -273,7 +286,8 @@
     "vi": "CHÁO NGŨ CỐC"
   },
   "key": "Пшенка",
-  "ingredients": [
+  "enabled": true,      
+  "ingredients": [ 
     { "№": 1, "Продукт": "Пшенка", "Ingredient": "Millet", "Ingredient_vi": "Kê", "Шт/гр": "70" },
     { "№": 2, "Продукт": "Рис", "Ingredient": "Rice", "Ingredient_vi": "Gạo", "Шт/гр": "70" },
     { "№": 3, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "33" },
@@ -295,7 +309,8 @@
     "vi": "PATE GAN"
   },
   "key": "ПФ Печень",
-  "ingredients": [
+  "enabled": true,       
+  "ingredients": [ 
     { "№": 1, "Продукт": "ПФ Печень", "Ingredient": "Prep Liver", "Ingredient_vi": "Gan sơ chế", "Шт/гр": "545" },
     { "№": 2, "Продукт": "ПФ овощи стафф", "Ingredient": "PF vegetables staff", "Ingredient_vi": "Rau củ sơ chế", "Шт/гр": "165" },
     { "№": 3, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "3" },
@@ -316,7 +331,8 @@
     "vi": "NƯỚC DÙNG BISQUE TÔM"
   },
   "key": "Шелуха креветок",
-  "ingredients": [
+  "enabled": true,      
+  "ingredients": [ 
     { "№": 1, "Продукт": "Шелуха креветок", "Ingredient": "Shrimp shells", "Ingredient_vi": "Vỏ tôm", "Шт/гр": "5000" },
     { "№": 2, "Продукт": "ПФ овощи", "Ingredient": "Vegetable PF", "Ingredient_vi": "Rau củ sơ chế", "Шт/гр": "1000" },
     { "№": 3, "Продукт": "Вода", "Ingredient": "Water", "Ingredient_vi": "Nước", "Шт/гр": "9000" },
@@ -337,7 +353,8 @@
     "vi": "SÚP BÔNG CẢI XANH"
   },
   "key": "ПФ Брокколи",
-  "ingredients": [
+  "enabled": true,       
+  "ingredients": [ 
     { "№": 1, "Продукт": "ПФ Брокколи", "Ingredient": "Prep Broccoli", "Ingredient_vi": "Bông cải xanh sơ chế", "Шт/гр": "1000" },
     { "№": 2, "Продукт": "ПФ Картофель", "Ingredient": "Prep potatoes", "Ingredient_vi": "Khoai tây sơ chế", "Шт/гр": "300" },
     { "№": 3, "Продукт": "Вода", "Ingredient": "Water", "Ingredient_vi": "Nước", "Шт/гр": "1600" },
@@ -362,7 +379,8 @@
     "vi": "SÚP BÍ ĐỎ"
   },
   "key": "ПФ тыква",
-  "ingredients": [
+  "enabled": true,       
+      "ingredients": [ 
     { "№": 1, "Продукт": "ПФ тыква", "Ingredient": "Prep pumpkin", "Шт/гр": "3800" },
     { "№": 2, "Продукт": "Мед", "Ingredient": "Honey", "Шт/гр": "300" },
     { "№": 3, "Продукт": "Розмарин", "Ingredient": "Rosemary", "Шт/гр": "20" },
@@ -385,7 +403,8 @@
     "vi": "SƠ CHẾ RAU BINA"
   },
   "key": "ПФ Шпинат",
-  "ingredients": [
+  "enabled": true,      
+  "ingredients": [ 
     { "№": 1, "Продукт": "ПФ Шпинат", "Ingredient": "Prep spinach", "Шт/гр": "4000" },
     { "№": 2, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "5" },
     { "№": 3, "Продукт": "ПФ Чесночное масло", "Ingredient": "Prep garlic oil", "Шт/гр": "10" },
@@ -405,7 +424,8 @@
     "vi": "SƠ CHẾ CÀ CHUA SẤY"
   },
   "key": "ПФ Вяленые томаты",
-  "ingredients": [
+  "enabled": true,       
+  "ingredients": [ 
     { "№": 1, "Продукт": "Томаты черри", "Ingredient": "Red cherry tomatoes", "Шт/гр": "1000" },
     { "№": 2, "Продукт": "ПФ Чесночное масло", "Ingredient": "Prep garlic oil", "Шт/гр": "50" },
     { "№": 3, "Продукт": "Розмарин", "Ingredient": "Rosemary", "Шт/гр": "15" },
@@ -428,7 +448,8 @@
     "vi": "SƠ CHẾ RATATOUILLE"
   },
   "key": "Порции",
-  "ingredients": [
+  "enabled": false,       
+  "ingredients": [ 
     { "№": 1, "Продукт": "Порции", "Ingredient": "Portions", "Шт/гр": "5,8" },
     { "№": 2, "Продукт": "Цуккини", "Ingredient": "Zucchini", "Шт/гр": "400" },
     { "№": 3, "Продукт": "Баклажан", "Ingredient": "Eggplant", "Шт/гр": "500" },
@@ -452,7 +473,8 @@
     "vi": "SƠ CHẾ JULIENNE"
   },
   "key": "Шампиньоны",
-  "ingredients": [
+  "enabled": false,      
+  "ingredients": [ 
     { "№": 1, "Продукт": "Шампиньоны", "Ingredient": "Champignons", "Шт/гр": "1200" },
     { "№": 2, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "15" },
     { "№": 3, "Продукт": "Бульон сухой грибной", "Ingredient": "Dried mushroom broth", "Шт/гр": "80" },
@@ -476,7 +498,8 @@
     "vi": "SƠ CHẾ SỐT BÉCHAMEL"
   },
   "key": "Количество",
-  "ingredients": [
+  "enabled": false,       
+  "ingredients": [ 
     { "№": 1, "Продукт": "Количество", "Ingredient": "Total", "Шт/гр": "100" },
     { "№": 2, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "10" },
     { "№": 3, "Продукт": "Молоко", "Ingredient": "Milk", "Шт/гр": "100" },
@@ -497,7 +520,8 @@
     "vi": "BÁNH BRIOCHE"
   },
   "key": "Буханка",
-  "ingredients": [
+  "enabled": false,      
+      "ingredients": [ 
     { "№": 1, "Продукт": "Буханка", "Ingredient": "Loaf", "Шт/гр": "1" },
     { "№": 2, "Продукт": "Яйцо(желток)", "Ingredient": "Egg (yolk)", "Шт/гр": "1" },
     { "№": 3, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "525" },
