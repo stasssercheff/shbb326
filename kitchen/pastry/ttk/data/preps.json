@@ -707,7 +707,9 @@
   }
 },
     {
-  "name": { "ru": "КАПКЕЙК ГОЛУБИКА", "en": "BLUEBERRY CUPCAKE" },
+  "name": { 
+    "ru": "КАПКЕЙК ГОЛУБИКА", 
+    "en": "BLUEBERRY CUPCAKE" },
   "key": "Капкейк шт.",
   "ingredients": [
     { "№": 1, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "1" },
@@ -725,8 +727,31 @@
     "ru": "Разогреть духовку до 204 °C. Из этого рецепта получается примерно 10 кексов по 66г (в зависимости от размера формы).\nВ небольшой миске смешать чернику с мукой, чтобы она равномерно покрылась, и положить её в морозилку.\nСухие ингредиенты объединить венчиком до однородной массы.\nЖидкие ингредиенты взбить до однородности (кроме черники), добавить к мучной смеси и перемешать до однородности. Не перемешивать слишком долго.\nДобавить посыпанную мукой чернику и перемешать тесто до однородной массы. Распределить тесто по формочкам для кексов. Каждая полость должна быть заполнена на три четверти (66г).\nВыпекать кексы 25–30 минут. Они готовы, когда зубочистка, воткнутая в центр кекса, выходит без жидкого теста.\nОстудить кексы.\nХранить кексы в герметичном контейнере при комнатной температуре до 1 дня или в холодильнике до 3-4 дней. Дать кексам нагреться до комнатной температуры перед подачей. Кексы хорошо замораживаются и хранятся в морозилке 1 месяц.",
     "en": "Preheat the oven to 204°C (400°F). This recipe yields approximately 10 cupcakes weighing 66g each (depending on the mold size).\nIn a small bowl, toss the blueberries with flour until evenly coated and place them in the freezer.\nWhisk the dry ingredients together until homogeneous.\nWhisk the liquid ingredients (except blueberries) until homogeneous, add to the flour mixture, and mix until just combined. Do not overmix.\nAdd the floured blueberries and mix the batter until evenly distributed. Distribute the batter among the cupcake molds. Each cavity should be filled three-quarters full (66g).\nBake the cupcakes for 25–30 minutes. They are ready when a toothpick inserted into the center of a cupcake comes out clean without liquid batter.\nLet the cupcakes cool.\nStore the cupcakes in an airtight container at room temperature for up to 1 day or in the refrigerator for up to 3-4 days. Let the cupcakes warm to room temperature before serving. Cupcakes freeze well and can be stored in the freezer for 1 month."
   }
+},
+      {
+  "name": {
+    "ru": "БРИОШ",
+    "en": "BRIOCHE",
+    "vi": "BÁNH BRIOCHE"
+  },
+  "key": "Буханка",
+  "enabled": false,      
+      "ingredients": [ 
+    { "№": 1, "Продукт": "Буханка", "Ingredient": "Loaf", "Шт/гр": "1" },
+    { "№": 2, "Продукт": "Яйцо(желток)", "Ingredient": "Egg (yolk)", "Шт/гр": "1" },
+    { "№": 3, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "525" },
+    { "№": 4, "Продукт": "Молоко", "Ingredient": "Milk", "Шт/гр": "380" },
+    { "№": 5, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "8" },
+    { "№": 6, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "45" },
+    { "№": 7, "Продукт": "Дрожи", "Ingredient": "Yeast", "Шт/гр": "10" },
+    { "№": 8, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "60" }
+  ],
+  "process": {
+    "ru": "Замешать молоко, желтки, дрожжи, сахар и соль в емкости. Пробить блендером. Просеять муку в дежу/миску. Влить замес, замесить тесто. После получения однородной тугой массы ввести холодное нарубленое сливочное масло. Замесить тесто до однородной текстуры(не долго)и оставить вызревать до увеличения объема в 2 раза под пленкой.После увеличения теста, обмять и повторно оставить на вызревание. После очередного увеличения теста, обмять выложить в формы, накрыть, дать созреть.Выпекать при температуре 200 гр при конвекции 35 20 мин, после понизить температуру до 190, конвекцию до 25 и отпекать еще 40 минут.",
+    "en": "Mix milk, yolks, yeast, sugar and salt in a container. Beat with a blender. Sift flour into a bowl. Pour in the mixture, knead the dough. After obtaining a homogeneous tight mass, add cold chopped butter. Knead the dough until a homogeneous texture (not long) and leave to mature until the volume doubles under the film. After the dough has increased, knead and leave to mature again. After the dough has increased again, knead, put it in molds, cover, let it mature. Bake at a temperature of 200 degrees with convection 35 for 20 minutes, then reduce the temperature to 190, convection to 25 and bake for another 40 minutes.",
+    "vi": "Trộn sữa, lòng đỏ trứng, men, đường và muối trong một dụng cụ. Xay bằng máy xay cầm tay. Rây bột mì vào cối/máy trộn hoặc tô. Đổ hỗn hợp lỏng vào và nhồi bột. Khi bột đạt trạng thái đồng nhất và khá dai, cho bơ lạnh đã băm nhỏ vào. Nhồi ngắn đến khi bột mịn đồng đều, sau đó phủ kín và để ủ đến khi thể tích tăng gấp đôi. Khi bột nở, đấm xẹp và tiếp tục ủ lần hai. Sau khi bột nở lại, đấm xẹp, cho vào khuôn, đậy kín và để bột nở lần cuối. Nướng ở 200°C, chế độ đối lưu 35 trong 20 phút, sau đó hạ nhiệt xuống 190°C, đối lưu 25 và nướng thêm 40 phút."
+  }
 }
-
 
 ]
 }
