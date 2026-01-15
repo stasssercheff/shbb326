@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const dateEl = document.getElementById("current-date");
   if (dateEl) {
     const today = new Date();
-    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }; 
     dateEl.textContent = today.toLocaleDateString(localStorage.getItem("lang") || "ru", options);
   }
 });
