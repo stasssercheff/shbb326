@@ -245,7 +245,7 @@
   "enabled": true,      
   "ingredients": [ 
     { "№": 1, "Продукт": "Яйцо(желток)", "Ingredient": "Egg (yolk)", "Ingredient_vi": "Lòng đỏ trứng", "Шт/гр": "3" },
-    { "№": 2, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "40" },
+    { "№": 2, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "35" },
     { "№": 3, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1" },
     { "№": 4, "Продукт": "ПФ Сок лайма", "Ingredient": "PF Lime juice", "Ingredient_vi": "Nước cốt chanh xanh sơ chế", "Шт/гр": "4" },
     { "№": 5, "Продукт": "Вода(кипяченая)", "Ingredient": "Boiled water", "Ingredient_vi": "Nước đun sôi", "Шт/гр": "20" }
