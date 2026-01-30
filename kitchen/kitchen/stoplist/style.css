@@ -18,7 +18,7 @@ h1[data-i18n] {
 .checklist-item {
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: flex-start; /* ← ВАЖНО */
     background-color: #f9f7f2;
     padding: 6px 8px;
     border-radius: 6px;
