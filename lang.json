@@ -3196,7 +3196,129 @@
     "ru": "Упаковка скрембл",
     "en": "Scramble packaging",
     "vi": "Hộp trứng khuấy (scramble)"
+  },
+  {
+  "croque_madame_mozzarella": {
+    "ru": "Крок мадам с моцареллой",
+    "en": "Croque madame with mozzarella",
+    "vi": "Croque madame với phô mai mozzarella"
+  },
+  "pancakes_seasonal_fruits": {
+    "ru": "Пэнкейки с сезонными фруктами и соусами",
+    "en": "Pancakes with seasonal fruits and sauces",
+    "vi": "Bánh pancake với trái cây theo mùa và sốt"
+  },
+  "yogurt_bowl": {
+    "ru": "Йогурт боул",
+    "en": "Yogurt bowl",
+    "vi": "Tô sữa chua"
+  },
+  "scrambled_eggs_salmon_rillettes": {
+    "ru": "Скрэмбл с риетом из красной рыбы",
+    "en": "Scrambled eggs with salmon rillettes",
+    "vi": "Trứng khuấy với rillettes cá hồi"
+  },
+  "eggs_benedict_trout": {
+    "ru": "Яйца бенедикт с форелью",
+    "en": "Eggs Benedict with trout",
+    "vi": "Trứng Benedict với cá hồi vân"
+  },
+  "syrniki": {
+    "ru": "Сырники",
+    "en": "Cottage cheese pancakes",
+    "vi": "Bánh phô mai tươi"
+  },
+  "fried_eggs_bacon": {
+    "ru": "Глазунья с беконом",
+    "en": "Fried eggs with bacon",
+    "vi": "Trứng ốp la với thịt xông khói"
+  },
+  "fried_eggs_salmon": {
+    "ru": "Глазунья с красной рыбой",
+    "en": "Fried eggs with salmon",
+    "vi": "Trứng ốp la với cá hồi"
+  },
+  "friendship_porridge": {
+    "ru": "Каша дружба",
+    "en": "Friendship porridge",
+    "vi": "Cháo ngũ cốc hỗn hợp"
+  },
+  "avocado_toast": {
+    "ru": "Аво-тост",
+    "en": "Avocado toast",
+    "vi": "Bánh mì nướng bơ"
+  },
+  "vegetable_salad": {
+    "ru": "Овощной салат",
+    "en": "Vegetable salad",
+    "vi": "Salad rau củ"
+  },
+  "warm_liver_salad": {
+    "ru": "Теплый салат с печенью",
+    "en": "Warm liver salad",
+    "vi": "Salad gan ấm"
+  },
+  "beef_tartare": {
+    "ru": "Тартар из мраморной говядины",
+    "en": "Marbled beef tartare",
+    "vi": "Thịt bò marble tartare"
+  },
+  "shrimp_salad": {
+    "ru": "Салат с креветками",
+    "en": "Shrimp salad",
+    "vi": "Salad tôm"
+  },
+  "octopus_salad": {
+    "ru": "Салат с осьминогом",
+    "en": "Octopus salad",
+    "vi": "Salad bạch tuộc"
+  },
+  "baked_camembert": {
+    "ru": "Запеченный камамбер",
+    "en": "Baked camembert",
+    "vi": "Phô mai camembert nướng"
+  },
+  "pumpkin_cream_soup": {
+    "ru": "Крем-суп тыквенный",
+    "en": "Pumpkin cream soup",
+    "vi": "Súp kem bí đỏ"
+  },
+  "broccoli_cream_soup": {
+    "ru": "Крем-суп брокколи",
+    "en": "Broccoli cream soup",
+    "vi": "Súp kem bông cải xanh"
+  },
+  "pasta_shrimp_bisque": {
+    "ru": "Паста с креветками на соусе биск",
+    "en": "Pasta with shrimp in bisque sauce",
+    "vi": "Mì pasta tôm với sốt bisque"
+  },
+  "pasta_duck_gorgonzola": {
+    "ru": "Паста с уткой и горгонзолой",
+    "en": "Pasta with duck and gorgonzola",
+    "vi": "Mì pasta vịt với phô mai gorgonzola"
+  },
+  "grilled_chicken_breast": {
+    "ru": "Куриная грудка гриль",
+    "en": "Grilled chicken breast",
+    "vi": "Ức gà nướng"
+  },
+  "trout_steak": {
+    "ru": "Стейк форели",
+    "en": "Trout steak",
+    "vi": "Bít tết cá hồi vân"
+  },
+  "beef_sous_vide_broccoli": {
+    "ru": "Говядина сю-вид с брокколи",
+    "en": "Sous-vide beef with broccoli",
+    "vi": "Thịt bò sous-vide với bông cải xanh"
+  },
+  "tteokbokki_chicken": {
+    "ru": "Токпокки с курицей",
+    "en": "Tteokbokki with chicken",
+    "vi": "Bánh gạo Hàn Quốc với gà"
   }
+
 }
   
 
