@@ -15,7 +15,11 @@
   "en": "Stop list",
   "vi": "Danh sách tạm ngừng"
 },
-
+"removed_from_stop_list": {
+  "ru": "Снято со стоп-листа",
+  "en": "Removed from stop list",
+  "vi": "Đã bỏ khỏi danh sách tạm ngừng"
+},
   
   "given": {
   "ru": "Отдано",
