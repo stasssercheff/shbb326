@@ -7,7 +7,7 @@ const sendProfiles = {
   hall: ["en"],
   kitchen: ["ru"],
   pastry: ["ru"],
-  order: ["ru", "en"],
+  order: ["ru", "en", "vn"],
   extra2: ["ru"],
   extra3: ["ru"]
 };
