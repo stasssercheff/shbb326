@@ -1,1 +1,706 @@
-1
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="checklist_kitchen"></title>
+
+  <!-- ✅ Подключаем общий CSS -->
+  <link rel="stylesheet" href="../../../common.css">
+    <!-- ✅ Локальный CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Логика перевода -->
+ <script src="../../../sendConfig.js" defer></script>
+<script src="../../../lang.js" defer></script>
+<script src="script.js" defer></script>
+
+
+
+  
+</head>
+<body data-profile="order">
+
+  <!-- Хедер с языками и кнопками -->
+  <header class="page-header">
+    <div class="lang-switch">
+      <button class="lang-btn" data-lang="ru">RU</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="vi">VI</button>
+    </div>
+
+    <div class="nav-buttons">
+      <button class="nav-btn" data-i18n="home" onclick="goHome()"></button>
+      <button class="nav-btn" data-i18n="back" onclick="goBack()"></button>
+    </div>
+  </header>
+  
+  <main class="main-container">
+
+     <div class="date-container">
+    <span data-i18n="date">Дата</span>:
+    <span id="current-date"></span>
+  </div>
+    
+    <!-- Заголовок -->
+    <h1 data-i18n="order"></h1>
+
+<div class="dish">
+  <label for="employeeSelect" data-i18n="name"></label>
+  <select id="employeeSelect" name="chef" class="qty">
+    <option value="" selected>-</option>
+    <option value="hieu" data-i18n="hieu"></option>
+    <option value="vadim" data-i18n="vadim"></option>
+    <!--  <option value="zhenya" data-i18n="zhenya"></option>-->
+    <option value="denis" data-i18n="denis"></option>
+    <option value="stas" data-i18n="stas"></option>
+  </select>
+</div>
+    
+   <!-- Секция продуктов -->
+<div class="menu-section">
+  <div class="section-title" data-i18n="cheap_market"></div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="eggplant"></label>
+    <select name="Eggplant" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="broccoli"></label>
+    <select name="Broccoli" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="dragon_fruit"></label>
+    <select name="Dragon fruit" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="potato_stone"></label>
+    <select name="Potato stone" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="potatoes"></label>
+    <select name="Potatoes" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="strawberry"></label>
+    <select name="Strawberry" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="onion"></label>
+    <select name="Onion" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="red_onion"></label>
+    <select name="Red onion" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="mango"></label>
+    <select name="Mango" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="passion_fruit""></label>
+    <select name="Passion fruit" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="minicorn_staff"></label>
+    <select name="Minicorn staff" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="carrot"></label>
+    <select name="Carrot" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="mint"></label>
+    <select name="Mint" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="cucumber"></label>
+    <select name="Cucumber" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="bell_pepper"></label>
+    <select name="Bell pepper" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="bell_pepper_ratatouille"></label>
+    <select name="Bell pepper ratatouille" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="radish"></label>
+    <select name="Radish" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="pumpkin"></label>
+    <select name="Pumpkin" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="staff_beans"></label>
+    <select name="Staff beans" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="zucchini"></label>
+    <select name="Zucchini" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="cherry_dark"></label>
+    <select name="Cherry dark" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="cherry_staff"></label>
+    <select name="Cherry staff" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="garlic"></label>
+    <select name="Garlic" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <!-- Комментарий -->
+  <div class="section-title" data-i18n="comment"></div>
+  <textarea id="comment_cheap" class="comment" rows="3" data-i18n="comment_placeholder" placeholder=""></textarea>
+</div>
+
+        
+   <!-- Секция Метро -->
+<div class="menu-section">
+  <div class="section-title" data-i18n="metro"></div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="basil"></label>
+    <select name="basil" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="microgreens"></label>
+    <select name="microgreens" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="rosemary"></label>
+    <select name="rosemary" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="rocket_salad"></label>
+    <select name="rocket_salad" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="thyme"></label>
+    <select name="thyme" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="spinach"></label>
+    <select name="spinach" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="lollo_red"></label>
+    <select name="lollo_red" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="lollo_green"></label>
+    <select name="lollo_green" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="yogurt"></label>
+    <select name="yogurt" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="eggs"></label>
+    <select name="eggs" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="mayonnaise"></label>
+    <select name="mayonnaise" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="olive_oil"></label>
+    <select name="olive_oil" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="vegetable_oil"></label>
+    <select name="vegetable_oil" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="honey"></label>
+    <select name="honey" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="milk"></label>
+    <select name="milk" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="nutella"></label>
+    <select name="nutella" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="flour"></label>
+    <select name="flour" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="pasta"></label>
+    <select name="pasta" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="salt"></label>
+    <select name="salt" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  
+
+  <!-- Комментарий -->
+  <div class="section-title" data-i18n="comment"></div>
+  <textarea id="comment_metro" class="comment" rows="3" data-i18n="comment_placeholder" placeholder=""></textarea>
+</div>
+
+
+          
+<!-- Секция Мунмилк -->
+<div class="menu-section">
+  <div class="section-title" data-i18n="moonmilk"></div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="pumpkin_seeds"></label>
+    <select name="pumpkin_seeds" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="peanut"></label>
+    <select name="peanut" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="pickled_cucumber"></label>
+    <select name="pickled_cucumber" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="capers"></label>
+    <select name="capers" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="gorganzola"></label>
+    <select name="gorganzola" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="canned_corn"></label>
+    <select name="canned_corn" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <!-- Комментарий -->
+  <div class="section-title" data-i18n="comment"></div>
+  <textarea id="comment_moonmilk" class="comment" rows="3" data-i18n="comment_placeholder" placeholder=""></textarea>
+</div>
+
+
+            
+<!-- Секция Лоттемарт -->
+<div class="menu-section">
+  <div class="section-title" data-i18n="lottemart"></div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="beans_work"></label>
+    <select name="beans_work" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="tteokbokki"></label>
+    <select name="tteokbokki" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="tuna_canned"></label>
+    <select name="tuna_canned" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="coconut_chips"></label>
+    <select name="coconut_chips" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="muesli"></label>
+    <select name="muesli" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="pepper_sauce"></label>
+    <select name="pepper_sauce" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="hoisin_sauce"></label>
+    <select name="hoisin_sauce" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <!-- Комментарий -->
+  <div class="section-title" data-i18n="comment"></div>
+  <textarea id="comment_lottemart" class="comment" rows="3" data-i18n="comment_placeholder" placeholder=""></textarea>
+</div>
+              
+      <!-- Секция Немо -->
+<div class="menu-section">
+  <div class="section-title" data-i18n="nemo"></div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="butter"></label>
+    <select name="butter" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="sublimated_strawberries"></label>
+    <select name="sublimated_strawberries" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="mozzarella"></label>
+    <select name="mozzarella" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="parmesan"></label>
+    <select name="parmesan" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="cream"></label>
+    <select name="cream" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <!-- Комментарий -->
+  <div class="section-title" data-i18n="comment"></div>
+  <textarea id="comment_nemo" class="comment" rows="3" data-i18n="comment_placeholder" placeholder=""></textarea>
+</div>
+
+
+
+                
+<!-- Секция Поставщики -->
+<div class="menu-section">
+  <div class="section-title" data-i18n="supliers"></div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="beef"></label>
+    <select name="beef" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="shrimps"></label>
+    <select name="shrimps" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="chicken"></label>
+    <select name="chicken" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="octopus"></label>
+    <select name="octopus" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="liver"></label>
+    <select name="liver" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="pork_staff"></label>
+    <select name="pork_staff" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="duck"></label>
+    <select name="duck" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="trout"></label>
+    <select name="trout" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="balsamic"></label>
+    <select name="balsamic" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="worcestershire"></label>
+    <select name="worcestershire" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="maple_syrup"></label>
+    <select name="maple_syrup" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>
+
+    <div class="dish">
+    <label class="check-label" data-i18n="cottage_cheese"></label>
+    <select name="cottage_cheese" class="qty">
+      <option value="" selected>-</option>
+      <option value="order+" data-i18n="order+"></option>
+    </select>
+  </div>  
+
+  <!-- Комментарий -->
+  <div class="section-title" data-i18n="comment"></div>
+  <textarea id="comment_supliers" class="comment" rows="3" data-i18n="comment_placeholder" placeholder=""></textarea>
+</div>
+
+
+
+    <!-- Кнопка отправки -->
+<button id="sendToTelegram" data-i18n="send"></button>
+  </main>
+</body>
+</html>
