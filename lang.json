@@ -14,7 +14,22 @@
   "en": "Change",
   "vi": "Thay đổi"
 },
+"pack": {
+  "ru": "пачка",
+  "en": "pack",
+  "vi": "gói"
+},
 
+"kg": {
+  "ru": "кг",
+  "en": "kg",
+  "vi": "kg"
+},
+  "pcs": {
+  "ru": "шт",
+  "en": "pcs",
+  "vi": "cái"
+},
 "stop_list": {
   "ru": "Стоп-лист",
   "en": "Stop list",
