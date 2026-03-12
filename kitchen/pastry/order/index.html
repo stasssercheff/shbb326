@@ -49,15 +49,42 @@
   <label for="employeeSelect" data-i18n="name"></label>
   <select id="employeeSelect" name="chef" class="qty">
     <option value="" selected>—</option>
-    <option value="maksim" data-i18n="timofey"></option>
-    <option value="boris" data-i18n="irina"></option>
+    <option value="irina" data-i18n="irina"></option>
     <option value="stas" data-i18n="stas"></option>
   </select>
 </div>
 
 <!-- Раздел: Заказ продуктов -->
+
+    
 <div class="menu-section">
-  <div class="section-title" data-i18n="order_products"></div>
+  <div class="section-title" data-i18n="cheap_market"></div>
+
+
+
+ <div class="dish">
+    <label class="check-label" data-i18n="fresh_strawberries_pack"></label>
+    <select name="Fresh strawberries(pack)" class="qty">
+      <option value="">—</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+  </div>
+
+
+ <!-- Комментарий -->
+  <div class="section-title" data-i18n="comment"></div>
+  <textarea id="comment_cheap" class="comment" rows="3" data-i18n="comment_placeholder" placeholder=""></textarea>
+</div>
+
+        
+   <!-- Секция Метро -->
+<div class="menu-section">
+  <div class="section-title" data-i18n="metro"></div>
+
 
   <div class="dish">
     <label class="check-label" data-i18n="cherry_frozen_pack"></label>
@@ -84,9 +111,80 @@
   </div>
 
 
-   <div class="dish">
-    <label class="check-label" data-i18n="strawberry"></label>
-    <select name="Strawberry" class="qty">
+<div class="dish">
+  <label class="check-label" data-i18n="strawberry_frozen"></label>
+  <select name="Strawberry frozen" class="qty">
+    <option value="">—</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+</div>
+    
+  <div class="dish">
+    <label class="check-label" data-i18n="egg_30"></label>
+    <select name="Egg(30)" class="qty">
+      <option value="">—</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+    </select>
+  </div>
+
+<div class="dish">
+    <label class="check-label" data-i18n="butter_block"></label>
+    <select name="Butter(block)" class="qty">
+      <option value="">—</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="salt_kg"></label>
+    <select name="Salt(kg)" class="qty">
+      <option value="">—</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+  </div>
+
+
+  <div class="dish">
+    <label class="check-label" data-i18n="sugar_bag"></label>
+    <select name="Sugar(bag)" class="qty">
+      <option value="">—</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+    </select>
+  </div>
+
+
+  <div class="dish">
+    <label class="check-label" data-i18n="cookie_pack"></label>
+    <select name="Cookie(pack)" class="qty">
+      <option value="">—</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+  </div>
+
+
+ <div class="dish">
+    <label class="check-label" data-i18n="honey"></label>
+    <select name="Honey" class="qty">
       <option value="">—</option>
       <option value="1">1</option>
       <option value="2">2</option>
@@ -94,6 +192,90 @@
       <option value="4">4</option>
     </select>
   </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="milk_12l"></label>
+    <select name="Milk(12 l)" class="qty">
+      <option value="">—</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="condensed_milk_pack"></label>
+    <select name="Condensed milk(pack)" class="qty">
+      <option value="">—</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+
+    </select>
+  </div>
+
+  <div class="dish">
+    <label class="check-label" data-i18n="flour_bag"></label>
+    <select name="Flour(bag)" class="qty">
+      <option value="">—</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+    </select>
+  </div>
+
+
+ <div class="dish">
+    <label class="check-label" data-i18n="corn_starch_pack"></label>
+    <select name="Corn starch(pack)" class="qty">
+      <option value="">—</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+  </div>
+
+  <div class="dish">
+  <label class="check-label" data-i18n="oatmeal"></label>
+  <select name="Oatmeal" class="qty">
+    <option value="">—</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+</div>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Комментарий -->
+  <div class="section-title" data-i18n="comment"></div>
+  <textarea id="comment_lottemart" class="comment" rows="3" data-i18n="comment_placeholder" placeholder=""></textarea>
+</div>
+              
+      <!-- Секция Немо -->
+<div class="menu-section">
+  <div class="section-title" data-i18n="nemo"></div>
   
   <div class="dish">
   <label class="check-label" data-i18n="colorant"></label>
@@ -128,28 +310,9 @@
   </select>
 </div>
 
-<div class="dish">
-  <label class="check-label" data-i18n="oatmeal"></label>
-  <select name="Oatmeal" class="qty">
-    <option value="">—</option>
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-  </select>
-</div>
 
-<div class="dish">
-  <label class="check-label" data-i18n="strawberry_frozen"></label>
-  <select name="Strawberry frozen" class="qty">
-    <option value="">—</option>
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-  </select>
-</div>
-    
+
+
   <div class="dish">
     <label class="check-label" data-i18n="glucose_pack"></label>
     <select name="Glucose(pack)" class="qty">
@@ -205,28 +368,9 @@
     </select>
   </div>
 
-  <div class="dish">
-    <label class="check-label" data-i18n="fresh_strawberries_pack"></label>
-    <select name="Fresh strawberries(pack)" class="qty">
-      <option value="">—</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-    </select>
-  </div>
+ 
 
-  <div class="dish">
-    <label class="check-label" data-i18n="corn_starch_pack"></label>
-    <select name="Corn starch(pack)" class="qty">
-      <option value="">—</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-    </select>
-  </div>
+ 
 
   <div class="dish">
     <label class="check-label" data-i18n="creamcheese_kg"></label>
@@ -255,49 +399,7 @@
 
  
 
-  <div class="dish">
-    <label class="check-label" data-i18n="honey"></label>
-    <select name="Honey" class="qty">
-      <option value="">—</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-    </select>
-  </div>
-
-  <div class="dish">
-    <label class="check-label" data-i18n="milk_12l"></label>
-    <select name="Milk(12 l)" class="qty">
-      <option value="">—</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-    </select>
-  </div>
-
-  <div class="dish">
-    <label class="check-label" data-i18n="condensed_milk_pack"></label>
-    <select name="Condensed milk(pack)" class="qty">
-      <option value="">—</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-
-    </select>
-  </div>
-
-  <div class="dish">
-    <label class="check-label" data-i18n="flour_bag"></label>
-    <select name="Flour(bag)" class="qty">
-      <option value="">—</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-    </select>
-  </div>
+ 
 
   <div class="dish">
     <label class="check-label" data-i18n="cake_braid"></label>
@@ -309,17 +411,6 @@
     </select>
   </div>
 
-  <div class="dish">
-    <label class="check-label" data-i18n="cookie_pack"></label>
-    <select name="Cookie(pack)" class="qty">
-      <option value="">—</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-    </select>
-  </div>
 
   <div class="dish">
     <label class="check-label" data-i18n="round_backing_pack"></label>
@@ -341,14 +432,6 @@
     </select>
   </div>
 
-  <div class="dish">
-    <label class="check-label" data-i18n="sugar_bag"></label>
-    <select name="Sugar(bag)" class="qty">
-      <option value="">—</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-    </select>
-  </div>
 
   <div class="dish">
     <label class="check-label" data-i18n="brown_sugar_kg"></label>
@@ -379,26 +462,7 @@
     </select>
   </div>
 
-  <div class="dish">
-    <label class="check-label" data-i18n="butter_block"></label>
-    <select name="Butter(block)" class="qty">
-      <option value="">—</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-    </select>
-  </div>
-
-  <div class="dish">
-    <label class="check-label" data-i18n="salt_kg"></label>
-    <select name="Salt(kg)" class="qty">
-      <option value="">—</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-    </select>
-  </div>
+  
 
   <div class="dish">
     <label class="check-label" data-i18n="hazelnut_kg"></label>
@@ -431,20 +495,7 @@
     </select>
   </div>
 
-  <div class="dish">
-    <label class="check-label" data-i18n="egg_30"></label>
-    <select name="Egg(30)" class="qty">
-      <option value="">—</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="7">7</option>
-      <option value="8">8</option>
-    </select>
-  </div>
+
 
   <div class="dish">
     <label class="check-label" data-i18n="comment"></label>
