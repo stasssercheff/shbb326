@@ -706,6 +706,7 @@
     "en": "Stas",
     "vi": "Stas"
   },
+  
   "vadim": {
   "ru": "Вадим",
   "en": "Vadim",
@@ -1439,7 +1440,11 @@
   "en": "Zucchini",
   "vi": "Bí ngòi"
 },
-
+"sweet_chili": {
+  "ru": "Сладкий чили",
+  "en": "Sweet chili",
+  "vi": "Ớt ngọt"
+}
 "apple": {
   "ru": "Яблоко",
   "en": "Apple",
