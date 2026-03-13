@@ -12,11 +12,14 @@
         { "№": 3, "Продукт": "Какао", "Ingredient": "Cocoa", "Шт/гр": "100" },
         { "№": 4, "Продукт": "Молоко", "Ingredient": "Milk", "Шт/гр": "130" },
         { "№": 5, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "150" },
-        { "№": 6, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "70" }
+        { "№": 6, "Продукт": "Масло растительное", "Ingredient": "Vegetable oil", "Шт/гр": "40" },
+        { "№": 7, "Продукт": "Шоколад темный", "Ingredient": "Dark chocolate", "Шт/гр": "200" },
+        { "№": 8, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "70" }
+        
       ],
       "process": {
-        "ru": "Печенье перебить в крошку мелкую, смешать с какао. Остальные ингридиенты в сотейник и растворить помешивая ра медленном огне до однородности. растопить. Замешать хорошо (лучше лопаткой) остудить и разложить по формам по 50 гр.",
-        "en": "Beat the cookies into fine crumbs and mix with cocoa. Place the remaining ingredients in a saucepan and stir over low heat until smooth. melt. Mix well (preferably with a spatula), cool and pour into 50g molds."
+         "ru": "Печенье перебить в крошку мелкую, смешать с какао. Остальные ингридиенты в сотейник и растворить помешивая на медленном огне до однородности. Замешать хорошо (лучше лопаткой), остудить и порционировать по 50 гр. Придать форму бочонка, охладить в морозилке 30 мин. Затем шпажку воткнуть в картошку и окунуть в глазурь, отстучать от излишков и положить застывать на пергамент, сверху полить тонкой струйкой белого шоколада.",
+         "en": "Beat the cookies into fine crumbs and mix with cocoa. Place the remaining ingredients in a saucepan and stir over low heat until smooth. Mix well (preferably with a spatula), cool and portion into 50g pieces. Shape into barrels and chill in the freezer for 30 mins. Insert a skewer into each cake, dip into the glaze, tap off any excess, and place on parchment to set. Drizzle with a thin stream of white chocolate on top."
       }
     },
     {
@@ -34,9 +37,10 @@
         { "№": 6, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "37" }
       ],
       "process": {
-        "ru": "Перебить миксером  кремчиз до не плотного состояния без комочков, перебить яйца с сахаром(можно блендером) ввести в кремчиз. Дальше ввести в смесь сливки на низкой скорости(все перемешать) дальше муку. Потом все блендером до однородной консистенции. Разлить по формам со стенками из пергаметы (выше формы в 2 раза) Выпекать 40 минут при температуре 210 гр.",
-        "en": "Beat the cookies into fine crumbs and mix with cocoa. Place the remaining ingredients in a saucepan and stir over low heat until smooth. melt. Mix well (preferably with a spatula), cool and pour into 50g molds.Beat the cream cheese with a mixer until it is not dense without lumps, beat the eggs with sugar (you can use a blender) and add them to the cream cheese. Next, add the cream into the mixture at low speed (mix everything), then add the flour. Then blend everything until smooth. Pour into molds with parchment walls (2 times higher than the mold). Bake for 40 minutes at a temperature of 210 degrees."
+        "ru": "Перебить миксером крем-чиз до мягкого состояния без комочков. Перебить яйца с сахаром (можно блендером), ввести в крем-чиз. Добавить сливки на низкой скорости, затем муку. Пробить всё блендером до однородности. Разлить по формам с бортами из пергамента (в два раза выше формы), масса не должна быть слишком теплой. Выпекать при 240 градусах 25–30 минут (конвекция 25).",
+        "en": "Mix the cream cheese until smooth and lump-free. Beat the eggs with sugar (a blender can be used) and fold into the cream cheese. Add the cream at low speed, then the flour. Blend everything until smooth. Pour into molds lined with parchment paper (twice the height of the mold); the mixture should not be too warm. Bake at 240°C for 25–30 minutes with convection set to 25."
       }
+
     },
     {
       "name": {
@@ -50,15 +54,14 @@
         { "№": 3, "Продукт": "Мед", "Ingredient": "Honey", "Шт/гр": "260" },
         { "№": 4, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "260" },
         { "№": 5, "Продукт": "Сода пищевая", "Ingredient": "Baking soda", "Шт/гр": "20" },
-        { "№": 6, "Продукт": "ПФ Сок лайма", "Ingredient": "Prep Lime juice", "Шт/гр": "20" },
-        { "№": 7, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "3" },
-        { "№": 8, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "250" },
-        { "№": 9, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "640" }
+        { "№": 6, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "3" },
+        { "№": 7, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "250" },
+        { "№": 8, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "640" }
       ],
       "process": {
-        "ru": "В кастрюеи с толстым дном (использовать кастрюлю с высокими стенками) положить: мед, сахар, масло и проварить на среднем огне до карамельного яркого цвета, добавить соль, соду, лимонный сок и варить постоянно мешая, до карамельного яркого цвета. Массу аккуратно переложить в дежу миксера, дать немного остыть, установить насадку лопость, ввести яйца , муку смешанную замешать тесто, готовое тесто переложить в миску припудренную мукой, накрыть в контакт и убрать в холодильник минимум на 4 часа, лучше на ночь.",
-        "en": "Take a boilingpan with a thick bottom (use a saucepan with high walls) put: honey, sugar, butter and cook over medium heat until bright caramel color, add salt, soda, lemon juice and cook constantly stirring until bright caramel color. Carefully transfer the mass into the mixer bowl, let it cool slightly, install the paddle attachment, add eggs, mixed flour, knead the dough, transfer the finished dough into a bowl powdered with flour, cover in contact and put in the refrigerator for at least 4 hours, preferably overnight."
-      }      
+        "ru": "В кастрюле с толстым дном и высокими стенками положить: мед, сахар, масло и проварить на среднем огне до растворения сахара, добавить соль, соду, и варить постоянно мешая, до карамельного яркого цвета. Массу аккуратно переложить в дежу миксера, дать остыть минут 20, установить насадку лопасть, ввести яйца, муку. Замешать тесто, переложить в миску припудренную мукой, накрыть в контакт пленкой и убрать в холодильник минимум на 4 часа, лучше на ночь.",
+        "en": "Place honey, sugar, and butter in a heavy-bottomed, high-sided saucepan and cook over medium heat until the sugar dissolves. Add salt and baking soda, and cook, stirring constantly, until it reaches a bright caramel color. Carefully transfer the mixture to a mixer bowl, let it cool for about 20 minutes, attach the paddle attachment, then add eggs and flour. Mix the dough, transfer to a floured bowl, cover with plastic wrap (touching the surface), and refrigerate for at least 4 hours, preferably overnight."
+     }     
     },
     {
       "name": { 
@@ -76,8 +79,8 @@
         { "№": 7, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "1" }
       ],
       "process": {
-        "ru": "Из сахара сделать сахную пудру, положить в дежу миксера, добавить сыр, мед, ваниль и взбить до однородного состояния, далее добавить Йогурт, соединить, добавить сливки и окончательно взбить крем",
-        "en": "Make powdered sugar from sugar, put it in a mixer bowl, add cheese, honey, vanilla and beat until smooth, then add yogurt, combine, add cream and finally beat the cream"
+        "ru": "Дежу и венчик предварительно остудить в морозилке или холодильнике. Кремчиз должен быть холодный, но не дубовый. Из сахара сделать сахарную пудру, положить в дежу миксера, добавить сыр, мед, ваниль и взбить до однородного состояния, далее добавить холодный йогурт, соединить, добавить сливки и окончательно взбить крем (минуты 2-3) до консистенции густого йогурта. 1 слой 165г (в торте 6 слоев крема).",
+        "en": "Pre-chill the mixer bowl and whisk in the freezer or fridge. The cream cheese should be cold but not rock-hard. Make powdered sugar from the sugar, place in the mixer bowl, add cheese, honey, and vanilla, and beat until smooth. Then add cold yogurt, combine, add cream, and whip the frosting (2-3 minutes) until it reaches a thick yogurt consistency. Use 165g per layer (6 layers of frosting in the cake)."
       }
     },
     {
@@ -93,8 +96,8 @@
         { "№": 4, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "1" }
        ],
       "process": {
-        "ru": "6 коржей прослоить шоколадным кремом ( крем на 1 слой 165гр), последний корж промазать кремом и выровнять ( для сборки использовать круглую форму со сьемным дном, и бортовую ленту) . торт убрать в холодильник для пропитки на 12 часов, перед покрытием торта гласажжем ,торт поставить в морозилку на 30 минут. Готовый торт нарезать острым ножом на 10 частей (резать горячим ножом, для этого ножсмочивать в кипятке и вытерать)",
-        "en": "Layer 6 cakes with chocolate cream (165 g of cream per layer), coat the last cake with cream and level it (use a round mold with a removable bottom and a side tape for assembly). Put the cake in the refrigerator to soak for 12 hours, before covering the cake with glaze, put the cake in the freezer for 30 minutes. Cut the finished cake into 10 pieces with a sharp knife (cut with a hot knife, for this, wet the knife in boiling water and wipe it dry)"
+        "ru": "6 коржей прослоить кремом (165 г на слой), последний корж промазать и выровнять (использовать форму со съемным дном и бортовую ленту). Убрать торт в морозилку. При надобности достать, дать оттаять 15–20 минут и полностью покрыть медовой крошкой. Нарезать острым ножом на 12 частей и упаковать в ацетатную пленку.",
+        "en": "Layer 6 cake discs with cream (165g per layer), then frost and smooth the top layer (use a springform pan and acetate cake collar). Place the cake in the freezer. When needed, remove from the freezer, let thaw for 15–20 minutes, and coat completely with honey cake crumbs. Slice into 12 portions with a sharp knife and wrap each in acetate film."
       }
     },
     {
@@ -108,17 +111,16 @@
         { "№": 2, "Продукт": "Мед", "Ingredient": "Honey", "Шт/гр": "260" },
         { "№": 3, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "260" },
         { "№": 4, "Продукт": "Сода пищевая", "Ingredient": "Baking soda", "Шт/гр": "20" },
-        { "№": 5, "Продукт": "ПФ Сок лайма", "Ingredient": "PF Lime juice", "Шт/гр": "20" },
-        { "№": 6, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "3" },
-        { "№": 7, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "250" },
-        { "№": 8, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "640" },
-        { "№": 9, "Продукт": "Какао", "Ingredient": "Cocoa", "Шт/гр": "80" },
-        { "№": 10, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "2.9" }
+        { "№": 5, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "3" },
+        { "№": 6, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "250" },
+        { "№": 7, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "640" },
+        { "№": 8, "Продукт": "Какао", "Ingredient": "Cocoa", "Шт/гр": "80" },
+        { "№": 9, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "2.9" }
       ],
       "process": {
-         "ru": "В кастрюлю с толстым дном (использовать кастрюлю с высокими стенками) положить: мед, сахар, масло и проварить на среднем огне до карамельного яркого цвета, добавить соль, соду, лимонный сок и варить постоянно мешая, до карамельного яркого цвета. Массу аккуратно переложить в дежу миксера, дать немного остыть, установить насадку лопость, ввести яйца, муку смешанную с какао (смешать и просеять через сито чтобы не было комков) и замешать тесто, готовое тесто переложить в миску припудренную мукой, накрыть в контакт и убрать в холодильник минимум на 4 часа, лучше на ночь.",
-         "en": "Take a boiling pan with a thick bottom (use a saucepan with high sides) put: honey, sugar, butter and cook over medium heat until bright caramel color, add salt, soda, lemon juice and cook constantly stirring until bright caramel color. Carefully transfer the mass into the mixer bowl, let it cool slightly, install the paddle attachment, add eggs, flour mixed with cocoa (mix and sift through a sieve so that there are no lumps) and knead the dough, transfer the finished dough into a bowl powdered with flour, cover in contact and put in the refrigerator for at least 4 hours, preferably overnight."
-      }
+         "ru": "В кастрюлю с толстым дном и высокими стенками положить: мед, сахар, масло и проварить на среднем огне до растворения сахара, добавить соль, соду, и варить постоянно мешая, до карамельного яркого цвета. Массу аккуратно переложить в дежу миксера, дать остыть 15-20 минут, установить насадку лопасть, ввести яйца, муку смешанную с какао (смешать и просеять через сито чтобы не было комков) и замешать тесто, готовое тесто переложить в миску припудренную мукой, накрыть в контакт пленкой и убрать в холодильник минимум на 4 часа, лучше на ночь.",
+         "en": "Place honey, sugar, and butter in a heavy-bottomed, high-sided saucepan and cook over medium heat until the sugar dissolves. Add salt and baking soda, and cook, stirring constantly, until it reaches a bright caramel color. Carefully transfer the mixture to a mixer bowl, let it cool for 15-20 minutes, attach the paddle attachment, then add eggs and the sifted flour and cocoa mixture. Mix the dough, transfer it to a floured bowl, cover with plastic wrap (touching the surface), and refrigerate for at least 4 hours, preferably overnight."
+       }
     },
     {
       "name": { 
@@ -137,9 +139,9 @@
         { "№": 8, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "1" }
      ],
       "process": {
-         "ru": "Из сахара сделать сахарную пудру, положить в дежу миксера, добавить сыр, мед, ваниль и взбить до однородного состояния, далее добавить сметану, соединить, добавить сливки, перемешать и ввести растопленный черный шоколад и окончательно взбить крем.",
-         "en": "Make powdered sugar from sugar, put it in a mixer bowl, add cheese, honey, vanilla and beat until smooth, then add sour cream, combine, add cream, stir and add melted dark chocolate and beat the cream completely."
-      }
+         "ru": "Предварительно сделать ганаш: разогреть сливки до 80 градусов (не кипятить!), залить ими шоколад, растворить и пробить блендером. Накрыть пленкой в контакт и стабилизировать в холодильнике минимум 6 часов. Дежу и венчик предварительно остудить. Холодный крем-чиз взбить в деже с сахарной пудрой, медом и ванилью до однородности. Добавить холодный йогурт, соединить, затем влить сливки и взбить крем (2-3 минуты) до консистенции густого йогурта. На один слой идет 165 г крема (всего 6 слоев).",
+         "en": "Prepare the ganache in advance: heat the cream to 80°C (do not boil!), pour over the chocolate, dissolve, and blend until smooth. Cover with plastic wrap (touching the surface) and stabilize in the fridge for at least 6 hours. Pre-chill the mixer bowl and whisk. Beat cold cream cheese with powdered sugar, honey, and vanilla until smooth. Add cold yogurt, combine, then pour in the cream and whip (2-3 minutes) until it reaches a thick yogurt consistency. Use 165g of cream per layer (6 layers in total)."
+       }
     },
     {
       "name": { 
@@ -158,8 +160,8 @@
         { "№": 8, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "2" }
      ],
       "process": {
-        "ru": "Желатин замочить в воде. В сотейнике смешать порошок какао, сливки, сахар, ром, довести до кипения постоянно помешивая, добавить желатин и сливочное масло перемешать венчиком до однородного состояния, процедить через мелкое сито дать остыть до 42-45 градусов, использовать для покрытия тортов торт должен быть хорошо охлажден, торт подморожен, чтобы покрытие сразу легло ровно и застыло.",
-        "en": "Soak gelatin in water. In a saucepan, mix cocoa powder, cream, sugar, rum, bring to a boil, stirring constantly, add gelatin and butter, mix with a whisk until smooth, strain through a fine sieve, let cool to 42-45 degrees, use to cover cakes; the cake should be well cooled and semi-frozen so the coating lays evenly and sets."
+        "ru": "Желатин замочить в воде. В сотейнике смешать порошок какао, сливки, сахар, ром, довести до кипения постоянно помешивая, добавить желатин и сливочное масло, перемешать венчиком до однородности. Пробить блендером, дать остыть до 42–45 градусов. Использовать для покрытия тортов, предварительно подмороженных в морозилке около часа.",
+        "en": "Soak the gelatin in water. In a saucepan, combine cocoa powder, cream, sugar, and rum; bring to a boil while stirring constantly. Add the gelatin and butter, and whisk until smooth. Blend with an immersion blender and let cool to 42–45°C. Use to coat cakes that have been pre-frozen for about an hour."
       }
     },
     {
