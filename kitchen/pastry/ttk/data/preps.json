@@ -1,733 +1,899 @@
 {
   "recipes": [
+   {
+  "recipes": [
     {
       "name": {
         "ru": "КАРТОШКА",
-        "en": "KARTOSHKA"
+        "en": "KARTOSHKA",
+        "vi": "BÁNH KARTOSHKA"
       },
       "key": "Шт.",
       "ingredients": [
-        { "№": 1, "Продукт": "Шт.", "Ingredient": "Pcs", "Шт/гр": "15" },
-        { "№": 2, "Продукт": "Печенье мария", "Ingredient": "Cookies Maria", "Шт/гр": "300" },
-        { "№": 3, "Продукт": "Какао", "Ingredient": "Cocoa", "Шт/гр": "100" },
-        { "№": 4, "Продукт": "Молоко", "Ingredient": "Milk", "Шт/гр": "130" },
-        { "№": 5, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "150" },
-        { "№": 6, "Продукт": "Масло растительное", "Ingredient": "Vegetable oil", "Шт/гр": "40" },
-        { "№": 7, "Продукт": "Шоколад темный", "Ingredient": "Dark chocolate", "Шт/гр": "200" },
-        { "№": 8, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "70" }
-        
+        { "№": 1, "Продукт": "Шт.", "Ingredient": "Pcs", "Ingredient_vi": "Cái", "Шт/гр": "15" },
+        { "№": 2, "Продукт": "Печенье мария", "Ingredient": "Cookies Maria", "Ingredient_vi": "Bánh quy Maria", "Шт/гр": "300" },
+        { "№": 3, "Продукт": "Какао", "Ingredient": "Cocoa", "Ingredient_vi": "Bột ca cao", "Шт/гр": "100" },
+        { "№": 4, "Продукт": "Молоко", "Ingredient": "Milk", "Ingredient_vi": "Sữa", "Шт/гр": "130" },
+        { "№": 5, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "150" },
+        { "№": 6, "Продукт": "Масло растительное", "Ingredient": "Vegetable oil", "Ingredient_vi": "Dầu thực vật", "Шт/гр": "40" },
+        { "№": 7, "Продукт": "Шоколад темный", "Ingredient": "Dark chocolate", "Ingredient_vi": "Sô cô la đen", "Шт/гр": "200" },
+        { "№": 8, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "70" }
       ],
       "process": {
-         "ru": "Печенье перебить в крошку мелкую, смешать с какао. Остальные ингридиенты в сотейник и растворить помешивая на медленном огне до однородности. Замешать хорошо (лучше лопаткой), остудить и порционировать по 50 гр. Придать форму бочонка, охладить в морозилке 30 мин. Затем шпажку воткнуть в картошку и окунуть в глазурь, отстучать от излишков и положить застывать на пергамент, сверху полить тонкой струйкой белого шоколада.",
-         "en": "Beat the cookies into fine crumbs and mix with cocoa. Place the remaining ingredients in a saucepan and stir over low heat until smooth. Mix well (preferably with a spatula), cool and portion into 50g pieces. Shape into barrels and chill in the freezer for 30 mins. Insert a skewer into each cake, dip into the glaze, tap off any excess, and place on parchment to set. Drizzle with a thin stream of white chocolate on top."
+        "ru": "Печенье перебить в крошку мелкую, смешать с какао. Остальные ингридиенты в сотейник и растворить помешивая на медленном огне до однородности. Замешать хорошо (лучше лопаткой), остудить и порционировать по 50 гр. Придать форму бочонка, охладить в морозилке 30 мин. Затем шпажку воткнуть в картошку и окунуть в глазурь, отстучать от излишков и положить застывать на пергамент, сверху полить тонкой струйкой белого шоколада.",
+        "en": "Beat the cookies into fine crumbs and mix with cocoa. Place the remaining ingredients in a saucepan and stir over low heat until smooth. Mix well (preferably with a spatula), cool and portion into 50g pieces. Shape into barrels and chill in the freezer for 30 mins. Insert a skewer into each cake, dip into the glaze, tap off any excess, and place on parchment to set. Drizzle with a thin stream of white chocolate on top.",
+        "vi": "Nghiền bánh quy thành vụn nhỏ rồi trộn với bột ca cao. Cho các nguyên liệu còn lại vào nồi nhỏ và đun ở lửa nhỏ, khuấy liên tục đến khi hỗn hợp đồng nhất. Trộn kỹ (tốt nhất dùng spatula), để nguội rồi chia thành phần 50 g. Tạo hình giống củ khoai, làm lạnh trong tủ đông 30 phút. Sau đó cắm xiên vào bánh, nhúng vào lớp phủ sô cô la, gõ nhẹ để loại bỏ phần dư rồi đặt lên giấy nướng cho đông lại. Trang trí bằng cách rưới sô cô la trắng thành sợi mỏng."
       }
     },
     {
       "name": {
         "ru": "ЧИЗКЕЙК",
-        "en": "CHEESECAKE"
+        "en": "CHEESECAKE",
+        "vi": "BÁNH PHÔ MAI"
       },
       "key": "Торт шт.",
       "ingredients": [
-        { "№": 1, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "1" },
-        { "№": 2, "Продукт": "Кремчиз", "Ingredient": "Creamcheese", "Шт/гр": "600" },
-        { "№": 3, "Продукт": "Яйцо", "Ingredient": "Egg", "Шт/гр": "3" },
-        { "№": 4, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "185" },
-        { "№": 5, "Продукт": "Сливки", "Ingredient": "Cream", "Шт/гр": "375" },
-        { "№": 6, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "37" }
+        { "№": 1, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "1" },
+        { "№": 2, "Продукт": "Кремчиз", "Ingredient": "Creamcheese", "Ingredient_vi": "Phô mai kem", "Шт/гр": "600" },
+        { "№": 3, "Продукт": "Яйцо", "Ingredient": "Egg", "Ingredient_vi": "Trứng", "Шт/гр": "3" },
+        { "№": 4, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "185" },
+        { "№": 5, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "375" },
+        { "№": 6, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "37" }
       ],
       "process": {
         "ru": "Перебить миксером крем-чиз до мягкого состояния без комочков. Перебить яйца с сахаром (можно блендером), ввести в крем-чиз. Добавить сливки на низкой скорости, затем муку. Пробить всё блендером до однородности. Разлить по формам с бортами из пергамента (в два раза выше формы), масса не должна быть слишком теплой. Выпекать при 240 градусах 25–30 минут (конвекция 25).",
-        "en": "Mix the cream cheese until smooth and lump-free. Beat the eggs with sugar (a blender can be used) and fold into the cream cheese. Add the cream at low speed, then the flour. Blend everything until smooth. Pour into molds lined with parchment paper (twice the height of the mold); the mixture should not be too warm. Bake at 240°C for 25–30 minutes with convection set to 25."
+        "en": "Mix the cream cheese until smooth and lump-free. Beat the eggs with sugar (a blender can be used) and fold into the cream cheese. Add the cream at low speed, then the flour. Blend everything until smooth. Pour into molds lined with parchment paper (twice the height of the mold); the mixture should not be too warm. Bake at 240°C for 25–30 minutes with convection set to 25.",
+        "vi": "Đánh phô mai kem bằng máy trộn đến khi mềm và mịn, không còn vón cục. Đánh trứng với đường (có thể dùng máy xay), sau đó trộn vào phô mai. Thêm kem tươi ở tốc độ thấp, sau đó cho bột mì. Xay lại đến khi hỗn hợp mịn hoàn toàn. Đổ vào khuôn có thành giấy nến (cao gấp đôi khuôn), hỗn hợp không nên quá nóng. Nướng ở 240°C trong 25–30 phút (đối lưu 25)."
       }
-
     },
     {
       "name": {
         "ru": "МЕДОВИК КОРЖИ",
-        "en": "HONEY CAKE DAUGH"
+        "en": "HONEY CAKE DAUGH",
+        "vi": "BÁNH MẬT ONG – LỚP BÁNH"
       },
       "key": "Торт шт.",
       "ingredients": [
-        { "№": 1, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "2.75" },
-        { "№": 2, "Продукт": "Яйцо(вес)", "Ingredient": "Egg(weight)", "Шт/гр": "220" },
-        { "№": 3, "Продукт": "Мед", "Ingredient": "Honey", "Шт/гр": "260" },
-        { "№": 4, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "260" },
-        { "№": 5, "Продукт": "Сода пищевая", "Ingredient": "Baking soda", "Шт/гр": "20" },
-        { "№": 6, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "3" },
-        { "№": 7, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "250" },
-        { "№": 8, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "640" }
+        { "№": 1, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "2.75" },
+        { "№": 2, "Продукт": "Яйцо(вес)", "Ingredient": "Egg(weight)", "Ingredient_vi": "Trứng (theo trọng lượng)", "Шт/гр": "220" },
+        { "№": 3, "Продукт": "Мед", "Ingredient": "Honey", "Ingredient_vi": "Mật ong", "Шт/гр": "260" },
+        { "№": 4, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "260" },
+        { "№": 5, "Продукт": "Сода пищевая", "Ingredient": "Baking soda", "Ingredient_vi": "Muối nở", "Шт/гр": "20" },
+        { "№": 6, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "3" },
+        { "№": 7, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "250" },
+        { "№": 8, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "640" }
       ],
       "process": {
         "ru": "В кастрюле с толстым дном и высокими стенками положить: мед, сахар, масло и проварить на среднем огне до растворения сахара, добавить соль, соду, и варить постоянно мешая, до карамельного яркого цвета. Массу аккуратно переложить в дежу миксера, дать остыть минут 20, установить насадку лопасть, ввести яйца, муку. Замешать тесто, переложить в миску припудренную мукой, накрыть в контакт пленкой и убрать в холодильник минимум на 4 часа, лучше на ночь.",
-        "en": "Place honey, sugar, and butter in a heavy-bottomed, high-sided saucepan and cook over medium heat until the sugar dissolves. Add salt and baking soda, and cook, stirring constantly, until it reaches a bright caramel color. Carefully transfer the mixture to a mixer bowl, let it cool for about 20 minutes, attach the paddle attachment, then add eggs and flour. Mix the dough, transfer to a floured bowl, cover with plastic wrap (touching the surface), and refrigerate for at least 4 hours, preferably overnight."
-     }     
-    },
-    {
-      "name": { 
-        "ru": "МЕДОВИК КРЕМ", 
-        "en": "HONEY CAKE CREAM" 
-      },
-      "key": "Торт шт.",
-      "ingredients": [
-        { "№": 1, "Продукт": "Йогурт", "Ingredient": "Yogurt", "Шт/гр": "340" },
-        { "№": 2, "Продукт": "Сахар(пудра)", "Ingredient": "Sugar (powdered)", "Шт/гр": "95" },
-        { "№": 3, "Продукт": "Мед", "Ingredient": "Honey", "Шт/гр": "70" },
-        { "№": 4, "Продукт": "Сыр Кремчиз", "Ingredient": "Cheese Creamcheese", "Шт/гр": "232" },
-        { "№": 5, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Шт/гр": "2" },
-        { "№": 6, "Продукт": "Сливки", "Ingredient": "Cream", "Шт/гр": "275" },
-        { "№": 7, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "1" }
-      ],
-      "process": {
-        "ru": "Дежу и венчик предварительно остудить в морозилке или холодильнике. Кремчиз должен быть холодный, но не дубовый. Из сахара сделать сахарную пудру, положить в дежу миксера, добавить сыр, мед, ваниль и взбить до однородного состояния, далее добавить холодный йогурт, соединить, добавить сливки и окончательно взбить крем (минуты 2-3) до консистенции густого йогурта. 1 слой 165г (в торте 6 слоев крема).",
-        "en": "Pre-chill the mixer bowl and whisk in the freezer or fridge. The cream cheese should be cold but not rock-hard. Make powdered sugar from the sugar, place in the mixer bowl, add cheese, honey, and vanilla, and beat until smooth. Then add cold yogurt, combine, add cream, and whip the frosting (2-3 minutes) until it reaches a thick yogurt consistency. Use 165g per layer (6 layers of frosting in the cake)."
-      }
-    },
-    {
-      "name": { 
-        "ru": "МЕДОВИК", 
-        "en": "HONEY CAKE" 
-      },
-      "key": "Торт шт.",
-      "ingredients": [
-        { "№": 1, "Продукт": "ПФ Коржи медовик", "Ingredient": "Prep cake layers", "Шт/гр": "600" },
-        { "№": 2, "Продукт": "ПФ Крем медовик", "Ingredient": "Prep Cream honey cake", "Шт/гр": "1000" },
-        { "№": 3, "Продукт": "ПФ струшка коржей", "Ingredient": "Prep shreded cake layers", "Шт/гр": "50" },
-        { "№": 4, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "1" }
-       ],
-      "process": {
-        "ru": "6 коржей прослоить кремом (165 г на слой), последний корж промазать и выровнять (использовать форму со съемным дном и бортовую ленту). Убрать торт в морозилку. При надобности достать, дать оттаять 15–20 минут и полностью покрыть медовой крошкой. Нарезать острым ножом на 12 частей и упаковать в ацетатную пленку.",
-        "en": "Layer 6 cake discs with cream (165g per layer), then frost and smooth the top layer (use a springform pan and acetate cake collar). Place the cake in the freezer. When needed, remove from the freezer, let thaw for 15–20 minutes, and coat completely with honey cake crumbs. Slice into 12 portions with a sharp knife and wrap each in acetate film."
-      }
-    },
-    {
-      "name": { 
-        "ru": "ШОКОЛАДНЫЙ ТОРТ КОРЖЫ", 
-        "en": "CHOCOLATE CAKE DAUGH" 
-      },
-      "key": "Торт шт.",
-      "ingredients": [
-        { "№": 1, "Продукт": "Яйцо", "Ingredient": "Egg", "Шт/гр": "220" },
-        { "№": 2, "Продукт": "Мед", "Ingredient": "Honey", "Шт/гр": "260" },
-        { "№": 3, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "260" },
-        { "№": 4, "Продукт": "Сода пищевая", "Ingredient": "Baking soda", "Шт/гр": "20" },
-        { "№": 5, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "3" },
-        { "№": 6, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "250" },
-        { "№": 7, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "640" },
-        { "№": 8, "Продукт": "Какао", "Ingredient": "Cocoa", "Шт/гр": "80" },
-        { "№": 9, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "2.9" }
-      ],
-      "process": {
-         "ru": "В кастрюлю с толстым дном и высокими стенками положить: мед, сахар, масло и проварить на среднем огне до растворения сахара, добавить соль, соду, и варить постоянно мешая, до карамельного яркого цвета. Массу аккуратно переложить в дежу миксера, дать остыть 15-20 минут, установить насадку лопасть, ввести яйца, муку смешанную с какао (смешать и просеять через сито чтобы не было комков) и замешать тесто, готовое тесто переложить в миску припудренную мукой, накрыть в контакт пленкой и убрать в холодильник минимум на 4 часа, лучше на ночь.",
-         "en": "Place honey, sugar, and butter in a heavy-bottomed, high-sided saucepan and cook over medium heat until the sugar dissolves. Add salt and baking soda, and cook, stirring constantly, until it reaches a bright caramel color. Carefully transfer the mixture to a mixer bowl, let it cool for 15-20 minutes, attach the paddle attachment, then add eggs and the sifted flour and cocoa mixture. Mix the dough, transfer it to a floured bowl, cover with plastic wrap (touching the surface), and refrigerate for at least 4 hours, preferably overnight."
-       }
-    },
-    {
-      "name": { 
-        "ru": "ШОКОЛАДНЫЙ ТОРТ КРЕМ", 
-        "en": "CHOCOLATE CAKE CREAM" 
-      },
-      "key": "Торт шт.",
-      "ingredients": [
-        { "№": 1, "Продукт": "Йогурт", "Ingredient": "Yogurt", "Шт/гр": "247" },
-        { "№": 2, "Продукт": "Сахар(пудра)", "Ingredient": "Sugar (powdered)", "Шт/гр": "69" },
-        { "№": 3, "Продукт": "Мед", "Ingredient": "Honey", "Шт/гр": "51" },
-        { "№": 4, "Продукт": "Сыр Кремчиз", "Ingredient": "Cheese Creamcheese", "Шт/гр": "169" },
-        { "№": 5, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Шт/гр": "1" },
-        { "№": 6, "Продукт": "Сливки", "Ingredient": "Cream", "Шт/гр": "200" },
-        { "№": 7, "Продукт": "Шоколад темный", "Ingredient": "Dark chocolate", "Шт/гр": "272" },
-        { "№": 8, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "1" }
-     ],
-      "process": {
-         "ru": "Предварительно сделать ганаш: разогреть сливки до 80 градусов (не кипятить!), залить ими шоколад, растворить и пробить блендером. Накрыть пленкой в контакт и стабилизировать в холодильнике минимум 6 часов. Дежу и венчик предварительно остудить. Холодный крем-чиз взбить в деже с сахарной пудрой, медом и ванилью до однородности. Добавить холодный йогурт, соединить, затем влить сливки и взбить крем (2-3 минуты) до консистенции густого йогурта. На один слой идет 165 г крема (всего 6 слоев).",
-         "en": "Prepare the ganache in advance: heat the cream to 80°C (do not boil!), pour over the chocolate, dissolve, and blend until smooth. Cover with plastic wrap (touching the surface) and stabilize in the fridge for at least 6 hours. Pre-chill the mixer bowl and whisk. Beat cold cream cheese with powdered sugar, honey, and vanilla until smooth. Add cold yogurt, combine, then pour in the cream and whip (2-3 minutes) until it reaches a thick yogurt consistency. Use 165g of cream per layer (6 layers in total)."
-       }
-    },
-    {
-      "name": { 
-        "ru": "ШОКОЛАДНЫЙ ТОРТ ГЛОССАЖ", 
-        "en": "CHOCOLATE CAKE GLOSSAGE" 
-      },
-      "key": "Торт шт.",
-      "ingredients": [
-        { "№": 1, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "2" },
-        { "№": 2, "Продукт": "Желатин листовой", "Ingredient": "Leaf gelatin", "Шт/гр": "20" },
-        { "№": 3, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "389" },
-        { "№": 4, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "60" },
-        { "№": 5, "Продукт": "Какао", "Ingredient": "Cocoa", "Шт/гр": "140" },
-        { "№": 6, "Продукт": "Ром", "Ingredient": "Rum", "Шт/гр": "112" },
-        { "№": 7, "Продукт": "Сливки", "Ingredient": "Cream", "Шт/гр": "317" },
-        { "№": 8, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "2" }
-     ],
-      "process": {
-        "ru": "Желатин замочить в воде. В сотейнике смешать порошок какао, сливки, сахар, ром, довести до кипения постоянно помешивая, добавить желатин и сливочное масло, перемешать венчиком до однородности. Пробить блендером, дать остыть до 42–45 градусов. Использовать для покрытия тортов, предварительно подмороженных в морозилке около часа.",
-        "en": "Soak the gelatin in water. In a saucepan, combine cocoa powder, cream, sugar, and rum; bring to a boil while stirring constantly. Add the gelatin and butter, and whisk until smooth. Blend with an immersion blender and let cool to 42–45°C. Use to coat cakes that have been pre-frozen for about an hour."
-      }
-    },
-    {
-      "name": { 
-        "ru": "ПЕЧЕНЬЕ С ШОКОЛАДОМ (80 ГР)", 
-        "en": "COOKIE WITH CHOCOLATE (80 GR)" 
-      },
-      "key": "Шт.",
-      "ingredients": [
-        { "№": 1, "Продукт": "Шт.", "Ingredient": "Pcs", "Шт/гр": "8.5" },
-        { "№": 2, "Продукт": "Яйцо", "Ingredient": "Egg", "Шт/гр": "1" },
-        { "№": 3, "Продукт": "Овсяные хлопья", "Ingredient": "Oatmeal", "Шт/гр": "150" },
-        { "№": 4, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "40" },
-        { "№": 5, "Продукт": "Разрыхлитель", "Ingredient": "Baking powder", "Шт/гр": "15" },
-        { "№": 6, "Продукт": "Маргарин", "Ingredient": "Margarine", "Шт/гр": "100" },
-        { "№": 7, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "1" },
-        { "№": 8, "Продукт": "Сахар коричневый", "Ingredient": "Brown sugar", "Шт/гр": "100" },
-        { "№": 9, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "120" },
-        { "№": 10, "Продукт": "Мед", "Ingredient": "Honey", "Шт/гр": "25" },
-        { "№": 11, "Продукт": "Шоколад", "Ingredient": "Chocolate", "Шт/гр": "90" }
-      ],
-      "process": {
-         "ru": "Масло взбить с сахаром до пышности. Вбить яйцо и мёд, перемешать. В другой миске соединить муку, разрыхлитель, соль, овсянку (предварительно перебить блендером чтобы была мелкая фракция). Смешать сухие и влажные ингредиенты, добавить кусочки шоколада, перемешать. Сформировать шарики по 80 г, выложить через кольцо. Выпекать при 175 °C, 10–15 минут — вынуть, когда центр ещё мягкий. Остудить на решётке.",
-         "en": "Beat butter with sugar until fluffy. Beat in egg and honey, mix. In another bowl, combine flour, baking powder, salt, oatmeal (pre-blender until fluffy). Mix dry and wet ingredients, add chocolate pieces, mix. Form 80 g balls, place through a ring. Bake at 175 °C for 10-15 minutes - remove when the center is still soft. Cool on a rack."
-       }
-    },
-    {
-      "name": { 
-        "ru": "ПАВЛОВА БЕЗЕ (70 ГР)", 
-        "en": "PAVLOVA BASE (70 GR)" 
-      },
-      "key": "Шт.",
-      "ingredients": [
-        { "№": 1, "Продукт": "Шт.", "Ingredient": "Pcs", "Шт/гр": "10" },
-        { "№": 2, "Продукт": "Яйцо(белок)", "Ingredient": "Egg (whites)", "Шт/гр": "360" },
-        { "№": 3, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "660" },
-        { "№": 4, "Продукт": "Крахмал", "Ingredient": "Starch", "Шт/гр": "90" },
-        { "№": 5, "Продукт": "Лимонная кислота", "Ingredient": "Citric acid", "Шт/гр": "2" },
-        { "№": 6, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "6" }
-      ],
-      "process": {
-         "ru": "Яичный белок взбить с сахарной пудрой(сахар предварительно помололось в пудру и просеять через сито), солью и лимонной кислотой, взбиваем 10-15 минут, в конце вводим кукурузный крахмал, полученную массу отсаживаем из кондитерского мешка с насадкой большая звезда, длинной 6 см (3-3,5 оборота), на растоянии друг от друга, ставим сушить в духовку при 75-80 градусах, 1,5-2,5 часа конвекция 20-35. Массу отсадить на противни застеленные силиконовым ковриком и отпекать в духовке при 75-80 градусах 1,5-2,5 часа, готовые безе хранить в сухом месте в плотно закрытом контейнере.",
-        "en": "Whip the egg white with powdered sugar (pre-ground the sugar into powder and sift through a sieve), salt, and citric acid, beat for 10-15 minutes, at the end add corn starch, drop the resulting mass from a pastry bag with a large star nozzle, 6 cm long (3-3.5 turns), at a distance from each other, put in the oven to dry at 75-80 degrees, 1.5-2.5 hours convection 20-35. Drop the mass onto baking sheets covered with a silicone mat and bake in the oven at 75-80 degrees for 1.5-2.5 hours, store the finished meringues in a dry place in a tightly closed container."
-      }
-    },
-    {
-      "name": { 
-        "ru": "ПАВЛОВА КРЕМ", 
-        "en": "PAVLOVA CREAM" 
-      },
-      "key": "Шт.",
-      "ingredients": [
-        { "№": 1, "Продукт": "Шт.", "Ingredient": "Pcs", "Шт/гр": "4" },
-        { "№": 2, "Продукт": "Сливки", "Ingredient": "Cream", "Шт/гр": "120" },
-        { "№": 3, "Продукт": "ПФ вишневый конфитюр", "Ingredient": "Prep cherry jam", "Шт/гр": "70" },
-        { "№": 4, "Продукт": "Кремчиз", "Ingredient": "Creamcheese", "Шт/гр": "50" },
-        { "№": 5, "Продукт": "Краситель пищевой зел.", "Ingredient": "Food coloring green", "Шт/гр": "1" }
-     ],
-      "process": {
-        "ru": "Миксером перебить кремчиз до мягкого состояния без комочков, ввести остальные ингредиенты, взбивать до плотного состояния. После убрать в бокс.",
-        "en": "Beat the cream cheese with a mixer until soft and lump-free, add the remaining ingredients, beat until thick. Then put it in the box."
-       }
-    },
-    {
-      "name": { 
-        "ru": "ПАВЛОВА", 
-        "en": "PAVLOVA" 
-      },
-      "key": "Шт.",
-      "ingredients": [
-        { "№": 1, "Продукт": "Шт.", "Ingredient": "Pcs", "Шт/гр": "1" },
-        { "№": 2, "Продукт": "ПФ Павлова безе", "Ingredient": "Prep Pavlova meringue", "Шт/гр": "70" },
-        { "№": 3, "Продукт": "ПФ вишневый крем", "Ingredient": "Prep cherry cream", "Шт/гр": "60" },
-        { "№": 4, "Продукт": "Шоколад белый", "Ingredient": "Chocolate white", "Шт/гр": "10" },
-        { "№": 5, "Продукт": "Черешня", "Ingredient": "Cherries", "Шт/гр": "10" }
-      ],
-      "process": {
-        "ru": "Готовое безе смазать растопленым шоколадом, отсадить крем через кондитерский мешок с розочкой, поместить по центру ягоду.",
-        "en": "Grease the finished meringue with melted chocolate, pipe the cream through a pastry bag with a rose, and place a berry in the center."
-      }
-    },
-    {
-      "name": { 
-        "ru": "ВИШНЕВЫЙ КОНФИТЮР", 
-        "en": "CHERRY JAM" 
-      },
-      "key": "Количество",
-      "ingredients": [
-        { "№": 1, "Продукт": "Количество", "Ingredient": "Amount", "Шт/гр": "750" },
-        { "№": 2, "Продукт": "Вишня С/М", "Ingredient": "Cherry frozen", "Шт/гр": "500" },
-        { "№": 3, "Продукт": "Глюкоза", "Ingredient": "Glucose", "Шт/гр": "45" },
-        { "№": 4, "Продукт": "Лимонная кислота", "Ingredient": "Citric acid", "Шт/гр": "4" },
-        { "№": 5, "Продукт": "Крахмал", "Ingredient": "Starch", "Шт/гр": "30" },
-        { "№": 6, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "220" }
-      ],
-      "process": {
-        "ru": "Поместить все ингредиенты кроме крахмала в кастрюлю, проварить, пробить блендером, добавить крахмал, пробить блендером. Дать немного остыть, расфасовать по вакуумным пакетам.",
-        "en": "Place all ingredients except starch in a saucepan, boil, blend, add starch, blend. Let cool slightly, pack into vacuum bags."
-      }
-    },
-    {
-      "name": { 
-        "ru": "ПЕЧЕНЬЕ КОМПЛИМЕНТ", 
-        "en": "COOKIE COMPLIMENT" 
-      },
-      "key": "Шт.",
-      "ingredients": [
-        { "№": 1, "Продукт": "Шт.", "Ingredient": "Pcs", "Шт/гр": "100" },
-        { "№": 2, "Продукт": "Яйцо(желток)", "Ingredient": "Egg yolks", "Шт/гр": "144" },
-        { "№": 3, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "130" },
-        { "№": 4, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "250" },
-        { "№": 5, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "6" },
-        { "№": 6, "Продукт": "Сода пищевая", "Ingredient": "Baking soda", "Шт/гр": "5" },
-        { "№": 7, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "600" }
-      ],
-      "process": {
-         "ru": "В дежу для миксера просеять муку, соду, и сахарную пудру, мелкую соль, добавить холодное сливочное масло и произвести замес теста до состояния крошки, далее ввести яичные желтки, замесить однородное песочное тесто, разделить на части, завернуть в пленку и убрать на холод на 30-40 минут. Отпекать при 200 градусах 15-20 минут",
-        "en": "In a mixer bowl, sift flour, baking soda, and powdered sugar, add fine salt, cold butter and knead the dough until crumbly, then add egg yolks, knead a homogeneous shortcrust pastry, divide into portions, wrap in film and refrigerate for 30-40 minutes. Bake at 200 degrees for 15-20 minutes"
-      }
-    },
-    {
-      "name": { 
-        "ru": "СОЛЕНАЯ КАРАМЕЛЬ", 
-        "en": "SALTED CARAMEL" 
-      },
-      "key": "Количество",
-      "ingredients": [
-        { "№": 1, "Продукт": "Количество", "Ingredient": "Amount", "Шт/гр": "2700" },
-        { "№": 2, "Продукт": "Сливки", "Ingredient": "Cream", "Шт/гр": "2100" },
-        { "№": 3, "Продукт": "Глюкоза", "Ingredient": "Glucose", "Шт/гр": "765" },
-        { "№": 4, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "450" },
-        { "№": 5, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "345" },
-        { "№": 6, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "24" },
-        { "№": 7, "Продукт": "Вода", "Ingredient": "Water", "Шт/гр": "180" }
-      ],
-      "process": {
-         "ru": "Сахар карамелизовать, добавить сироп глюкозы, и горячие сливки уварить, дать остыть до 55-40 градусов и ввести соль и сливочное масло.",
-        "en": "Caramelize the sugar, add glucose syrup, boil the hot cream, let cool to 55-40 degrees and add salt and butter."
-      }
-    },
-    {
-      "name": { 
-        "ru": "СУХАЯ СМЕСЬ ЯБЛОЧНЫЙ ПИРОГ", 
-        "en": "APPLE PIE DRY MIXTUTRE" 
-      },
-      "key": "Торт шт.",
-      "ingredients": [
-        { "№": 1, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "1.42" },
-        { "№": 2, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "291" },
-        { "№": 3, "Продукт": "Овсяные хлопья(мука)", "Ingredient": "Oat flakes (flour)", "Шт/гр": "299" },
-        { "№": 4, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "2.2" },
-        { "№": 5, "Продукт": "Разрыхлитель", "Ingredient": "Baking powder", "Шт/гр": "15" },
-        { "№": 6, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Шт/гр": "5.2" },
-        { "№": 7, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "260" },
-        { "№": 7, "Продукт": "Сахар коричневый", "Ingredient": "Brown sugar", "Шт/гр": "75" },
-        { "№": 7, "Продукт": "Миндальная мука", "Ingredient": "Almond flour", "Шт/гр": "60" }
-      ],
-      "process": {
-        "ru": "Овсянку перебить блендером. Смешать все ингридиенты до однородной консистенции",
-        "en": "Beat the oatmeal with a blender. Mix all ingredients until smooth"
-      }
-    },
-    {
-      "name": { 
-        "ru": "НАЧИНКА ЯБЛОЧНЫЙ ПИРОГ", 
-        "en": "APPLE PIE FILLING" 
-      },
-      "key": "Количество",
-      "ingredients": [
-        { "№": 1, "Продукт": "Количество", "Ingredient": "Amount", "Шт/гр": "1.1" },
-        { "№": 2, "Продукт": "Яблоко", "Ingredient": "Apple", "Шт/гр": "1875" },
-        { "№": 3, "Продукт": "Специя Корица", "Ingredient": "Spice Cinnamon", "Шт/гр": "1.2" },
-        { "№": 4, "Продукт": "Специя Масала", "Ingredient": "Spice Masala", "Шт/гр": "1.9" },
-        { "№": 5, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Шт/гр": "12" },
-        { "№": 6, "Продукт": "Лимонная кислота", "Ingredient": "Citric acid", "Шт/гр": "1.2" }
-      ],
-      "process": {
-         "ru": "Яблоки очистить от кожи и семян, натереть на терке, добавить специи и перемешать, сок от яблок не сливать.",
-        "en": "Peel the apples from skin and seeds, grate them, add spices and mix, do not drain the juice from the apples."
-      }
-    },
-    {
-      "name": { 
-        "ru": "ЯБЛОЧНЫЙ ПИРОГ", 
-        "en": "APPLE PIE" 
-      },
-      "key": "Торт шт.",
-      "ingredients": [
-        { "№": 1, "Продукт": "Торт шт.", "Ingredient": "Торт шт.", "Шт/гр": "1" },
-        { "№": 2, "Продукт": "ПФ Мучная смесь яблочный", "Ingredient": "Prep Apple flour mixture", "Шт/гр": "700" },
-        { "№": 3, "Продукт": "ПФ начинка яблочный", "Ingredient": "Prep apple filling", "Шт/гр": "900" },
-        { "№": 4, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "210" }
-     ],
-      "process": {
-        "ru": "В форму слоями выкладывать по очеред:мучная смесь-начинка по 6 слоев, сверху натереть масло. Далее поставить отпекаться при 180 градусах, конвекция 10, 80-95 минут. Далее ещё 15 минут с конвецией 35, чтобы появилась красивая корочка.",
-        "en": "Put the following layers in the form: flour mixture-filling in 6 layers, grate butter on top. Then bake at 180 degrees, convection for 10, 80-95 minutes. Then another 15 minutes with convection for 35, so that a beautiful crust appears."
-      }
-    },
-    {
-      "name": { 
-        "ru": "ЯБЛОЧНЫЙ ПИРОГ (ПРЦ)", 
-        "en": "APPLE PIE (PCS)" 
-      },
-      "key": "Шт.",
-      "ingredients": [
-        { "№": 1, "Продукт": "Шт.", "Ingredient": "Pcs", "Шт/гр": "1" },
-        { "№": 1, "Продукт": "ПФ яблочный пирог", "Ingredient": "Prep apple pie", "Шт/гр": "120" },
-        { "№": 2, "Продукт": "ПФ соленая карамель", "Ingredient": "Prep salted caramel", "Шт/гр": "35" },
-        { "№": 3, "Продукт": "Орех фундук", "Ingredient": "Hazelnut", "Шт/гр": "3" }
-      ],
-      "process": {
-        "ru": "Нарезаный пирок обернуть оплеткой каждый кусок. Отсадить взбитую карамель через кондитерский мешок с розочкой. Сверху положить целый орех фундук.",
-        "en": "Wrap each piece of sliced ​​pie with braid. Pipe whipped caramel through a pastry bag with a rose. Put a whole hazelnut on top."
-      }
-    },
-    {
-      "name": { 
-        "ru": "БРАУНИ", 
-        "en": "BROWNIE" 
-      },
-      "key": "Торт шт.",
-      "ingredients": [
-        { "№": 1, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "1" },
-        { "№": 2, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "156" },
-        { "№": 3, "Продукт": "Шоколад темный", "Ingredient": "Dark chocolate", "Шт/гр": "400" },
-        { "№": 4, "Продукт": "Яйцо(вес)", "Ingredient": "Egg", "Шт/гр": "204" },
-        { "№": 5, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "240" },
-        { "№": 6, "Продукт": "Какао", "Ingredient": "Cocoa", "Шт/гр": "60" },
-        { "№": 7, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "2" },
-        { "№": 8, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Шт/гр": "5" },
-        { "№": 9, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "125" },
-        { "№": 10, "Продукт": "Разрыхлитель", "Ingredient": "Baking powder", "Шт/гр": "10" }
-      ],
-      "process": {
-        "ru": "Сливочное масло и черный шоколад растопить на водяной бане до однородного состояния, остудить до комнатной температуры. Яйцо взбить 15 минут , с двумя видами сахара до густоты( сахар белый и коричневый) снизить скорость и влить шоколадную смесь , добавить соль и ванильный экстракт, постепенно ввести муку( предварительно просеять), в конце ввести рубленный молочный шоколад перемешать и разложить по формочкам, выпекать при температуре 180 градусов 15 минут ( конвекция убавить на двойку) дать остыть и вытащить из форм и остудить полностью.",
-        "en": "Melt butter and dark chocolate in a water bath until smooth, cool to room temperature. Beat the egg for 15 minutes, with two types of sugar until thick (white and brown sugar), reduce the speed and pour in the chocolate mixture, add salt and vanilla extract, gradually add flour (pre-sift), at the end add chopped milk chocolate, mix and put into molds, bake at 180 degrees for 15 minutes (reduce convection to two), let cool and remove from the molds and cool completely."
-      }
-    },
-     {
-      "name": { 
-        "ru": "БРАУНИ НОВЫЙ", 
-        "en": "BROWNIE NEW" 
-      },
-      "key": "Торт шт.",
-      "ingredients": [
-        { "№": 1, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "1" },
-        { "№": 2, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "136" },
-        { "№": 3, "Продукт": "Шоколад темный", "Ingredient": "Dark chocolate", "Шт/гр": "160" },
-        { "№": 4, "Продукт": "Яйцо(вес)", "Ingredient": "Egg", "Шт/гр": "160" },
-        { "№": 5, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "160" },
-        { "№": 6, "Продукт": "Какао", "Ingredient": "Cocoa", "Шт/гр": "60" },
-        { "№": 7, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "2" },
-        { "№": 8, "Продукт": "Сода", "Ingredient": "Baking soda", "Шт/гр": "2" },
-        { "№": 9, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "80" },
-        { "№": 10, "Продукт": "Разрыхлитель", "Ingredient": "Baking powder", "Шт/гр": "6" }
-      ],
-      "process": {
-        "ru": "Масло и шоколад растопить и остудить до комнатной температуры.  Смешать все сухие ингридиенты в миске (мука, какао, разрыхлитель, сода). Яйца взбить до пышной пены. Аккуратно на минимальных оборотах миксера или лопаткой вмешать сухие ингридиенты. Шоколадно-масляную массу аккуратно ввести в тесто. Разлить по 755г по формам 18х18. Отпекать при 170 градусах, конвекции 20 около 30-40 минут. Визуально брауни поднимается и не оседает, а шпажка после проверки теста остается сухой.",
-        "en": "Melt the butter and chocolate, then let cool to room temperature. Mix all the dry ingredients in a bowl (flour, cocoa powder, baking powder, baking soda). Beat the eggs until light and fluffy. Carefully fold in the dry ingredients using a spatula or at low speed with a mixer. Gently incorporate the chocolate–butter mixture into the batter. Pour about 755 g of batter into 18×18 cm pans. Bake at 170°C with convection for about 30–40 minutes. Visually, the brownies should rise without collapsing, and a skewer inserted into the center should come"
-      }
-    },
+        "en": "Place honey, sugar, and butter in a heavy-bottomed saucepan and cook until sugar dissolves. Add salt and baking soda and cook until caramel color. Transfer to mixer bowl, cool 20 min, add eggs and flour and mix dough. Chill at least 4 hours.",
+        "vi": "Cho mật ong, đường và bơ vào nồi đáy dày, đun ở lửa vừa cho đến khi đường tan. Thêm muối và baking soda, khuấy liên tục đến khi hỗn hợp có màu caramel sáng. Đổ hỗn hợp vào tô máy trộn, để nguội khoảng 20 phút, gắn cánh trộn rồi thêm trứng và bột mì. Nhào thành bột, cho vào tô đã phủ bột, bọc kín và để tủ lạnh ít nhất 4 giờ (tốt nhất qua đêm)."
+      }      
+   },
+{
+  "name": { 
+    "ru": "МЕДОВИК КРЕМ", 
+    "en": "HONEY CAKE CREAM",
+    "vi": "KEM BÁNH MẬT ONG"
+  },
+  "key": "Торт шт.",
+  "ingredients": [
+    { "№": 1, "Продукт": "Йогурт", "Ingredient": "Yogurt", "Ingredient_vi": "Sữa chua", "Шт/гр": "340" },
+    { "№": 2, "Продукт": "Сахар(пудра)", "Ingredient": "Sugar (powdered)", "Ingredient_vi": "Đường bột", "Шт/гр": "95" },
+    { "№": 3, "Продукт": "Мед", "Ingredient": "Honey", "Ingredient_vi": "Mật ong", "Шт/гр": "70" },
+    { "№": 4, "Продукт": "Сыр Кремчиз", "Ingredient": "Cheese Creamcheese", "Ingredient_vi": "Phô mai kem", "Шт/гр": "232" },
+    { "№": 5, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Ingredient_vi": "Vani", "Шт/гр": "2" },
+    { "№": 6, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "275" },
+    { "№": 7, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "1" }
+  ],
+  "process": {
+    "ru": "Дежу и венчик предварительно остудить в морозилке или холодильнике. Кремчиз должен быть холодный, но не дубовый. Из сахара сделать сахарную пудру, положить в дежу миксера, добавить сыр, мед, ваниль и взбить до однородного состояния, далее добавить холодный йогурт, соединить, добавить сливки и окончательно взбить крем (минуты 2-3) до консистенции густого йогурта. 1 слой 165г (в торте 6 слоев крема).",
+    "en": "Pre-chill the mixer bowl and whisk in the freezer or fridge. The cream cheese should be cold but not rock-hard. Make powdered sugar from the sugar, place in the mixer bowl, add cheese, honey, and vanilla, and beat until smooth. Then add cold yogurt, combine, add cream, and whip the frosting (2-3 minutes) until it reaches a thick yogurt consistency. Use 165g per layer (6 layers of frosting in the cake).",
+    "vi": "Làm lạnh trước tô và phới đánh của máy trộn trong tủ đông hoặc tủ lạnh. Phô mai kem phải lạnh nhưng không quá cứng. Xay đường thành đường bột, cho vào tô máy trộn cùng phô mai, mật ong và vani, đánh đến khi mịn. Thêm sữa chua lạnh, trộn đều, sau đó thêm kem tươi và đánh tiếp khoảng 2–3 phút đến khi đạt độ đặc như sữa chua đặc. Mỗi lớp dùng 165 g kem (tổng cộng 6 lớp kem trong bánh)."
+  }
+},
+{
+  "name": { 
+    "ru": "МЕДОВИК", 
+    "en": "HONEY CAKE",
+    "vi": "BÁNH MẬT ONG"
+  },
+  "key": "Торт шт.",
+  "ingredients": [
+    { "№": 1, "Продукт": "ПФ Коржи медовик", "Ingredient": "Prep cake layers", "Ingredient_vi": "Đế bánh mật ong chuẩn bị sẵn", "Шт/гр": "600" },
+    { "№": 2, "Продукт": "ПФ Крем медовик", "Ingredient": "Prep Cream honey cake", "Ingredient_vi": "Kem bánh mật ong chuẩn bị sẵn", "Шт/гр": "1000" },
+    { "№": 3, "Продукт": "ПФ струшка коржей", "Ingredient": "Prep shreded cake layers", "Ingredient_vi": "Vụn bánh mật ong", "Шт/гр": "50" },
+    { "№": 4, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "1" }
+  ],
+  "process": {
+    "ru": "6 коржей прослоить кремом (165 г на слой), последний корж промазать и выровнять (использовать форму со съемным дном и бортовую ленту). Убрать торт в морозилку. При надобности достать, дать оттаять 15–20 минут и полностью покрыть медовой крошкой. Нарезать острым ножом на 12 частей и упаковать в ацетатную пленку.",
+    "en": "Layer 6 cake discs with cream (165g per layer), then frost and smooth the top layer (use a springform pan and acetate cake collar). Place the cake in the freezer. When needed, remove from the freezer, let thaw for 15–20 minutes, and coat completely with honey cake crumbs. Slice into 12 portions with a sharp knife and wrap each in acetate film.",
+    "vi": "Xếp 6 lớp bánh với kem (165 g mỗi lớp), sau đó phủ và làm phẳng lớp trên cùng (dùng khuôn đáy rời và vòng acetate). Đặt bánh vào tủ đông. Khi cần sử dụng, lấy ra, để rã đông 15–20 phút rồi phủ toàn bộ bằng vụn bánh mật ong. Dùng dao sắc cắt thành 12 phần và bọc mỗi phần bằng màng acetate."
+  }
+},
+{
+  "name": { 
+    "ru": "ШОКОЛАДНЫЙ ТОРТ КОРЖЫ", 
+    "en": "CHOCOLATE CAKE DAUGH",
+    "vi": "ĐẾ BÁNH SÔ CÔ LA"
+  },
+  "key": "Торт шт.",
+  "ingredients": [
+    { "№": 1, "Продукт": "Яйцо", "Ingredient": "Egg", "Ingredient_vi": "Trứng", "Шт/гр": "220" },
+    { "№": 2, "Продукт": "Мед", "Ingredient": "Honey", "Ingredient_vi": "Mật ong", "Шт/гр": "260" },
+    { "№": 3, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "260" },
+    { "№": 4, "Продукт": "Сода пищевая", "Ingredient": "Baking soda", "Ingredient_vi": "Muối nở", "Шт/гр": "20" },
+    { "№": 5, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "3" },
+    { "№": 6, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "250" },
+    { "№": 7, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "640" },
+    { "№": 8, "Продукт": "Какао", "Ingredient": "Cocoa", "Ingredient_vi": "Ca cao", "Шт/гр": "80" },
+    { "№": 9, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "2.9" }
+  ],
+  "process": {
+    "ru": "В кастрюлю с толстым дном и высокими стенками положить: мед, сахар, масло и проварить на среднем огне до растворения сахара, добавить соль, соду, и варить постоянно мешая, до карамельного яркого цвета. Массу аккуратно переложить в дежу миксера, дать остыть 15-20 минут, установить насадку лопасть, ввести яйца, муку смешанную с какао (смешать и просеять через сито чтобы не было комков) и замешать тесто, готовое тесто переложить в миску припудренную мукой, накрыть в контакт пленкой и убрать в холодильник минимум на 4 часа, лучше на ночь.",
+    "en": "Place honey, sugar, and butter in a heavy-bottomed, high-sided saucepan and cook over medium heat until the sugar dissolves. Add salt and baking soda, and cook, stirring constantly, until it reaches a bright caramel color. Carefully transfer the mixture to a mixer bowl, let it cool for 15-20 minutes, attach the paddle attachment, then add eggs and the sifted flour and cocoa mixture. Mix the dough, transfer it to a floured bowl, cover with plastic wrap (touching the surface), and refrigerate for at least 4 hours, preferably overnight.",
+    "vi": "Cho mật ong, đường và bơ vào nồi đáy dày thành cao, nấu trên lửa vừa cho đến khi đường tan. Thêm muối và muối nở, tiếp tục nấu và khuấy liên tục đến khi hỗn hợp có màu caramel sáng. Chuyển cẩn thận sang tô máy trộn, để nguội 15–20 phút, lắp cánh khuấy, thêm trứng và hỗn hợp bột mì trộn với ca cao đã rây. Nhào thành bột, chuyển sang bát đã phủ bột mì, bọc màng bọc thực phẩm sát mặt và để trong tủ lạnh ít nhất 4 giờ, tốt nhất qua đêm."
+  }
+},
+{
+  "name": { 
+    "ru": "ШОКОЛАДНЫЙ ТОРТ КРЕМ", 
+    "en": "CHOCOLATE CAKE CREAM",
+    "vi": "KEM BÁNH SÔ CÔ LA"
+  },
+  "key": "Торт шт.",
+  "ingredients": [
+    { "№": 1, "Продукт": "Йогурт", "Ingredient": "Yogurt", "Ingredient_vi": "Sữa chua", "Шт/гр": "247" },
+    { "№": 2, "Продукт": "Сахар(пудра)", "Ingredient": "Sugar (powdered)", "Ingredient_vi": "Đường bột", "Шт/гр": "69" },
+    { "№": 3, "Продукт": "Мед", "Ingredient": "Honey", "Ingredient_vi": "Mật ong", "Шт/гр": "51" },
+    { "№": 4, "Продукт": "Сыр Кремчиз", "Ingredient": "Cheese Creamcheese", "Ingredient_vi": "Phô mai kem", "Шт/гр": "169" },
+    { "№": 5, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Ingredient_vi": "Vani", "Шт/гр": "1" },
+    { "№": 6, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "200" },
+    { "№": 7, "Продукт": "Шоколад темный", "Ingredient": "Dark chocolate", "Ingredient_vi": "Sô cô la đen", "Шт/гр": "272" },
+    { "№": 8, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "1" }
+  ],
+  "process": {
+    "ru": "Предварительно сделать ганаш: разогреть сливки до 80 градусов (не кипятить!), залить ими шоколад, растворить и пробить блендером. Накрыть пленкой в контакт и стабилизировать в холодильнике минимум 6 часов. Дежу и венчик предварительно остудить. Холодный крем-чиз взбить в деже с сахарной пудрой, медом и ванилью до однородности. Добавить холодный йогурт, соединить, затем влить сливки и взбить крем (2-3 минуты) до консистенции густого йогурта. На один слой идет 165 г крема (всего 6 слоев).",
+    "en": "Prepare the ganache in advance: heat the cream to 80°C (do not boil!), pour over the chocolate, dissolve, and blend until smooth. Cover with plastic wrap (touching the surface) and stabilize in the fridge for at least 6 hours. Pre-chill the mixer bowl and whisk. Beat cold cream cheese with powdered sugar, honey, and vanilla until smooth. Add cold yogurt, combine, then pour in the cream and whip (2-3 minutes) until it reaches a thick yogurt consistency. Use 165g of cream per layer (6 layers in total).",
+    "vi": "Chuẩn bị ganache trước: đun nóng kem tươi đến 80°C (không đun sôi), đổ lên sô cô la, khuấy tan rồi xay bằng máy xay cầm tay cho mịn. Phủ màng bọc thực phẩm sát mặt và để ổn định trong tủ lạnh ít nhất 6 giờ. Làm lạnh trước tô và phới đánh. Đánh phô mai kem lạnh với đường bột, mật ong và vani đến khi mịn. Thêm sữa chua lạnh, trộn đều, sau đó cho kem tươi vào và đánh tiếp 2–3 phút đến khi đạt độ đặc như sữa chua đặc. Mỗi lớp dùng 165 g kem (tổng cộng 6 lớp)."
+  }
+},    
     {
   "name": { 
-    "ru": "ПФ КРЕМ МИНДАЛЬНЫЙ", 
-    "en": "ALMOND CREAM PF" 
+    "ru": "ШОКОЛАДНЫЙ ТОРТ ГЛОССАЖ", 
+    "en": "CHOCOLATE CAKE GLOSSAGE",
+    "vi": "LỚP PHỦ BÁNH SÔ CÔ LA"
+  },
+  "key": "Торт шт.",
+  "ingredients": [
+    { "№": 1, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "2" },
+    { "№": 2, "Продукт": "Желатин листовой", "Ingredient": "Leaf gelatin", "Ingredient_vi": "Gelatin lá", "Шт/гр": "20" },
+    { "№": 3, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "389" },
+    { "№": 4, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "60" },
+    { "№": 5, "Продукт": "Какао", "Ingredient": "Cocoa", "Ingredient_vi": "Ca cao", "Шт/гр": "140" },
+    { "№": 6, "Продукт": "Ром", "Ingredient": "Rum", "Ingredient_vi": "Rượu rum", "Шт/гр": "112" },
+    { "№": 7, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "317" },
+    { "№": 8, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "2" }
+  ],
+  "process": {
+    "ru": "Желатин замочить в воде. В сотейнике смешать порошок какао, сливки, сахар, ром, довести до кипения постоянно помешивая, добавить желатин и сливочное масло, перемешать венчиком до однородности. Пробить блендером, дать остыть до 42–45 градусов. Использовать для покрытия тортов, предварительно подмороженных в морозилке около часа.",
+    "en": "Soak the gelatin in water. In a saucepan, combine cocoa powder, cream, sugar, and rum; bring to a boil while stirring constantly. Add the gelatin and butter, and whisk until smooth. Blend with an immersion blender and let cool to 42–45°C. Use to coat cakes that have been pre-frozen for about an hour.",
+    "vi": "Ngâm gelatin trong nước. Trong nồi nhỏ trộn bột ca cao, kem tươi, đường và rượu rum, đun sôi nhẹ trong khi khuấy liên tục. Thêm gelatin và bơ, khuấy bằng phới đến khi mịn. Xay bằng máy xay cầm tay, để nguội đến 42–45°C. Dùng để phủ bánh đã được làm lạnh trong tủ đông khoảng 1 giờ."
+  }
+},
+{
+  "name": { 
+    "ru": "ПЕЧЕНЬЕ С ШОКОЛАДОМ (80 ГР)", 
+    "en": "COOKIE WITH CHOCOLATE (80 GR)",
+    "vi": "BÁNH QUY SÔ CÔ LA (80 G)"
+  },
+  "key": "Шт.",
+  "ingredients": [
+    { "№": 1, "Продукт": "Шт.", "Ingredient": "Pcs", "Ingredient_vi": "Cái", "Шт/гр": "8.5" },
+    { "№": 2, "Продукт": "Яйцо", "Ingredient": "Egg", "Ingredient_vi": "Trứng", "Шт/гр": "1" },
+    { "№": 3, "Продукт": "Овсяные хлопья", "Ingredient": "Oatmeal", "Ingredient_vi": "Yến mạch", "Шт/гр": "150" },
+    { "№": 4, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "40" },
+    { "№": 5, "Продукт": "Разрыхлитель", "Ingredient": "Baking powder", "Ingredient_vi": "Bột nở", "Шт/гр": "15" },
+    { "№": 6, "Продукт": "Маргарин", "Ingredient": "Margarine", "Ingredient_vi": "Bơ thực vật", "Шт/гр": "100" },
+    { "№": 7, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1" },
+    { "№": 8, "Продукт": "Сахар коричневый", "Ingredient": "Brown sugar", "Ingredient_vi": "Đường nâu", "Шт/гр": "100" },
+    { "№": 9, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "120" },
+    { "№": 10, "Продукт": "Мед", "Ingredient": "Honey", "Ingredient_vi": "Mật ong", "Шт/гр": "25" },
+    { "№": 11, "Продукт": "Шоколад", "Ingredient": "Chocolate", "Ingredient_vi": "Sô cô la", "Шт/гр": "90" }
+  ],
+  "process": {
+    "ru": "Масло взбить с сахаром до пышности. Вбить яйцо и мёд, перемешать. В другой миске соединить муку, разрыхлитель, соль, овсянку (предварительно перебить блендером чтобы была мелкая фракция). Смешать сухие и влажные ингредиенты, добавить кусочки шоколада, перемешать. Сформировать шарики по 80 г, выложить через кольцо. Выпекать при 175 °C, 10–15 минут — вынуть, когда центр ещё мягкий. Остудить на решётке.",
+    "en": "Beat butter with sugar until fluffy. Beat in egg and honey, mix. In another bowl, combine flour, baking powder, salt, oatmeal (pre-blender until fluffy). Mix dry and wet ingredients, add chocolate pieces, mix. Form 80 g balls, place through a ring. Bake at 175 °C for 10-15 minutes - remove when the center is still soft. Cool on a rack.",
+    "vi": "Đánh bơ với đường đến khi bông xốp. Thêm trứng và mật ong, trộn đều. Trong bát khác trộn bột mì, bột nở, muối và yến mạch (xay sơ bằng máy xay để hạt nhỏ). Trộn hỗn hợp khô với hỗn hợp ướt, thêm miếng sô cô la và trộn đều. Tạo viên bột 80 g, đặt qua vòng khuôn. Nướng ở 175°C trong 10–15 phút, lấy ra khi phần giữa vẫn còn mềm. Để nguội trên giá."
+  }
+},
+{
+  "name": { 
+    "ru": "ПАВЛОВА БЕЗЕ (70 ГР)", 
+    "en": "PAVLOVA BASE (70 GR)",
+    "vi": "ĐẾ MERINGUE PAVLOVA (70 G)"
+  },
+  "key": "Шт.",
+  "ingredients": [
+    { "№": 1, "Продукт": "Шт.", "Ingredient": "Pcs", "Ingredient_vi": "Cái", "Шт/гр": "10" },
+    { "№": 2, "Продукт": "Яйцо(белок)", "Ingredient": "Egg (whites)", "Ingredient_vi": "Lòng trắng trứng", "Шт/гр": "360" },
+    { "№": 3, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "660" },
+    { "№": 4, "Продукт": "Крахмал", "Ingredient": "Starch", "Ingredient_vi": "Tinh bột", "Шт/гр": "90" },
+    { "№": 5, "Продукт": "Лимонная кислота", "Ingredient": "Citric acid", "Ingredient_vi": "Axit citric", "Шт/гр": "2" },
+    { "№": 6, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "6" }
+  ],
+  "process": {
+    "ru": "Яичный белок взбить с сахарной пудрой(сахар предварительно помололось в пудру и просеять через сито), солью и лимонной кислотой, взбиваем 10-15 минут, в конце вводим кукурузный крахмал...",
+    "en": "Whip the egg white with powdered sugar (pre-ground the sugar into powder and sift through a sieve), salt, and citric acid...",
+    "vi": "Đánh lòng trắng trứng với đường bột (xay đường thành bột và rây qua rây), muối và axit citric khoảng 10–15 phút, sau đó thêm tinh bột ngô..."
+  }
+},
+{
+  "name": { 
+    "ru": "ПАВЛОВА КРЕМ", 
+    "en": "PAVLOVA CREAM",
+    "vi": "KEM PAVLOVA"
+  },
+  "key": "Шт.",
+  "ingredients": [
+    { "№": 1, "Продукт": "Шт.", "Ingredient": "Pcs", "Ingredient_vi": "Cái", "Шт/гр": "4" },
+    { "№": 2, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "120" },
+    { "№": 3, "Продукт": "ПФ вишневый конфитюр", "Ingredient": "Prep cherry jam", "Ingredient_vi": "Mứt anh đào chuẩn bị sẵn", "Шт/гр": "70" },
+    { "№": 4, "Продукт": "Кремчиз", "Ingredient": "Creamcheese", "Ingredient_vi": "Phô mai kem", "Шт/гр": "50" },
+    { "№": 5, "Продукт": "Краситель пищевой зел.", "Ingredient": "Food coloring green", "Ingredient_vi": "Màu thực phẩm xanh", "Шт/гр": "1" }
+  ],
+  "process": {
+    "ru": "Миксером перебить кремчиз до мягкого состояния без комочков, ввести остальные ингредиенты, взбивать до плотного состояния. После убрать в бокс.",
+    "en": "Beat the cream cheese with a mixer until soft and lump-free, add the remaining ingredients, beat until thick. Then put it in the box.",
+    "vi": "Đánh phô mai kem bằng máy trộn đến khi mềm mịn không còn vón cục, thêm các nguyên liệu còn lại và đánh đến khi đặc. Sau đó cho vào hộp bảo quản."
+  }
+},
+{
+  "name": { 
+    "ru": "ПАВЛОВА", 
+    "en": "PAVLOVA",
+    "vi": "BÁNH PAVLOVA"
+  },
+  "key": "Шт.",
+  "ingredients": [
+    { "№": 1, "Продукт": "Шт.", "Ingredient": "Pcs", "Ingredient_vi": "Cái", "Шт/гр": "1" },
+    { "№": 2, "Продукт": "ПФ Павлова безе", "Ingredient": "Prep Pavlova meringue", "Ingredient_vi": "Meringue Pavlova chuẩn bị sẵn", "Шт/гр": "70" },
+    { "№": 3, "Продукт": "ПФ вишневый крем", "Ingredient": "Prep cherry cream", "Ingredient_vi": "Kem anh đào chuẩn bị sẵn", "Шт/гр": "60" },
+    { "№": 4, "Продукт": "Шоколад белый", "Ingredient": "Chocolate white", "Ingredient_vi": "Sô cô la trắng", "Шт/гр": "10" },
+    { "№": 5, "Продукт": "Черешня", "Ingredient": "Cherries", "Ingredient_vi": "Anh đào", "Шт/гр": "10" }
+  ],
+  "process": {
+    "ru": "Готовое безе смазать растопленым шоколадом, отсадить крем через кондитерский мешок с розочкой, поместить по центру ягоду.",
+    "en": "Grease the finished meringue with melted chocolate, pipe the cream through a pastry bag with a rose, and place a berry in the center.",
+    "vi": "Phết sô cô la đã đun chảy lên bánh meringue, bắt kem bằng túi bắt kem với đầu hoa và đặt quả anh đào ở giữa."
+   }
+},
+{
+  "name": {
+    "ru": "ВИШНЕВЫЙ КОНФИТЮР",
+    "en": "CHERRY JAM",
+    "vi": "MỨT ANH ĐÀO"
   },
   "key": "Количество",
   "ingredients": [
-    { "№": 1, "Продукт": "Сливки", "Ingredient": "Cream", "Шт/гр": "800" },
-    { "№": 2, "Продукт": "Миндальная мука", "Ingredient": "Almond flour", "Шт/гр": "100" },
-    { "№": 3, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "100" },
-    { "№": 4, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Шт/гр": "8" },
-    { "№": 5, "Продукт": "Смесь для заварного", "Ingredient": "Custard mix", "Шт/гр": "100" },
-    { "№": 6, "Продукт": "Количество", "Ingredient": "Amount", "Шт/гр": "1100" }
+    { "№": 1, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Số lượng", "Шт/гр": "750" },
+    { "№": 2, "Продукт": "Вишня С/М", "Ingredient": "Cherry frozen", "Ingredient_vi": "Anh đào đông lạnh", "Шт/гр": "500" },
+    { "№": 3, "Продукт": "Глюкоза", "Ingredient": "Glucose", "Ingredient_vi": "Glucose", "Шт/гр": "45" },
+    { "№": 4, "Продукт": "Лимонная кислота", "Ingredient": "Citric acid", "Ingredient_vi": "Axit citric", "Шт/гр": "4" },
+    { "№": 5, "Продукт": "Крахмал", "Ingredient": "Starch", "Ingredient_vi": "Tinh bột", "Шт/гр": "30" },
+    { "№": 6, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "220" }
+  ],
+  "process": {
+    "ru": "Поместить все ингредиенты кроме крахмала в кастрюлю, проварить, пробить блендером, добавить крахмал, пробить блендером. Дать немного остыть, расфасовать по вакуумным пакетам.",
+    "en": "Place all ingredients except starch in a saucepan, boil, blend, add starch, blend. Let cool slightly, pack into vacuum bags.",
+    "vi": "Cho tất cả nguyên liệu trừ tinh bột vào nồi, đun sôi rồi xay bằng máy xay cầm tay. Thêm tinh bột và xay lại. Để nguội nhẹ rồi đóng gói vào túi hút chân không."
+  }
+},
+{
+  "name": {
+    "ru": "ПЕЧЕНЬЕ КОМПЛИМЕНТ",
+    "en": "COOKIE COMPLIMENT",
+    "vi": "BÁNH QUY COMPLIMENT"
+  },
+  "key": "Шт.",
+  "ingredients": [
+    { "№": 1, "Продукт": "Шт.", "Ingredient": "Pcs", "Ingredient_vi": "Cái", "Шт/гр": "100" },
+    { "№": 2, "Продукт": "Яйцо(желток)", "Ingredient": "Egg yolks", "Ingredient_vi": "Lòng đỏ trứng", "Шт/гр": "144" },
+    { "№": 3, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "130" },
+    { "№": 4, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "250" },
+    { "№": 5, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "6" },
+    { "№": 6, "Продукт": "Сода пищевая", "Ingredient": "Baking soda", "Ingredient_vi": "Muối nở", "Шт/гр": "5" },
+    { "№": 7, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "600" }
+  ],
+  "process": {
+    "ru": "В дежу для миксера просеять муку, соду, и сахарную пудру, мелкую соль, добавить холодное сливочное масло и произвести замес теста до состояния крошки, далее ввести яичные желтки, замесить однородное песочное тесто, разделить на части, завернуть в пленку и убрать на холод на 30-40 минут. Отпекать при 200 градусах 15-20 минут",
+    "en": "In a mixer bowl, sift flour, baking soda, and powdered sugar, add fine salt, cold butter and knead the dough until crumbly, then add egg yolks, knead a homogeneous shortcrust pastry, divide into portions, wrap in film and refrigerate for 30-40 minutes. Bake at 200 degrees for 15-20 minutes",
+    "vi": "Rây bột mì, baking soda và đường bột vào cối trộn, thêm muối mịn và bơ lạnh, trộn đến khi thành dạng vụn. Sau đó thêm lòng đỏ trứng và nhào thành bột shortcrust đồng nhất. Chia phần, bọc màng và để lạnh 30–40 phút. Nướng ở 200°C trong 15–20 phút."
+  }
+},
+{
+  "name": {
+    "ru": "СОЛЕНАЯ КАРАМЕЛЬ",
+    "en": "SALTED CARAMEL",
+    "vi": "CARAMEL MUỐI"
+  },
+  "key": "Количество",
+  "ingredients": [
+    { "№": 1, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Số lượng", "Шт/гр": "2700" },
+    { "№": 2, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "2100" },
+    { "№": 3, "Продукт": "Глюкоза", "Ingredient": "Glucose", "Ingredient_vi": "Glucose", "Шт/гр": "765" },
+    { "№": 4, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "450" },
+    { "№": 5, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "345" },
+    { "№": 6, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "24" },
+    { "№": 7, "Продукт": "Вода", "Ingredient": "Water", "Ingredient_vi": "Nước", "Шт/гр": "180" }
+  ],
+  "process": {
+    "ru": "Сахар карамелизовать, добавить сироп глюкозы, и горячие сливки уварить, дать остыть до 55-40 градусов и ввести соль и сливочное масло.",
+    "en": "Caramelize the sugar, add glucose syrup, boil the hot cream, let cool to 55-40 degrees and add salt and butter.",
+    "vi": "Đun đường đến khi thành caramel, thêm siro glucose và kem nóng, nấu sôi. Để nguội đến 55–40°C rồi thêm muối và bơ."
+  }
+},
+{
+  "name": {
+    "ru": "СУХАЯ СМЕСЬ ЯБЛОЧНЫЙ ПИРОГ",
+    "en": "APPLE PIE DRY MIXTUTRE",
+    "vi": "HỖN HỢP KHÔ BÁNH TÁO"
+  },
+  "key": "Торт шт.",
+  "ingredients": [
+    { "№": 1, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh (cái)", "Шт/гр": "1.42" },
+    { "№": 2, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "291" },
+    { "№": 3, "Продукт": "Овсяные хлопья(мука)", "Ingredient": "Oat flakes (flour)", "Ingredient_vi": "Yến mạch xay (bột)", "Шт/гр": "299" },
+    { "№": 4, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "2.2" },
+    { "№": 5, "Продукт": "Разрыхлитель", "Ingredient": "Baking powder", "Ingredient_vi": "Bột nở", "Шт/гр": "15" },
+    { "№": 6, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Ingredient_vi": "Vani", "Шт/гр": "5.2" },
+    { "№": 7, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "260" },
+    { "№": 7, "Продукт": "Сахар коричневый", "Ingredient": "Brown sugar", "Ingredient_vi": "Đường nâu", "Шт/гр": "75" },
+    { "№": 7, "Продукт": "Миндальная мука", "Ingredient": "Almond flour", "Ingredient_vi": "Bột hạnh nhân", "Шт/гр": "60" }
+  ],
+  "process": {
+    "ru": "Овсянку перебить блендером. Смешать все ингридиенты до однородной консистенции",
+    "en": "Beat the oatmeal with a blender. Mix all ingredients until smooth",
+    "vi": "Xay yến mạch bằng máy xay. Trộn tất cả nguyên liệu đến khi hỗn hợp đồng nhất."
+  }
+},
+{
+  "name": {
+    "ru": "НАЧИНКА ЯБЛОЧНЫЙ ПИРОГ",
+    "en": "APPLE PIE FILLING",
+    "vi": "NHÂN BÁNH TÁO"
+  },
+  "key": "Количество",
+  "ingredients": [
+    { "№": 1, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Số lượng", "Шт/гр": "1.1" },
+    { "№": 2, "Продукт": "Яблоко", "Ingredient": "Apple", "Ingredient_vi": "Táo", "Шт/гр": "1875" },
+    { "№": 3, "Продукт": "Специя Корица", "Ingredient": "Spice Cinnamon", "Ingredient_vi": "Gia vị quế", "Шт/гр": "1.2" },
+    { "№": 4, "Продукт": "Специя Масала", "Ingredient": "Spice Masala", "Ingredient_vi": "Gia vị masala", "Шт/гр": "1.9" },
+    { "№": 5, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Ingredient_vi": "Vani", "Шт/гр": "12" },
+    { "№": 6, "Продукт": "Лимонная кислота", "Ingredient": "Citric acid", "Ingredient_vi": "Axit citric", "Шт/гр": "1.2" }
+  ],
+  "process": {
+    "ru": "Яблоки очистить от кожи и семян, натереть на терке, добавить специи и перемешать, сок от яблок не сливать.",
+    "en": "Peel the apples from skin and seeds, grate them, add spices and mix, do not drain the juice from the apples.",
+    "vi": "Gọt vỏ và bỏ hạt táo, bào nhỏ, thêm gia vị và trộn đều, không đổ bỏ nước táo."
+   }
+},
+{
+  "name": { 
+    "ru": "ЯБЛОЧНЫЙ ПИРОГ", 
+    "en": "APPLE PIE",
+    "vi": "BÁNH TÁO"
+  },
+  "key": {
+    "ru": "Торт шт.",
+    "en": "Cake pcs",
+    "vi": "Bánh cái"
+  },
+  "ingredients": [
+    { "№": 1, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "1" },
+    { "№": 2, "Продукт": "ПФ Мучная смесь яблочный", "Ingredient": "Prep Apple flour mixture", "Ingredient_vi": "Hỗn hợp bột táo bán thành phẩm", "Шт/гр": "700" },
+    { "№": 3, "Продукт": "ПФ начинка яблочный", "Ingredient": "Prep apple filling", "Ingredient_vi": "Nhân táo bán thành phẩm", "Шт/гр": "900" },
+    { "№": 4, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "210" }
+  ],
+  "process": {
+    "ru": "В форму слоями выкладывать по очереди: мучная смесь — начинка по 6 слоев, сверху натереть масло. Далее поставить отпекаться при 180 градусах, конвекция 10, 80–95 минут. Далее ещё 15 минут с конвекцией 35, чтобы появилась красивая корочка.",
+    "en": "Layer in the form alternately: flour mixture — filling for 6 layers. Grate butter on top. Bake at 180°C with convection 10 for 80–95 minutes. Then bake another 15 minutes with convection 35 so that a nice crust appears.",
+    "vi": "Xếp xen kẽ các lớp trong khuôn: hỗn hợp bột — nhân táo, tổng cộng 6 lớp. Bào bơ lên trên. Nướng ở 180°C với đối lưu mức 10 trong 80–95 phút. Sau đó nướng thêm 15 phút với đối lưu 35 để tạo lớp vỏ đẹp."
+  }
+},
+{
+  "name": { 
+    "ru": "ЯБЛОЧНЫЙ ПИРОГ (ПРЦ)", 
+    "en": "APPLE PIE (PCS)",
+    "vi": "BÁNH TÁO (PHẦN)"
+  },
+  "key": {
+    "ru": "Шт.",
+    "en": "Pcs",
+    "vi": "Cái"
+  },
+  "ingredients": [
+    { "№": 1, "Продукт": "Шт.", "Ingredient": "Pcs", "Ingredient_vi": "Cái", "Шт/гр": "1" },
+    { "№": 2, "Продукт": "ПФ яблочный пирог", "Ingredient": "Prep apple pie", "Ingredient_vi": "Bánh táo bán thành phẩm", "Шт/гр": "120" },
+    { "№": 3, "Продукт": "ПФ соленая карамель", "Ingredient": "Prep salted caramel", "Ingredient_vi": "Caramel muối bán thành phẩm", "Шт/гр": "35" },
+    { "№": 4, "Продукт": "Орех фундук", "Ingredient": "Hazelnut", "Ingredient_vi": "Hạt phỉ", "Шт/гр": "3" }
+  ],
+  "process": {
+    "ru": "Нарезанный пирог обернуть оплеткой каждый кусок. Отсадить взбитую карамель через кондитерский мешок с розочкой. Сверху положить целый орех фундук.",
+    "en": "Wrap each sliced piece of pie with braid. Pipe whipped caramel using a pastry bag with a star tip. Place a whole hazelnut on top.",
+    "vi": "Bọc từng miếng bánh táo đã cắt bằng lớp trang trí. Bơm caramel đánh bông bằng túi bắt kem với đầu sao. Đặt một hạt phỉ nguyên lên trên."
+  }
+},
+{
+  "name": { 
+    "ru": "БРАУНИ", 
+    "en": "BROWNIE",
+    "vi": "BÁNH BROWNIE"
+  },
+  "key": {
+    "ru": "Торт шт.",
+    "en": "Cake pcs",
+    "vi": "Bánh cái"
+  },
+  "ingredients": [
+    { "№": 1, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "1" },
+    { "№": 2, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "156" },
+    { "№": 3, "Продукт": "Шоколад темный", "Ingredient": "Dark chocolate", "Ingredient_vi": "Sô cô la đen", "Шт/гр": "400" },
+    { "№": 4, "Продукт": "Яйцо(вес)", "Ingredient": "Egg", "Ingredient_vi": "Trứng", "Шт/гр": "204" },
+    { "№": 5, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "240" },
+    { "№": 6, "Продукт": "Какао", "Ingredient": "Cocoa", "Ingredient_vi": "Bột ca cao", "Шт/гр": "60" },
+    { "№": 7, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "2" },
+    { "№": 8, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Ingredient_vi": "Vani", "Шт/гр": "5" },
+    { "№": 9, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "125" },
+    { "№": 10, "Продукт": "Разрыхлитель", "Ingredient": "Baking powder", "Ingredient_vi": "Bột nở", "Шт/гр": "10" }
+  ],
+  "process": {
+    "ru": "Сливочное масло и черный шоколад растопить на водяной бане до однородного состояния, остудить до комнатной температуры. Яйцо взбить 15 минут с двумя видами сахара до густоты (белый и коричневый сахар), снизить скорость и влить шоколадную смесь. Добавить соль и ванильный экстракт, постепенно ввести муку (предварительно просеять). В конце добавить рубленый молочный шоколад, перемешать и разложить по формочкам. Выпекать при температуре 180°C около 15 минут (конвекцию уменьшить до 2). Дать остыть и вынуть из форм.",
+    "en": "Melt butter and dark chocolate in a water bath until smooth and cool to room temperature. Beat eggs with two types of sugar (white and brown) for about 15 minutes until thick. Reduce speed and pour in the chocolate mixture. Add salt and vanilla extract, gradually add sifted flour. Finally add chopped milk chocolate, mix and pour into molds. Bake at 180°C for about 15 minutes (reduce convection to level 2). Let cool and remove from molds.",
+    "vi": "Đun chảy bơ và sô cô la đen bằng phương pháp cách thủy đến khi mịn, để nguội về nhiệt độ phòng. Đánh trứng với hai loại đường (trắng và nâu) khoảng 15 phút đến khi đặc. Giảm tốc độ và đổ hỗn hợp sô cô la vào. Thêm muối và vani, sau đó từ từ cho bột mì đã rây. Cuối cùng cho sô cô la sữa cắt nhỏ, trộn đều và đổ vào khuôn. Nướng ở 180°C khoảng 15 phút (giảm đối lưu xuống mức 2). Để nguội rồi lấy ra khỏi khuôn."
+  }
+},
+{
+  "name": { 
+    "ru": "БРАУНИ НОВЫЙ", 
+    "en": "BROWNIE NEW",
+    "vi": "BÁNH BROWNIE MỚI"
+  },
+  "key": {
+    "ru": "Торт шт.",
+    "en": "Cake pcs",
+    "vi": "Bánh cái"
+  },
+  "ingredients": [
+    { "№": 1, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "1" },
+    { "№": 2, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "136" },
+    { "№": 3, "Продукт": "Шоколад темный", "Ingredient": "Dark chocolate", "Ingredient_vi": "Sô cô la đen", "Шт/гр": "160" },
+    { "№": 4, "Продукт": "Яйцо(вес)", "Ingredient": "Egg", "Ingredient_vi": "Trứng", "Шт/гр": "160" },
+    { "№": 5, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "160" },
+    { "№": 6, "Продукт": "Какао", "Ingredient": "Cocoa", "Ingredient_vi": "Bột ca cao", "Шт/гр": "60" },
+    { "№": 7, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "2" },
+    { "№": 8, "Продукт": "Сода", "Ingredient": "Baking soda", "Ingredient_vi": "Muối nở", "Шт/гр": "2" },
+    { "№": 9, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "80" },
+    { "№": 10, "Продукт": "Разрыхлитель", "Ingredient": "Baking powder", "Ingredient_vi": "Bột nở", "Шт/гр": "6" }
+  ],
+  "process": {
+    "ru": "Масло и шоколад растопить и остудить до комнатной температуры. Смешать все сухие ингредиенты (мука, какао, разрыхлитель, сода). Яйца взбить до пышной пены. Аккуратно вмешать сухие ингредиенты на минимальной скорости или лопаткой. Затем ввести шоколадно-масляную массу. Разлить по 755 г в формы 18×18. Выпекать при 170°C с конвекцией 20 около 30–40 минут. Брауни должен подняться и не осесть, шпажка после проверки должна оставаться сухой.",
+    "en": "Melt butter and chocolate and cool to room temperature. Mix all dry ingredients (flour, cocoa, baking powder, baking soda). Beat eggs until fluffy. Carefully fold in the dry ingredients at low speed or using a spatula. Add the chocolate–butter mixture. Pour about 755 g into 18×18 cm molds. Bake at 170°C with convection 20 for about 30–40 minutes. The brownie should rise without collapsing and a skewer inserted should come out dry.",
+    "vi": "Đun chảy bơ và sô cô la rồi để nguội về nhiệt độ phòng. Trộn tất cả nguyên liệu khô (bột mì, ca cao, bột nở, baking soda). Đánh trứng đến khi bông. Nhẹ nhàng trộn nguyên liệu khô vào ở tốc độ thấp hoặc bằng spatula. Sau đó thêm hỗn hợp bơ sô cô la. Đổ khoảng 755 g bột vào khuôn 18×18 cm. Nướng ở 170°C với đối lưu 20 khoảng 30–40 phút. Bánh phải nở và không xẹp, khi xiên que thử thì que phải khô."
+  }
+},
+{
+  "name": { 
+    "ru": "ПФ КРЕМ МИНДАЛЬНЫЙ", 
+    "en": "ALMOND CREAM PF",
+    "vi": "KEM HẠNH NHÂN PF"
+  },
+  "key": {
+    "ru": "Количество",
+    "en": "Amount",
+    "vi": "Số lượng"
+  },
+  "ingredients": [
+    { "№": 1, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem sữa", "Шт/гр": "800" },
+    { "№": 2, "Продукт": "Миндальная мука", "Ingredient": "Almond flour", "Ingredient_vi": "Bột hạnh nhân", "Шт/гр": "100" },
+    { "№": 3, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "100" },
+    { "№": 4, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Ingredient_vi": "Vani", "Шт/гр": "8" },
+    { "№": 5, "Продукт": "Смесь для заварного", "Ingredient": "Custard mix", "Ingredient_vi": "Hỗn hợp custard", "Шт/гр": "100" },
+    { "№": 6, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Tổng lượng", "Шт/гр": "1100" }
   ],
   "process": {
     "ru": "Смешать все ингредиенты, взбить миксером до однородной консистенции.",
-    "en": "Combine all ingredients and whip with a mixer until smooth and homogeneous."
+    "en": "Combine all ingredients and whip with a mixer until smooth and homogeneous.",
+    "vi": "Trộn tất cả nguyên liệu và đánh bằng máy trộn đến khi mịn và đồng nhất."
   }
 },
-    {
+{
   "name": { 
     "ru": "ПФ ДИПЛОМАТ", 
-    "en": "DIPLOMAT PF" 
+    "en": "DIPLOMAT PF",
+    "vi": "KEM DIPLOMAT PF"
   },
-  "key": "Итого",
+  "key": {
+    "ru": "Итого",
+    "en": "Total",
+    "vi": "Tổng"
+  },
   "ingredients": [
-    { "№": 1, "Продукт": "Яйцо (желток)", "Ingredient": "Egg yolk", "Шт/гр": "635" },
-    { "№": 2, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "82" },
-    { "№": 3, "Продукт": "Крахмал кукурузный", "Ingredient": "Corn starch", "Шт/гр": "41" },
-    { "№": 4, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "82" },
-    { "№": 5, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "1.5" },
-    { "№": 6, "Продукт": "Молоко", "Ingredient": "Milk", "Шт/гр": "406" },
-    { "№": 7, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Шт/гр": "2" },
-    { "№": 8, "Продукт": "Сыр Кремчиз", "Ingredient": "Cream cheese", "Шт/гр": "86" },
-    { "№": 9, "Продукт": "Итого", "Ingredient": "Total", "Шт/гр": "1335.5" }
+    { "№": 1, "Продукт": "Яйцо (желток)", "Ingredient": "Egg yolk", "Ingredient_vi": "Lòng đỏ trứng", "Шт/гр": "635" },
+    { "№": 2, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "82" },
+    { "№": 3, "Продукт": "Крахмал кукурузный", "Ingredient": "Corn starch", "Ingredient_vi": "Tinh bột bắp", "Шт/гр": "41" },
+    { "№": 4, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "82" },
+    { "№": 5, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1.5" },
+    { "№": 6, "Продукт": "Молоко", "Ingredient": "Milk", "Ingredient_vi": "Sữa", "Шт/гр": "406" },
+    { "№": 7, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Ingredient_vi": "Vani", "Шт/гр": "2" },
+    { "№": 8, "Продукт": "Сыр Кремчиз", "Ingredient": "Cream cheese", "Ingredient_vi": "Phô mai kem", "Шт/гр": "86" },
+    { "№": 9, "Продукт": "Итого", "Ingredient": "Total", "Ingredient_vi": "Tổng", "Шт/гр": "1335.5" }
   ],
   "process": {
     "ru": "Отделить белки от желтков — использовать только желтки. Желтки растереть с сахаром, солью и крахмалом. Отдельно разогреть молоко и довести до кипения, затем влить его в яично-сахарную смесь. Перелить обратно в сотейник и проварить крем до загустения, постоянно помешивая, чтобы избежать пригорания. Снять с огня, добавить ваниль, сливочное масло и крем-сыр (комнатной температуры). Переложить в емкость, накрыть пленкой в контакт и убрать в холодильник для стабилизации на 4–5 часов (лучше 12).",
-    "en": "Separate the whites from the yolks — use only yolks. Mix yolks with sugar, salt, and corn starch. In a separate pan, heat the milk to boiling, then pour it into the yolk-sugar mixture. Return the mixture to the saucepan and cook until thickened, stirring constantly to prevent burning. Remove from heat and add vanilla, butter, and cream cheese (at room temperature). Transfer to a container, cover with plastic wrap in contact, and refrigerate for 4–5 hours (preferably 12) to stabilize."
-  }
+    "en": "Separate egg whites from yolks — use only yolks. Mix yolks with sugar, salt, and corn starch. Heat milk separately until boiling, then pour it into the yolk mixture. Return to the saucepan and cook until thickened while stirring constantly. Remove from heat and add vanilla, butter, and cream cheese (room temperature). Transfer to a container, cover with plastic wrap touching the surface, and refrigerate for 4–5 hours (preferably 12) to stabilize.",
+    "vi": "Tách lòng trắng và lòng đỏ trứng — chỉ sử dụng lòng đỏ. Trộn lòng đỏ với đường, muối và tinh bột bắp. Đun nóng sữa đến sôi rồi đổ vào hỗn hợp lòng đỏ. Đổ lại vào nồi và nấu đến khi đặc, khuấy liên tục để tránh cháy. Nhấc khỏi bếp, thêm vani, bơ và phô mai kem (nhiệt độ phòng). Chuyển vào hộp, phủ màng bọc thực phẩm sát mặt kem và để tủ lạnh 4–5 giờ (tốt nhất 12 giờ) để ổn định."
+   }
 },
 {
   "name": { 
     "ru": "ПФ ПЕЧЕНЬЕ МАДЛЕН ТЕСТО", 
-    "en": "PF MADELEINE COOKIES DAUGH" 
+    "en": "PF MADELEINE COOKIES DOUGH",
+    "vi": "BỘT BÁNH MADELEINE PF"
   },
-  "key": "Итого",
+  "key": {
+    "ru": "Итого",
+    "en": "Total",
+    "vi": "Tổng"
+  },
   "ingredients": [
-    { "№": 1, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "140" },
-    { "№": 2, "Продукт": "Разрыхлитель", "Ingredient": "Baking powder", "Шт/гр": "5" },
-    { "№": 3, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "1" },
-    { "№": 4, "Продукт": "Яйцо (вес)", "Ingredient": "Egg (weight)", "Шт/гр": "120" },
-    { "№": 5, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "110" },
-    { "№": 6, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "90" },
-    { "№": 7, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Шт/гр": "2" },
-    { "№": 8, "Продукт": "Итого", "Ingredient": "Total", "Шт/гр": "610" }
+    { "№": 1, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "140" },
+    { "№": 2, "Продукт": "Разрыхлитель", "Ingredient": "Baking powder", "Ingredient_vi": "Bột nở", "Шт/гр": "5" },
+    { "№": 3, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1" },
+    { "№": 4, "Продукт": "Яйцо (вес)", "Ingredient": "Egg (weight)", "Ingredient_vi": "Trứng (theo trọng lượng)", "Шт/гр": "120" },
+    { "№": 5, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "110" },
+    { "№": 6, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "90" },
+    { "№": 7, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Ingredient_vi": "Vani", "Шт/гр": "2" },
+    { "№": 8, "Продукт": "Итого", "Ingredient": "Total", "Ingredient_vi": "Tổng", "Шт/гр": "610" }
   ],
   "process": {
     "ru": "В глубокой чаше соедините сахар и яйца, перемешайте венчиком, не взбивая. Добавьте растопленное сливочное масло. Введите сухие ингредиенты (муку, разрыхлитель, соль) и перемешайте до однородности. Переложите тесто в кондитерский мешок и уберите в холодильник на 1–1,5 часа. Отсадите по 15 г теста в каждую форму. Выпекайте при 220°C (конвекция 25) около 10 минут. Остудите на решетке.",
-    "en": "In a large bowl, combine sugar and eggs, stirring with a whisk without whipping. Add melted butter. Add dry ingredients (flour, baking powder, salt) and mix until smooth. Transfer the dough into a piping bag and chill for 1–1.5 hours. Pipe 15 g of batter into each mold. Bake at 220°C (convection 25) for about 10 minutes. Cool on a rack."
+    "en": "In a large bowl, combine sugar and eggs, stirring with a whisk without whipping. Add melted butter. Add dry ingredients (flour, baking powder, salt) and mix until smooth. Transfer the dough into a piping bag and chill for 1–1.5 hours. Pipe 15 g of batter into each mold. Bake at 220°C (convection 25) for about 10 minutes. Cool on a rack.",
+    "vi": "Trong tô lớn trộn đường và trứng, khuấy bằng phới nhưng không đánh bông. Thêm bơ đã đun chảy. Cho các nguyên liệu khô (bột mì, bột nở, muối) và trộn đến khi mịn. Cho bột vào túi bắt kem và để tủ lạnh 1–1,5 giờ. Bơm khoảng 15 g bột vào mỗi khuôn. Nướng ở 220°C (đối lưu 25) khoảng 10 phút. Để nguội trên rack."
   }
 },
-    {
+{
   "name": { 
     "ru": "ПЕЧЕНЬЕ МАДЛЕН", 
-    "en": "MADELEINE COOKIES" 
+    "en": "MADELEINE COOKIES",
+    "vi": "BÁNH MADELEINE"
   },
-  "key": "Печенье шт.",
+  "key": {
+    "ru": "Печенье шт.",
+    "en": "Cookie pcs",
+    "vi": "Bánh cái"
+  },
   "ingredients": [
-    { "№": 1, "Продукт": "ПФ мадлен тесто конфитюр", "Ingredient": "Prep madlen daugh", "Шт/гр": "40" },
-    { "№": 2, "Продукт": "ПФ вишневый конфитюр", "Ingredient": "Cherry confit PF", "Шт/гр": "10" },
-    { "№": 3, "Продукт": "Шоколад белый", "Ingredient": "Wight chocolate", "Шт/гр": "20" },
-    { "№": 4, "Продукт": "Печенье шт.", "Ingredient": "Coockie pcs.", "Шт/гр": "1" }
+    { "№": 1, "Продукт": "ПФ мадлен тесто конфитюр", "Ingredient": "Prep madeleine dough", "Ingredient_vi": "Bột madeleine bán thành phẩm", "Шт/гр": "40" },
+    { "№": 2, "Продукт": "ПФ вишневый конфитюр", "Ingredient": "Cherry confit PF", "Ingredient_vi": "Confit anh đào PF", "Шт/гр": "10" },
+    { "№": 3, "Продукт": "Шоколад белый", "Ingredient": "White chocolate", "Ingredient_vi": "Sô cô la trắng", "Шт/гр": "20" },
+    { "№": 4, "Продукт": "Печенье шт.", "Ingredient": "Cookie pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "1" }
   ],
   "process": {
     "ru": "Насадкой сделайте отверстие и залейте 2–3 г вишнёвого конфитюра.\n\nТемперирование: растопите 200 г тёмного шоколада до 45°C. Добавьте 20% от массы (40 г) и перемешайте до однородности. При желании добавьте краситель. Остудите до рабочей температуры 28–30°C. В форму налейте 10 г шоколада и положите охлаждённое печенье, слегка вдавив. Уберите в холодильник или морозильную камеру до застывания шоколада.\n\nХранение: готовые и задекорированные печенья хранить в морозильной камере (в герметичном контейнере) до 3 недель или в холодильнике до 5 суток.",
-    "en": "Use a nozzle to make a hole and fill with 2–3 g of cherry confit.\n\nTempering: Melt 200 g of dark chocolate to 45°C. Add 20% (40 g) and stir until smooth. Optionally, add coloring. Cool to 28–30°C working temperature. Pour 10 g of chocolate into each mold and place a chilled cookie on top, pressing gently. Chill or freeze until chocolate is set.\n\nStorage: Store decorated cookies in an airtight container in the freezer for up to 3 weeks, or in the refrigerator for up to 5 days."
+    "en": "Use a nozzle to make a hole and fill with 2–3 g of cherry confit.\n\nTempering: Melt 200 g of dark chocolate to 45°C. Add 20% (40 g) and stir until smooth. Optionally add coloring. Cool to 28–30°C working temperature. Pour 10 g of chocolate into each mold and place a chilled cookie on top, pressing gently. Chill or freeze until chocolate sets.\n\nStorage: Store decorated cookies in an airtight container in the freezer for up to 3 weeks or in the refrigerator for up to 5 days.",
+    "vi": "Dùng đầu bắt kem tạo lỗ và bơm 2–3 g confit anh đào vào.\n\nTempering: Đun chảy 200 g sô cô la đen đến 45°C. Thêm 20% (40 g) và khuấy đến khi mịn. Có thể thêm màu thực phẩm. Làm nguội đến nhiệt độ làm việc 28–30°C. Đổ 10 g sô cô la vào khuôn và đặt bánh đã làm lạnh lên trên, ấn nhẹ. Để tủ lạnh hoặc tủ đông đến khi sô cô la đông lại.\n\nBảo quản: bánh đã trang trí bảo quản trong hộp kín trong tủ đông đến 3 tuần hoặc trong tủ lạnh đến 5 ngày."
   }
 },
-    {
+{
   "name": { 
     "ru": "Печенье (пряник)", 
-    "en": "Gingerbread Cookie" 
+    "en": "Gingerbread Cookie",
+    "vi": "BÁNH GỪNG"
   },
-  "key": "Печенье шт.",
+  "key": {
+    "ru": "Печенье шт.",
+    "en": "Cookie pcs",
+    "vi": "Bánh cái"
+  },
   "ingredients": [
-    { "№": 1, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "135" },
-    { "№": 2, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "6" },
-    { "№": 3, "Продукт": "Мед", "Ingredient": "Honey", "Шт/гр": "112" },
-    { "№": 4, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "165" },
-    { "№": 5, "Продукт": "Яйцо (вес)", "Ingredient": "Egg", "Шт/гр": "104" },
-    { "№": 6, "Продукт": "Специя Корица", "Ingredient": "Cinnamon", "Шт/гр": "5" },
-    { "№": 7, "Продукт": "Специя мускатный орех", "Ingredient": "Nutmeg", "Шт/гр": "5" },
-    { "№": 8, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Шт/гр": "15" },
-    { "№": 9, "Продукт": "Крахмал кукурузный", "Ingredient": "Cornstarch", "Шт/гр": "60" },
-    { "№": 10, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "440" },
-    { "№": 11, "Продукт": "Сода пищевая", "Ingredient": "Baking soda", "Шт/гр": "10" },
-    { "№": 12, "Продукт": "Печенье шт.", "Ingredient": "Pcs", "Шт/гр": "16" }
+    { "№": 1, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "135" },
+    { "№": 2, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "6" },
+    { "№": 3, "Продукт": "Мед", "Ingredient": "Honey", "Ingredient_vi": "Mật ong", "Шт/гр": "112" },
+    { "№": 4, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "165" },
+    { "№": 5, "Продукт": "Яйцо (вес)", "Ingredient": "Egg", "Ingredient_vi": "Trứng", "Шт/гр": "104" },
+    { "№": 6, "Продукт": "Специя Корица", "Ingredient": "Cinnamon", "Ingredient_vi": "Quế", "Шт/гр": "5" },
+    { "№": 7, "Продукт": "Специя мускатный орех", "Ingredient": "Nutmeg", "Ingredient_vi": "Nhục đậu khấu", "Шт/гр": "5" },
+    { "№": 8, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Ingredient_vi": "Vani", "Шт/гр": "15" },
+    { "№": 9, "Продукт": "Крахмал кукурузный", "Ingredient": "Cornstarch", "Ingredient_vi": "Tinh bột bắp", "Шт/гр": "60" },
+    { "№": 10, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "440" },
+    { "№": 11, "Продукт": "Сода пищевая", "Ingredient": "Baking soda", "Ingredient_vi": "Muối nở", "Шт/гр": "10" },
+    { "№": 12, "Продукт": "Печенье шт.", "Ingredient": "Pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "16" }
   ],
   "process": {
-    "ru": "Муку, крахмал и соду соединить и просеять. Добавить специи: корицу, мускатный орех и перемешать. Все остальные ингредиенты (масло, соль, мед, сахар, яйца) взбить в миксере до кремообразной консистенции. Ввести мучную смесь и замесить тесто. Тесто положить в холодильник на 1 час. Распорционировать по 100 г, раскатать и сформовать пресс-формой (если требуется, нанести оттиск), вырезать формочкой (готовая заготовка 65 г). Выложить заготовки на противень и выпекать 10–15 минут при 200°C. Готовым печеньям дать полностью остыть, убрать в холодильник в бокс.",
-    "en": "Sift together flour, cornstarch, and baking soda. Add spices: cinnamon and nutmeg, and mix. Beat the remaining ingredients (butter, salt, honey, sugar, eggs) in a mixer until creamy. Add the flour mixture and knead the dough. Refrigerate the dough for 1 hour. Portion into 100 g pieces, roll out, and shape with a press (if desired, imprint pattern), cut with a cookie cutter (final piece 65 g). Place on a baking sheet and bake for 10–15 minutes at 200°C. Allow the cookies to cool completely, then store in the fridge in a container."
+    "ru": "Муку, крахмал и соду соединить и просеять. Добавить специи: корицу, мускатный орех и перемешать. Все остальные ингредиенты (масло, соль, мед, сахар, яйца) взбить в миксере до кремообразной консистенции. Ввести мучную смесь и замесить тесто. Тесто положить в холодильник на 1 час. Распорционировать по 100 г, раскатать и сформовать пресс-формой, вырезать формочкой (готовая заготовка 65 г). Выпекать 10–15 минут при 200°C. Готовым печеньям дать полностью остыть.",
+    "en": "Sift together flour, cornstarch, and baking soda. Add cinnamon and nutmeg. Beat butter, salt, honey, sugar, and eggs until creamy. Add flour mixture and knead the dough. Refrigerate for 1 hour. Portion 100 g pieces, roll out, shape and cut (final piece 65 g). Bake 10–15 minutes at 200°C. Cool completely.",
+    "vi": "Rây bột mì, tinh bột bắp và baking soda. Thêm quế và nhục đậu khấu. Đánh bơ, muối, mật ong, đường và trứng đến khi mịn. Thêm hỗn hợp bột và nhào thành bột. Để tủ lạnh 1 giờ. Chia 100 g, cán và cắt khuôn (thành phẩm 65 g). Nướng 10–15 phút ở 200°C. Để nguội hoàn toàn."
   }
 },
-  {
-    "name": { "ru": "ПФ ПЕЧЕНЬЕ ЧЕРРИТАРТ", "en": "PF CHERRY TART BISCUIT" },
-    "key": "Итого",
-    "ingredients": [
-      { "№": 1, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "115" },
-      { "№": 2, "Продукт": "Мак", "Ingredient": "Poppy", "Шт/гр": "35" },
-      { "№": 3, "Продукт": "Мука миндальная", "Ingredient": "Almond flour", "Шт/гр": "70" },
-      { "№": 4, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "465" },
-      { "№": 5, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "5" },
-      { "№": 6, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "210" },
-      { "№": 7, "Продукт": "Яйцо", "Ingredient": "Egg", "Шт/гр": "100" },
-      { "№": 9, "Продукт": "Итого", "Ingredient": "Total", "Шт/гр": "1000" }
-    ],
-    "process": {
-      "ru": "Сухие ингредиенты смешать в крошку с маслом в деже, используя насадку 'лопатка'. Добавить желтки и замесить однородное тесто (долго не вымешивать). Раскатать пласт толщиной 5 мм и выпекать до золотистого цвета при 180°C, конвекция 15.",
-      "en": "Mix dry ingredients into crumbs with butter in a bowl using a paddle attachment. Add yolks and knead into a homogeneous dough (do not overmix). Roll out into a 5 mm layer and bake until golden brown at 180°C, convection 15."
-    }
+{
+  "name": { 
+    "ru": "ПФ ПЕЧЕНЬЕ ЧЕРРИТАРТ", 
+    "en": "PF CHERRY TART BISCUIT",
+    "vi": "BÁNH QUY CHERRY TART PF"
   },
-  {
-    "name": { "ru": "ПФ ОСНОВА ЧЕРРИТАРТ", "en": "PF CHERRY TART BASE" },
-    "key": "Количество",
-    "ingredients": [
-      { "№": 1, "Продукт": "ПФ Печенье черритарт", "Ingredient": "Prep cherry tart biscuit", "Шт/гр": "350" },
-      { "№": 2, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "50" },
-      { "№": 3, "Продукт": "Количество", "Ingredient": "Amount", "Шт/гр": "400" }
-    ],
-    "process": {
-      "ru": "Песочное тесто смолоть в крошку, добавить сливочное масло (комнатной температуры). Из полученной массы сформировать борта и дно для тарта толщиной 3–5 мм, используя круглую форму. Борта формы выстелить ацетатной лентой. Подготовленный корж убрать в холодильник.",
-      "en": "Grind the shortcrust pastry into crumbs, add butter (at room temperature). Form the sides and bottom of the tart, 3–5 mm thick, using a round mold. Line the sides with acetate tape and refrigerate the prepared crust."
-    }
+  "key": {
+    "ru": "Итого",
+    "en": "Total",
+    "vi": "Tổng"
   },
-  {
-    "name": { "ru": "ПФ НАЧИНКА ЧЕРРИТАРТ", "en": "PF CHERRY TART FILLING" },
-    "key": "Количество",
-    "ingredients": [
-      { "№": 1, "Продукт": "Сыр Кремчиз", "Ingredient": "Cream cheese", "Шт/гр": "300" },
-      { "№": 2, "Продукт": "Сыр Маскарпоне", "Ingredient": "Mascarpone", "Шт/гр": "200" },
-      { "№": 3, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Шт/гр": "10" },
-      { "№": 4, "Продукт": "Сливки", "Ingredient": "Cream", "Шт/гр": "190" },
-      { "№": 5, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "60" },
-      { "№": 6, "Продукт": "Яйцо (желток)", "Ingredient": "Egg yolk", "Шт/гр": "80" },
-      { "№": 7, "Продукт": "Желатин", "Ingredient": "Gelatin", "Шт/гр": "30" },
-      { "№": 8, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "40" },
-      { "№": 9, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "2" },
-      { "№": 10, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "90" },
-      { "№": 11, "Продукт": "Количество", "Ingredient": "Amount", "Шт/гр": "1000" }
-    ],
-    "process": {
-      "ru": "Сыры и масло должны быть комнатной температуры. Приготовить соус Англез: соединить сливки, сахар, желтки, ванильный экстракт, пробить блендером, процедить и уварить до 80°C, постоянно помешивая. Сыры соединить и пробить блендером. Желатин замочить воде, дать набухнуть, слить лишнюю воду. Сахар, соль и сливочное масло соединить до растворения сахара. Все подготовленные ингредиенты объединить, пробить блендером до однородной массы. Вылить в форму, прослоить вишней и охладить минимум 6 часов (лучше на ночь).",
-      "en": "The cheeses and butter should be at room temperature. Prepare Anglaise sauce: combine cream, sugar, yolks, and vanilla extract; blend, strain, and heat to 80°C, stirring constantly. Combine the cheeses and blend. Soak gelatin in water, let it bloom, drain excess water. Combine sugar, salt, and butter until sugar dissolves. Combine all prepared ingredients, blend until smooth, pour into tart mold, layer with cherries, and chill for at least 6 hours (preferably overnight)."
-    }
+  "ingredients": [
+    { "№": 1, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "115" },
+    { "№": 2, "Продукт": "Мак", "Ingredient": "Poppy", "Ingredient_vi": "Hạt anh túc", "Шт/гр": "35" },
+    { "№": 3, "Продукт": "Мука миндальная", "Ingredient": "Almond flour", "Ingredient_vi": "Bột hạnh nhân", "Шт/гр": "70" },
+    { "№": 4, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "465" },
+    { "№": 5, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "5" },
+    { "№": 6, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "210" },
+    { "№": 7, "Продукт": "Яйцо", "Ingredient": "Egg", "Ingredient_vi": "Trứng", "Шт/гр": "100" },
+    { "№": 9, "Продукт": "Итого", "Ingredient": "Total", "Ingredient_vi": "Tổng", "Шт/гр": "1000" }
+  ],
+  "process": {
+    "ru": "Сухие ингредиенты смешать в крошку с маслом, используя насадку «лопатка». Добавить желтки и замесить однородное тесто (не вымешивать долго). Раскатать пласт толщиной 5 мм и выпекать до золотистого цвета при 180°C, конвекция 15.",
+    "en": "Mix dry ingredients with butter into crumbs using a paddle attachment. Add yolks and knead into a homogeneous dough (do not overmix). Roll out to 5 mm thickness and bake until golden at 180°C, convection 15.",
+    "vi": "Trộn nguyên liệu khô với bơ thành dạng vụn bằng cánh khuấy. Thêm lòng đỏ trứng và nhào thành bột đồng nhất (không nhào lâu). Cán dày 5 mm và nướng đến khi vàng ở 180°C, đối lưu 15."
+  }
+},
+{
+  "name": { 
+    "ru": "ПФ ОСНОВА ЧЕРРИТАРТ", 
+    "en": "PF CHERRY TART BASE",
+    "vi": "ĐẾ CHERRY TART PF"
   },
-  {
-    "name": { "ru": "ПФ ЖЕЛЕ ЧЕРРИТАРТ", "en": "PREP CHERRY TART JELLY" },
-    "key": "Количество",
-    "ingredients": [
-      { "№": 1, "Продукт": "Сок вишневый", "Ingredient": "Cherry juice", "Шт/гр": "860" },
-      { "№": 2, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "50" },
-      { "№": 3, "Продукт": "Глюкоза", "Ingredient": "Glucose", "Шт/гр": "50" },
-      { "№": 4, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "2" },
-      { "№": 5, "Продукт": "Лимонная кислота", "Ingredient": "Citric acid", "Шт/гр": "2" },
-      { "№": 6, "Продукт": "Краситель пищевой", "Ingredient": "Food coloring", "Шт/гр": "3" },
-      { "№": 7, "Продукт": "Специя Масала", "Ingredient": "Spice Masala", "Шт/гр": "3" },
-      { "№": 8, "Продукт": "Желатин листовой", "Ingredient": "Leaf gelatin", "Шт/гр": "30" },
-      { "№": 9, "Продукт": "Количество", "Ingredient": "Amount", "Шт/гр": "1000" }
-    ],
-    "process": {
-      "ru": "Желатин замочить в соке и дать набухнуть. Смешать все ингредиенты, довести до кипения и прокипятить 1–2 минуты на медленном огне. Процедить через сито.",
-      "en": "Soak gelatin in juice and let it swell. Mix all ingredients, bring to a boil, simmer for 1–2 minutes over low heat, and strain through a sieve."
-    }
+  "key": {
+    "ru": "Количество",
+    "en": "Amount",
+    "vi": "Số lượng"
   },
-  {
-    "name": { "ru": "ЧЕРРИТАРТ", "en": "CHERRY TART" },
-    "key": "Торт шт.",
-    "ingredients": [
-      { "№": 1, "Продукт": "ПФ Желе Черритарт", "Ingredient": "Prep Jelly Cherry Tart", "Шт/гр": "150" },
-      { "№": 2, "Продукт": "ПФ Начинка Черритарт", "Ingredient": "Prep Cherry Tart Filling", "Шт/гр": "1000" },
-      { "№": 3, "Продукт": "ПФ Основа Черритарт", "Ingredient": "Prep Cherry Tart Base", "Шт/гр": "400" },
-      { "№": 4, "Продукт": "Вишня С/М", "Ingredient": "Cherry frozen", "Шт/гр": "50" },
-      { "№": 5, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Шт/гр": "1" }
-    ],
-    "process": {
-      "ru": "На подготовленный корж вылить сырную массу, разложить вишню, слегка утопив её в массе. Дать застыть, нанести сверху вишнёвое желе, убрать в холод для застывания. Готовый торт достать из формы, подровнять края, нарезать на 12 частей, каждую часть обернуть ацетатной плёнкой. Хранить без покрытия в холодильнике до 4 дней, в морозильной камере до 2 недель. Полуфабрикат с покрытием — 5 дней в холодильнике.",
-      "en": "Pour the cheese mixture onto the prepared base, arrange cherries, slightly pressing them into the mass. Let it set, spread cherry jelly on top, and refrigerate to harden. Remove from mold, trim edges, cut into 12 pieces, wrap each in acetate film. Store uncoated cake in fridge up to 4 days, in freezer up to 2 weeks; semi-finished coated cake — 5 days refrigerated."
+  "ingredients": [
+    { "№": 1, "Продукт": "ПФ Печенье черритарт", "Ingredient": "Prep cherry tart biscuit", "Ingredient_vi": "Bánh quy cherry tart PF", "Шт/гр": "350" },
+    { "№": 2, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "50" },
+    { "№": 3, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Tổng", "Шт/гр": "400" }
+  ],
+  "process": {
+    "ru": "Песочное тесто смолоть в крошку, добавить сливочное масло комнатной температуры. Сформировать борта и дно тарта толщиной 3–5 мм. Борта формы выстелить ацетатной лентой. Подготовленный корж убрать в холодильник.",
+    "en": "Grind biscuit into crumbs and add butter at room temperature. Form tart base and sides 3–5 mm thick. Line mold sides with acetate tape and refrigerate.",
+    "vi": "Xay bánh quy thành vụn, thêm bơ nhiệt độ phòng. Tạo đáy và thành tart dày 3–5 mm. Lót thành khuôn bằng acetate và để lạnh."
+  }
+},
+{
+  "name": { 
+    "ru": "ПФ НАЧИНКА ЧЕРРИТАРТ", 
+    "en": "PF CHERRY TART FILLING",
+    "vi": "NHÂN CHERRY TART PF"
+  },
+  "key": {
+    "ru": "Количество",
+    "en": "Amount",
+    "vi": "Số lượng"
+  },
+  "ingredients": [
+    { "№": 1, "Продукт": "Сыр Кремчиз", "Ingredient": "Cream cheese", "Ingredient_vi": "Phô mai kem", "Шт/гр": "300" },
+    { "№": 2, "Продукт": "Сыр Маскарпоне", "Ingredient": "Mascarpone", "Ingredient_vi": "Mascarpone", "Шт/гр": "200" },
+    { "№": 3, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Ingredient_vi": "Vani", "Шт/гр": "10" },
+    { "№": 4, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem sữa", "Шт/гр": "190" },
+    { "№": 5, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "60" },
+    { "№": 6, "Продукт": "Яйцо (желток)", "Ingredient": "Egg yolk", "Ingredient_vi": "Lòng đỏ trứng", "Шт/гр": "80" },
+    { "№": 7, "Продукт": "Желатин", "Ingredient": "Gelatin", "Ingredient_vi": "Gelatin", "Шт/гр": "30" },
+    { "№": 8, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "40" },
+    { "№": 9, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "2" },
+    { "№": 10, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "90" },
+    { "№": 11, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Tổng", "Шт/гр": "1000" }
+  ],
+  "process": {
+    "ru": "Сыры и масло должны быть комнатной температуры. Приготовить соус Англез: соединить сливки, сахар, желтки, ваниль, пробить блендером, процедить и уварить до 80°C, постоянно помешивая. Сыры соединить и пробить блендером. Желатин замочить в воде и дать набухнуть. Сахар, соль и масло соединить до растворения сахара. Все ингредиенты объединить, пробить блендером до однородности. Вылить в форму, добавить вишню и охладить минимум 6 часов.",
+    "en": "Cheeses and butter should be at room temperature. Prepare Anglaise sauce: combine cream, sugar, yolks and vanilla, blend, strain and heat to 80°C while stirring. Blend cheeses together. Bloom gelatin in water. Combine sugar, salt and butter until dissolved. Mix all ingredients and blend until smooth. Pour into mold, add cherries and chill at least 6 hours.",
+    "vi": "Phô mai và bơ phải ở nhiệt độ phòng. Chuẩn bị sốt Anglaise: trộn kem, đường, lòng đỏ và vani, xay, lọc và nấu đến 80°C khuấy liên tục. Xay phô mai. Ngâm gelatin cho nở. Trộn đường, muối và bơ cho tan. Kết hợp tất cả và xay mịn. Đổ vào khuôn, thêm anh đào và làm lạnh ít nhất 6 giờ."
+  }
+},
+{
+  "name": { 
+    "ru": "ПФ ЖЕЛЕ ЧЕРРИТАРТ", 
+    "en": "PREP CHERRY TART JELLY",
+    "vi": "THẠCH CHERRY TART PF"
+  },
+  "key": {
+    "ru": "Количество",
+    "en": "Amount",
+    "vi": "Số lượng"
+  },
+  "ingredients": [
+    { "№": 1, "Продукт": "Сок вишневый", "Ingredient": "Cherry juice", "Ingredient_vi": "Nước ép anh đào", "Шт/гр": "860" },
+    { "№": 2, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "50" },
+    { "№": 3, "Продукт": "Глюкоза", "Ingredient": "Glucose", "Ingredient_vi": "Glucose", "Шт/гр": "50" },
+    { "№": 4, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "2" },
+    { "№": 5, "Продукт": "Лимонная кислота", "Ingredient": "Citric acid", "Ingredient_vi": "Axit citric", "Шт/гр": "2" },
+    { "№": 6, "Продукт": "Краситель пищевой", "Ingredient": "Food coloring", "Ingredient_vi": "Màu thực phẩm", "Шт/гр": "3" },
+    { "№": 7, "Продукт": "Специя Масала", "Ingredient": "Masala spice", "Ingredient_vi": "Gia vị Masala", "Шт/гр": "3" },
+    { "№": 8, "Продукт": "Желатин листовой", "Ingredient": "Leaf gelatin", "Ingredient_vi": "Gelatin lá", "Шт/гр": "30" },
+    { "№": 9, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Tổng", "Шт/гр": "1000" }
+  ],
+  "process": {
+    "ru": "Желатин замочить в соке и дать набухнуть. Смешать все ингредиенты, довести до кипения и прокипятить 1–2 минуты на слабом огне. Процедить через сито.",
+    "en": "Soak gelatin in juice and allow to bloom. Combine all ingredients, bring to a boil and simmer for 1–2 minutes on low heat. Strain through a sieve.",
+    "vi": "Ngâm gelatin trong nước ép cho nở. Trộn tất cả nguyên liệu, đun sôi và nấu nhỏ lửa 1–2 phút. Lọc qua rây."
+  }
+},
+{
+  "name": { 
+    "ru": "ЧЕРРИТАРТ", 
+    "en": "CHERRY TART",
+    "vi": "BÁNH CHERRY TART"
+  },
+  "key": {
+    "ru": "Торт шт.",
+    "en": "Cake pcs",
+    "vi": "Bánh cái"
+  },
+  "ingredients": [
+    { "№": 1, "Продукт": "ПФ Желе Черритарт", "Ingredient": "Prep Cherry Tart Jelly", "Ingredient_vi": "Thạch Cherry Tart PF", "Шт/гр": "150" },
+    { "№": 2, "Продукт": "ПФ Начинка Черритарт", "Ingredient": "Prep Cherry Tart Filling", "Ingredient_vi": "Nhân Cherry Tart PF", "Шт/гр": "1000" },
+    { "№": 3, "Продукт": "ПФ Основа Черритарт", "Ingredient": "Prep Cherry Tart Base", "Ingredient_vi": "Đế Cherry Tart PF", "Шт/гр": "400" },
+    { "№": 4, "Продукт": "Вишня С/М", "Ingredient": "Frozen cherry", "Ingredient_vi": "Anh đào đông lạnh", "Шт/гр": "50" },
+    { "№": 5, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "1" }
+  ],
+  "process": {
+    "ru": "На подготовленный корж вылить сырную массу, разложить вишню, слегка утопив её. Дать застыть, сверху нанести вишнёвое желе и охладить. Готовый торт достать из формы, подровнять края и нарезать на 12 частей. Хранить в холодильнике до 4 дней или в морозильной камере до 2 недель.",
+    "en": "Pour the cheese mixture onto the prepared base, place cherries and slightly press them in. Allow to set, spread cherry jelly on top and chill. Remove from mold, trim edges and cut into 12 pieces. Store in refrigerator up to 4 days or in freezer up to 2 weeks.",
+    "vi": "Đổ hỗn hợp phô mai lên đế bánh, đặt anh đào và ấn nhẹ vào. Để đông lại, phủ thạch anh đào lên trên và làm lạnh. Lấy bánh ra khỏi khuôn, cắt chỉnh mép và chia 12 phần. Bảo quản tủ lạnh tối đa 4 ngày hoặc tủ đông tối đa 2 tuần."
     }
   },
     {
-  "name": { "ru": "КЛУБНИЧНЫЙ ЙОГУРТОВЫЙ МУСС", "en": "STRAWBERRY YOGURT MOUSSE" },
+  "name": { 
+    "ru": "КЛУБНИЧНЫЙ ЙОГУРТОВЫЙ МУСС", 
+    "en": "STRAWBERRY YOGURT MOUSSE",
+    "vi": "MOUSSE SỮA CHUA DÂU TÂY"
+  },
   "key": "Количество",
   "ingredients": [
-    { "№": 1, "Продукт": "Йогурт", "Ingredient": "Yogurt", "Шт/гр": "150" },
-    { "№": 2, "Продукт": "Сахар(пудра)", "Ingredient": "Sugar (powdered)", "Шт/гр": "50" },
-    { "№": 3, "Продукт": "Клубничное пюре", "Ingredient": "Strawberry puree", "Шт/гр": "100" },
-    { "№": 4, "Продукт": "Желатин листовой", "Ingredient": "Gelatin sheets", "Шт/гр": "9" },
-    { "№": 5, "Продукт": "Шоколад белый", "Ingredient": "White chocolate", "Шт/гр": "130" },
-    { "№": 6, "Продукт": "Сливки", "Ingredient": "Cream", "Шт/гр": "150" },
-    { "№": 7, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "1" },
-    { "№": 8, "Продукт": "Количество", "Ingredient": "Amount", "Шт/гр": "590" }
+    { "№": 1, "Продукт": "Йогурт", "Ingredient": "Yogurt", "Ingredient_vi": "Sữa chua", "Шт/гр": "150" },
+    { "№": 2, "Продукт": "Сахар(пудра)", "Ingredient": "Sugar (powdered)", "Ingredient_vi": "Đường bột", "Шт/гр": "50" },
+    { "№": 3, "Продукт": "Клубничное пюре", "Ingredient": "Strawberry puree", "Ingredient_vi": "Puree dâu tây", "Шт/гр": "100" },
+    { "№": 4, "Продукт": "Желатин листовой", "Ingredient": "Gelatin sheets", "Ingredient_vi": "Gelatin lá", "Шт/гр": "9" },
+    { "№": 5, "Продукт": "Шоколад белый", "Ingredient": "White chocolate", "Ingredient_vi": "Sô cô la trắng", "Шт/гр": "130" },
+    { "№": 6, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "150" },
+    { "№": 7, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1" },
+    { "№": 8, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Tổng lượng", "Шт/гр": "590" }
   ],
   "process": {
     "ru": "Кипятим пюре и выливаем на шоколад, и размоченый желатин, размешиваем до однородности. Отставляем и даем остынуть до 30 градусов (комнатной температуры). Сливки взбиваем до мягких пиков (густая сметана, на венчике не остается, но уже схватывается и полосит на поверхности). Смешиваем с йогуртом и смесью шоколада, пюре и желатина.",
-    "en": "Boil the puree and pour over the chocolate and soaked gelatin; mix until homogeneous. Set aside and let cool to 30 degrees (room temperature). Whip the cream to soft peaks (thick sour cream consistency, doesn't stay on the whisk but has set and leaves streaks on the surface). Mix with the yogurt and the chocolate, puree, and gelatin mixture."
+    "en": "Boil the puree and pour over the chocolate and soaked gelatin; mix until homogeneous. Set aside and let cool to 30 degrees (room temperature). Whip the cream to soft peaks (thick sour cream consistency, doesn't stay on the whisk but has set and leaves streaks on the surface). Mix with the yogurt and the chocolate, puree, and gelatin mixture.",
+    "vi": "Đun sôi puree dâu tây rồi đổ lên sô cô la trắng và gelatin đã ngâm mềm, khuấy đến khi đồng nhất. Để nguội đến khoảng 30°C (nhiệt độ phòng). Đánh kem tươi đến khi đạt chóp mềm (độ đặc như kem chua). Trộn với sữa chua và hỗn hợp sô cô la, puree và gelatin."
   }
 },
 {
-  "name": { "ru": "КЛУБНИЧНЫЙ ЙОГУРТОВЫЙ МУСС БИСКВИТ", "en": "STRAWBERRY YOGURT MOUSSE SPONGE CAKE" },
+  "name": { 
+    "ru": "КЛУБНИЧНЫЙ ЙОГУРТОВЫЙ МУСС БИСКВИТ", 
+    "en": "STRAWBERRY YOGURT MOUSSE SPONGE CAKE",
+    "vi": "BÁNH BÔNG LAN MOUSSE SỮA CHUA DÂU"
+  },
   "key": "Количество",
   "ingredients": [
-    { "№": 1, "Продукт": "Яйцо", "Ingredient": "Egg", "Шт/гр": "2" },
-    { "№": 2, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "75" },
-    { "№": 3, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "75" },
-    { "№": 4, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "40" },
-    { "№": 5, "Продукт": "Количество", "Ingredient": "Amount", "Шт/гр": "192" }
+    { "№": 1, "Продукт": "Яйцо", "Ingredient": "Egg", "Ingredient_vi": "Trứng", "Шт/гр": "2" },
+    { "№": 2, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "75" },
+    { "№": 3, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "75" },
+    { "№": 4, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "40" },
+    { "№": 5, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Tổng lượng", "Шт/гр": "192" }
   ],
   "process": {
     "ru": "Яйца взбить постепенно добавляя сахар до пышной массы. Аккуратно ввести муку. Часть смеси смешать с растопленным маслом комнатной температуры и смешать с основной частью теста. На противне разместить слоем в пол сантиметра Выпекать при 180°C 10-15 минут. Дать остыть и нарезать под форму пирожного.",
-    "en": "Whisk eggs, gradually adding sugar, until a fluffy mixture is formed. Gently fold in the flour. Mix a portion of the batter with the melted butter at room temperature, then combine with the main batter. Spread on a baking sheet in a layer half a centimeter thick. Bake at 180°C for 10-15 minutes. Let cool and cut to the shape of the pastry."
+    "en": "Whisk eggs, gradually adding sugar, until a fluffy mixture is formed. Gently fold in the flour. Mix a portion of the batter with the melted butter at room temperature, then combine with the main batter. Spread on a baking sheet in a layer half a centimeter thick. Bake at 180°C for 10-15 minutes. Let cool and cut to the shape of the pastry.",
+    "vi": "Đánh trứng với đường đến khi bông nhẹ. Nhẹ nhàng trộn bột mì vào. Trộn một phần hỗn hợp với bơ đã đun chảy ở nhiệt độ phòng rồi trộn lại vào phần bột chính. Trải lên khay nướng lớp dày khoảng 0,5 cm. Nướng ở 180°C trong 10–15 phút. Để nguội rồi cắt theo hình bánh."
   }
 },
 {
-  "name": { "ru": "КЛУБНИЧНОЕ КОНФИ", "en": "STRAWBERRY CONFIT" },
+  "name": { 
+    "ru": "КЛУБНИЧНОЕ КОНФИ", 
+    "en": "STRAWBERRY CONFIT",
+    "vi": "CONFIT DÂU TÂY"
+  },
   "key": "Количество",
   "ingredients": [
-    { "№": 1, "Продукт": "Клубничное пюре", "Ingredient": "Strawberry puree", "Шт/гр": "70" },
-    { "№": 2, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "10" },
-    { "№": 3, "Продукт": "Желатин листовой", "Ingredient": "Gelatin sheets", "Шт/гр": "1" },
-    { "№": 4, "Продукт": "Количество", "Ingredient": "Amount", "Шт/гр": "81" }
+    { "№": 1, "Продукт": "Клубничное пюре", "Ingredient": "Strawberry puree", "Ingredient_vi": "Puree dâu tây", "Шт/гр": "70" },
+    { "№": 2, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "10" },
+    { "№": 3, "Продукт": "Желатин листовой", "Ingredient": "Gelatin sheets", "Ingredient_vi": "Gelatin lá", "Шт/гр": "1" },
+    { "№": 4, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Tổng lượng", "Шт/гр": "81" }
   ],
   "process": {
     "ru": "Пюре кипятим с сахаром, добавляем размоченый желатин. Разливаем по полусферкам по 10г, замораживаем минимум 6 часов.",
-    "en": "Boil the puree with sugar, add the soaked gelatin. Pour into hemisphere molds, 10g each, freeze for a minimum of 6 hours."
+    "en": "Boil the puree with sugar, add the soaked gelatin. Pour into hemisphere molds, 10g each, freeze for a minimum of 6 hours.",
+    "vi": "Đun sôi puree dâu với đường, thêm gelatin đã ngâm mềm. Đổ vào khuôn bán cầu mỗi phần 10g và cấp đông ít nhất 6 giờ."
   }
 },
 {
-  "name": { "ru": "ЙОГУРТОВОЕ МУССОВОЕ ПИРОЖНОЕ", "en": "YOGURT MOUSSE PASTRY" },
+  "name": { 
+    "ru": "ЙОГУРТОВОЕ МУССОВОЕ ПИРОЖНОЕ", 
+    "en": "YOGURT MOUSSE PASTRY",
+    "vi": "BÁNH MOUSSE SỮA CHUA"
+  },
   "key": "Шт.",
   "ingredients": [
-    { "№": 1, "Продукт": "Клубничный Йогуртовый мусс", "Ingredient": "Strawberry Yogurt Mousse", "Шт/гр": "50" },
-    { "№": 2, "Продукт": "Клубничный Йогуртовый мусс Бисквит", "Ingredient": "Strawberry Yogurt Mousse Sponge", "Шт/гр": "10" },
-    { "№": 3, "Продукт": "Клубничное конфи", "Ingredient": "Strawberry Confit", "Шт/гр": "10" },
-    { "№": 4, "Продукт": "Шт.", "Ingredient": "Pcs", "Шт/гр": "1" }
+    { "№": 1, "Продукт": "Клубничный Йогуртовый мусс", "Ingredient": "Strawberry Yogurt Mousse", "Ingredient_vi": "Mousse sữa chua dâu", "Шт/гр": "50" },
+    { "№": 2, "Продукт": "Клубничный Йогуртовый мусс Бисквит", "Ingredient": "Strawberry Yogurt Mousse Sponge", "Ingredient_vi": "Bánh bông lan mousse sữa chua dâu", "Шт/гр": "10" },
+    { "№": 3, "Продукт": "Клубничное конфи", "Ingredient": "Strawberry Confit", "Ingredient_vi": "Confit dâu tây", "Шт/гр": "10" },
+    { "№": 4, "Продукт": "Шт.", "Ingredient": "Pcs", "Ingredient_vi": "Cái", "Шт/гр": "1" }
   ],
   "process": {
     "ru": "Мусс заливаем в форму (например, елка) 35г, распределяя так, чтобы и бока до основания были покрыты. Выложить полусферу конфи, прослоить 15 грамм мусса и сверху перекрыть бисквитом.",
-    "en": "Pour 35g of mousse into the mold (e.g., Christmas tree shape), spreading it so that the sides are covered down to the base. Place the confit hemisphere inside, layer with another 15g of mousse, and cover the top with the sponge cake base."
-  }
-},
-{
-  "name": { "ru": "КРЕМ КАПКЕЙК ШОКО", "en": "CHOCO CUPCAKE CREAM" },
+    "en": "Pour 35g of mousse into the mold (e.g., Christmas tree shape), spreading it so that the sides are covered down to the base. Place the confit hemisphere inside, layer with another 15g of mousse, and cover the top with the sponge cake base.",
+    "vi": "Đổ 35g mousse vào khuôn (ví dụ hình cây thông), phủ đều cả đáy và thành khuôn. Đặt phần confit hình bán cầu vào giữa, thêm 15g mousse và phủ trên cùng bằng lớp bánh bông lan."
+      }
+  },
+    {
+  "name": { 
+    "ru": "КРЕМ КАПКЕЙК ШОКО", 
+    "en": "CHOCO CUPCAKE CREAM",
+    "vi": "KEM CUPCAKE SÔ CÔ LA"
+  },
   "key": "Количество",
   "ingredients": [
-    { "№": 1, "Продукт": "Сливки", "Ingredient": "Cream", "Шт/гр": "280" },
-    { "№": 2, "Продукт": "Шоколад белый", "Ingredient": "White chocolate", "Шт/гр": "160" },
-    { "№": 3, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Шт/гр": "1" },
-    { "№": 4, "Продукт": "Количество", "Ingredient": "Amount", "Шт/гр": "440" }
+    { "№": 1, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "280" },
+    { "№": 2, "Продукт": "Шоколад белый", "Ingredient": "White chocolate", "Ingredient_vi": "Sô cô la trắng", "Шт/гр": "160" },
+    { "№": 3, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Ingredient_vi": "Vani", "Шт/гр": "1" },
+    { "№": 4, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Tổng lượng", "Шт/гр": "440" }
   ],
   "process": {
     "ru": "Инструкции по приготовлению не предоставлены.",
-    "en": "Preparation instructions not provided."
+    "en": "Preparation instructions not provided.",
+    "vi": "Không có hướng dẫn chế biến."
   }
 },
-    {
-  "name": { "ru": "ПЕЧЕНЬЕ СНЕЖИНКА", "en": "SNOWFLAKE COOKIES" },
+{
+  "name": { 
+    "ru": "ПЕЧЕНЬЕ СНЕЖИНКА", 
+    "en": "SNOWFLAKE COOKIES",
+    "vi": "BÁNH QUY BÔNG TUYẾT"
+  },
   "key": "Печенье шт.",
   "ingredients": [
-    { "№": 1, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Шт/гр": "200" },
-    { "№": 2, "Продукт": "Специя Масала", "Ingredient": "Masala Spice", "Шт/гр": "5" },
-    { "№": 3, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Шт/гр": "1" },
-    { "№": 4, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "1" },
-    { "№": 5, "Продукт": "Сахар(пудра)", "Ingredient": "Sugar (powdered)", "Шт/гр": "100" },
-    { "№": 6, "Продукт": "Яйцо", "Ingredient": "Egg", "Шт/гр": "1" },
-    { "№": 7, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "300" },
-    { "№": 8, "Продукт": "Пф Соленая карамель", "Ingredient": "Semi-finished Salted Caramel", "Шт/гр": "30" },
-    { "№": 9, "Продукт": "Печенье шт.", "Ingredient": "Pcs", "Шт/гр": "10" }
+    { "№": 1, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "200" },
+    { "№": 2, "Продукт": "Специя Масала", "Ingredient": "Masala Spice", "Ingredient_vi": "Gia vị Masala", "Шт/гр": "5" },
+    { "№": 3, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Ingredient_vi": "Vani", "Шт/гр": "1" },
+    { "№": 4, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1" },
+    { "№": 5, "Продукт": "Сахар(пудра)", "Ingredient": "Sugar (powdered)", "Ingredient_vi": "Đường bột", "Шт/гр": "100" },
+    { "№": 6, "Продукт": "Яйцо", "Ingredient": "Egg", "Ingredient_vi": "Trứng", "Шт/гр": "1" },
+    { "№": 7, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "300" },
+    { "№": 8, "Продукт": "Пф Соленая карамель", "Ingredient": "Semi-finished Salted Caramel", "Ingredient_vi": "Caramel muối bán thành phẩm", "Шт/гр": "30" },
+    { "№": 9, "Продукт": "Печенье шт.", "Ingredient": "Pcs", "Ingredient_vi": "Cái bánh", "Шт/гр": "10" }
   ],
   "process": {
     "ru": "Все ингредиенты комнатной температуры. Взбить масло с пудрой до побеления и пышной массы, добавить яичный белок. Затем добавить сухие ингредиенты и объединить до однородной консистенции, не вымешивая долго. Отсадить через кондитерский мешок с круглой насадкой кружочки по 7-10г, выравнивая пальцем хвостики. Выпекать при 180 градусах с конвекцией 15-30 минут (в зависимости от загруженности пароконвектомата) до золотого колера.",
-    "en": "All ingredients should be at room temperature. Beat the butter with the powdered sugar until pale and fluffy; add the egg white. Then add the dry ingredients and combine until a homogeneous consistency is reached, without overmixing. Pipe circles of 7-10g using a piping bag with a round tip, smoothing the tips with a finger. Bake at 180°C with convection for 15-30 minutes (depending on the oven load) until golden."
+    "en": "All ingredients should be at room temperature. Beat the butter with the powdered sugar until pale and fluffy; add the egg white. Then add the dry ingredients and combine until a homogeneous consistency is reached, without overmixing. Pipe circles of 7-10g using a piping bag with a round tip, smoothing the tips with a finger. Bake at 180°C with convection for 15-30 minutes (depending on the oven load) until golden.",
+    "vi": "Tất cả nguyên liệu ở nhiệt độ phòng. Đánh bơ với đường bột đến khi hỗn hợp nhạt màu và bông xốp, sau đó thêm lòng trắng trứng. Tiếp theo cho các nguyên liệu khô vào và trộn đến khi đồng nhất, không trộn quá lâu. Cho hỗn hợp vào túi bắt kem với đầu tròn và bắt thành các vòng tròn 7–10g, dùng ngón tay làm phẳng phần đuôi. Nướng ở 180°C với chế độ đối lưu trong 15–30 phút (tùy tải lò) đến khi vàng."
   }
 },
-    {
+{
   "name": { 
     "ru": "КАПКЕЙК ГОЛУБИКА", 
-    "en": "BLUEBERRY CUPCAKE" },
+    "en": "BLUEBERRY CUPCAKE",
+    "vi": "CUPCAKE VIỆT QUẤT"
+  },
   "key": "Капкейк шт.",
   "ingredients": [
-    { "№": 1, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "1" },
-    { "№": 2, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "150" },
-    { "№": 3, "Продукт": "Мука", "Ingredient": "Flour", "Шт/гр": "195" },
-    { "№": 4, "Продукт": "Яйцо(вес)", "Ingredient": "Egg (weight)", "Шт/гр": "50" },
-    { "№": 5, "Продукт": "Масло растительное", "Ingredient": "Vegetable oil", "Шт/гр": "74" },
-    { "№": 6, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Шт/гр": "5" },
-    { "№": 7, "Продукт": "Молоко", "Ingredient": "Milk", "Шт/гр": "80" },
-    { "№": 8, "Продукт": "Разрыхлитель", "Ingredient": "Baking powder", "Шт/гр": "10" },
-    { "№": 9, "Продукт": "Черника С/М", "Ingredient": "Blueberries frozen", "Шт/гр": "150" },
-    { "№": 10, "Продукт": "Шт.", "Ingredient": "Pcs", "Шт/гр": "715" }
+    { "№": 1, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1" },
+    { "№": 2, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "150" },
+    { "№": 3, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "195" },
+    { "№": 4, "Продукт": "Яйцо(вес)", "Ingredient": "Egg (weight)", "Ingredient_vi": "Trứng (theo trọng lượng)", "Шт/гр": "50" },
+    { "№": 5, "Продукт": "Масло растительное", "Ingredient": "Vegetable oil", "Ingredient_vi": "Dầu thực vật", "Шт/гр": "74" },
+    { "№": 6, "Продукт": "Ваниль", "Ingredient": "Vanilla", "Ingredient_vi": "Vani", "Шт/гр": "5" },
+    { "№": 7, "Продукт": "Молоко", "Ingredient": "Milk", "Ingredient_vi": "Sữa", "Шт/гр": "80" },
+    { "№": 8, "Продукт": "Разрыхлитель", "Ingredient": "Baking powder", "Ingredient_vi": "Bột nở", "Шт/гр": "10" },
+    { "№": 9, "Продукт": "Черника С/М", "Ingredient": "Blueberries frozen", "Ingredient_vi": "Việt quất đông lạnh", "Шт/гр": "150" },
+    { "№": 10, "Продукт": "Шт.", "Ingredient": "Pcs", "Ingredient_vi": "Cái", "Шт/гр": "715" }
   ],
   "process": {
     "ru": "Разогреть духовку до 204 °C. Из этого рецепта получается примерно 10 кексов по 66г (в зависимости от размера формы).\nВ небольшой миске смешать чернику с мукой, чтобы она равномерно покрылась, и положить её в морозилку.\nСухие ингредиенты объединить венчиком до однородной массы.\nЖидкие ингредиенты взбить до однородности (кроме черники), добавить к мучной смеси и перемешать до однородности. Не перемешивать слишком долго.\nДобавить посыпанную мукой чернику и перемешать тесто до однородной массы. Распределить тесто по формочкам для кексов. Каждая полость должна быть заполнена на три четверти (66г).\nВыпекать кексы 25–30 минут. Они готовы, когда зубочистка, воткнутая в центр кекса, выходит без жидкого теста.\nОстудить кексы.\nХранить кексы в герметичном контейнере при комнатной температуре до 1 дня или в холодильнике до 3-4 дней. Дать кексам нагреться до комнатной температуры перед подачей. Кексы хорошо замораживаются и хранятся в морозилке 1 месяц.",
-    "en": "Preheat the oven to 204°C (400°F). This recipe yields approximately 10 cupcakes weighing 66g each (depending on the mold size).\nIn a small bowl, toss the blueberries with flour until evenly coated and place them in the freezer.\nWhisk the dry ingredients together until homogeneous.\nWhisk the liquid ingredients (except blueberries) until homogeneous, add to the flour mixture, and mix until just combined. Do not overmix.\nAdd the floured blueberries and mix the batter until evenly distributed. Distribute the batter among the cupcake molds. Each cavity should be filled three-quarters full (66g).\nBake the cupcakes for 25–30 minutes. They are ready when a toothpick inserted into the center of a cupcake comes out clean without liquid batter.\nLet the cupcakes cool.\nStore the cupcakes in an airtight container at room temperature for up to 1 day or in the refrigerator for up to 3-4 days. Let the cupcakes warm to room temperature before serving. Cupcakes freeze well and can be stored in the freezer for 1 month."
-  }
+    "en": "Preheat the oven to 204°C (400°F). This recipe yields approximately 10 cupcakes weighing 66g each (depending on the mold size).\nIn a small bowl, toss the blueberries with flour until evenly coated and place them in the freezer.\nWhisk the dry ingredients together until homogeneous.\nWhisk the liquid ingredients (except blueberries) until homogeneous, add to the flour mixture, and mix until just combined. Do not overmix.\nAdd the floured blueberries and mix the batter until evenly distributed. Distribute the batter among the cupcake molds. Each cavity should be filled three-quarters full (66g).\nBake the cupcakes for 25–30 minutes. They are ready when a toothpick inserted into the center of a cupcake comes out clean without liquid batter.\nLet the cupcakes cool.\nStore the cupcakes in an airtight container at room temperature for up to 1 day or in the refrigerator for up to 3-4 days. Let the cupcakes warm to room temperature before serving. Cupcakes freeze well and can be stored in the freezer for 1 month.",
+    "vi": "Làm nóng lò ở 204°C. Công thức này cho khoảng 10 cupcake, mỗi chiếc khoảng 66g (tùy kích thước khuôn).\nTrong bát nhỏ, trộn việt quất với một ít bột mì để phủ đều rồi cho vào ngăn đông.\nTrộn các nguyên liệu khô bằng phới cho đến khi đồng nhất.\nĐánh các nguyên liệu lỏng (trừ việt quất) đến khi đồng nhất, sau đó cho vào hỗn hợp bột và trộn vừa đủ. Không trộn quá lâu.\nThêm việt quất đã phủ bột vào và trộn nhẹ cho đều. Chia bột vào khuôn cupcake, mỗi khuôn khoảng 3/4 thể tích (66g).\nNướng 25–30 phút. Bánh chín khi tăm cắm vào giữa bánh rút ra sạch, không còn bột lỏng.\nĐể bánh nguội.\nBảo quản trong hộp kín ở nhiệt độ phòng tối đa 1 ngày hoặc trong tủ lạnh 3–4 ngày. Trước khi ăn nên để bánh về nhiệt độ phòng. Cupcake có thể đông lạnh và bảo quản trong tủ đông đến 1 tháng."
+   }
 },
       {
   "name": {
