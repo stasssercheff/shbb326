@@ -917,6 +917,66 @@
     "ru": "Замешать молоко, желтки, дрожжи, сахар и соль в емкости. Пробить блендером. Просеять муку в дежу/миску. Влить замес, замесить тесто. После получения однородной тугой массы ввести холодное нарубленое сливочное масло. Замесить тесто до однородной текстуры(не долго)и оставить вызревать до увеличения объема в 2 раза под пленкой.После увеличения теста, обмять и повторно оставить на вызревание. После очередного увеличения теста, обмять выложить в формы, накрыть, дать созреть.Выпекать при температуре 200 гр при конвекции 35 20 мин, после понизить температуру до 190, конвекцию до 25 и отпекать еще 40 минут.",
     "en": "Mix milk, yolks, yeast, sugar and salt in a container. Beat with a blender. Sift flour into a bowl. Pour in the mixture, knead the dough. After obtaining a homogeneous tight mass, add cold chopped butter. Knead the dough until a homogeneous texture (not long) and leave to mature until the volume doubles under the film. After the dough has increased, knead and leave to mature again. After the dough has increased again, knead, put it in molds, cover, let it mature. Bake at a temperature of 200 degrees with convection 35 for 20 minutes, then reduce the temperature to 190, convection to 25 and bake for another 40 minutes.",
     "vi": "Trộn sữa, lòng đỏ trứng, men, đường và muối trong một dụng cụ. Xay bằng máy xay cầm tay. Rây bột mì vào cối/máy trộn hoặc tô. Đổ hỗn hợp lỏng vào và nhồi bột. Khi bột đạt trạng thái đồng nhất và khá dai, cho bơ lạnh đã băm nhỏ vào. Nhồi ngắn đến khi bột mịn đồng đều, sau đó phủ kín và để ủ đến khi thể tích tăng gấp đôi. Khi bột nở, đấm xẹp và tiếp tục ủ lần hai. Sau khi bột nở lại, đấm xẹp, cho vào khuôn, đậy kín và để bột nở lần cuối. Nướng ở 200°C, chế độ đối lưu 35 trong 20 phút, sau đó hạ nhiệt xuống 190°C, đối lưu 25 và nướng thêm 40 phút."
+ }
+},
+      {
+  "name": { 
+    "ru": "МЕРЕНГА", 
+    "en": "MERINGUE",
+    "vi": "MERINGUE (KEM LÒNG TRẮNG TRỨNG)"
+  },
+  "key": "Количество",
+  "ingredients": [
+    { "№": 1, "Продукт": "Вода питьевая", "Ingredient": "Drinking water", "Ingredient_vi": "Nước uống", "Шт/гр": "180" },
+    { "№": 2, "Продукт": "Сахар-песок", "Ingredient": "Granulated sugar", "Ingredient_vi": "Đường cát", "Шт/гр": "660" },
+    { "№": 3, "Продукт": "Яйца куриные", "Ingredient": "Chicken eggs", "Ingredient_vi": "Trứng gà", "Шт/гр": "481" },
+    { "№": 4, "Продукт": "Соль поваренная пищевая", "Ingredient": "Table salt", "Ingredient_vi": "Muối ăn", "Шт/гр": "3" },
+    { "№": 5, "Продукт": "Кислота лимонная", "Ingredient": "Citric acid", "Ingredient_vi": "Axit citric", "Шт/гр": "4" }
+  ],
+  "process": {
+    "ru": "В сотейник положить сахар и налить воду, уварить сахарный сироп до температуры 118°C (используем термометр или проверяем на тонкую нить). Яйца разделить на белки и желтки (используем только белок). Яичные белки взбить до пиков с добавлением соли и лимонной кислоты. Далее тонкой струйкой влить сахарный сироп, вливая между венчиком и стенкой дежи (во избежание разбрызгивания и застывания на стенках). Продолжать взбивать меренгу до остывания. Готовую меренгу переложить в кондитерские мешки и использовать для наполнения трубочек и декора кондитерских изделий.",
+    "en": "Place sugar and water in a saucepan and cook the syrup to 118°C (use a thermometer or check for a thin thread stage). Separate eggs into whites and yolks (use only the whites). Whip the egg whites to peaks with salt and citric acid. Slowly pour the hot sugar syrup in a thin stream between the whisk and the bowl wall to avoid splashing and crystallizing on the sides. Continue whipping until the meringue cools. Transfer the finished meringue to piping bags and use it to fill pastry tubes and decorate desserts.",
+    "vi": "Cho đường và nước vào nồi, nấu siro đường đến 118°C (dùng nhiệt kế hoặc kiểm tra bằng cách kéo sợi mỏng). Tách trứng, chỉ sử dụng lòng trắng. Đánh lòng trắng trứng với muối và axit citric đến khi tạo chóp. Sau đó rót siro đường nóng thành dòng mỏng vào giữa phới đánh và thành tô để tránh bắn và kết tinh. Tiếp tục đánh đến khi hỗn hợp nguội. Cho meringue vào túi bắt kem và dùng để bơm vào bánh ống hoặc trang trí bánh."
+  }
+},
+      {
+  "name": { 
+    "ru": "ТЕСТО НА ВАФЕЛЬНЫЕ ТРУБОЧКИ", 
+    "en": "WAFFLE ROLL DOUGH",
+    "vi": "BỘT BÁNH QUẾ CUỘN"
+  },
+  "key": "Шт.",
+  "ingredients": [
+    { "№": 1, "Продукт": "Яйца куриные", "Ingredient": "Chicken eggs", "Ingredient_vi": "Trứng gà", "Шт/гр": "309" },
+    { "№": 2, "Продукт": "Маргарин сливочный (пышка и для слоения)", "Ingredient": "Butter margarine (for baking and layering)", "Ingredient_vi": "Margarine bơ (dùng cho nướng và tạo lớp)", "Шт/гр": "210" },
+    { "№": 3, "Продукт": "Мука Пшеничная высшего сорта", "Ingredient": "Premium wheat flour", "Ingredient_vi": "Bột mì cao cấp", "Шт/гр": "257" },
+    { "№": 4, "Продукт": "Ванилин жидкий (ароматизатор ванили)", "Ingredient": "Liquid vanillin (vanilla flavoring)", "Ingredient_vi": "Vani lỏng (hương vani)", "Шт/гр": "1" },
+    { "№": 5, "Продукт": "Сахар-песок", "Ingredient": "Granulated sugar", "Ingredient_vi": "Đường cát", "Шт/гр": "223" },
+    { "№": 6, "Продукт": "Шт.(70 гр)", "Ingredient": "Pcs(70 gr)", "Ingredient_vi": "Cái (70 gr)", "Шт/гр": "14" }
+
+  ],
+  "process": {
+    "ru": "Яйца, сахар и маргарин соединить в миксере и перемешивать до полного растворения сахара. Добавить ванилин и муку, замесить тесто. Выпекать в вафельнице при температуре 160–170°C. Готовые вафли сразу сворачивать в рулет на деревянном холдере (скалке). Дать полностью остыть и хранить в плотно закрытой емкости.",
+    "en": "Combine eggs, sugar, and margarine in a mixer and mix until the sugar is fully dissolved. Add vanillin and flour and mix into a dough. Bake in a waffle iron at 160–170°C. Roll the hot waffles into tubes using a wooden holder (rolling pin). Let cool completely and store in a tightly sealed container.",
+    "vi": "Cho trứng, đường và margarine vào máy trộn và trộn đến khi đường tan hoàn toàn. Thêm vani và bột mì, trộn thành bột. Nướng trong máy làm bánh quế ở nhiệt độ 160–170°C. Khi bánh còn nóng, cuộn ngay thành ống bằng thanh gỗ (cán bột). Để nguội hoàn toàn và bảo quản trong hộp kín."
+   }
+},
+      {
+  "name": { 
+    "ru": "ВАФЕЛЬНЫЕ ТРУБОЧКИ С МЕРЕНГОЙ", 
+    "en": "WAFFLE ROLLS WITH MERINGUE",
+    "vi": "BÁNH QUẾ CUỘN NHÂN MERINGUE"
+  },
+  "key": "шт",
+  "ingredients": [
+    { "№": 1, "Продукт": "Трубочка вафельная", "Ingredient": "Waffle tube", "Ingredient_vi": "Ống bánh quế", "Шт/гр": "40" },
+    { "№": 2, "Продукт": "Меренга", "Ingredient": "Meringue", "Ingredient_vi": "Meringue (kem lòng trắng trứng)", "Шт/гр": "60" },
+    { "№": 3, "Продукт": "шт", "Ingredient": "Pcs", "Ingredient_vi": "Cái", "Шт/гр": "1" }
+  ],
+  "process": {
+    "ru": "Вафельные трубочки заполнить меренгой при помощи кондитерского мешка с насадкой. Готовые трубочки хранить и реализовывать через холодную витрину. Срок реализации — 48 часов.",
+    "en": "Fill the waffle tubes with meringue using a piping bag with a nozzle. Store and display the finished tubes in a refrigerated showcase. Shelf life: 48 hours.",
+    "vi": "Bơm meringue vào ống bánh quế bằng túi bắt kem có đầu bắt. Bảo quản và trưng bày sản phẩm trong tủ mát. Thời gian sử dụng: 48 giờ."
   }
 }
 
