@@ -36,7 +36,7 @@
       { "№": 3, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1" },
       { "№": 4, "Продукт": "Сахарная пудра", "Ingredient": "Icing sugar", "Ingredient_vi": "Đường bột", "Шт/гр": "30" },
       { "№": 5, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "75" },
-      { "№": 6, "Продукт": "Вода", "Ingredient": "Water", "Ingredient_vi": "Nước", "Шт/гр": "30" }
+      { "№": 6, "Продукт": "Вода", "Ingredient": "Water", "Ingredient_vi": "Nước", "Шт/гр": "30" },
       { "№": 7, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Tổng lượng", "Шт/гр": "250" }
     ],
     "process": {
@@ -98,7 +98,7 @@
       { "№": 2, "Продукт": "ПФ Основа из печенья", "Ingredient": "Cookie base SF", "Ingredient_vi": "Đế bánh quy SC", "Шт/гр": "345" },
       { "№": 3, "Продукт": "ПФ Соленая карамель", "Ingredient": "Salted caramel SF", "Ingredient_vi": "Caramel mặn SC", "Шт/гр": "300" },
       { "№": 4, "Продукт": "ПФ Орех арахис жареный", "Ingredient": "Roasted peanuts SF", "Ingredient_vi": "Đậu phộng rang SC", "Шт/гр": "150" },
-      { "№": 5, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "1" },
+      { "№": 5, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "1" }
 
     ],
     "process": {
