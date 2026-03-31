@@ -23,6 +23,91 @@
         "vi": "Nghiền bánh quy thành vụn nhỏ rồi trộn với bột ca cao. Cho các nguyên liệu còn lại vào nồi nhỏ và đun ở lửa nhỏ, khuấy liên tục đến khi hỗn hợp đồng nhất. Trộn kỹ (tốt nhất dùng spatula), để nguội rồi chia thành phần 50 g. Tạo hình giống củ khoai, làm lạnh trong tủ đông 30 phút. Sau đó cắm xiên vào bánh, nhúng vào lớp phủ sô cô la, gõ nhẹ để loại bỏ phần dư rồi đặt lên giấy nướng cho đông lại. Trang trí bằng cách rưới sô cô la trắng thành sợi mỏng."
       }
     },
+  {
+    "name": {
+      "ru": "ПФ ШОКОЛАДНОЕ ПЕЧЕНЬЕ",
+      "en": "CHOCOLATE COOKIE SEMI-FINISHED",
+      "vi": "BÁNH QUY SOCOLA (SƠ CHẾ)"
+    },
+    "key": "Количество",
+    "ingredients": [
+      { "№": 1, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "100" },
+      { "№": 2, "Продукт": "Какао", "Ingredient": "Cocoa powder", "Ingredient_vi": "Bột ca cao", "Шт/гр": "20" },
+      { "№": 3, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1" },
+      { "№": 4, "Продукт": "Сахарная пудра", "Ingredient": "Icing sugar", "Ingredient_vi": "Đường bột", "Шт/гр": "30" },
+      { "№": 5, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "75" },
+      { "№": 6, "Продукт": "Вода", "Ingredient": "Water", "Ingredient_vi": "Nước", "Шт/гр": "30" }
+      { "№": 7, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Tổng lượng", "Шт/гр": "250" }
+    ],
+    "process": {
+      "ru": "В муку добавить пудру, соль и какао, порубить кубиками сливочное масло, перетереть в крошку, добавить воду и замесить тесто, замотать в плёнку и убрать в холодильник на час (или раскатать и держать час в холодильнике на противне). Выпекать 30 минут при 180 градусах и скоростью вентилятора 8, остудить, хранить в контейнере.",
+      "en": "Add powder, salt and cocoa to the flour, chop the butter into cubes, rub into crumbs, add water and knead the dough, wrap in film and put in the refrigerator for an hour. Then roll out between two sheets of parchment and bake for 20 minutes at 170 degrees, cool.",
+      "vi": "Cho bột hạnh nhân, muối và ca cao vào bột mì, cắt bơ thành khối vuông, xoa thành vụn, thêm nước và nhào bột, bọc màng bọc thực phẩm và để trong tủ lạnh một giờ. Nướng trong 30 phút ở 180 độ với tốc độ quạt là 8, để nguội, bảo quản trong hộp."
+    }
+  },
+  {
+    "name": {
+      "ru": "ПФ СЫРНАЯ МАССА",
+      "en": "CHEESE MASS SEMI-FINISHED",
+      "vi": "HỖN HỢP PHÔ MAI (SƠ CHẾ)"
+    },
+    "key": "Количество",
+    "ingredients": [
+      { "№": 1, "Продукт": "Сыр Кремчиз", "Ingredient": "Cream cheese", "Ingredient_vi": "Phô mai kem", "Шт/гр": "400" },
+      { "№": 2, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "80" },
+      { "№": 3, "Продукт": "Яйцо", "Ingredient": "Egg", "Ingredient_vi": "Trứng", "Шт/гр": "3" },
+      { "№": 4, "Продукт": "Сахарная пудра", "Ingredient": "Icing sugar", "Ingredient_vi": "Đường bột", "Шт/гр": "80" },
+      { "№": 5, "Продукт": "Крахмал кукурузный", "Ingredient": "Cornstarch", "Ingredient_vi": "Bột bắp", "Шт/гр": "15" },
+      { "№": 6, "Продукт": "Арахисовая паста", "Ingredient": "Peanut butter", "Ingredient_vi": "Bơ đậu phộng", "Шт/гр": "80" },
+      { "№": 7, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Tổng lượng", "Шт/гр": "765" }
+
+    ],
+    "process": {
+       "ru": "Для сырной массы крем-чиз, сахар, арахисовую пасту, сливки и крахмал соединить в емкости и пробить блендером, затем ввести яйца, еще раз пробить блендером. Отстучать массу от лишнего воздуха внутри так, чтобы не было пузырей. Вылить на основу и выпекать 1 час и 30 минут при 120 градусах со скоростью вентилятора 5. Полностью остудить при комнатной температуре, потом обязательно убрать в холодильник на 12 часов до полного созревания.",
+      "en": "For the cheese mass, combine cream cheese, sugar, peanut butter, cream and starch in a container and beat with a blender, then add eggs, beat with a blender again. Beat the mass from excess air inside so that there are no bubbles. Pour onto the base and bake for 1 hour and 30 minutes at 120 degrees with a fan speed of 5. Cool completely at room temperature, then be sure to put in the refrigerator for 12 hours until fully ripened.",
+      "vi": "Đối với hỗn hợp phô mai, kết hợp phô mai kem, đường, bơ đậu phộng, kem tươi và tinh bột trong một cái tô và xay bằng máy xay, sau đó thêm trứng, xay lại một lần nữa. Gõ nhẹ hỗn hợp để loại bỏ bọt khí. Đổ lên đế và nướng trong 1 giờ 30 phút ở 120 độ với tốc độ quạt là 5. Để nguội hoàn toàn ở nhiệt độ phòng, sau đó nhất thiết phải để trong tủ lạnh trong 12 giờ cho đến khi chín hoàn toàn."
+    }
+  },
+  {
+    "name": {
+      "ru": "ПФ ОСНОВА ИЗ ПЕЧЕНЬЯ СНИКЕРС",
+      "en": "SNICKERS COOKIE BASE",
+      "vi": "ĐẾ BÁNH QUY SNICKERS"
+    },
+    "key": "ПФ шт.",
+    "ingredients": [
+      { "№": 1, "Продукт": "ПФ Шоколадное печенье", "Ingredient": "Chocolate cookie SF", "Ingredient_vi": "Bánh quy socola SC", "Шт/гр": "215" },
+      { "№": 2, "Продукт": "Орех арахис жареный", "Ingredient": "Roasted peanuts", "Ingredient_vi": "Đậu phộng rang", "Шт/гр": "50" },
+      { "№": 3, "Продукт": "Молоко", "Ingredient": "Milk", "Ingredient_vi": "Sữa", "Шт/гр": "80" }
+    ],
+    "process": {
+      "ru": "Перемолоть в блендере печенье в крошку. К этой же крошке добавить молотый арахис, влить молоко и замесить из этой массы «тесто», должна получиться довольно липкая масса. Выложить всю эту массу в разъемную форму (диаметр 20см), утрамбовать с помощью стакана через пергамент (сделать дно и бока) убрать эту заготовку в морозилку на полчаса.",
+      "en": "Grind the cookies into crumbs in a blender. Add ground peanuts to the same crumbs, pour in milk and knead \"dough\" from this mass, it should be a fairly sticky mass. Put all this mass into a springform pan (diameter 20cm), tamp it down with a glass through parchment (make the bottom and sides) and put this blank in the freezer for half an hour.",
+      "vi": "Xay bánh quy thành vụn trong máy xay. Thêm đậu phộng xay vào cùng vụn đó, đổ sữa vào và nhào thành \"bột\", hỗn hợp thu được phải khá dính. Cho toàn bộ hỗn hợp này vào khuôn tháo rời (đường kính 20cm), nén chặt bằng đáy ly qua giấy nến (tạo đáy và thành bánh), cho phần cốt này vào ngăn đá trong nửa giờ."
+    }
+  },
+  {
+    "name": {
+      "ru": "ЧИЗКЕЙК СНИКЕРС (ИТОГО)",
+      "en": "SNICKERS CHEESECAKE (TOTAL)",
+      "vi": "BÁNH PHÔ MAI SNICKERS (TỔNG)"
+    },
+    "key": "Торт шт.",
+    "ingredients": [
+      { "№": 1, "Продукт": "ПФ Сырная масса", "Ingredient": "Cheese mass SF", "Ingredient_vi": "Hỗn hợp phô mai SC", "Шт/гр": "778" },
+      { "№": 2, "Продукт": "ПФ Основа из печенья", "Ingredient": "Cookie base SF", "Ingredient_vi": "Đế bánh quy SC", "Шт/гр": "345" },
+      { "№": 3, "Продукт": "ПФ Соленая карамель", "Ingredient": "Salted caramel SF", "Ingredient_vi": "Caramel mặn SC", "Шт/гр": "300" },
+      { "№": 4, "Продукт": "ПФ Орех арахис жареный", "Ingredient": "Roasted peanuts SF", "Ingredient_vi": "Đậu phộng rang SC", "Шт/гр": "150" },
+      { "№": 5, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "1" },
+
+    ],
+    "process": {
+      "ru": "На готовую основу выложить сырную массу. Выпекать при низкой температуре до готовности.",
+      "en": "Pour the cheese mass onto the prepared base. Bake at a low temperature until set.",
+      "vi": "Đổ hỗn hợp phô mai lên đế đã chuẩn bị. Nướng ở nhiệt độ thấp cho đến khi chín."
+    }
+  },
+    
     {
       "name": {
         "ru": "ЧИЗКЕЙК",
