@@ -491,11 +491,6 @@
   "vi": "Bánh socola từ hôm qua"
 },
 
-"pavlova": {
-  "ru": "Павлова",
-  "en": "Pavlova",
-  "vi": "Pavlova"
-},
 
   "snickers_cheesecake": {
   "ru": "Чизкейк Сникерс",
@@ -503,6 +498,21 @@
   "vi": "Bánh Cheesecake Snickers"
 
   },
+
+"snickers_cheesecake_yesterday": {
+  "ru": "Чизкейк Сникерс со вчера",
+  "en": "Snickers Cheesecake from yesterday",
+  "vi": "Bánh Cheesecake Snickers hôm qua"
+},
+
+  
+"pavlova": {
+  "ru": "Павлова",
+  "en": "Pavlova",
+  "vi": "Pavlova"
+},
+
+  
 
 "pavlova_yesterday": {
   "ru": "Павлова со вчера",
