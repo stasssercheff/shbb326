@@ -55,11 +55,11 @@
     "ingredients": [
       { "№": 1, "Продукт": "Сыр Кремчиз", "Ingredient": "Cream cheese", "Ingredient_vi": "Phô mai kem", "Шт/гр": "400" },
       { "№": 2, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "80" },
-      { "№": 3, "Продукт": "Яйцо", "Ingredient": "Egg", "Ingredient_vi": "Trứng", "Шт/гр": "3" },
+      { "№": 3, "Продукт": "Яйцо", "Ingredient": "Egg", "Ingredient_vi": "Trứng", "Шт/гр": "150" },
       { "№": 4, "Продукт": "Сахарная пудра", "Ingredient": "Icing sugar", "Ingredient_vi": "Đường bột", "Шт/гр": "80" },
       { "№": 5, "Продукт": "Крахмал кукурузный", "Ingredient": "Cornstarch", "Ingredient_vi": "Bột bắp", "Шт/гр": "15" },
       { "№": 6, "Продукт": "Арахисовая паста", "Ingredient": "Peanut butter", "Ingredient_vi": "Bơ đậu phộng", "Шт/гр": "80" },
-      { "№": 7, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Tổng lượng", "Шт/гр": "765" }
+      { "№": 7, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Tổng lượng", "Шт/гр": "800" }
 
     ],
     "process": {
