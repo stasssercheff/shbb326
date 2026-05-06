@@ -74,7 +74,7 @@
       "vi": "Salad bạch tuộc ấm"
     },
     "ingredients": [
-      { "ru": "ПФ Осьминог", "en": "Prep octopus", "vi": "Bạch tuộc (sơ chế)", "amount": "75" },
+      { "ru": "ПФ Осьминог", "en": "Prep octopus", "vi": "Bạch tuộc (sơ chế)", "amount": "70" },
       { "ru": "ПФ стойун", "en": "Prep potatoes ctone", "vi": "Khoai tây (sơ chế)", "amount": "35" },
       { "ru": "ПФ Салат микс", "en": "Mixed salad", "vi": "Salad trộn (sơ chế)", "amount": "80" },
       { "ru": "Помидоры Черри темные", "en": "Dark Cherry", "vi": "Cà chua bi đen", "amount": "50" },
