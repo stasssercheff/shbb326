@@ -401,14 +401,14 @@
   "key": "ПФ тыква",
   "enabled": true,       
       "ingredients": [ 
-  { "№": 1, "Продукт": "ПФ тыква", "Ingredient": "Prep pumpkin", "Nguyên liệu": "Sơ chế bí đỏ", "Шт/гр": "3800" },
-  { "№": 2, "Продукт": "Мед", "Ingredient": "Honey", "Nguyên liệu": "Mật ong", "Шт/гр": "300" },
-  { "№": 3, "Продукт": "Розмарин", "Ingredient": "Rosemary", "Nguyên liệu": "Hương thảo", "Шт/гр": "20" },
-  { "№": 4, "Продукт": "Соль", "Ingredient": "Salt", "Nguyên liệu": "Muối", "Шт/гр": "35" },
-  { "№": 5, "Продукт": "Вода", "Ingredient": "Water", "Nguyên liệu": "Nước", "Шт/гр": "2000" },
-  { "№": 6, "Продукт": "Сливки", "Ingredient": "Cream", "Nguyên liệu": "Kem tươi", "Шт/гр": "1000" },
-  { "№": 7, "Продукт": "Соус ворчестер", "Ingredient": "Worcester sauce", "Nguyên liệu": "Sốt Worcestershire", "Шт/гр": "10" },
-  { "№": 8, "Продукт": "Порций", "Ingredient": "Portions", "Nguyên liệu": "Số phần ăn", "Шт/гр": "21" }
+  { "№": 1, "Продукт": "ПФ тыква", "Ingredient": "Prep pumpkin", "Ingredient_vi": "Sơ chế bí đỏ", "Шт/гр": "3800" },
+  { "№": 2, "Продукт": "Мед", "Ingredient": "Honey", "Ingredient_vi": "Mật ong", "Шт/гр": "300" },
+  { "№": 3, "Продукт": "Розмарин", "Ingredient": "Rosemary", "Ingredient_vi": "Hương thảo", "Шт/гр": "20" },
+  { "№": 4, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "35" },
+  { "№": 5, "Продукт": "Вода", "Ingredient": "Water", "Ingredient_vi": "Nước", "Шт/гр": "2000" },
+  { "№": 6, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "1000" },
+  { "№": 7, "Продукт": "Соус ворчестер", "Ingredient": "Worcester sauce", "Ingredient_vi": "Sốt Worcestershire", "Шт/гр": "10" },
+  { "№": 8, "Продукт": "Порций", "Ingredient": "Portions", "Ingredient_vi": "Số phần ăn", "Шт/гр": "21" }
   ],
   "process": {
     "ru": "В кастрюлю поместить масло и розмарин, прогреть масло, достать розмарин, чтобы его не осталось в масле. Тыкву мелко нарезать, поместить в кастрюлю, жарить на медленном огне с добавлением меда. После размягчения  50-65 % тыквы добавить воду, кипятить на медленном огне 1 час. Далее ввести сливки довести до кипения, перебить блендером, добавить ворчетсер и соль. Проверить на вкус.",
@@ -425,11 +425,11 @@
   "key": "ПФ Шпинат",
   "enabled": true,      
   "ingredients": [ 
-    { "№": 1, "Продукт": "ПФ Шпинат", "Ingredient": "Prep spinach", "Nguyên liệu": "Sơ chế cải bó xôi", "Шт/гр": "4000" },
-  { "№": 2, "Продукт": "Соль", "Ingredient": "Salt", "Nguyên liệu": "Muối", "Шт/гр": "5" },
-  { "№": 3, "Продукт": "ПФ Чесночное масло", "Ingredient": "Prep garlic oil", "Nguyên liệu": "Sơ chế dầu tỏi", "Шт/гр": "10" },
-  { "№": 4, "Продукт": "Сливки", "Ingredient": "Cream", "Nguyên liệu": "Kem tươi", "Шт/гр": "150" },
-  { "№": 5, "Продукт": "Количество", "Ingredient": "Total", "Nguyên liệu": "Tổng số lượng", "Шт/гр": "1100" }
+  { "№": 1, "Продукт": "ПФ Шпинат", "Ingredient": "Prep spinach", "Ingredient_vi": "Sơ chế cải bó xôi", "Шт/гр": "4000" },
+  { "№": 2, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "5" },
+  { "№": 3, "Продукт": "ПФ Чесночное масло", "Ingredient": "Prep garlic oil", "Ingredient_vi": "Sơ chế dầu tỏi", "Шт/гр": "10" },
+  { "№": 4, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "150" },
+  { "№": 5, "Продукт": "Количество", "Ingredient": "Total", "Ingredient_vi": "Tổng số lượng", "Шт/гр": "1100" }
   ],
   "process": {
     "ru": "Шпинат промыть в воде, оборвать листья и погрузить в кипяток на 1,5 минуты. Далее полученную массу отжать от воды и порубить на не слишком мелкие части. На разогретой сковороде смешать шпинат с чесночным маслом, солью и сливками. Прогреть до закипания сливок. Полученную массу пробить в блендере до однородной консистенции.",
@@ -446,12 +446,12 @@
   "key": "ПФ Вяленые томаты",
   "enabled": true,       
   "ingredients": [ 
-  { "№": 1, "Продукт": "Томаты черри", "Ingredient": "Red cherry tomatoes", "Nguyên liệu": "Cà chua bi", "Шт/гр": "1000" },
-  { "№": 2, "Продукт": "ПФ Чесночное масло", "Ingredient": "Prep garlic oil", "Nguyên liệu": "Sơ chế dầu tỏi", "Шт/гр": "50" },
-  { "№": 3, "Продукт": "Розмарин", "Ingredient": "Rosemary", "Nguyên liệu": "Hương thảo", "Шт/гр": "15" },
-  { "№": 4, "Продукт": "Соль", "Ingredient": "Salt", "Nguyên liệu": "Muối", "Шт/гр": "10" },
-  { "№": 5, "Продукт": "Перец черный молотый", "Ingredient": "Ground black pepper", "Nguyên liệu": "Tiêu đen xay", "Шт/гр": "5" },
-  { "№": 6, "Продукт": "Сахар", "Ingredient": "Sugar", "Nguyên liệu": "Đường", "Шт/гр": "40" }
+  { "№": 1, "Продукт": "Томаты черри", "Ingredient": "Red cherry tomatoes", "Ingredient_vi": "Cà chua bi", "Шт/гр": "1000" },
+  { "№": 2, "Продукт": "ПФ Чесночное масло", "Ingredient": "Prep garlic oil", "Ingredient_vi": "Sơ chế dầu tỏi", "Шт/гр": "50" },
+  { "№": 3, "Продукт": "Розмарин", "Ingredient": "Rosemary", "Ingredient_vi": "Hương thảo", "Шт/гр": "15" },
+  { "№": 4, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "10" },
+  { "№": 5, "Продукт": "Перец черный молотый", "Ingredient": "Ground black pepper", "Ingredient_vi": "Tiêu đen xay", "Шт/гр": "5" },
+  { "№": 6, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "40" }
   ],
   "process": {
     "ru": "Измельчить листики розмарина, смешать с солью, перцем, сахаром и чесночным маслом. Томаты промыть, разрезать напополам. Замешать томаты с полученной смесью специй и масла. Дать постоять 5-10 минут. Выложить томаты на гастроемкость с пергаментом разрезом вверх, отделяя от жидкости. Запекать 2-3 часа при температуре 145 °C.",
@@ -469,13 +469,13 @@
   "key": "Авокадо",
   "enabled": true,
   "ingredients": [
-  { "№": 1, "Продукт": "Авокадо", "Ingredient": "Avocado", "Nguyên liệu": "Bơ", "Шт/гр": "700" },
-  { "№": 2, "Продукт": "Соль", "Ingredient": "Salt", "Nguyên liệu": "Muối", "Шт/гр": "5" },
-  { "№": 3, "Продукт": "Мед", "Ingredient": "Honey", "Nguyên liệu": "Mật ong", "Шт/гр": "10" },
-  { "№": 4, "Продукт": "Вода не сырая", "Ingredient": "Boiled water", "Nguyên liệu": "Nước đã đun sôi", "Шт/гр": "70" },
-  { "№": 5, "Продукт": "Краситель пищевой зел.", "Ingredient": "Green food coloring", "Nguyên liệu": "Màu thực phẩm xanh lá", "Шт/гр": "2" },
-  { "№": 6, "Продукт": "Масло оливковое", "Ingredient": "Olive oil", "Nguyên liệu": "Dầu ô liu", "Шт/гр": "35" },
-  { "№": 7, "Продукт": "Итого", "Ingredient": "Total", "Nguyên liệu": "Tổng cộng", "Шт/гр": "822" }
+  { "№": 1, "Продукт": "Авокадо", "Ingredient": "Avocado", "Ingredient_vi": "Bơ", "Шт/гр": "700" },
+  { "№": 2, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "5" },
+  { "№": 3, "Продукт": "Мед", "Ingredient": "Honey", "Ingredient_vi": "Mật ong", "Шт/гр": "10" },
+  { "№": 4, "Продукт": "Вода не сырая", "Ingredient": "Boiled water", "Ingredient_vi": "Nước đã đun sôi", "Шт/гр": "70" },
+  { "№": 5, "Продукт": "Краситель пищевой зел.", "Ingredient": "Green food coloring", "Ingredient_vi": "Màu thực phẩm xanh lá", "Шт/гр": "2" },
+  { "№": 6, "Продукт": "Масло оливковое", "Ingredient": "Olive oil", "Ingredient_vi": "Dầu ô liu", "Шт/гр": "35" },
+  { "№": 7, "Продукт": "Итого", "Ingredient": "Total", "Ingredient_vi": "Tổng cộng", "Шт/гр": "822" }
   ],
   "process": {
     "ru": "Авокадо очистить от кожуры и косточки. Смешать все в миске и перебить блендером до однородной кремообразной массы. Расфасовать по вакуумным пакетам без воздуха внутри. Хранить в морозилке. Размораживать доставая на ночь в холодильник без разогрева.",
