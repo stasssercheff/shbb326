@@ -454,13 +454,36 @@
     { "№": 6, "Продукт": "Сахар", "Ingredient": "Sugar", "Шт/гр": "40" }
   ],
   "process": {
-    "ru": "Измельчить листики розмарина, смешать с солью, перцем, сахаром и чесночным маслом. Томаты промыть, разрезать напополам. Замешать томаты с полученной смесью специй и масла. Дать постоять 5-10 минут. Выложить томаты на гастроемкость с пергаментом разрезом вверх, отделяя от жидкости. Запекать 2-3 часа при температуре 145 °C. После остывания перебить блендером и расфасовать по небольшим вакуумным пакетам.",
-    "en": "Chop the rosemary leaves and mix them with salt, pepper, sugar, and garlic oil. Rinse the tomatoes and cut them in half. Mix the tomatoes with the spice and oil mixture and let stand for 5-10 minutes. Place the tomatoes cut side up on a parchment-lined gastronorm tray, separating them from the liquid. Bake for 2-3 hours at 145 °C. After cooling slightly, blend the mixture and portion into small vacuum bags.",
-    "vi": "Băm nhỏ lá hương thảo, trộn với muối, tiêu, đường và dầu tỏi. Rửa sạch cà chua, cắt đôi. Trộn cà chua với hỗn hợp gia vị và dầu, để nghỉ 5–10 phút. Xếp cà chua úp mặt cắt lên trên khay có lót giấy nến, tách khỏi phần nước. Nướng 2–3 giờ ở 145°C. Để nguội, xay nhuyễn và chia vào các túi hút chân không nhỏ."
+    "ru": "Измельчить листики розмарина, смешать с солью, перцем, сахаром и чесночным маслом. Томаты промыть, разрезать напополам. Замешать томаты с полученной смесью специй и масла. Дать постоять 5-10 минут. Выложить томаты на гастроемкость с пергаментом разрезом вверх, отделяя от жидкости. Запекать 2-3 часа при температуре 145 °C.",
+    "en": "Chop the rosemary leaves and mix them with salt, pepper, sugar, and garlic oil. Rinse the tomatoes and cut them in half. Mix the tomatoes with the spice and oil mixture and let stand for 5-10 minutes. Place the tomatoes cut side up on a parchment-lined gastronorm tray, separating them from the liquid. Bake for 2-3 hours at 145 °C.",
+    "vi": "Băm nhỏ lá hương thảo, trộn với muối, tiêu, đường và dầu tỏi. Rửa sạch cà chua, cắt đôi. Trộn cà chua với hỗn hợp gia vị và dầu, để nghỉ 5–10 phút. Xếp cà chua úp mặt cắt lên trên khay có lót giấy nến, tách khỏi phần nước. Nướng 2–3 giờ ở 145°C."
   }
 },
 
-    
+   {
+  "name": {
+    "ru": "ПФ ГУАКАМОЛЕ",
+    "en": "PREP GUACAMOLE",
+    "vi": "SƠ CHẾ SỐT BƠ GUACAMOLE"
+  },
+  "key": "Авокадо",
+  "enabled": true,
+  "ingredients": [
+    { "№": 1, "Продукт": "Авокадо", "Ingredient": "Avocado", "Шт/гр": "700" },
+    { "№": 2, "Продукт": "Соль", "Ingredient": "Salt", "Шт/гр": "5" },
+    { "№": 3, "Продукт": "Мед", "Ingredient": "Honey", "Шт/гр": "10" },
+    { "№": 4, "Продукт": "Вода не сырая", "Ingredient": "Boiled water", "Шт/гр": "70" },
+    { "№": 5, "Продукт": "Краситель пищевой зел.", "Ingredient": "Green food coloring", "Шт/гр": "2" },
+    { "№": 6, "Продукт": "Масло оливковое", "Ingredient": "Olive oil", "Шт/гр": "35" },
+    { "№": 7, "Продукт": "Итого", "Ingredient": "Total", "Шт/гр": "822" }
+  ],
+  "process": {
+    "ru": "Авокадо очистить от кожуры и косточки. Смешать все в миске и перебить блендером до однородной кремообразной массы. Расфасовать по вакуумным пакетам без воздуха внутри. Хранить в морозилке. Размораживать доставая на ночь в холодильник без разогрева.",
+    "en": "Peel and pit the avocado. Mix all ingredients in a bowl and blend until a smooth, creamy mass is formed. Pack into vacuum bags, ensuring no air remains inside. Store in the freezer. Thaw by transferring to the refrigerator overnight without reheating.",
+    "vi": "Gọt vỏ bơ và bỏ hạt. Trộn tất cả nguyên liệu trong tô rồi dùng máy xay sinh tố xay nhuyễn cho đến khi đạt hỗn hợp kem mịn đồng nhất. Đóng gói vào túi hút chân không, đảm bảo không còn không khí bên trong. Bảo quản trong ngăn đông. Rã đông bằng cách chuyển sang ngăn mát tủ lạnh qua đêm, không làm nóng lại."
+  }
+},
+
 {
   "name": {
     "ru": "ПФ РАТАТУЙ",
