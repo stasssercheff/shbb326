@@ -1744,6 +1744,11 @@
   "en": "Beef",
   "vi": "Thịt bò"
 },
+"beef_raw": {
+  "ru": "Говядина сырая",
+  "en": "Beef raw",
+  "vi": "Thịt bò sống"
+},
 "shrimps": {
   "ru": "Креветки",
   "en": "Shrimps",
@@ -1778,6 +1783,11 @@
   "ru": "Форель",
   "en": "Trout",
   "vi": "Cá hồi trout"
+},
+  "trout_raw": {
+  "ru": "Форель сырая",
+  "en": "Trout raw",
+  "vi": "Cá hồi trout sống"
 },
 "balsamic": {
   "ru": "Бальзамик",
