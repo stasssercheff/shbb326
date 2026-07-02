@@ -9,6 +9,11 @@
     "en": "Preps",
     "vi": "Chuẩn bị"
   },
+    "leftovers": {
+    "ru": "Остатки",
+    "en": "Leftovers",
+    "vi": "Phần còn lại"
+  },
   "change": {
   "ru": "Изменение",
   "en": "Change",
