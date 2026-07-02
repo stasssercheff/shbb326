@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // === Функция сборки сообщения ===
   const buildMessage = lang => {
-    let message = `🧾 <b>${lang === "en" ? "PRODUCT ORDER" : "ЗАКАЗ ПРОДУКТОВ"}</b>\n\n`;
+    let message = `🧾 <b>${lang === "en" ? "COUNTING" : "ОСТАТКИ"}</b>\n\n`;
     message += `📅 ${lang === "en" ? "Date" : "Дата"}: ${formattedDate}\n`;
 
     const nameSelect = document.querySelector('select[name="chef"]');
