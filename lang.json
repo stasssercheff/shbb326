@@ -1754,15 +1754,30 @@
   "en": "Shrimps",
   "vi": "Tôm"
 },
+"shrimps_shells": {
+  "ru": "Креветки шелуха",
+  "en": "Shrimps shells",
+  "vi": "Vỏ tôm"
+},
 "chicken": {
   "ru": "Курица",
   "en": "Chicken",
   "vi": "Gà"
 },
+  "chicken_raw": {
+  "ru": "Курица сырая",
+  "en": "Chicken raw",
+  "vi": "Gà sống"
+},
 "octopus": {
   "ru": "Осьминог",
   "en": "Octopus",
   "vi": "Bạch tuộc"
+},
+   "octopus_raw": {
+  "ru": "Осьминог сырая",
+  "en": "Octopus raw",
+  "vi": "Bạch tuộc sống"
 },
 "liver": {
   "ru": "Печень",
@@ -1778,6 +1793,11 @@
   "ru": "Утка",
   "en": "Duck",
   "vi": "Vịt"
+},
+  "duck_raw": {
+  "ru": "Утка сырая",
+  "en": "Duck raw",
+  "vi": "Vịt sống"
 },
 "trout": {
   "ru": "Форель",
