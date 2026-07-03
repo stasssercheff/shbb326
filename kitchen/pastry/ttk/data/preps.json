@@ -235,7 +235,7 @@
       { "№": 2, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "73" },
       { "№": 3, "Продукт": "Пектин", "Ingredient": "Pectin", "Ingredient_vi": "Pectin", "Шт/гр": "12" },
       { "№": 4, "Продукт": "Клубника свежая", "Ingredient": "Fresh strawberry", "Ingredient_vi": "Dâu tây tươi", "Шт/гр": "250" },
-      { "№": 5, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Số lượng", "Гр": "820" }
+      { "№": 5, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Số lượng", "Шт/гр": "820" }
     ],
     "process": {
       "ru": "",
@@ -258,7 +258,7 @@
     { "№": 5, "Продукт": "Шоколад белый", "Ingredient": "White chocolate", "Ingredient_vi": "Sô-cô-la trắng", "Шт/гр": "130" },
     { "№": 6, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "150" },
     { "№": 7, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1" },
-    { "№": 8, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Số lượng", "Гр": "590" }
+    { "№": 8, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Số lượng", "Шт/гр": "590" }
 
   ],
   "process": {
@@ -298,7 +298,7 @@
     "ingredients": [
       { "№": 1, "Продукт": "Шоколад белый", "Ingredient": "White chocolate", "Ingredient_vi": "Sô-cô-la trắng", "Шт/гр": "15" },
       { "№": 2, "Продукт": "Кокосовое масло", "Ingredient": "Coconut oil", "Ingredient_vi": "Dầu dừa", "Шт/гр": "15" },
-      { "№": 2, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Số lượng", "Гр": "270" }
+      { "№": 2, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Số lượng", "Шт/гр": "270" }
 
     ],
     "process": {
@@ -343,7 +343,7 @@
       { "№": 2, "Продукт": "Сахар(пудра)", "Ingredient": "Icing sugar", "Ingredient_vi": "Đường bột", "Шт/гр": "70" },
       { "№": 3, "Продукт": "Яйцо (желток)", "Ingredient": "Egg (yolk)", "Ingredient_vi": "Trứng (lòng đỏ)", "Шт/гр": "6" },
       { "№": 4, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "100" },
-      { "№": 5, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Số lượng", "Гр": "270" }
+      { "№": 5, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Số lượng", "Шт/гр": "270" }
 
       
     ],
@@ -363,7 +363,7 @@
     "ingredients": [
       { "№": 1, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "250" },
       { "№": 2, "Продукт": "Сыр Кремчиз", "Ingredient": "Cream cheese", "Ingredient_vi": "Phô mai kem", "Шт/гр": "100" },
-      { "№": 3, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Số lượng", "Гр": "250" }
+      { "№": 3, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Số lượng", "Шт/гр": "250" }
 
     ],
     "process": {
