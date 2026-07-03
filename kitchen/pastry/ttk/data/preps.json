@@ -388,7 +388,7 @@
     { "№": 2, "Продукт": "ПФ лимонный курд", "Ingredient": "Prep lemon curd", "Ingredient_vi": "Sốt kem chanh (lemon curd) sơ chế", "Шт/гр": "20" },
     { "№": 3, "Продукт": "Крем павлова", "Ingredient": "Pavlova cream", "Ingredient_vi": "Kem Pavlova", "Шт/гр": "60" },
     { "№": 4, "Продукт": "Декор", "Ingredient": "Decoration", "Ingredient_vi": "Đồ trang trí", "Шт/гр": "1" },
-    { "№": 1, "Продукт": "Шт.", "Ingredient": "Pcs", "Ingredient_vi": "Cái", "Шт/гр": "1" },
+    { "№": 1, "Продукт": "Шт.", "Ingredient": "Pcs", "Ingredient_vi": "Cái", "Шт/гр": "1" }
   ],
   "process": {
     "ru": "На готовое безе отсадить через розочку крем (оставляя в центре углубление), в центр поверх крема отсадить курд, украсить декором.",
