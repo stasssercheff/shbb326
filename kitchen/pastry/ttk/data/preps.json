@@ -254,7 +254,7 @@
     { "№": 1, "Продукт": "Йогурт", "Ingredient": "Yogurt", "Ingredient_vi": "Sữa chua", "Шт/гр": "150" },
     { "№": 2, "Продукт": "Сахар(пудра)", "Ingredient": "Icing sugar", "Ingredient_vi": "Đường bột", "Шт/гр": "50" },
     { "№": 3, "Продукт": "Клубничное пюре", "Ingredient": "Strawberry puree", "Ingredient_vi": "Dâu tây xay nhuyễn (puree)", "Шт/гр": "100" },
-    { "№": 4, "Продукт": "Пектин", "Ingredient": "Pectin", "Ingredient_vi": "Pectin", "Шт/гр": "7" }
+    { "№": 4, "Продукт": "Пектин", "Ingredient": "Pectin", "Ingredient_vi": "Pectin", "Шт/гр": "7" },
     { "№": 5, "Продукт": "Шоколад белый", "Ingredient": "White chocolate", "Ingredient_vi": "Sô-cô-la trắng", "Шт/гр": "130" },
     { "№": 6, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "150" },
     { "№": 7, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1" },
