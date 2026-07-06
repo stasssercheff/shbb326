@@ -896,6 +896,44 @@
     "vi": "Đổ 35g mousse vào khuôn (ví dụ hình cây thông), phủ đều cả đáy và thành khuôn. Đặt phần confit hình bán cầu vào giữa, thêm 15g mousse và phủ trên cùng bằng lớp bánh bông lan."
       }
   },
+
+
+
+{
+  "name": { 
+    "ru": "КАПКЕЙК ШОКОЛАД", 
+    "en": "CHOCOLATE CUPCAKE",
+    "vi": "CUPCAKE SÔ CÔ LA"
+  },
+  "key": "Шт.",
+  "ingredients": [
+    { "№": 1, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "3" },
+    { "№": 2, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "360" },
+    { "№": 3, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "300" },
+    { "№": 4, "Продукт": "Яйцо перепелиное", "Ingredient": "Quail egg", "Ingredient_vi": "Trứng cút", "Шт/гр": "3 шт" },
+    { "№": 5, "Продукт": "Масло растительное", "Ingredient": "Vegetable oil", "Ingredient_vi": "Dầu thực vật", "Шт/гр": "21" },
+    { "№": 6, "Продукт": "Какао", "Ingredient": "Cocoa", "Ingredient_vi": "Ca cao", "Шт/гр": "75" },
+    { "№": 7, "Продукт": "Молоко", "Ingredient": "Milk", "Ingredient_vi": "Sữa", "Шт/гр": "360" },
+    { "№": 8, "Продукт": "Разрыхлитель", "Ingredient": "Baking powder", "Ingredient_vi": "Bột nở", "Шт/гр": "21" },
+    { "№": 9, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "75" },
+    { "№": 10, "Продукт": "Шт.", "Ingredient": "Pcs", "Ingredient_vi": "Cái", "Шт/гр": "26" }
+  ],
+  "process": {
+    "ru": "Сухие ингредиенты отдельно, влажные ингредиенты отдельно, затем соединить и вымешивать миксером недолго, чтобы тесто было воздушным, а не тугим. Отпекать при 175 градусах при конвекции - «15» на протяжении 30 минут (при полной загрузке — 26 шт).",
+    "en": "Dry ingredients separately, wet ingredients separately, then combine and mix with a mixer briefly so that the dough is airy, not tough. Bake at 175 degrees with convection - '15' for 30 minutes (at full load - 26 pcs).",
+    "vi": "Trộn riêng các nguyên liệu khô và nguyên liệu ướt, sau đó kết hợp lại và dùng máy trộn đều trong thời gian ngắn để bột được xốp mịn, không bị nén chặt. Nướng ở 175 độ C với chế độ đối lưu - '15' trong vòng 30 phút (khi xếp đầy lò - 26 chiếc)."
+  }
+}
+
+
+
+
+
+
+
+
+
+    
     {
   "name": { 
     "ru": "КРЕМ КАПКЕЙК ШОКО", 
