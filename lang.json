@@ -134,7 +134,11 @@
 },
 
 
-
+"mousse_cake_yesterday": {
+  "ru": "Муссовое пирожное со вчера",
+  "en": "mousse_cake_yesterday cake",
+  "vi": "Bánh mousse từ hôm qua"
+},
 
 "nuts": {
   "ru": "Орешки",
