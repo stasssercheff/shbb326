@@ -216,27 +216,6 @@
     "en": "Place the trout in a gastronorm container skin side down. Sprinkle with salt then sugar. Leave for 5-8 hours.",
     "vi": "Xếp cá vào khay, để mặt da xuống dưới. Rắc muối rồi đến đường. Ướp trong 5–8 giờ."
   }
-
-    },
-    {
-  "name": {
-    "ru": "СОУС ЦИТРУСОВЫЙ(САЛАТ С ПЕЧЕНЬЮ)",
-    "en": "CITRUS SAUCE (LIVER SALAD)",
-    "vi": "SỐT CAM QUÝT (SALAD GAN)"
-  },
-  "key": "Пф апельсин фреш",
-  "enabled": true,       
-      "ingredients": [ 
-    { "№": 1, "Продукт": "Пф апельсин фреш", "Ingredient": "Pf orange fresh", "Ingredient_vi": "Nước cam tươi sơ chế", "Шт/гр": "110" },
-    { "№": 2, "Продукт": "Масло растительное", "Ingredient": "Vegetable oil", "Ingredient_vi": "Dầu thực vật", "Шт/гр": "90" },
-    { "№": 3, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1" },
-    { "№": 4, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "5" }
-  ],
-  "process": {
-    "ru": "Апельсиновый фреш довести до кипения, остудить. Смешать все ингридиенты, венчиком довести до однородного состояния.",
-    "en": "Bring orange juice to a boil, cool. Mix all ingredients, whisk until smooth.",
-    "vi": "Đun sôi nước cam tươi rồi để nguội. Trộn tất cả nguyên liệu, dùng phới đánh đến khi đồng nhất."
-  }
 },
 {
   "name": {
