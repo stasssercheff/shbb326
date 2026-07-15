@@ -67,6 +67,32 @@
     "vi": "Cho phô mai kem vào tô, đánh bằng máy đến khi mềm. Thêm kem tươi và muối, tiếp tục đánh đến khi hỗn hợp bông mịn."
   }
 },
+
+{
+  "name": {
+    "ru": "СОУС ЦИТРУСОВЫЙ (САЛАТ С ПЕЧЕНЬЮ)",
+    "en": "CITRUS SAUCE (LIVER SALAD)",
+    "vi": "SỐT CAM QUÝT (SALAD GAN)"
+  },
+  "key": "Соус Цитрусовый",
+  "enabled": true,
+  "ingredients": [
+    { "№": 1, "Продукт": "ПФ апельсин фреш", "Ingredient": "Pf orange fresh", "Ingredient_vi": "Nước cam tươi sơ chế", "Шт/гр": "110" },
+    { "№": 2, "Продукт": "Масло растительное (не для жарки)", "Ingredient": "Vegetable oil (not for frying)", "Ingredient_vi": "Dầu thực vật (không dùng để chiên)", "Шт/гр": "90" },
+    { "№": 3, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1" },
+    { "№": 4, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "5" }
+  ],
+  "process": {
+    "ru": "Довести апельсиновый фреш до кипения и полностью остудить. Добавить растительное масло (не для жарки), соль и сахар. Перемешать венчиком до однородного состояния. После завершения разлить по вакуумным пакетам.",
+    "en": "Bring the orange juice to a boil and let it cool completely. Add the vegetable oil (not for frying), salt, and sugar. Whisk until smooth. Once finished, portion into vacuum bags.",
+    "vi": "Đun sôi nước cam tươi rồi để nguội hoàn toàn. Thêm dầu thực vật (không dùng để chiên), muối và đường. Đánh bằng phới đến khi hỗn hợp đồng nhất. Sau khi hoàn thành, chia vào các túi hút chân không."
+  }
+},
+
+
+
+
+
 {
   "name": {
     "ru": "ПФ СОУС НА ГОВЯДИНУ",
