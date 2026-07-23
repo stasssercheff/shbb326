@@ -255,7 +255,7 @@
     { "№": 2, "Продукт": "Сахар(пудра)", "Ingredient": "Icing sugar", "Ingredient_vi": "Đường bột", "Шт/гр": "50" },
     { "№": 3, "Продукт": "Клубничное пюре", "Ingredient": "Strawberry puree", "Ingredient_vi": "Dâu tây xay nhuyễn (puree)", "Шт/гр": "100" },
     { "№": 4, "Продукт": "Желатин", "Ingredient": "Gelatin", "Ingredient_vi": "Gelatin", "Шт/гр": "9" },
-    { "№": 5, "Продукт": "Шоколад белый", "Ingredient": "White chocolate", "Ingredient_vi": "Sô-cô-la trắng", "Шт/гр": "130" },
+    { "№": 5, "Продукт": "Шоколад белый", "Ingredient": "White chocolate", "Ingredient_vi": "Sô-cô-la trắng", "Шт/гр": "50" },
     { "№": 6, "Продукт": "Сливки", "Ingredient": "Cream", "Ingredient_vi": "Kem tươi", "Шт/гр": "150" },
     { "№": 7, "Продукт": "Соль", "Ingredient": "Salt", "Ingredient_vi": "Muối", "Шт/гр": "1" },
     { "№": 8, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Số lượng", "Шт/гр": "590" }
