@@ -594,8 +594,8 @@
 {
   "name": { 
     "ru": "ПФ КРЕМ МИНДАЛЬНЫЙ", 
-    "en": "ALMOND CREAM PF",
-    "vi": "KEM HẠNH NHÂN PF"
+    "en": "ALMOND CREAM PREP",
+    "vi": "KEM HẠNH NHÂN PREP"
   },
   "key": "Количество",
   "ingredients": [
@@ -615,8 +615,8 @@
 {
   "name": { 
     "ru": "ПФ ДИПЛОМАТ", 
-    "en": "DIPLOMAT PF",
-    "vi": "KEM DIPLOMAT PF"
+    "en": "DIPLOMAT PREP",
+    "vi": "KEM DIPLOMAT PREP"
   },
   "key": "Итого",
   "ingredients": [
@@ -639,8 +639,8 @@
 {
   "name": { 
     "ru": "ПФ ПЕЧЕНЬЕ МАДЛЕН ТЕСТО", 
-    "en": "PF MADELEINE COOKIES DOUGH",
-    "vi": "BỘT BÁNH MADELEINE PF"
+    "en": "PREP MADELEINE COOKIES DOUGH",
+    "vi": "BỘT BÁNH MADELEINE PREP"
   },
   "key":  "Итого",
   "ingredients": [
@@ -668,7 +668,7 @@
   "key": "Печенье шт.",
   "ingredients": [
     { "№": 1, "Продукт": "ПФ мадлен тесто конфитюр", "Ingredient": "Prep madeleine dough", "Ingredient_vi": "Bột madeleine bán thành phẩm", "Шт/гр": "40" },
-    { "№": 2, "Продукт": "ПФ вишневый конфитюр", "Ingredient": "Cherry confit PF", "Ingredient_vi": "Confit anh đào PF", "Шт/гр": "10" },
+    { "№": 2, "Продукт": "ПФ вишневый конфитюр", "Ingredient": "Cherry confit PREP", "Ingredient_vi": "Confit anh đào PREP", "Шт/гр": "10" },
     { "№": 3, "Продукт": "Шоколад белый", "Ingredient": "White chocolate", "Ingredient_vi": "Sô cô la trắng", "Шт/гр": "20" },
     { "№": 4, "Продукт": "Печенье шт.", "Ingredient": "Cookie pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "1" }
   ],
@@ -909,8 +909,8 @@
 {
   "name": { 
     "ru": "ПФ ПЕЧЕНЬЕ ЧЕРРИТАРТ", 
-    "en": "PF CHERRY TART BISCUIT",
-    "vi": "BÁNH QUY CHERRY TART PF"
+    "en": "PREP CHERRY TART BISCUIT",
+    "vi": "BÁNH QUY CHERRY TART PREP"
   },
   "key": "Итого",
   "ingredients": [
@@ -932,12 +932,12 @@
 {
   "name": { 
     "ru": "ПФ ОСНОВА ЧЕРРИТАРТ", 
-    "en": "PF CHERRY TART BASE",
-    "vi": "ĐẾ CHERRY TART PF"
+    "en": "PREP CHERRY TART BASE",
+    "vi": "ĐẾ CHERRY TART PREP"
   },
   "key": "Количество",
   "ingredients": [
-    { "№": 1, "Продукт": "ПФ Печенье черритарт", "Ingredient": "Prep cherry tart biscuit", "Ingredient_vi": "Bánh quy cherry tart PF", "Шт/гр": "350" },
+    { "№": 1, "Продукт": "ПФ Печенье черритарт", "Ingredient": "Prep cherry tart biscuit", "Ingredient_vi": "Bánh quy cherry tart PREP", "Шт/гр": "350" },
     { "№": 2, "Продукт": "Масло сливочное", "Ingredient": "Butter", "Ingredient_vi": "Bơ", "Шт/гр": "50" },
     { "№": 3, "Продукт": "Количество", "Ingredient": "Amount", "Ingredient_vi": "Tổng", "Шт/гр": "400" }
   ],
@@ -950,8 +950,8 @@
 {
   "name": { 
     "ru": "ПФ НАЧИНКА ЧЕРРИТАРТ", 
-    "en": "PF CHERRY TART FILLING",
-    "vi": "NHÂN CHERRY TART PF"
+    "en": "PREP CHERRY TART FILLING",
+    "vi": "NHÂN CHERRY TART PREP"
   },
   "key":  "Количество",
   "ingredients": [
@@ -977,7 +977,7 @@
   "name": { 
     "ru": "ПФ ЖЕЛЕ ЧЕРРИТАРТ", 
     "en": "PREP CHERRY TART JELLY",
-    "vi": "THẠCH CHERRY TART PF"
+    "vi": "THẠCH CHERRY TART PREP"
   },
   "key":  "Количество",
   "ingredients": [
@@ -1005,9 +1005,9 @@
   },
   "key":  "Торт шт.",
   "ingredients": [
-    { "№": 1, "Продукт": "ПФ Желе Черритарт", "Ingredient": "Prep Cherry Tart Jelly", "Ingredient_vi": "Thạch Cherry Tart PF", "Шт/гр": "150" },
-    { "№": 2, "Продукт": "ПФ Начинка Черритарт", "Ingredient": "Prep Cherry Tart Filling", "Ingredient_vi": "Nhân Cherry Tart PF", "Шт/гр": "1000" },
-    { "№": 3, "Продукт": "ПФ Основа Черритарт", "Ingredient": "Prep Cherry Tart Base", "Ingredient_vi": "Đế Cherry Tart PF", "Шт/гр": "400" },
+    { "№": 1, "Продукт": "ПФ Желе Черритарт", "Ingredient": "Prep Cherry Tart Jelly", "Ingredient_vi": "Thạch Cherry Tart PREP", "Шт/гр": "150" },
+    { "№": 2, "Продукт": "ПФ Начинка Черритарт", "Ingredient": "Prep Cherry Tart Filling", "Ingredient_vi": "Nhân Cherry Tart PREP", "Шт/гр": "1000" },
+    { "№": 3, "Продукт": "ПФ Основа Черритарт", "Ingredient": "Prep Cherry Tart Base", "Ingredient_vi": "Đế Cherry Tart PREP", "Шт/гр": "400" },
     { "№": 4, "Продукт": "Вишня С/М", "Ingredient": "Frozen cherry", "Ingredient_vi": "Anh đào đông lạnh", "Шт/гр": "50" },
     { "№": 5, "Продукт": "Торт шт.", "Ingredient": "Cake pcs", "Ingredient_vi": "Bánh cái", "Шт/гр": "1" }
   ],
