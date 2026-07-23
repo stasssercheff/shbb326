@@ -120,6 +120,16 @@
   "en": "Cupcake",
   "vi": "Bánh cupcake"
 },
+  "pavlova_cream_curd_replace": {
+  "ru": "Крема + курд Павлова замена",
+  "en": "Cream + curd Pavlova replacement",
+  "vi": "Kem + curd Pavlova thay thế"
+},
+"cupcake_cream_replace": {
+  "ru": "Крем капкейк замена",
+  "en": "Cupcake cream replacement",
+  "vi": "Kem bánh cupcake thay thế"
+},
 
 "madeleine": {
   "ru": "Мадлен",
