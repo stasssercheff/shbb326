@@ -255,9 +255,9 @@
     { "№": 8, "Продукт": "Масло оливковое", "Ingredient": "Olive oil", "Ingredient_vi": "Dầu ô liu", "Шт/гр": "50" }
   ],
   "process": {
-    "ru": "Перец и лук очистить и нарезать на крупные куски. Помидоры разрезать и очистить от плодоносящей части. Смешать все ингридиенты кроме оливкового масла и выложить в гастроемкости дла запекания тонким слоем. Отправить запецаться на 60-80 минут при температуре 180 гр. С максимальной конвекцией. После запекания перебить все блендером с добавлением оливкового масла.",
-    "en": "Peel the pepper and onion and cut into large pieces. Cut the tomatoes and remove the core. Mix all ingredients except olive oil and spread in a thin layer in a baking tray. Bake for 60–80 minutes at 180°C with maximum convection. After baking, blend everything and add olive oil.",
-    "vi": "Làm sạch ớt chuông và hành, cắt miếng lớn. Cắt cà chua và bỏ phần lõi. Trộn tất cả nguyên liệu trừ dầu ô liu, dàn mỏng trong khay nướng. Nướng 60–80 phút ở 180°C với chế độ đối lưu tối đa. Sau khi nướng, xay nhuyễn và thêm dầu ô liu."
+    "ru": "Перец и лук очистить и нарезать на крупные куски. Помидоры разрезать и очистить от места прикрепления плодоножки. Смешать все ингредиенты кроме оливкового масла и выложить в гастроемкости для запекания тонким слоем. Отправить запекаться на 60-80 минут при температуре 180 гр. с максимальной конвекцией. После запекания перебить все блендером с добавлением оливкового масла.",
+    "en": "Peel the pepper and onion and cut into large pieces. Cut the tomatoes and remove the stem scars. Mix all ingredients except olive oil and spread in a thin layer in a baking tray. Bake for 60–80 minutes at 180°C with maximum convection. After baking, blend everything and add olive oil.",
+    "vi": "Làm sạch ớt chuông và hành, cắt miếng lớn. Cắt cà chua và cắt bỏ phần cuống xanh. Trộn tất cả nguyên liệu trừ dầu ô liu, dàn mỏng trong khay nướng. Nướng 60–80 phút ở 180°C với chế độ đối lưu tối đa. Sau khi nướng, xay nhuyễn và thêm dầu ô liu."
   }
 },
 {
