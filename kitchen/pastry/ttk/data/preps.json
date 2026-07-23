@@ -774,7 +774,7 @@
     { "№": 2, "Продукт": "Сахар", "Ingredient": "Sugar", "Ingredient_vi": "Đường", "Шт/гр": "360" },
     { "№": 3, "Продукт": "Мука", "Ingredient": "Flour", "Ingredient_vi": "Bột mì", "Шт/гр": "300" },
     { "№": 4, "Продукт": "Яйцо", "Ingredient": "Egg", "Ingredient_vi": "Trứng", "Шт/гр": "1 шт" },
-    { "№": 5, "Продукт": "Масло растительное", "Ingredient": "Vegetable oil", "Ingredient_vi": "Dầu thực vật", "Шт/гр": "21" },
+    { "№": 5, "Продукт": "Масло растительное", "Ingredient": "Vegetable oil", "Ingredient_vi": "Dầu thực vật", "Шт/гр": "75" },
     { "№": 6, "Продукт": "Какао", "Ingredient": "Cocoa", "Ingredient_vi": "Ca cao", "Шт/гр": "75" },
     { "№": 7, "Продукт": "Молоко", "Ingredient": "Milk", "Ingredient_vi": "Sữa", "Шт/гр": "360" },
     { "№": 8, "Продукт": "Разрыхлитель", "Ingredient": "Baking powder", "Ingredient_vi": "Bột nở", "Шт/гр": "21" },
