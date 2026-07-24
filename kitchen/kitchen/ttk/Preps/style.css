@@ -6,6 +6,10 @@ body {
   color: #333;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Кнопки разделов */
 .section-buttons {
   display: flex;
@@ -36,8 +40,49 @@ body {
   margin: 0 auto;
   padding: 5px 10px;
 }
+
+/* Оглавление */
+.ttk-toc {
+  margin-bottom: 32px;
+  padding: 16px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.ttk-toc-title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.ttk-toc-list {
+  margin: 0;
+  padding-left: 22px;
+  columns: 2;
+  column-gap: 24px;
+}
+
+.ttk-toc-list li {
+  break-inside: avoid;
+  margin-bottom: 6px;
+  color: #666;
+}
+
+.ttk-toc-list a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.ttk-toc-list a:hover {
+  border-bottom-color: #c1b29a;
+}
+
 .dish-card {
   margin-bottom: 30px;
+  scroll-margin-top: 16px;
 }
 .dish-title {
   text-align: center;
@@ -223,6 +268,13 @@ h1[data-i18n="preps"],
   color: #666;
   margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+  .ttk-toc-list {
+    columns: 1;
+  }
+}
+
 :root {
   --accent: #d8cfc0;
   --accent-hover: #c1b29a;

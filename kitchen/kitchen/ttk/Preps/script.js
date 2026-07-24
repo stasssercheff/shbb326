@@ -43,16 +43,45 @@ function renderPreps(data) {
 
   container.innerHTML = "";
 
-  (data.recipes || [])
-  .filter(dish => dish.enabled !== false)
-  .forEach(dish => {
+  // Оглавление с якорями на карточки
+  const toc = document.createElement("nav");
+  toc.className = "ttk-toc";
+  toc.setAttribute("aria-label", "TOC");
+
+  const tocTitle = document.createElement("div");
+  tocTitle.className = "ttk-toc-title";
+  tocTitle.setAttribute("data-i18n", "ttk_toc");
+  tocTitle.textContent =
+    (typeof translations !== "undefined" && translations.ttk_toc?.[lang]) ||
+    (lang === "en" ? "Contents" : lang === "vi" ? "Mục lục" : "Оглавление");
+  toc.appendChild(tocTitle);
+
+  const tocList = document.createElement("ol");
+  tocList.className = "ttk-toc-list";
+  toc.appendChild(tocList);
+  container.appendChild(toc);
+
+  const recipes = (data.recipes || []).filter(dish => dish.enabled !== false);
+
+  recipes.forEach((dish, index) => {
+    const cardId = `dish-${index}`;
+    const dishName = dish.name?.[lang] || dish.name?.ru || dish.title || "";
+
+    const tocItem = document.createElement("li");
+    const tocLink = document.createElement("a");
+    tocLink.href = `#${cardId}`;
+    tocLink.textContent = dishName;
+    tocItem.appendChild(tocLink);
+    tocList.appendChild(tocItem);
+
     const card = document.createElement("div");
     card.className = "dish-card";
+    card.id = cardId;
 
     // ---- TITLE ----
     const title = document.createElement("div");
     title.className = "dish-title";
-    title.textContent = dish.name?.[lang] || dish.name?.ru || dish.title || "";
+    title.textContent = dishName;
     card.appendChild(title);
 
     // ---- TABLE ----
