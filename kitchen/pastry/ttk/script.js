@@ -64,7 +64,9 @@ function createTable(data) {
   toc.appendChild(tocList);
   tableContainer.appendChild(toc);
 
-  data.recipes.forEach((dish, index) => {
+  const recipes = data.recipes.filter(dish => !dish.hidden);
+
+  recipes.forEach((dish, index) => {
     const cardId = `dish-${index}`;
     const dishName = getDishName(dish);
 
