@@ -1344,6 +1344,11 @@
     "en": "TTK",
     "vi": "TTK"
   },
+  "ttk_toc": {
+    "ru": "Оглавление",
+    "en": "Contents",
+    "vi": "Mục lục"
+  },
   "checklists": {
     "ru": "Чеклисты",
     "en": "Checklists",

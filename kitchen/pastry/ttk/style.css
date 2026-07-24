@@ -1,5 +1,9 @@
 /* ========= СТИЛИ ДЛЯ ТАБЛИЦ ========= */
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Контейнер таблиц */
 .table-container {
   max-width: 1200px;
@@ -10,6 +14,44 @@
   box-shadow: 0 3px 10px var(--shadow);
 }
 
+/* Оглавление */
+.ttk-toc {
+  margin-bottom: 32px;
+  padding: 16px 20px;
+  background-color: var(--bg);
+  border-radius: 10px;
+}
+
+.ttk-toc-title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+
+.ttk-toc-list {
+  margin: 0;
+  padding-left: 22px;
+  columns: 2;
+  column-gap: 24px;
+}
+
+.ttk-toc-list li {
+  break-inside: avoid;
+  margin-bottom: 6px;
+  color: var(--muted);
+}
+
+.ttk-toc-list a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.ttk-toc-list a:hover {
+  border-bottom-color: var(--accent-hover);
+}
+
 /* Карточка отдельного блюда */
 .dish-card {
   margin-bottom: 40px;
@@ -17,6 +59,7 @@
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 2px 6px var(--shadow);
+  scroll-margin-top: 16px;
 }
 
 /* Заголовок блюда */
@@ -74,6 +117,10 @@ td:nth-child(4) {
 @media (max-width: 768px) {
   .table-container {
     padding: 8px;
+  }
+
+  .ttk-toc-list {
+    columns: 1;
   }
 
   th, td {

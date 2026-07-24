@@ -36,20 +36,52 @@ function renderSection(sectionName) {
   loadData(sectionName, data => createTable(data, sectionName));
 }
 
+// Название блюда с учётом языка
+function getDishName(dish) {
+  return dish.name?.[currentLang] || dish.name?.ru || dish.title || '';
+}
+
 // Создание таблицы
 function createTable(data) {
   const tableContainer = document.querySelector('.table-container');
   tableContainer.innerHTML = '';
 
-  data.recipes.forEach((dish) => {
+  // Оглавление с якорями на карточки
+  const toc = document.createElement('nav');
+  toc.className = 'ttk-toc';
+  toc.setAttribute('aria-label', 'TOC');
+
+  const tocTitle = document.createElement('div');
+  tocTitle.className = 'ttk-toc-title';
+  tocTitle.setAttribute('data-i18n', 'ttk_toc');
+  tocTitle.textContent =
+    (typeof translations !== 'undefined' && translations.ttk_toc?.[currentLang]) ||
+    (currentLang === 'en' ? 'Contents' : currentLang === 'vi' ? 'Mục lục' : 'Оглавление');
+  toc.appendChild(tocTitle);
+
+  const tocList = document.createElement('ol');
+  tocList.className = 'ttk-toc-list';
+  toc.appendChild(tocList);
+  tableContainer.appendChild(toc);
+
+  data.recipes.forEach((dish, index) => {
+    const cardId = `dish-${index}`;
+    const dishName = getDishName(dish);
+
+    const tocItem = document.createElement('li');
+    const tocLink = document.createElement('a');
+    tocLink.href = `#${cardId}`;
+    tocLink.textContent = dishName;
+    tocItem.appendChild(tocLink);
+    tocList.appendChild(tocItem);
+
     const card = document.createElement('div');
     card.className = 'dish-card';
+    card.id = cardId;
 
     const title = document.createElement('div');
     title.className = 'dish-title';
-    title.textContent = currentLang === 'ru'
-      ? dish.name?.ru || dish.title
-      : dish.name?.en || dish.title;
+    title.textContent = dishName;
     card.appendChild(title);
 
     const table = document.createElement('table');
