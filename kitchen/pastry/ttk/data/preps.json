@@ -3213,69 +3213,62 @@
           "Продукт": "Шт.",
           "Ingredient": "Pcs",
           "Ingredient_vi": "Cái",
-          "Шт/гр": "17"
-        },
-        {
-          "№": 2,
-          "Продукт": "Количество",
-          "Ingredient": "Amount",
-          "Ingredient_vi": "Số lượng",
-          "Шт/гр": "689"
-        },
-        {
-          "№": 3,
-          "Продукт": "Яйцо (желток)",
-          "Ingredient": "Egg yolk",
-          "Ingredient_vi": "Lòng đỏ trứng",
-          "Шт/гр": "90"
-        },
-        {
-          "№": 4,
-          "Продукт": "Сахар",
-          "Ingredient": "Sugar",
-          "Ingredient_vi": "Đường",
-          "Шт/гр": "135"
-        },
-        {
-          "№": 5,
-          "Продукт": "Масло сливочное",
-          "Ingredient": "Butter",
-          "Ingredient_vi": "Bơ",
-          "Шт/гр": "180"
-        },
-        {
-          "№": 6,
-          "Продукт": "Соль",
-          "Ingredient": "Salt",
-          "Ingredient_vi": "Muối",
           "Шт/гр": "1"
         },
         {
-          "№": 7,
+          "№": 2,
+          "Продукт": "Яйцо (желток)",
+          "Ingredient": "Egg yolk",
+          "Ingredient_vi": "Lòng đỏ trứng",
+          "Шт/гр": "5.3"
+        },
+        {
+          "№": 3,
+          "Продукт": "Сахар",
+          "Ingredient": "Sugar",
+          "Ingredient_vi": "Đường",
+          "Шт/гр": "7.9"
+        },
+        {
+          "№": 4,
+          "Продукт": "Масло сливочное",
+          "Ingredient": "Butter",
+          "Ingredient_vi": "Bơ",
+          "Шт/гр": "10.6"
+        },
+        {
+          "№": 5,
+          "Продукт": "Соль",
+          "Ingredient": "Salt",
+          "Ingredient_vi": "Muối",
+          "Шт/гр": "0.1"
+        },
+        {
+          "№": 6,
           "Продукт": "Какао",
           "Ingredient": "Cocoa",
           "Ingredient_vi": "Bột ca cao",
-          "Шт/гр": "16"
+          "Шт/гр": "0.9"
         },
         {
-          "№": 8,
+          "№": 7,
           "Продукт": "Мука",
           "Ingredient": "Flour",
           "Ingredient_vi": "Bột mì",
-          "Шт/гр": "255"
+          "Шт/гр": "15"
         },
         {
-          "№": 9,
+          "№": 8,
           "Продукт": "Разрыхлитель",
           "Ingredient": "Baking powder",
           "Ingredient_vi": "Bột nở",
-          "Шт/гр": "12"
+          "Шт/гр": "0.7"
         }
       ],
       "process": {
-        "ru": "Взбить яичные желтки, сахар и соль до полного растворения сахара. Добавить размягченное сливочное масло и тщательно перемешать — не должно остаться мелких кусочков масла. Добавить просеянные сухие ингредиенты (муку, какао и разрыхлитель). Собрать тесто в шар, раскатать между двумя листами пергамента до толщины около 1 см (тесто липкое — это нормально). Выложить на доску и заморозить 10–15 минут. Вырезать тарталетки кольцом. Выпекать в формочках диаметром 8 см при 170°C, конвекция 20, около 15 минут (пароконвектомат заранее хорошо разогреть). 1 тарталетка — 40 г.",
-        "en": "Whip egg yolks, sugar and salt until the sugar is fully dissolved. Add softened butter and mix thoroughly — no small pieces of butter should remain. Add sifted dry ingredients (flour, cocoa and baking powder). Gather the dough into a ball, roll between two sheets of parchment to about 1 cm thick (it will be sticky — that is normal). Place on a board and freeze for 10–15 minutes. Cut tartlets with a ring. Bake in 8 cm tartlet molds at 170°C, convection 20, about 15 minutes (preheat the combi oven well). 1 tartlet — 40 g.",
-        "vi": "Đánh lòng đỏ trứng, đường và muối đến khi đường tan hoàn toàn. Thêm bơ mềm và trộn kỹ — không còn hạt bơ nhỏ. Thêm nguyên liệu khô đã rây (bột mì, cacao và bột nở). Vo bột thành khối, cán giữa hai tờ giấy nến dày khoảng 1 cm (bột dính là bình thường). Đặt lên thớt và đông lạnh 10–15 phút. Cắt tart bằng vòng. Nướng trong khuôn tart đường kính 8 cm ở 170°C, đối lưu 20, khoảng 15 phút (làm nóng trước lò hấp-nướng). 1 tart — 40 g."
+        "ru": "Раскладка на 1 шт (тарталетка 40 г). Меняйте поле Шт. — все граммы пересчитаются. Взбить яичные желтки, сахар и соль до полного растворения сахара. Добавить размягченное сливочное масло и тщательно перемешать — не должно остаться мелких кусочков масла. Добавить просеянные сухие ингредиенты (муку, какао и разрыхлитель). Собрать тесто в шар, раскатать между двумя листами пергамента до толщины около 1 см (тесто липкое — это нормально). Выложить на доску и заморозить 10–15 минут. Вырезать тарталетки кольцом. Выпекать в формочках диаметром 8 см при 170°C, конвекция 20, около 15 минут (пароконвектомат заранее хорошо разогреть). 1 тарталетка — 40 г.",
+        "en": "Per 1 pc. Change Pcs to recalculate. Whip egg yolks, sugar and salt until the sugar is fully dissolved. Add softened butter and mix thoroughly — no small pieces of butter should remain. Add sifted dry ingredients (flour, cocoa and baking powder). Gather the dough into a ball, roll between two sheets of parchment to about 1 cm thick (it will be sticky — that is normal). Place on a board and freeze for 10–15 minutes. Cut tartlets with a ring. Bake in 8 cm tartlet molds at 170°C, convection 20, about 15 minutes (preheat the combi oven well). 1 tartlet — 40 g.",
+        "vi": "Cho 1 cái. Đổi Pcs để tính lại. Đánh lòng đỏ trứng, đường và muối đến khi đường tan hoàn toàn. Thêm bơ mềm và trộn kỹ — không còn hạt bơ nhỏ. Thêm nguyên liệu khô đã rây (bột mì, cacao và bột nở). Vo bột thành khối, cán giữa hai tờ giấy nến dày khoảng 1 cm (bột dính là bình thường). Đặt lên thớt và đông lạnh 10–15 phút. Cắt tart bằng vòng. Nướng trong khuôn tart đường kính 8 cm ở 170°C, đối lưu 20, khoảng 15 phút (làm nóng trước lò hấp-nướng). 1 tart — 40 g."
       }
     },
     {
@@ -3284,69 +3277,69 @@
         "en": "PREP TIRAMISU CHOCOLATE-COFFEE CREMEUX",
         "vi": "CREMEUX SOCOLA-CÀ PHÊ TIRAMISU"
       },
-      "key": "Количество",
+      "key": "Шт.",
       "ingredients": [
         {
           "№": 1,
-          "Продукт": "Количество",
-          "Ingredient": "Amount",
-          "Ingredient_vi": "Số lượng",
-          "Шт/гр": "312"
+          "Продукт": "Шт.",
+          "Ingredient": "Pcs",
+          "Ingredient_vi": "Cái",
+          "Шт/гр": "1"
         },
         {
           "№": 2,
           "Продукт": "Молоко",
           "Ingredient": "Milk",
           "Ingredient_vi": "Sữa",
-          "Шт/гр": "150"
+          "Шт/гр": "9.6"
         },
         {
           "№": 3,
           "Продукт": "Яйцо (желток)",
           "Ingredient": "Egg yolk (2 pcs)",
           "Ingredient_vi": "Lòng đỏ trứng (2 quả)",
-          "Шт/гр": "40"
+          "Шт/гр": "2.6"
         },
         {
           "№": 4,
           "Продукт": "Сахар",
           "Ingredient": "Sugar",
           "Ingredient_vi": "Đường",
-          "Шт/гр": "30"
+          "Шт/гр": "1.9"
         },
         {
           "№": 5,
           "Продукт": "Кофе ристретто",
           "Ingredient": "Ristretto shot",
           "Ingredient_vi": "Cà phê ristretto",
-          "Шт/гр": "18"
+          "Шт/гр": "1.2"
         },
         {
           "№": 6,
           "Продукт": "Масло сливочное",
           "Ingredient": "Butter",
           "Ingredient_vi": "Bơ",
-          "Шт/гр": "35"
+          "Шт/гр": "2.2"
         },
         {
           "№": 7,
           "Продукт": "Шоколад темный",
           "Ingredient": "Dark chocolate",
           "Ingredient_vi": "Sô-cô-la đen",
-          "Шт/гр": "35"
+          "Шт/гр": "2.2"
         },
         {
           "№": 8,
           "Продукт": "Желатин",
           "Ingredient": "Gelatin",
           "Ingredient_vi": "Gelatin",
-          "Шт/гр": "4"
+          "Шт/гр": "0.3"
         }
       ],
       "process": {
-        "ru": "Перетереть желтки с сахаром, добавить молоко и кофе, варить на медленном огне до 85°C. Когда на лопатке остаётся проверочная полоса от пальца, добавить желатин, шоколад и масло, пробить блендером, процедить через сито в контейнер, закрыть плёнкой в контакт и стабилизировать в холодильнике 6 часов.",
-        "en": "Rub the yolks with sugar, add milk and coffee, cook over low heat to 85°C. When a finger leaves a clean line on the spatula, add gelatin, chocolate and butter, blend, strain into a container, cover with film in contact and stabilize in the fridge for 6 hours.",
-        "vi": "Trộn lòng đỏ với đường, thêm sữa và cà phê, nấu lửa nhỏ đến 85°C. Khi quệt ngón tay trên thìa để lại vệt sạch, thêm gelatin, sô-cô-la và bơ, xay blender, lọc qua rây vào hộp, phủ màng sát mặt và ổn định tủ lạnh 6 giờ."
+        "ru": "Раскладка на 1 шт (20 г кремю на тарталетку). Меняйте Шт. для пересчёта. Перетереть желтки с сахаром, добавить молоко и кофе, варить на медленном огне до 85°C. Когда на лопатке остаётся проверочная полоса от пальца, добавить желатин, шоколад и масло, пробить блендером, процедить через сито в контейнер, закрыть плёнкой в контакт и стабилизировать в холодильнике 6 часов.",
+        "en": "Per 1 pc. Change Pcs to recalculate. Rub the yolks with sugar, add milk and coffee, cook over low heat to 85°C. When a finger leaves a clean line on the spatula, add gelatin, chocolate and butter, blend, strain into a container, cover with film in contact and stabilize in the fridge for 6 hours.",
+        "vi": "Cho 1 cái. Đổi Pcs để tính lại. Trộn lòng đỏ với đường, thêm sữa và cà phê, nấu lửa nhỏ đến 85°C. Khi quệt ngón tay trên thìa để lại vệt sạch, thêm gelatin, sô-cô-la và bơ, xay blender, lọc qua rây vào hộp, phủ màng sát mặt và ổn định tủ lạnh 6 giờ."
       }
     },
     {
@@ -3355,41 +3348,41 @@
         "en": "PREP TIRAMISU MASCARPONE CREAM",
         "vi": "KEM MASCARPONE TART TIRAMISU"
       },
-      "key": "Количество",
+      "key": "Шт.",
       "ingredients": [
         {
           "№": 1,
-          "Продукт": "Количество",
-          "Ingredient": "Amount",
-          "Ingredient_vi": "Số lượng",
-          "Шт/гр": "350"
+          "Продукт": "Шт.",
+          "Ingredient": "Pcs",
+          "Ingredient_vi": "Cái",
+          "Шт/гр": "1"
         },
         {
           "№": 2,
           "Продукт": "Шоколад белый",
           "Ingredient": "White chocolate",
           "Ingredient_vi": "Sô-cô-la trắng",
-          "Шт/гр": "100"
+          "Шт/гр": "14.3"
         },
         {
           "№": 3,
           "Продукт": "Сливки",
           "Ingredient": "Cream",
           "Ingredient_vi": "Kem sữa",
-          "Шт/гр": "100"
+          "Шт/гр": "14.3"
         },
         {
           "№": 4,
           "Продукт": "Сыр Маскарпоне",
           "Ingredient": "Mascarpone",
           "Ingredient_vi": "Mascarpone",
-          "Шт/гр": "150"
+          "Шт/гр": "21.4"
         }
       ],
       "process": {
-        "ru": "Подогреть сливки до 80°C и вылить на шоколад, пробить погружным блендером. В холодный маскарпоне вливать ганаш и одновременно взбивать крем на средних оборотах.",
-        "en": "Heat the cream to 80°C and pour over the chocolate, blend with a stick blender. Pour the ganache into cold mascarpone while whipping the cream on medium speed.",
-        "vi": "Đun kem đến 80°C, đổ lên sô-cô-la, xay máy cầm tay. Từ từ đổ ganache vào mascarpone lạnh và đánh kem tốc độ trung bình."
+        "ru": "Раскладка на 1 шт (50 г крема на тарталетку). Меняйте Шт. для пересчёта. Подогреть сливки до 80°C и вылить на шоколад, пробить погружным блендером. В холодный маскарпоне вливать ганаш и одновременно взбивать крем на средних оборотах.",
+        "en": "Per 1 pc. Change Pcs to recalculate. Heat the cream to 80°C and pour over the chocolate, blend with a stick blender. Pour the ganache into cold mascarpone while whipping the cream on medium speed.",
+        "vi": "Cho 1 cái. Đổi Pcs để tính lại. Đun kem đến 80°C, đổ lên sô-cô-la, xay máy cầm tay. Từ từ đổ ganache vào mascarpone lạnh và đánh kem tốc độ trung bình."
       }
     },
     {
@@ -3455,69 +3448,62 @@
           "Продукт": "Шт.",
           "Ingredient": "Pcs",
           "Ingredient_vi": "Cái",
-          "Шт/гр": "15"
+          "Шт/гр": "1"
         },
         {
           "№": 2,
-          "Продукт": "Количество",
-          "Ingredient": "Amount",
-          "Ingredient_vi": "Số lượng",
-          "Шт/гр": "735"
-        },
-        {
-          "№": 3,
           "Продукт": "Масло сливочное",
           "Ingredient": "Butter",
           "Ingredient_vi": "Bơ",
-          "Шт/гр": "185"
+          "Шт/гр": "12.3"
         },
         {
-          "№": 4,
+          "№": 3,
           "Продукт": "Сахар",
           "Ingredient": "Sugar",
           "Ingredient_vi": "Đường",
-          "Шт/гр": "160"
+          "Шт/гр": "10.7"
         },
         {
-          "№": 5,
+          "№": 4,
           "Продукт": "Яйцо (желток)",
           "Ingredient": "Egg yolk",
           "Ingredient_vi": "Lòng đỏ trứng",
-          "Шт/гр": "75"
+          "Шт/гр": "5"
         },
         {
-          "№": 6,
+          "№": 5,
           "Продукт": "Мука миндальная",
           "Ingredient": "Almond flour",
           "Ingredient_vi": "Bột hạnh nhân",
-          "Шт/гр": "150"
-        },
-        {
-          "№": 7,
-          "Продукт": "Мука",
-          "Ingredient": "Wheat flour",
-          "Ingredient_vi": "Bột mì",
-          "Шт/гр": "150"
-        },
-        {
-          "№": 8,
-          "Продукт": "Разрыхлитель",
-          "Ingredient": "Baking powder",
-          "Ingredient_vi": "Bột nở",
           "Шт/гр": "10"
         },
         {
-          "№": 9,
+          "№": 6,
+          "Продукт": "Мука",
+          "Ingredient": "Wheat flour",
+          "Ingredient_vi": "Bột mì",
+          "Шт/гр": "10"
+        },
+        {
+          "№": 7,
+          "Продукт": "Разрыхлитель",
+          "Ingredient": "Baking powder",
+          "Ingredient_vi": "Bột nở",
+          "Шт/гр": "0.7"
+        },
+        {
+          "№": 8,
           "Продукт": "Соль",
           "Ingredient": "Salt",
           "Ingredient_vi": "Muối",
-          "Шт/гр": "5"
+          "Шт/гр": "0.3"
         }
       ],
       "process": {
-        "ru": "Взбить яичные желтки, сахар и соль до полного растворения сахара. Добавить размягченное сливочное масло и тщательно перемешать — не должно остаться мелких кусочков масла. Добавить просеянные сухие ингредиенты (муку, миндальную муку и разрыхлитель). Собрать тесто в шар, раскатать между двумя листами пергамента до толщины около 1 см (тесто липкое — это нормально). Выложить на доску и заморозить 10–15 минут. Вырезать тарталетки кольцом. Выпекать в формочках диаметром 8 см при 170°C, конвекция 20, около 15 минут (пароконвектомат заранее хорошо разогреть). 1 тарталетка — 40 г. Из замеса выходит около 15 шт.",
-        "en": "Whip egg yolks, sugar and salt until the sugar is fully dissolved. Add softened butter and mix thoroughly — no small pieces of butter should remain. Add sifted dry ingredients (wheat flour, almond flour and baking powder). Gather the dough into a ball, roll between two sheets of parchment to about 1 cm thick (it will be sticky — that is normal). Place on a board and freeze for 10–15 minutes. Cut tartlets with a ring. Bake in 8 cm tartlet molds at 170°C, convection 20, about 15 minutes (preheat the combi oven well). 1 tartlet — 40 g. The batch yields about 15 pcs.",
-        "vi": "Đánh lòng đỏ trứng, đường và muối đến khi đường tan hoàn toàn. Thêm bơ mềm và trộn kỹ — không còn hạt bơ nhỏ. Thêm nguyên liệu khô đã rây (bột mì, bột hạnh nhân và bột nở). Vo bột thành khối, cán giữa hai tờ giấy nến dày khoảng 1 cm (bột dính là bình thường). Đặt lên thớt và đông lạnh 10–15 phút. Cắt tart bằng vòng. Nướng trong khuôn tart đường kính 8 cm ở 170°C, đối lưu 20, khoảng 15 phút. 1 tart — 40 g. Một mẻ được khoảng 15 cái."
+        "ru": "Раскладка на 1 шт (тарталетка 40 г). Меняйте Шт. для пересчёта. Взбить яичные желтки, сахар и соль до полного растворения сахара. Добавить размягченное сливочное масло и тщательно перемешать — не должно остаться мелких кусочков масла. Добавить просеянные сухие ингредиенты (муку, миндальную муку и разрыхлитель). Собрать тесто в шар, раскатать между двумя листами пергамента до толщины около 1 см (тесто липкое — это нормально). Выложить на доску и заморозить 10–15 минут. Вырезать тарталетки кольцом. Выпекать в формочках диаметром 8 см при 170°C, конвекция 20, около 15 минут (пароконвектомат заранее хорошо разогреть). 1 тарталетка — 40 г. Из замеса выходит около 15 шт.",
+        "en": "Per 1 pc. Change Pcs to recalculate. Whip egg yolks, sugar and salt until the sugar is fully dissolved. Add softened butter and mix thoroughly — no small pieces of butter should remain. Add sifted dry ingredients (wheat flour, almond flour and baking powder). Gather the dough into a ball, roll between two sheets of parchment to about 1 cm thick (it will be sticky — that is normal). Place on a board and freeze for 10–15 minutes. Cut tartlets with a ring. Bake in 8 cm tartlet molds at 170°C, convection 20, about 15 minutes (preheat the combi oven well). 1 tartlet — 40 g. The batch yields about 15 pcs.",
+        "vi": "Cho 1 cái. Đổi Pcs để tính lại. Đánh lòng đỏ trứng, đường và muối đến khi đường tan hoàn toàn. Thêm bơ mềm và trộn kỹ — không còn hạt bơ nhỏ. Thêm nguyên liệu khô đã rây (bột mì, bột hạnh nhân và bột nở). Vo bột thành khối, cán giữa hai tờ giấy nến dày khoảng 1 cm (bột dính là bình thường). Đặt lên thớt và đông lạnh 10–15 phút. Cắt tart bằng vòng. Nướng trong khuôn tart đường kính 8 cm ở 170°C, đối lưu 20, khoảng 15 phút. 1 tart — 40 g. Một mẻ được khoảng 15 cái."
       }
     },
     {
@@ -3526,41 +3512,41 @@
         "en": "PREP BLUEBERRY TARTLET COMPOTE",
         "vi": "COMPOTE VIỆT QUẤT CHO TART"
       },
-      "key": "Количество",
+      "key": "Шт.",
       "ingredients": [
         {
           "№": 1,
-          "Продукт": "Количество",
-          "Ingredient": "Amount",
-          "Ingredient_vi": "Số lượng",
-          "Шт/гр": "177.5"
+          "Продукт": "Шт.",
+          "Ingredient": "Pcs",
+          "Ingredient_vi": "Cái",
+          "Шт/гр": "1"
         },
         {
           "№": 2,
           "Продукт": "Голубика пюре с/м",
           "Ingredient": "Frozen blueberry puree",
           "Ingredient_vi": "Puree việt quất đông lạnh",
-          "Шт/гр": "150"
+          "Шт/гр": "16.9"
         },
         {
           "№": 3,
           "Продукт": "Сахар",
           "Ingredient": "Sugar",
           "Ingredient_vi": "Đường",
-          "Шт/гр": "25"
+          "Шт/гр": "2.8"
         },
         {
           "№": 4,
           "Продукт": "Пектин NH",
           "Ingredient": "Pectin NH",
           "Ingredient_vi": "Pectin NH",
-          "Шт/гр": "2.5"
+          "Шт/гр": "0.3"
         }
       ],
       "process": {
-        "ru": "Сахар смешать с пектином, всыпать в пюре, довести до кипения, кипятить 1 минуту и снять с огня. Стабилизировать в холодильнике 4 часа.",
-        "en": "Mix sugar with pectin, add to the puree, bring to a boil, boil for 1 minute and remove from heat. Stabilize in the fridge for 4 hours.",
-        "vi": "Trộn đường với pectin, cho vào puree, đun sôi, sôi 1 phút rồi tắt bếp. Ổn định tủ lạnh 4 giờ."
+        "ru": "Раскладка на 1 шт (20 г компоте). Меняйте Шт. для пересчёта. Сахар смешать с пектином, всыпать в пюре, довести до кипения, кипятить 1 минуту и снять с огня. Стабилизировать в холодильнике 4 часа.",
+        "en": "Per 1 pc. Change Pcs to recalculate. Mix sugar with pectin, add to the puree, bring to a boil, boil for 1 minute and remove from heat. Stabilize in the fridge for 4 hours.",
+        "vi": "Cho 1 cái. Đổi Pcs để tính lại. Trộn đường với pectin, cho vào puree, đun sôi, sôi 1 phút rồi tắt bếp. Ổn định tủ lạnh 4 giờ."
       }
     },
     {
@@ -3569,48 +3555,48 @@
         "en": "PREP BLUEBERRY TARTLET CREAM",
         "vi": "KEM TART VIỆT QUẤT"
       },
-      "key": "Количество",
+      "key": "Шт.",
       "ingredients": [
         {
           "№": 1,
-          "Продукт": "Количество",
-          "Ingredient": "Amount",
-          "Ingredient_vi": "Số lượng",
-          "Шт/гр": "400"
+          "Продукт": "Шт.",
+          "Ingredient": "Pcs",
+          "Ingredient_vi": "Cái",
+          "Шт/гр": "1"
         },
         {
           "№": 2,
           "Продукт": "Шоколад белый",
           "Ingredient": "White chocolate",
           "Ingredient_vi": "Sô-cô-la trắng",
-          "Шт/гр": "75"
+          "Шт/гр": "7.5"
         },
         {
           "№": 3,
           "Продукт": "Сливки",
           "Ingredient": "Cream",
           "Ingredient_vi": "Kem sữa",
-          "Шт/гр": "75"
+          "Шт/гр": "7.5"
         },
         {
           "№": 4,
           "Продукт": "Голубика пюре",
           "Ingredient": "Blueberry puree",
           "Ingredient_vi": "Puree việt quất",
-          "Шт/гр": "100"
+          "Шт/гр": "10"
         },
         {
           "№": 5,
           "Продукт": "Сыр Кремчиз",
           "Ingredient": "Cream cheese",
           "Ingredient_vi": "Phô mai kem",
-          "Шт/гр": "150"
+          "Шт/гр": "15"
         }
       ],
       "process": {
-        "ru": "Подогреть сливки до 80°C и вылить на шоколад, пробить погружным блендером. В холодный слегка взбитый кремчиз вливать черничный ганаш и одновременно взбивать крем на средних оборотах. Стабилизировать в холодильнике 1 час.",
-        "en": "Heat the cream to 80°C and pour over the chocolate, blend with a stick blender. Pour the blueberry ganache into cold lightly whipped cream cheese while whipping on medium speed. Stabilize in the fridge for 1 hour.",
-        "vi": "Đun kem đến 80°C, đổ lên sô-cô-la, xay máy cầm tay. Đổ ganache việt quất vào cream cheese lạnh đã đánh nhẹ, vừa đổ vừa đánh tốc độ trung bình. Ổn định tủ lạnh 1 giờ."
+        "ru": "Раскладка на 1 шт (40 г крема). Меняйте Шт. для пересчёта. Подогреть сливки до 80°C и вылить на шоколад, пробить погружным блендером. В холодный слегка взбитый кремчиз вливать черничный ганаш и одновременно взбивать крем на средних оборотах. Стабилизировать в холодильнике 1 час.",
+        "en": "Per 1 pc. Change Pcs to recalculate. Heat the cream to 80°C and pour over the chocolate, blend with a stick blender. Pour the blueberry ganache into cold lightly whipped cream cheese while whipping on medium speed. Stabilize in the fridge for 1 hour.",
+        "vi": "Cho 1 cái. Đổi Pcs để tính lại. Đun kem đến 80°C, đổ lên sô-cô-la, xay máy cầm tay. Đổ ganache việt quất vào cream cheese lạnh đã đánh nhẹ, vừa đổ vừa đánh tốc độ trung bình. Ổn định tủ lạnh 1 giờ."
       }
     },
     {
@@ -3669,41 +3655,41 @@
         "en": "PREP STRAWBERRY TARTLET CREAM",
         "vi": "KEM TART DÂU TÂY"
       },
-      "key": "Количество",
+      "key": "Шт.",
       "ingredients": [
         {
           "№": 1,
-          "Продукт": "Количество",
-          "Ingredient": "Amount",
-          "Ingredient_vi": "Số lượng",
-          "Шт/гр": "300"
+          "Продукт": "Шт.",
+          "Ingredient": "Pcs",
+          "Ingredient_vi": "Cái",
+          "Шт/гр": "1"
         },
         {
           "№": 2,
           "Продукт": "Шоколад белый",
           "Ingredient": "White chocolate",
           "Ingredient_vi": "Sô-cô-la trắng",
-          "Шт/гр": "75"
+          "Шт/гр": "10"
         },
         {
           "№": 3,
           "Продукт": "Сливки",
           "Ingredient": "Cream",
           "Ingredient_vi": "Kem sữa",
-          "Шт/гр": "75"
+          "Шт/гр": "10"
         },
         {
           "№": 4,
           "Продукт": "Сыр Кремчиз",
           "Ingredient": "Cream cheese",
           "Ingredient_vi": "Phô mai kem",
-          "Шт/гр": "150"
+          "Шт/гр": "20"
         }
       ],
       "process": {
-        "ru": "Подогреть сливки до 80°C и вылить на шоколад, пробить погружным блендером. В холодный слегка взбитый кремчиз вливать ганаш и одновременно взбивать крем на средних оборотах. Стабилизировать в холодильнике 1 час.",
-        "en": "Heat the cream to 80°C and pour over the chocolate, blend with a stick blender. Pour the ganache into cold lightly whipped cream cheese while whipping on medium speed. Stabilize in the fridge for 1 hour.",
-        "vi": "Đun kem đến 80°C, đổ lên sô-cô-la, xay máy cầm tay. Đổ ganache vào cream cheese lạnh đã đánh nhẹ, vừa đổ vừa đánh tốc độ trung bình. Ổn định tủ lạnh 1 giờ."
+        "ru": "Раскладка на 1 шт (40 г крема). Меняйте Шт. для пересчёта. Подогреть сливки до 80°C и вылить на шоколад, пробить погружным блендером. В холодный слегка взбитый кремчиз вливать ганаш и одновременно взбивать крем на средних оборотах. Стабилизировать в холодильнике 1 час.",
+        "en": "Per 1 pc. Change Pcs to recalculate. Heat the cream to 80°C and pour over the chocolate, blend with a stick blender. Pour the ganache into cold lightly whipped cream cheese while whipping on medium speed. Stabilize in the fridge for 1 hour.",
+        "vi": "Cho 1 cái. Đổi Pcs để tính lại. Đun kem đến 80°C, đổ lên sô-cô-la, xay máy cầm tay. Đổ ganache vào cream cheese lạnh đã đánh nhẹ, vừa đổ vừa đánh tốc độ trung bình. Ổn định tủ lạnh 1 giờ."
       }
     },
     {
@@ -3769,55 +3755,55 @@
         "en": "PREP MANGO GEL",
         "vi": "GEL XOÀI SƠ CHẾ"
       },
-      "key": "Количество",
+      "key": "Шт.",
       "ingredients": [
         {
           "№": 1,
-          "Продукт": "Количество",
-          "Ingredient": "Amount",
-          "Ingredient_vi": "Số lượng",
-          "Шт/гр": "597"
+          "Продукт": "Шт.",
+          "Ingredient": "Pcs",
+          "Ingredient_vi": "Cái",
+          "Шт/гр": "1"
         },
         {
           "№": 2,
           "Продукт": "Манго пюре",
           "Ingredient": "Mango puree",
           "Ingredient_vi": "Puree xoài",
-          "Шт/гр": "300"
+          "Шт/гр": "15.1"
         },
         {
           "№": 3,
           "Продукт": "Сахар",
           "Ingredient": "Sugar",
           "Ingredient_vi": "Đường",
-          "Шт/гр": "35"
+          "Шт/гр": "1.8"
         },
         {
           "№": 4,
           "Продукт": "Пектин NH",
           "Ingredient": "Pectin NH",
           "Ingredient_vi": "Pectin NH",
-          "Шт/гр": "4"
+          "Шт/гр": "0.2"
         },
         {
           "№": 5,
           "Продукт": "Сок лимонный",
           "Ingredient": "Lemon juice",
           "Ingredient_vi": "Nước cốt chanh",
-          "Шт/гр": "8"
+          "Шт/гр": "0.4"
         },
         {
           "№": 6,
           "Продукт": "Манго спелое",
           "Ingredient": "Ripe mango",
           "Ingredient_vi": "Xoài chín",
-          "Шт/гр": "250"
+          "Шт/гр": "12.6"
         }
       ],
       "process": {
-        "ru": "Сахар смешать с пектином. Пюре манго нагреть примерно до 40°C. Всыпать сахар с пектином, хорошо перемешать и довести до кипения. Проварить около 30 секунд, затем добавить лимонный сок. Накрыть плёнкой в контакт и полностью охладить. После стабилизации пробить блендером до гладкого эластичного геля. Манго нарезать небольшими кубиками и аккуратно смешать с готовым манговым гелем.",
-        "en": "Mix sugar with pectin. Heat mango puree to about 40°C. Add sugar with pectin, mix well and bring to a boil. Cook about 30 seconds, then add lemon juice. Cover with film in contact and cool completely. After stabilizing, blend to a smooth elastic gel. Cut ripe mango into small cubes and gently fold into the gel.",
-        "vi": "Trộn đường với pectin. Đun puree xoài khoảng 40°C. Cho đường-pectin vào, trộn đều và đun sôi. Nấu khoảng 30 giây, thêm nước cốt chanh. Phủ màng sát mặt và làm nguội hoàn toàn. Sau khi ổn định, xay đến gel mịn đàn hồi. Cắt xoài chín hạt lựu và trộn nhẹ với gel."
+        "ru": "Раскладка на 1 шт (30 г начинки). Меняйте Шт. для пересчёта. Сахар смешать с пектином. Пюре манго нагреть примерно до 40°C. Всыпать сахар с пектином, хорошо перемешать и довести до кипения. Проварить около 30 секунд, затем добавить лимонный сок. Накрыть плёнкой в контакт и полностью охладить. После стабилизации пробить блендером до гладкого эластичного геля. Манго нарезать небольшими кубиками и аккуратно смешать с готовым манговым гелем.",
+        "en": "Per 1 pc. Change Pcs to recalculate. Mix sugar with pectin. Heat mango puree to about 40°C. Add sugar with pectin, mix well and bring to a boil. Cook about 30 seconds, then add lemon juice. Cover with film in contact and cool completely. After stabilizing, blend to a smooth elastic gel. Cut ripe mango into small cubes and gently fold into the gel.",
+        "vi": "Cho 1 cái. Đổi Pcs để tính lại. Trộn đường với pectin. Đun puree xoài khoảng 40°C. Cho đường-pectin vào, trộn đều và đun sôi. Nấu khoảng 30 giây, thêm nước cốt chanh. Phủ màng sát mặt và làm nguội hoàn toàn. Sau khi ổn định, xay đến gel mịn đàn hồi. Cắt xoài chín hạt lựu và trộn nhẹ với gel."
       }
     },
     {
@@ -3826,55 +3812,55 @@
         "en": "PREP MANGO GANACHE",
         "vi": "GANACHE XOÀI SƠ CHẾ"
       },
-      "key": "Количество",
+      "key": "Шт.",
       "ingredients": [
         {
           "№": 1,
-          "Продукт": "Количество",
-          "Ingredient": "Amount",
-          "Ingredient_vi": "Số lượng",
-          "Шт/гр": "520"
+          "Продукт": "Шт.",
+          "Ingredient": "Pcs",
+          "Ingredient_vi": "Cái",
+          "Шт/гр": "1"
         },
         {
           "№": 2,
           "Продукт": "Желатин",
           "Ingredient": "Gelatin",
           "Ingredient_vi": "Gelatin",
-          "Шт/гр": "6"
+          "Шт/гр": "0.8"
         },
         {
           "№": 3,
           "Продукт": "Манго пюре",
           "Ingredient": "Mango puree",
           "Ingredient_vi": "Puree xoài",
-          "Шт/гр": "160"
+          "Шт/гр": "21.5"
         },
         {
           "№": 4,
           "Продукт": "Шоколад белый",
           "Ingredient": "White chocolate",
           "Ingredient_vi": "Sô-cô-la trắng",
-          "Шт/гр": "180"
+          "Шт/гр": "24.2"
         },
         {
           "№": 5,
           "Продукт": "Сливки",
           "Ingredient": "Cream",
           "Ingredient_vi": "Kem sữa",
-          "Шт/гр": "150"
+          "Шт/гр": "20.2"
         },
         {
           "№": 6,
           "Продукт": "Глюкоза",
           "Ingredient": "Glucose syrup",
           "Ingredient_vi": "Siro glucose",
-          "Шт/гр": "24"
+          "Шт/гр": "3.2"
         }
       ],
       "process": {
-        "ru": "Желатин замочить в холодной воде. Нагреть сливки с глюкозным сиропом до 85°C, вылить на остальные ингредиенты и пробить блендером до однородной эмульсии. Стабилизировать в холодильнике минимум 6 часов.",
-        "en": "Bloom gelatin in cold water. Heat cream with glucose syrup to 85°C, pour over the remaining ingredients and blend to a homogeneous emulsion. Stabilize in the fridge for at least 6 hours.",
-        "vi": "Ngâm gelatin trong nước lạnh. Đun kem với siro glucose đến 85°C, đổ lên các nguyên liệu còn lại và xay đến nhũ tương đồng nhất. Ổn định tủ lạnh tối thiểu 6 giờ."
+        "ru": "Раскладка на 1 шт (70 г ганаша). Меняйте Шт. для пересчёта. Желатин замочить в холодной воде. Нагреть сливки с глюкозным сиропом до 85°C, вылить на остальные ингредиенты и пробить блендером до однородной эмульсии. Стабилизировать в холодильнике минимум 6 часов.",
+        "en": "Per 1 pc. Change Pcs to recalculate. Bloom gelatin in cold water. Heat cream with glucose syrup to 85°C, pour over the remaining ingredients and blend to a homogeneous emulsion. Stabilize in the fridge for at least 6 hours.",
+        "vi": "Cho 1 cái. Đổi Pcs để tính lại. Ngâm gelatin trong nước lạnh. Đun kem với siro glucose đến 85°C, đổ lên các nguyên liệu còn lại và xay đến nhũ tương đồng nhất. Ổn định tủ lạnh tối thiểu 6 giờ."
       }
     },
     {
@@ -4004,48 +3990,48 @@
         "en": "PREP COCONUT CROISSANT CREAM",
         "vi": "KEM BÁNH SỪNG BÒ DỪA"
       },
-      "key": "Количество",
+      "key": "Шт.",
       "ingredients": [
         {
           "№": 1,
-          "Продукт": "Количество",
-          "Ingredient": "Amount",
-          "Ingredient_vi": "Số lượng",
-          "Шт/гр": "284"
+          "Продукт": "Шт.",
+          "Ingredient": "Pcs",
+          "Ingredient_vi": "Cái",
+          "Шт/гр": "1"
         },
         {
           "№": 2,
           "Продукт": "Порошок Cremyvit (Puratos)",
           "Ingredient": "Cremyvit powder (Puratos)",
           "Ingredient_vi": "Bột Cremyvit (Puratos)",
-          "Шт/гр": "64"
+          "Шт/гр": "12.4"
         },
         {
           "№": 3,
           "Продукт": "Кокосовое молоко",
           "Ingredient": "Coconut milk",
           "Ingredient_vi": "Nước cốt dừa",
-          "Шт/гр": "160"
+          "Шт/гр": "31"
         },
         {
           "№": 4,
           "Продукт": "Кокосовая стружка",
           "Ingredient": "Coconut flakes",
           "Ingredient_vi": "Dừa bào",
-          "Шт/гр": "15"
+          "Шт/гр": "2.9"
         },
         {
           "№": 5,
           "Продукт": "Сливки",
           "Ingredient": "Cream",
           "Ingredient_vi": "Kem sữa",
-          "Шт/гр": "45"
+          "Шт/гр": "8.7"
         }
       ],
       "process": {
-        "ru": "Смешать Cremyvit с кокосовым молоком до однородности, добавить сливки, вмешать кокосовую стружку. На 1 порцию — 55 г (из замеса ~5 порций).",
-        "en": "Mix Cremyvit with coconut milk until smooth, add cream, fold in coconut flakes. 55 g per portion (the batch makes about 5 portions).",
-        "vi": "Trộn Cremyvit với nước cốt dừa đến mịn, thêm kem sữa, trộn dừa bào. 55 g cho 1 phần (một mẻ khoảng 5 phần)."
+        "ru": "Раскладка на 1 шт (55 г крема). Меняйте Шт. для пересчёта. Смешать Cremyvit с кокосовым молоком до однородности, добавить сливки, вмешать кокосовую стружку. На 1 порцию — 55 г (из замеса ~5 порций).",
+        "en": "Per 1 pc. Change Pcs to recalculate. Mix Cremyvit with coconut milk until smooth, add cream, fold in coconut flakes. 55 g per portion (the batch makes about 5 portions).",
+        "vi": "Cho 1 cái. Đổi Pcs để tính lại. Trộn Cremyvit với nước cốt dừa đến mịn, thêm kem sữa, trộn dừa bào. 55 g cho 1 phần (một mẻ khoảng 5 phần)."
       }
     },
     {
@@ -4054,34 +4040,34 @@
         "en": "PREP COCONUT CROISSANT CHOCOLATE",
         "vi": "SOCOLA PHỦ BÁNH SỪNG BÒ DỪA"
       },
-      "key": "Количество",
+      "key": "Шт.",
       "ingredients": [
         {
           "№": 1,
-          "Продукт": "Количество",
-          "Ingredient": "Amount",
-          "Ingredient_vi": "Số lượng",
-          "Шт/гр": "240"
+          "Продукт": "Шт.",
+          "Ingredient": "Pcs",
+          "Ingredient_vi": "Cái",
+          "Шт/гр": "1"
         },
         {
           "№": 2,
           "Продукт": "Шоколад темный",
           "Ingredient": "Dark chocolate",
           "Ingredient_vi": "Sô-cô-la đen",
-          "Шт/гр": "200"
+          "Шт/гр": "8.3"
         },
         {
           "№": 3,
           "Продукт": "Масло растительное",
           "Ingredient": "Vegetable oil",
           "Ingredient_vi": "Dầu thực vật",
-          "Шт/гр": "40"
+          "Шт/гр": "1.7"
         }
       ],
       "process": {
-        "ru": "Растопить тёмный шоколад с растительным маслом до однородности. На 1 порцию — 10 г полосой вдоль круассана (из замеса 24 порции).",
-        "en": "Melt dark chocolate with vegetable oil until smooth. 10 g per portion as a stripe along the croissant (the batch makes 24 portions).",
-        "vi": "Đun chảy sô-cô-la đen với dầu thực vật đến mịn. 10 g cho 1 phần, kẻ một dải dọc bánh (một mẻ được 24 phần)."
+        "ru": "Раскладка на 1 шт (10 г шоколада). Меняйте Шт. для пересчёта. Растопить тёмный шоколад с растительным маслом до однородности. На 1 порцию — 10 г полосой вдоль круассана (из замеса 24 порции).",
+        "en": "Per 1 pc. Change Pcs to recalculate. Melt dark chocolate with vegetable oil until smooth. 10 g per portion as a stripe along the croissant (the batch makes 24 portions).",
+        "vi": "Cho 1 cái. Đổi Pcs để tính lại. Đun chảy sô-cô-la đen với dầu thực vật đến mịn. 10 g cho 1 phần, kẻ một dải dọc bánh (một mẻ được 24 phần)."
       }
     },
     {
