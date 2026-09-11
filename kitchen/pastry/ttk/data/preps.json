@@ -3997,6 +3997,142 @@
         "en": "Per 1 portion. Combine everything except gelatin in a saucepan and bring to a boil. Stir bloomed gelatin into the cream mixture and pour into cups, 116 g each. When set, pour 15 g caramel on top and sprinkle pumpkin seeds (2 g) diagonally. Original batch — 6 portions.",
         "vi": "Cho 1 phần. Cho tất cả trừ gelatin vào nồi, đun sôi. Cho gelatin đã ngâm vào khối kem và rót ra ly, mỗi ly 116 g. Khi đông, đổ 15 g caramel và rắc hạt bí (2 g) theo đường chéo. Mẻ gốc — 6 phần."
       }
+    },
+    {
+      "name": {
+        "ru": "ПФ КРУАССАН КОКОСОВЫЙ КРЕМ",
+        "en": "PREP COCONUT CROISSANT CREAM",
+        "vi": "KEM BÁNH SỪNG BÒ DỪA"
+      },
+      "key": "Количество",
+      "ingredients": [
+        {
+          "№": 1,
+          "Продукт": "Количество",
+          "Ingredient": "Amount",
+          "Ingredient_vi": "Số lượng",
+          "Шт/гр": "284"
+        },
+        {
+          "№": 2,
+          "Продукт": "Порошок Cremyvit (Puratos)",
+          "Ingredient": "Cremyvit powder (Puratos)",
+          "Ingredient_vi": "Bột Cremyvit (Puratos)",
+          "Шт/гр": "64"
+        },
+        {
+          "№": 3,
+          "Продукт": "Кокосовое молоко",
+          "Ingredient": "Coconut milk",
+          "Ingredient_vi": "Nước cốt dừa",
+          "Шт/гр": "160"
+        },
+        {
+          "№": 4,
+          "Продукт": "Кокосовая стружка",
+          "Ingredient": "Coconut flakes",
+          "Ingredient_vi": "Dừa bào",
+          "Шт/гр": "15"
+        },
+        {
+          "№": 5,
+          "Продукт": "Сливки",
+          "Ingredient": "Cream",
+          "Ingredient_vi": "Kem sữa",
+          "Шт/гр": "45"
+        }
+      ],
+      "process": {
+        "ru": "Смешать Cremyvit с кокосовым молоком до однородности, добавить сливки, вмешать кокосовую стружку. На 1 порцию — 55 г (из замеса ~5 порций).",
+        "en": "Mix Cremyvit with coconut milk until smooth, add cream, fold in coconut flakes. 55 g per portion (the batch makes about 5 portions).",
+        "vi": "Trộn Cremyvit với nước cốt dừa đến mịn, thêm kem sữa, trộn dừa bào. 55 g cho 1 phần (một mẻ khoảng 5 phần)."
+      }
+    },
+    {
+      "name": {
+        "ru": "ПФ КРУАССАН КОКОСОВЫЙ ШОКОЛАД",
+        "en": "PREP COCONUT CROISSANT CHOCOLATE",
+        "vi": "SOCOLA PHỦ BÁNH SỪNG BÒ DỪA"
+      },
+      "key": "Количество",
+      "ingredients": [
+        {
+          "№": 1,
+          "Продукт": "Количество",
+          "Ingredient": "Amount",
+          "Ingredient_vi": "Số lượng",
+          "Шт/гр": "240"
+        },
+        {
+          "№": 2,
+          "Продукт": "Шоколад темный",
+          "Ingredient": "Dark chocolate",
+          "Ingredient_vi": "Sô-cô-la đen",
+          "Шт/гр": "200"
+        },
+        {
+          "№": 3,
+          "Продукт": "Масло растительное",
+          "Ingredient": "Vegetable oil",
+          "Ingredient_vi": "Dầu thực vật",
+          "Шт/гр": "40"
+        }
+      ],
+      "process": {
+        "ru": "Растопить тёмный шоколад с растительным маслом до однородности. На 1 порцию — 10 г полосой вдоль круассана (из замеса 24 порции).",
+        "en": "Melt dark chocolate with vegetable oil until smooth. 10 g per portion as a stripe along the croissant (the batch makes 24 portions).",
+        "vi": "Đun chảy sô-cô-la đen với dầu thực vật đến mịn. 10 g cho 1 phần, kẻ một dải dọc bánh (một mẻ được 24 phần)."
+      }
+    },
+    {
+      "name": {
+        "ru": "КРУАССАН КОКОСОВЫЙ",
+        "en": "COCONUT CROISSANT",
+        "vi": "BÁNH SỪNG BÒ DỪA"
+      },
+      "key": "Шт.",
+      "ingredients": [
+        {
+          "№": 1,
+          "Продукт": "Шт.",
+          "Ingredient": "Pcs",
+          "Ingredient_vi": "Cái",
+          "Шт/гр": "1"
+        },
+        {
+          "№": 2,
+          "Продукт": "Круассан",
+          "Ingredient": "Croissant",
+          "Ingredient_vi": "Bánh sừng bò",
+          "Шт/гр": "1"
+        },
+        {
+          "№": 3,
+          "Продукт": "Крем",
+          "Ingredient": "Cream",
+          "Ingredient_vi": "Kem",
+          "Шт/гр": "55"
+        },
+        {
+          "№": 4,
+          "Продукт": "Шоколад",
+          "Ingredient": "Chocolate",
+          "Ingredient_vi": "Sô-cô-la",
+          "Шт/гр": "10"
+        },
+        {
+          "№": 5,
+          "Продукт": "Кокосовая стружка",
+          "Ingredient": "Coconut flakes",
+          "Ingredient_vi": "Dừa bào",
+          "Шт/гр": "5"
+        }
+      ],
+      "process": {
+        "ru": "Порция — 1 круассан. Начинить 55 г крема. Сверху покрыть полосой шоколада вдоль (10 г) и посыпать кокосовой стружкой 5 г.",
+        "en": "1 portion = 1 croissant. Fill with 55 g cream. Cover the top with a chocolate stripe along the croissant (10 g) and sprinkle 5 g coconut flakes.",
+        "vi": "1 phần = 1 bánh sừng bò. Nhân 55 g kem. Phủ một dải sô-cô-la dọc mặt bánh (10 g) và rắc 5 g dừa bào."
+      }
     }
   ]
 }
