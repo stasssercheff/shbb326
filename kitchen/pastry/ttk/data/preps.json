@@ -4119,6 +4119,263 @@
         "en": "1 portion = 1 croissant. Fill with 55 g cream. Cover the top with a chocolate stripe along the croissant (10 g) and sprinkle 5 g coconut flakes.",
         "vi": "1 phần = 1 bánh sừng bò. Nhân 55 g kem. Phủ một dải sô-cô-la dọc mặt bánh (10 g) và rắc 5 g dừa bào."
       }
+    },
+    {
+      "name": {
+        "ru": "ПФ ЧИЗКЕЙК ШОКОЛАД-БАНАН ОСНОВА",
+        "en": "PREP CHOCOLATE-BANANA CHEESECAKE BASE",
+        "vi": "ĐẾ CHEESECAKE SOCOLA-CHUỐI"
+      },
+      "key": "Шт.",
+      "ingredients": [
+        {
+          "№": 1,
+          "Продукт": "Шт.",
+          "Ingredient": "Pcs",
+          "Ingredient_vi": "Cái",
+          "Шт/гр": "1"
+        },
+        {
+          "№": 2,
+          "Продукт": "ПФ Шоколадное печенье",
+          "Ingredient": "Chocolate cookie SF",
+          "Ingredient_vi": "Bánh quy socola SC",
+          "Шт/гр": "250"
+        },
+        {
+          "№": 3,
+          "Продукт": "Масло сливочное",
+          "Ingredient": "Butter",
+          "Ingredient_vi": "Bơ",
+          "Шт/гр": "80"
+        }
+      ],
+      "process": {
+        "ru": "Раскладка на 1 торт. Печенье — из карточки «ПФ ШОКОЛАДНОЕ ПЕЧЕНЬЕ» (сникерс). Перемолоть печенье в крошку, смешать с размягчённым сливочным маслом. Оформить дно и борты формы.",
+        "en": "Per 1 cake. Cookie from «ПФ ШОКОЛАДНОЕ ПЕЧЕНЬЕ». Grind cookies to crumbs, mix with softened butter. Form base and sides of the mold.",
+        "vi": "Cho 1 bánh. Bánh quy từ thẻ «ПФ ШОКОЛАДНОЕ ПЕЧЕНЬЕ». Xay vụn, trộn với bơ mềm. Tạo đáy và thành khuôn."
+      }
+    },
+    {
+      "name": {
+        "ru": "ПФ ЧИЗКЕЙК ШОКОЛАД-БАНАН ШОКОЛАДНЫЙ СЛОЙ",
+        "en": "PREP CHOCOLATE-BANANA CHEESECAKE CHOCOLATE LAYER",
+        "vi": "LỚP SOCOLA CHEESECAKE SOCOLA-CHUỐI"
+      },
+      "key": "Шт.",
+      "ingredients": [
+        {
+          "№": 1,
+          "Продукт": "Шт.",
+          "Ingredient": "Pcs",
+          "Ingredient_vi": "Cái",
+          "Шт/гр": "1"
+        },
+        {
+          "№": 2,
+          "Продукт": "Творожный сыр",
+          "Ingredient": "Cream cheese / curd cheese",
+          "Ingredient_vi": "Phô mai tươi",
+          "Шт/гр": "250"
+        },
+        {
+          "№": 3,
+          "Продукт": "Шоколад молочный",
+          "Ingredient": "Milk chocolate",
+          "Ingredient_vi": "Sô-cô-la sữa",
+          "Шт/гр": "40"
+        },
+        {
+          "№": 4,
+          "Продукт": "Сливки",
+          "Ingredient": "Cream",
+          "Ingredient_vi": "Kem sữa",
+          "Шт/гр": "55"
+        },
+        {
+          "№": 5,
+          "Продукт": "Сахар",
+          "Ingredient": "Sugar",
+          "Ingredient_vi": "Đường",
+          "Шт/гр": "35"
+        },
+        {
+          "№": 6,
+          "Продукт": "Яйцо (1 шт)",
+          "Ingredient": "Egg (1 pc)",
+          "Ingredient_vi": "Trứng (1 quả)",
+          "Шт/гр": "50"
+        },
+        {
+          "№": 7,
+          "Продукт": "Крахмал кукурузный",
+          "Ingredient": "Corn starch",
+          "Ingredient_vi": "Tinh bột bắp",
+          "Шт/гр": "6"
+        }
+      ],
+      "process": {
+        "ru": "Раскладка на 1 торт. Размешать творожный сыр до однородной массы. Растопленный молочный шоколад соединить со сливками, соединить с сыром. Ввести сахар и перемешать до однородности. Добавить яйцо. Всыпать кукурузный крахмал.",
+        "en": "Per 1 cake. Mix cream cheese until smooth. Combine melted milk chocolate with cream, then with the cheese. Add sugar and mix until smooth. Add egg. Stir in corn starch.",
+        "vi": "Cho 1 bánh. Trộn phô mai đến mịn. Trộn sô-cô-la sữa đã tan với kem, rồi với phô mai. Thêm đường, trộn đều. Thêm trứng. Cho tinh bột bắp."
+      }
+    },
+    {
+      "name": {
+        "ru": "ПФ ЧИЗКЕЙК ШОКОЛАД-БАНАН БАНАНОВЫЙ СЛОЙ",
+        "en": "PREP CHOCOLATE-BANANA CHEESECAKE BANANA LAYER",
+        "vi": "LỚP CHUỐI CHEESECAKE SOCOLA-CHUỐI"
+      },
+      "key": "Шт.",
+      "ingredients": [
+        {
+          "№": 1,
+          "Продукт": "Шт.",
+          "Ingredient": "Pcs",
+          "Ingredient_vi": "Cái",
+          "Шт/гр": "1"
+        },
+        {
+          "№": 2,
+          "Продукт": "Творожный сыр",
+          "Ingredient": "Cream cheese / curd cheese",
+          "Ingredient_vi": "Phô mai tươi",
+          "Шт/гр": "250"
+        },
+        {
+          "№": 3,
+          "Продукт": "Шоколад белый",
+          "Ingredient": "White chocolate",
+          "Ingredient_vi": "Sô-cô-la trắng",
+          "Шт/гр": "15"
+        },
+        {
+          "№": 4,
+          "Продукт": "Сливки",
+          "Ingredient": "Cream",
+          "Ingredient_vi": "Kem sữa",
+          "Шт/гр": "60"
+        },
+        {
+          "№": 5,
+          "Продукт": "Сгущённое молоко",
+          "Ingredient": "Condensed milk",
+          "Ingredient_vi": "Sữa đặc",
+          "Шт/гр": "15"
+        },
+        {
+          "№": 6,
+          "Продукт": "Яйцо (1 шт)",
+          "Ingredient": "Egg (1 pc)",
+          "Ingredient_vi": "Trứng (1 quả)",
+          "Шт/гр": "50"
+        },
+        {
+          "№": 7,
+          "Продукт": "Крахмал кукурузный",
+          "Ingredient": "Corn starch",
+          "Ingredient_vi": "Tinh bột bắp",
+          "Шт/гр": "6"
+        }
+      ],
+      "process": {
+        "ru": "Раскладка на 1 торт. Размешать творожный сыр до однородной массы. Растопленный белый шоколад соединить со сливками, соединить с сыром. Ввести сгущённое молоко и перемешать до однородности. Добавить яйцо. Всыпать кукурузный крахмал.",
+        "en": "Per 1 cake. Mix cream cheese until smooth. Combine melted white chocolate with cream, then with the cheese. Add condensed milk and mix until smooth. Add egg. Stir in corn starch.",
+        "vi": "Cho 1 bánh. Trộn phô mai đến mịn. Trộn sô-cô-la trắng đã tan với kem, rồi với phô mai. Thêm sữa đặc, trộn đều. Thêm trứng. Cho tinh bột bắp."
+      }
+    },
+    {
+      "name": {
+        "ru": "ПФ ЧИЗКЕЙК ШОКОЛАД-БАНАН ГЛАЗУРЬ",
+        "en": "PREP CHOCOLATE-BANANA CHEESECAKE GLAZE",
+        "vi": "GLAZE CHEESECAKE SOCOLA-CHUỐI"
+      },
+      "key": "Шт.",
+      "ingredients": [
+        {
+          "№": 1,
+          "Продукт": "Шт.",
+          "Ingredient": "Pcs",
+          "Ingredient_vi": "Cái",
+          "Шт/гр": "1"
+        },
+        {
+          "№": 2,
+          "Продукт": "Шоколад молочный",
+          "Ingredient": "Milk chocolate",
+          "Ingredient_vi": "Sô-cô-la sữa",
+          "Шт/гр": "70"
+        },
+        {
+          "№": 3,
+          "Продукт": "Сливки",
+          "Ingredient": "Cream",
+          "Ingredient_vi": "Kem sữa",
+          "Шт/гр": "40"
+        }
+      ],
+      "process": {
+        "ru": "Раскладка на 1 торт. Растопить молочный шоколад со сливками до однородной глазури.",
+        "en": "Per 1 cake. Melt milk chocolate with cream until a smooth glaze.",
+        "vi": "Cho 1 bánh. Đun chảy sô-cô-la sữa với kem đến glaze mịn."
+      }
+    },
+    {
+      "name": {
+        "ru": "ЧИЗКЕЙК ШОКОЛАД-БАНАН",
+        "en": "CHOCOLATE-BANANA CHEESECAKE",
+        "vi": "CHEESECAKE SOCOLA-CHUỐI"
+      },
+      "key": "Шт.",
+      "ingredients": [
+        {
+          "№": 1,
+          "Продукт": "Шт.",
+          "Ingredient": "Pcs",
+          "Ingredient_vi": "Cái",
+          "Шт/гр": "1"
+        },
+        {
+          "№": 2,
+          "Продукт": "Основа (печенье + масло)",
+          "Ingredient": "Base (cookie + butter)",
+          "Ingredient_vi": "Đế (bánh quy + bơ)",
+          "Шт/гр": "330"
+        },
+        {
+          "№": 3,
+          "Продукт": "Шоколадный сырный слой",
+          "Ingredient": "Chocolate cheese layer",
+          "Ingredient_vi": "Lớp phô mai socola",
+          "Шт/гр": "436"
+        },
+        {
+          "№": 4,
+          "Продукт": "Банановый слой",
+          "Ingredient": "Banana layer",
+          "Ingredient_vi": "Lớp chuối",
+          "Шт/гр": "396"
+        },
+        {
+          "№": 5,
+          "Продукт": "Глазурь",
+          "Ingredient": "Glaze",
+          "Ingredient_vi": "Glaze",
+          "Шт/гр": "110"
+        },
+        {
+          "№": 6,
+          "Продукт": "Крошка сушёного банана",
+          "Ingredient": "Dried banana crumbs",
+          "Ingredient_vi": "Vụn chuối sấy",
+          "Шт/гр": "50"
+        }
+      ],
+      "process": {
+        "ru": "Раскладка на 1 целый торт. Оформить дно и борты из печенья. Через кондитерский мешок отсадить слои поочерёдно, выравнивая лопаткой для красивого разреза. Отпекать при 120°C, конвекция 15, 80 минут. После стабилизации покрыть глазурью; заморозить или разрезать. Декорировать каждый кусок крошкой сушёного банана по 5 г (итого 50 г на торт).",
+        "en": "Per 1 whole cake. Form base and sides from the cookie mix. Pipe layers alternately through a piping bag, leveling with a spatula for a clean cut. Bake at 120°C, convection 15, 80 minutes. After stabilizing, cover with glaze; freeze or cut. Decorate each slice with 5 g dried banana crumbs (50 g total per cake).",
+        "vi": "Cho 1 bánh nguyên. Tạo đáy và thành từ hỗn hợp bánh quy. Bắt từng lớp xen kẽ bằng túi bắt kem, san bằng spatula. Nướng 120°C, đối lưu 15, 80 phút. Sau ổn định phủ glaze; đông lạnh hoặc cắt. Trang trí mỗi miếng 5 g vụn chuối sấy (tổng 50 g/bánh)."
+      }
     }
   ]
 }

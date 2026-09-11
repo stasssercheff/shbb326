@@ -581,15 +581,15 @@
 },
 
 "banana_cheesecake": {
-  "ru": "Чизкейк банан",
-  "en": "Banana cheesecake",
-  "vi": "Bánh phô mai chuối"
+  "ru": "Чизкейк шоколад-банан",
+  "en": "Chocolate-banana cheesecake",
+  "vi": "Cheesecake socola-chuối"
 },
 
 "banana_cheesecake_yesterday": {
-  "ru": "Чизкейк банан со вчера",
-  "en": "Banana cheesecake from yesterday",
-  "vi": "Bánh phô mai chuối từ hôm qua"
+  "ru": "Чизкейк шоколад-банан со вчера",
+  "en": "Chocolate-banana cheesecake from yesterday",
+  "vi": "Cheesecake socola-chuối hôm qua"
 },
 
 "mango_body": {
