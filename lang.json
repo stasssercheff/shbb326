@@ -508,6 +508,102 @@
 
 
 
+"tartlet_tiramisu": {
+  "ru": "Тарталетка тирамису",
+  "en": "Tiramisu tartlet",
+  "vi": "Bánh tart Tiramisu"
+},
+
+"tartlet_tiramisu_yesterday": {
+  "ru": "Тарталетка тирамису со вчера",
+  "en": "Tiramisu tartlet from yesterday",
+  "vi": "Bánh tart Tiramisu từ hôm qua"
+},
+
+"tartlet_blueberry": {
+  "ru": "Тарталетка голубика",
+  "en": "Blueberry tartlet",
+  "vi": "Bánh tart việt quất"
+},
+
+"tartlet_blueberry_yesterday": {
+  "ru": "Тарталетка голубика со вчера",
+  "en": "Blueberry tartlet from yesterday",
+  "vi": "Bánh tart việt quất từ hôm qua"
+},
+
+"tartlet_strawberry": {
+  "ru": "Тарталетка клубника",
+  "en": "Strawberry tartlet",
+  "vi": "Bánh tart dâu tây"
+},
+
+"tartlet_strawberry_yesterday": {
+  "ru": "Тарталетка клубника со вчера",
+  "en": "Strawberry tartlet from yesterday",
+  "vi": "Bánh tart dâu tây từ hôm qua"
+},
+
+"almond_cake": {
+  "ru": "Миндальный торт",
+  "en": "Almond cake",
+  "vi": "Bánh hạnh nhân"
+},
+
+"almond_cake_yesterday": {
+  "ru": "Миндальный торт со вчера",
+  "en": "Almond cake from yesterday",
+  "vi": "Bánh hạnh nhân từ hôm qua"
+},
+
+"coconut_croissant": {
+  "ru": "Кокосовый круассан",
+  "en": "Coconut croissant",
+  "vi": "Bánh sừng bò dừa"
+},
+
+"coconut_croissant_yesterday": {
+  "ru": "Кокосовый круассан со вчера",
+  "en": "Coconut croissant from yesterday",
+  "vi": "Bánh sừng bò dừa từ hôm qua"
+},
+
+"pumpkin_panna_cotta": {
+  "ru": "Панакота тыква",
+  "en": "Pumpkin panna cotta",
+  "vi": "Panna cotta bí ngô"
+},
+
+"pumpkin_panna_cotta_yesterday": {
+  "ru": "Панакота тыква со вчера",
+  "en": "Pumpkin panna cotta from yesterday",
+  "vi": "Panna cotta bí ngô từ hôm qua"
+},
+
+"banana_cheesecake": {
+  "ru": "Чизкейк банан",
+  "en": "Banana cheesecake",
+  "vi": "Bánh phô mai chuối"
+},
+
+"banana_cheesecake_yesterday": {
+  "ru": "Чизкейк банан со вчера",
+  "en": "Banana cheesecake from yesterday",
+  "vi": "Bánh phô mai chuối từ hôm qua"
+},
+
+"mango_body": {
+  "ru": "Манго корпусное",
+  "en": "Mango cake",
+  "vi": "Bánh xoài"
+},
+
+"mango_body_yesterday": {
+  "ru": "Манго корпусное со вчера",
+  "en": "Mango cake from yesterday",
+  "vi": "Bánh xoài từ hôm qua"
+},
+
   "cheesecake": {
   "ru": "Чизкейк",
   "en": "Cheesecake",
