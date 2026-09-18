@@ -13,12 +13,12 @@ function goBack() {
 }
 
 const dataFiles = {
-  Preps: 'data/preps.json?v=20260911-4',
+  Preps: 'data/preps.json?v=20260918-1',
 };
 
-const POSITIONS_FILE = 'data/positions.json?v=20260911-4';
+const POSITIONS_FILE = 'data/positions.json?v=20260918-1';
 
-const STORAGE_PREFIX = 'pastry_ttk';
+const STORAGE_PREFIX = 'pastry_ttk_v2';
 const EXPANDED_KEY = `${STORAGE_PREFIX}_expanded`;
 const AMOUNTS_KEY = `${STORAGE_PREFIX}_amounts`;
 
