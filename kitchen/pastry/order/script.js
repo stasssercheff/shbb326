@@ -118,7 +118,6 @@ function setupSendButton() {
   button.addEventListener("click", async () => {
     const chat_id = "-1003076643701";
     const worker_url = "https://shbb1.stassser.workers.dev/";
-    const accessKey = "14d92358-9b7a-4e16-b2a7-35e9ed71de43";
 
     const sendMessage = msg => fetch(worker_url, {
       method: "POST",
@@ -126,24 +125,11 @@ function setupSendButton() {
       body: JSON.stringify({ chat_id, text: msg })
     }).then(r => r.json());
 
-    const sendEmail = msg => fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        access_key: accessKey,
-        subject: "ЗАКАЗ ПРОДУКТОВ",
-        from_name: "SHBB PASTRY",
-        reply_to: "no-reply@shbb.com",
-        message: msg
-      })
-    }).then(r => r.json());
-
     const sendAllParts = async text => {
       let start = 0;
       while (start < text.length) {
         const chunk = text.slice(start, start + 4000);
         await sendMessage(chunk);
-       // await sendEmail(chunk); //
         start += 4000;
       }
     };

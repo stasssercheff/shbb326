@@ -164,7 +164,6 @@ document.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", async () => {
     const chat_id = "-1002393080811";
     const worker_url = "https://shbb1.stassser.workers.dev/";
-    const accessKey = "14d92358-9b7a-4e16-b2a7-35e9ed71de43";
 
     const sendMessage = msg => fetch(worker_url, {
       method: "POST",

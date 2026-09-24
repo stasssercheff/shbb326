@@ -144,7 +144,6 @@ if (button) {
     button.addEventListener('click', async () => {
         const chat_id = '-1003117786571';
         const worker_url = 'https://shbb1.stassser.workers.dev/';
-        const accessKey = "14d92358-9b7a-4e16-b2a7-35e9ed71de43";
         const lang = document.documentElement.lang || 'ru'; // берем текущий язык
 
         const buildMessage = () => {
@@ -206,18 +205,6 @@ if (button) {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ chat_id, text: msg })
-            });
-
-            await fetch("https://api.web3forms.com/submit", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({
-                    access_key: accessKey,
-                    subject: lang === 'en' ? "LEFTOVER/GIVEN" : "ОСТАТКИ/ВЫСТАЛЕНО",
-                    from_name: "SHBB PASTRY",
-                    reply_to: "no-reply@shbb.com",
-                    message: msg
-                })
             });
 
             alert('✅ ОТПРАВЛЕНО');

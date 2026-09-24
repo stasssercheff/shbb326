@@ -149,7 +149,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     button.addEventListener("click", async () => {
       const chat_id = "-1002393080811";
       const worker_url = "https://shbb1.stassser.workers.dev/";
-      const accessKey = "14d92358-9b7a-4e16-b2a7-35e9ed71de43";
 
       const sendMessage = msg => fetch(worker_url, {
         method: "POST",
@@ -157,32 +156,11 @@ document.addEventListener("DOMContentLoaded", async () => {
         body: JSON.stringify({ chat_id, text: msg })
       }).then(res => res.json());
 
-      const sendEmail = async msg => {
-        try {
-          const res = await fetch("https://api.web3forms.com/submit", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-              access_key: accessKey,
-              subject: "КУХНЯ-ЗАКРЫТИЕ",
-              from_name: "SHBB KITCHEN",
-              reply_to: "no-reply@shbb.com",
-              message: msg
-            })
-          }).then(r => r.json());
-
-          if (!res.success) alert("Ошибка отправки email. Проверьте форму.");
-        } catch (err) {
-          alert("Ошибка отправки email: " + err.message);
-        }
-      };
-
       const sendAllParts = async text => {
         let start = 0;
         while (start < text.length) {
           const chunk = text.slice(start, start + 4000);
           await sendMessage(chunk);
-          await sendEmail(chunk);
           start += 4000;
         }
       };
