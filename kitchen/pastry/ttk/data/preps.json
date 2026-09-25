@@ -4018,34 +4018,34 @@
           "Продукт": "Порошок Cremyvit (Puratos)",
           "Ingredient": "Cremyvit powder (Puratos)",
           "Ingredient_vi": "Bột Cremyvit (Puratos)",
-          "Шт/гр": "128"
+          "Шт/гр": "100"
         },
         {
           "№": 3,
           "Продукт": "Кокосовое молоко",
           "Ingredient": "Coconut milk",
           "Ingredient_vi": "Nước cốt dừa",
-          "Шт/гр": "320"
+          "Шт/гр": "400"
         },
         {
           "№": 4,
           "Продукт": "Кокосовая стружка",
           "Ingredient": "Coconut flakes",
           "Ingredient_vi": "Dừa bào",
-          "Шт/гр": "30"
+          "Шт/гр": "37"
         },
         {
           "№": 5,
           "Продукт": "Сливки",
           "Ingredient": "Cream",
           "Ingredient_vi": "Kem sữa",
-          "Шт/гр": "90"
+          "Шт/гр": "112"
         }
       ],
       "process": {
-        "ru": "Раскладка на 10 круассанов (55 г крема на 1 шт). Меняйте Количество для пересчёта. Смешать Cremyvit с кокосовым молоком до однородности, добавить сливки, вмешать кокосовую стружку.",
-        "en": "Batch for 10 croissants (55 g cream per pc). Change Amount to recalculate. Mix Cremyvit with coconut milk until smooth, add cream, fold in coconut flakes.",
-        "vi": "Mẻ cho 10 bánh sừng bò (55 g kem / cái). Đổi Amount để tính lại. Trộn Cremyvit với nước cốt dừa đến mịn, thêm kem sữa, trộn dừa bào."
+        "ru": "Смешать Cremyvit с кокосовым молоком до однородности, добавить сливки, вмешать кокосовую стружку.",
+        "en": "Change Amount to recalculate. Mix Cremyvit with coconut milk until smooth, add cream, fold in coconut flakes.",
+        "vi": "Trộn Cremyvit với nước cốt dừa đến mịn, thêm kem sữa, trộn dừa bào."
       }
     },
     {
