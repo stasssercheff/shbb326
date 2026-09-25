@@ -4290,12 +4290,19 @@
           "Ingredient": "Corn starch",
           "Ingredient_vi": "Tinh bột bắp",
           "Шт/гр": "6"
-        }
+        },
+        {
+          "№": 8,
+          "Продукт": "Банан",
+          "Ingredient": "Banana",
+          "Ingredient_vi": "Chuối",
+          "Шт/гр": "130"
+         }      
       ],
       "process": {
-        "ru": "Раскладка на 1 торт. Размешать творожный сыр до однородной массы. Растопленный белый шоколад соединить со сливками, соединить с сыром. Ввести сгущённое молоко и перемешать до однородности. Добавить яйцо. Всыпать кукурузный крахмал.",
-        "en": "Per 1 cake. Mix cream cheese until smooth. Combine melted white chocolate with cream, then with the cheese. Add condensed milk and mix until smooth. Add egg. Stir in corn starch.",
-        "vi": "Cho 1 bánh. Trộn phô mai đến mịn. Trộn sô-cô-la trắng đã tan với kem, rồi với phô mai. Thêm sữa đặc, trộn đều. Thêm trứng. Cho tinh bột bắp."
+        "ru": "Раскладка на 1 торт. Размешать творожный сыр и банан до однородной массы. Растопленный белый шоколад соединить со сливками, соединить с сыром. Ввести сгущённое молоко и перемешать до однородности. Добавить яйцо. Всыпать кукурузный крахмал.",
+        "en": "Per 1 cake. Mix cream cheese and banana until smooth. Combine melted white chocolate with cream, then with the cheese. Add condensed milk and mix until smooth. Add egg. Stir in corn starch.",
+        "vi": "Cho 1 bánh. Trộn phô mai kem và chuối đến mịn. Trộn sô-cô-la trắng đã tan với kem, rồi với phô mai. Thêm sữa đặc, trộn đều. Thêm trứng. Cho tinh bột bắp."
       }
     },
     {
