@@ -4397,6 +4397,156 @@
         "en": "Per 1 whole cake. Form base and sides from the cookie mix. Pipe layers alternately through a piping bag, leveling with a spatula for a clean cut. Bake at 120°C, convection 15, 80 minutes. After stabilizing, cover with glaze; freeze or cut. Decorate each slice with 5 g dried banana crumbs (50 g total per cake).",
         "vi": "Cho 1 bánh nguyên. Tạo đáy và thành từ hỗn hợp bánh quy. Bắt từng lớp xen kẽ bằng túi bắt kem, san bằng spatula. Nướng 120°C, đối lưu 15, 80 phút. Sau ổn định phủ glaze; đông lạnh hoặc cắt. Trang trí mỗi miếng 5 g vụn chuối sấy (tổng 50 g/bánh)."
       }
+    },
+    {
+      "name": {
+        "ru": "ПФ МИНДАЛЬНЫЕ КОРЖИ",
+        "en": "PREP ALMOND LAYERS",
+        "vi": "CỐT HẠNH NHÂN"
+      },
+      "key": "Торт шт.",
+      "ingredients": [
+        {
+          "№": 1,
+          "Продукт": "Торт шт.",
+          "Ingredient": "Cake pcs",
+          "Ingredient_vi": "Bánh cái",
+          "Шт/гр": "1"
+        },
+        {
+          "№": 2,
+          "Продукт": "Миндальная мука",
+          "Ingredient": "Almond flour",
+          "Ingredient_vi": "Bột hạnh nhân",
+          "Шт/гр": "200"
+        },
+        {
+          "№": 3,
+          "Продукт": "Яичные белки",
+          "Ingredient": "Egg whites",
+          "Ingredient_vi": "Lòng trắng trứng",
+          "Шт/гр": "160"
+        },
+        {
+          "№": 4,
+          "Продукт": "Сахар",
+          "Ingredient": "Sugar",
+          "Ingredient_vi": "Đường",
+          "Шт/гр": "120"
+        },
+        {
+          "№": 5,
+          "Продукт": "Соль",
+          "Ingredient": "Salt",
+          "Ingredient_vi": "Muối",
+          "Шт/гр": "1"
+        }
+      ],
+      "process": {
+        "ru": "Раскладка на 1 целый торт (диаметр 22 см, 2 коржа). Меняйте «Торт шт.» — граммы пересчитаются. Разогрейте духовку до 175°C, конвекция 20. Взбейте белки с солью до лёгкой пены. Постепенно добавьте сахар, продолжая взбивать до плотной глянцевой меренги. Аккуратно вмешайте миндальную муку лопаткой. Разделите массу на две равные части. На пергаменте нарисуйте два круга диаметром 22 см. Распределите тесто тонким ровным слоем. Выпекайте до светло-розового цвета. Полностью остудите. Коржи должны оставаться слегка жевательными внутри, а не сухими.",
+        "en": "Per 1 whole cake (22 cm, 2 layers). Change Cake pcs to recalculate. Heat the oven to 175°C, convection 20. Whip egg whites with salt to a light foam. Gradually add sugar and whip to a firm glossy meringue. Gently fold in almond flour with a spatula. Divide into two equal parts. Draw two 22 cm circles on parchment. Spread the batter in a thin even layer. Bake to a pale pink color. Cool completely. The layers should stay slightly chewy inside, not dry.",
+        "vi": "Cho 1 bánh nguyên (đường kính 22 cm, 2 lớp). Đổi số bánh để tính lại. Làm nóng lò 175°C, đối lưu 20. Đánh lòng trắng với muối đến bọt nhẹ. Cho đường dần, đánh đến meringue bóng chắc. Trộn nhẹ bột hạnh nhân bằng spatula. Chia đôi. Vẽ hai vòng tròn 22 cm trên giấy nến. Phết bột mỏng đều. Nướng đến màu hồng nhạt. Để nguội hoàn toàn. Cốt phải hơi dai bên trong, không khô."
+      }
+    },
+    {
+      "name": {
+        "ru": "ПФ МАСЛЯНО-ЗАВАРНОЙ КРЕМ",
+        "en": "PREP BUTTER CUSTARD CREAM",
+        "vi": "KEM BƠ CUSTARD"
+      },
+      "key": "Торт шт.",
+      "ingredients": [
+        {
+          "№": 1,
+          "Продукт": "Торт шт.",
+          "Ingredient": "Cake pcs",
+          "Ingredient_vi": "Bánh cái",
+          "Шт/гр": "1"
+        },
+        {
+          "№": 2,
+          "Продукт": "Яичные желтки",
+          "Ingredient": "Egg yolks",
+          "Ingredient_vi": "Lòng đỏ trứng",
+          "Шт/гр": "90"
+        },
+        {
+          "№": 3,
+          "Продукт": "Сливки",
+          "Ingredient": "Cream",
+          "Ingredient_vi": "Kem sữa",
+          "Шт/гр": "200"
+        },
+        {
+          "№": 4,
+          "Продукт": "Сахар",
+          "Ingredient": "Sugar",
+          "Ingredient_vi": "Đường",
+          "Шт/гр": "80"
+        },
+        {
+          "№": 5,
+          "Продукт": "Миндальный экстракт",
+          "Ingredient": "Almond extract",
+          "Ingredient_vi": "Chiết xuất hạnh nhân",
+          "Шт/гр": "5"
+        },
+        {
+          "№": 6,
+          "Продукт": "Масло сливочное",
+          "Ingredient": "Butter",
+          "Ingredient_vi": "Bơ",
+          "Шт/гр": "100"
+        }
+      ],
+      "process": {
+        "ru": "Раскладка на 1 целый торт. Меняйте «Торт шт.» — граммы пересчитаются. В сотейнике смешайте желтки, сливки, сахар и миндальный экстракт. Варите на слабом огне, постоянно помешивая. Нагрейте массу до 82°C. Снимите с огня и охладите до 20°C. Отдельно взбейте сливочное масло 20°C до пышности. Постепенно добавляйте охлаждённую заварную основу, продолжая взбивать. Крем должен получиться гладким и воздушным.",
+        "en": "Per 1 whole cake. Change Cake pcs to recalculate. In a saucepan mix yolks, cream, sugar and almond extract. Cook over low heat, stirring constantly. Heat to 82°C. Take off the heat and cool to 20°C. Separately whip butter at 20°C until fluffy. Gradually add the cooled custard base while whipping. The cream should be smooth and airy.",
+        "vi": "Cho 1 bánh nguyên. Đổi số bánh để tính lại. Trong nồi trộn lòng đỏ, kem, đường và chiết xuất hạnh nhân. Nấu lửa nhỏ, khuấy liên tục. Đun đến 82°C. Nhấc khỏi bếp và làm nguội đến 20°C. Đánh riêng bơ 20°C đến bông. Cho dần kem custard đã nguội, vừa cho vừa đánh. Kem phải mịn và xốp."
+      }
+    },
+    {
+      "name": {
+        "ru": "ШВЕДСКИЙ ТОРТ",
+        "en": "SWEDISH CAKE",
+        "vi": "BÁNH THỤY ĐIỂN"
+      },
+      "key": "Торт шт.",
+      "ingredients": [
+        {
+          "№": 1,
+          "Продукт": "Торт шт.",
+          "Ingredient": "Cake pcs",
+          "Ingredient_vi": "Bánh cái",
+          "Шт/гр": "1"
+        },
+        {
+          "№": 2,
+          "Продукт": "Миндальный корж",
+          "Ingredient": "Almond layer",
+          "Ingredient_vi": "Cốt hạnh nhân",
+          "Шт/гр": "2"
+        },
+        {
+          "№": 3,
+          "Продукт": "Масляно-заварной крем",
+          "Ingredient": "Butter custard cream",
+          "Ingredient_vi": "Kem bơ custard",
+          "Шт/гр": "430"
+        },
+        {
+          "№": 4,
+          "Продукт": "Миндальные лепестки",
+          "Ingredient": "Flaked almonds",
+          "Ingredient_vi": "Hạnh nhân lát",
+          "Шт/гр": "120"
+        }
+      ],
+      "process": {
+        "ru": "Раскладка на 1 целый торт, диаметр 22 см. Меняйте «Торт шт.» — граммы пересчитаются. Положите первый миндальный корж. Нанесите примерно половину крема — 215 г. Накройте вторым коржом. Распределите оставшийся крем — 215 г — сверху и по бокам. Обсыпьте миндальными лепестками (120 г). Уберите торт в холодильник минимум на 6 часов.",
+        "en": "Per 1 whole cake, 22 cm. Change Cake pcs to recalculate. Place the first almond layer. Spread about half the cream — 215 g. Cover with the second layer. Spread the remaining cream — 215 g — on top and sides. Coat with flaked almonds (120 g). Refrigerate for at least 6 hours.",
+        "vi": "Cho 1 bánh nguyên, đường kính 22 cm. Đổi số bánh để tính lại. Đặt lớp hạnh nhân thứ nhất. Phết khoảng nửa kem — 215 g. Đậy lớp thứ hai. Phết phần kem còn lại — 215 g — mặt trên và thành. Rắc hạnh nhân lát (120 g). Để tủ lạnh tối thiểu 6 giờ."
+      }
     }
   ]
 }
