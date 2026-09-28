@@ -26,7 +26,7 @@ function goBack() {
 }
 
 // ================== DATA ==================
-const DATA_FILE = "data/preps.json?v=20260928-1";
+const DATA_FILE = "data/preps.json?v=20260928-2";
 const STORAGE_PREFIX = "kitchen_preps";
 const EXPANDED_KEY = `${STORAGE_PREFIX}_expanded`;
 const AMOUNTS_KEY = `${STORAGE_PREFIX}_amounts`;
